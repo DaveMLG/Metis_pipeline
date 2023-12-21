@@ -9,7 +9,6 @@ on:
 jobs:
   cypress-run:
     runs-on: windows-latest
-    env: ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -21,3 +20,4 @@ jobs:
           start: npm start
           browser: edge
           record: true
+        env: ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
