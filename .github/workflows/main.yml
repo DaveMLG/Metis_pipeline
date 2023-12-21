@@ -9,6 +9,7 @@ on:
 jobs:
   cypress-run:
     runs-on: windows-latest
+    using: 'node20'
     steps:
       - name: Checkout
         uses: actions/checkout@v2
