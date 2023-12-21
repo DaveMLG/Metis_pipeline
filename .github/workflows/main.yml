@@ -10,9 +10,9 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.311.0
+        uses: actions/checkout@v3
       - name: Cypress run
-        uses: cypress-io/github-action@v2.311.0
+        uses: cypress-io/github-action@v3
         with:
           config-file: cypress.config.js
           build: npm run build
