@@ -1,16 +1,25 @@
 {
-  "name": "your-project-name",
-  "version": "1.0.0",
-  "description": "Your project description",
-  "main": "index.js",
+  "name": "rollup-todomvc",
+  "author": "Cypress DX Team",
+  "license": "MIT",
   "scripts": {
-    "start": "your-start-command",
-    "test": "your-test-command"
+    "build": "rollup -c",
+    "start": "http-server",
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:record": "cypress run --record --key"
   },
   "dependencies": {
-    // Your project dependencies go here
+    "todomvc-app-css": "2.3.0",
+    "todomvc-common": "1.0.5"
   },
   "devDependencies": {
-    // Your development dependencies go here
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@rollup/plugin-babel": "5.3.0",
+    "cypress": "^7.0.0",
+    "http-server": "^0.12.3",
+    "rollup": "2.44.0"
   }
 }
