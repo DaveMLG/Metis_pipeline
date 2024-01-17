@@ -1,5 +1,5 @@
 {
-  "name": "rollup-todomvc",
+  "name": "cypress-test",
   "author": "Cypress DX Team",
   "license": "MIT",
   "scripts": {

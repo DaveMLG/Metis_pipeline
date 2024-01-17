@@ -1,4 +1,4 @@
-name: Cypress Tests
+name: cypress-test
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run Cypress tests
+      - name: Run cypress-test
         run: npm run cy:run
 
       - name: Publish test results
