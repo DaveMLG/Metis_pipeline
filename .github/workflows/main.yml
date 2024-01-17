@@ -24,6 +24,6 @@ jobs:
         with:
           name: cypress-results
           path: cypress/results
-        env:
+     env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
