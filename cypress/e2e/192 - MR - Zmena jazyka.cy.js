@@ -13,7 +13,7 @@ describe('Product owner', function() {
     
     })
     
-    it('Vytvorenie nového školenia', function() {
+    it('Vytvorenie nového školeniaa', function() {
     
     cy.viewport(1920, 937)
     cy.get('.language-icon').eq(1).click({force: true})
