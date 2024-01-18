@@ -1,0 +1,667 @@
+{
+  "Values": [
+    {
+      "guaratorName": "go, skorg1go, skorg1"
+    },
+    {
+      "type": "Vzdelávacie"
+    },
+    {
+      "Title": "PO CY "
+    },
+    {
+      "PortalTitle": "PO CY "
+    },
+    {
+      "languages": "sk"
+    },
+    {
+      "HoverDescription": "Toto je popis pri prejdení myšou"
+    },
+    {
+      "LecturerInstruction": ""
+    },
+    {
+      "StudentInstruction": ""
+    },
+    {
+      "productOwner": "vo, skorg1vo, skorg1"
+    },
+    {
+      "TestAutomatedLevelOfDegressiveAssesment": "3"
+    },
+    {
+      "TestOpenLevelOfDegressiveAssesment": "6"
+    },
+    {
+      "ImportanceCoefficientLevelLow": "1"
+    },
+    {
+      "ImportanceCoefficientLevelMedium": "1.5"
+    },
+    {
+      "ImportanceCoefficientLevelHigh": "2"
+    },
+    {
+      "ManualTaskMultiplicator": "12"
+    },
+    {
+      "ActivityLanguageId": "sk"
+    },
+    {
+      "ActivityInput": "1"
+    },
+    {
+      "ActivityInput": "Príprava"
+    },
+    {
+      "ActivityInput": "1"
+    },
+    {
+      "ActivityInput": "1:00"
+    },
+    {
+      "ActivityInput": "40"
+    },
+    {
+      "ActivityInput": "2"
+    },
+    {
+      "ActivityInput": "Seminár"
+    },
+    {
+      "ActivityInput": "1.5"
+    },
+    {
+      "ActivityInput": "2:00"
+    },
+    {
+      "ActivityInput": "20"
+    },
+    {
+      "ActivityInput": "3"
+    },
+    {
+      "ActivityInput": "Zadania"
+    },
+    {
+      "ActivityInput": "2"
+    },
+    {
+      "ActivityInput": "3:30"
+    },
+    {
+      "ActivityInput": "40"
+    },
+    {
+      "ActivityInput": "4"
+    },
+    {
+      "ActivityInput": "Cvičenie"
+    },
+    {
+      "ActivityInput": "1.5"
+    },
+    {
+      "ActivityInput": "2:00"
+    },
+    {
+      "ActivityInput": "25"
+    },
+    {
+      "ActivityInput": "5"
+    },
+    {
+      "ActivityInput": "nove"
+    },
+    {
+      "ActivityInput": "1"
+    },
+    {
+      "ActivityInput": "0:00"
+    },
+    {
+      "ActivityInput": "0"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "yes"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "yes"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "MetricCategoryLanguageId": "sk"
+    },
+    {
+      "MetricCategories": "Certification task"
+    },
+    {
+      "MetricCategories": "Repetitiv task"
+    },
+    {
+      "MetricCategories": "Final exam task"
+    },
+    {
+      "MetricCategories": "Project task"
+    },
+    {
+      "MetricCategories": "Others task"
+    },
+    {
+      "availableTasks": "Príprava"
+    },
+    {
+      "availableTasks": "-1"
+    },
+    {
+      "availableTasks": "1: 28827"
+    },
+    {
+      "availableTasks": "1: termEnd"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "Seminár"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "1: 28827"
+    },
+    {
+      "availableTasks": "0: termBeginning"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "-10"
+    },
+    {
+      "availableTasks": "Zadania"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "1: 28827"
+    },
+    {
+      "availableTasks": "1: termEnd"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "Cvičenie"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "2: 28829"
+    },
+    {
+      "availableTasks": "0: termBeginning"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "-10"
+    },
+    {
+      "availableTasks": "nove"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "2: 28829"
+    },
+    {
+      "availableTasks": "1: termEnd"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "Príprava"
+    },
+    {
+      "timeValuesTasksOnTime": "1"
+    },
+    {
+      "timeValuesTasksOnTime": "1: 28827"
+    },
+    {
+      "timeValuesTasksOnTime": "1: termBeginning"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "Seminár"
+    },
+    {
+      "timeValuesTasksOnTime": "2"
+    },
+    {
+      "timeValuesTasksOnTime": "1: 28827"
+    },
+    {
+      "timeValuesTasksOnTime": "1: termBeginning"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "Zadania"
+    },
+    {
+      "timeValuesTasksOnTime": "2"
+    },
+    {
+      "timeValuesTasksOnTime": "1: 28827"
+    },
+    {
+      "timeValuesTasksOnTime": "1: termBeginning"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "Cvičenie"
+    },
+    {
+      "timeValuesTasksOnTime": "2"
+    },
+    {
+      "timeValuesTasksOnTime": "1: 28827"
+    },
+    {
+      "timeValuesTasksOnTime": "1: termBeginning"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "nove"
+    },
+    {
+      "timeValuesTasksOnTime": "2"
+    },
+    {
+      "timeValuesTasksOnTime": "1: 28827"
+    },
+    {
+      "timeValuesTasksOnTime": "1: termBeginning"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesTasksOnTime": "0"
+    },
+    {
+      "timeValuesPastTime": "Príprava"
+    },
+    {
+      "timeValuesPastTime": "3"
+    },
+    {
+      "timeValuesPastTime": "1: 28827"
+    },
+    {
+      "timeValuesPastTime": "0: termBeginning"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "Seminár"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "1: 28827"
+    },
+    {
+      "timeValuesPastTime": "0: termBeginning"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "Zadania"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "1: 28827"
+    },
+    {
+      "timeValuesPastTime": "0: termBeginning"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "Cvičenie"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "1: 28827"
+    },
+    {
+      "timeValuesPastTime": "0: termBeginning"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "nove"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "1: 28827"
+    },
+    {
+      "timeValuesPastTime": "0: termBeginning"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "timeValuesPastTime": "0"
+    },
+    {
+      "UnmoderatedWithEvaluation": "yes"
+    },
+    {
+      "UnmoderatedWithEvaluation": "yes"
+    },
+    {
+      "UnmoderatedWithEvaluation": "yes"
+    },
+    {
+      "UnmoderatedWithEvaluation": "yes"
+    },
+    {
+      "UnmoderatedWithEvaluation": "yes"
+    },
+    {
+      "UnmoderatedWithEvaluation": "yes"
+    },
+    {
+      "UnmoretatedInputs": "Dostupná od"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "Načas"
+    },
+    {
+      "UnmoretatedInputs": "2"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "Termín"
+    },
+    {
+      "UnmoretatedInputs": "4"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "Dostupná od"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "Načas"
+    },
+    {
+      "UnmoretatedInputs": "2"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "Termín"
+    },
+    {
+      "UnmoretatedInputs": "4"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "TimeLimitedTrainings": "1"
+    },
+    {
+      "TimeLimitedCoefficient": "2"
+    },
+    {
+      "EvaluationSoftDeadlineAt": "4"
+    },
+    {
+      "EvaluationDeadlineAt": "7"
+    },
+    {
+      "TestAutomatedRepeatLimit": "5"
+    },
+    {
+      "TestOpenRepeatLimit": "3"
+    },
+    {
+      "InactiveLessonsThreshold": "4"
+    },
+    {
+      "InactivityNotificationInterval": "8"
+    },
+    {
+      "InactivityStudentNotificationThreshold": "8"
+    },
+    {
+      "InactivityStudentNotificationInterval": "4"
+    },
+    {
+      "ConsideredExercisesList": "Otvorený test"
+    },
+    {
+      "ConsideredExercisesList": "Zadanie"
+    },
+    {
+      "ConsideredExercisesList": "Projekt"
+    },
+    {
+      "ConsideredExercisesList": "Doplňovačka"
+    },
+    {
+      "EstimatedTimeForLessonEvaluation": "11"
+    },
+    {
+      "EstimatedLessonDurationForLecturerInTime": "3:40"
+    },
+    {
+      "EstimatedTimeForLessonDevelopment": "9"
+    },
+    {
+      "ExerciseOrderType": "1"
+    },
+    {
+      "IsTestAllowed": "no"
+    },
+    {
+      "TakingTestAfterDeadlinePassedIsBlocked": "yes"
+    },
+    {
+      "TimeLimitedAllAutomatedTasks": "no"
+    },
+    {
+      "TimeToCreateCalendarEventsInHours": "0"
+    },
+    {
+      "TimeToCreateCalendarEventsInMinutes": "30"
+    }
+  ]
+}
