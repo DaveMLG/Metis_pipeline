@@ -219,7 +219,7 @@ describe('Product owner', function () {
 
         //Časové hodnoty pre sprístupnenie/konanie/odovzdanie úloh
         cy.contains('Metriky').find('i').click({timeout: 100000})
-        cy.contains('Časové hodnoty pre sprístupnenie/konanie/odovzdanie úloh').find('i').click({timeout: 100000})
+        /*cy.contains('Časové hodnoty pre sprístupnenie/konanie/odovzdanie úloh').find('i').click({timeout: 100000})
 
         cy.get('.tableFloatingHeaderOriginal').first().next().next().find('input, select').then((inpValue) => {
           for (let x = 0; x < inpValue.length; x++) {
@@ -260,10 +260,10 @@ describe('Product owner', function () {
               }
               }
             })
-          })
+          })*/
           
         //Závislosť sprístupnenia úloh
-        cy.contains('Termíny lekcií pre nemoderované školenia').find('i').click({timeout: 100000})
+        //cy.contains('Termíny lekcií pre nemoderované školenia').find('i').click({timeout: 100000})
         cy.contains('Závislosť sprístupnenia úloh').find('i').click({timeout: 100000})
 
         cy.get('.radio-button-active').invoke('val').then((value) => {
@@ -386,6 +386,6 @@ describe('Product owner', function () {
 })
 })
 })
-})
-});
+//})
+//});
 

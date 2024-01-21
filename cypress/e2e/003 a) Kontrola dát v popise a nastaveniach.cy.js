@@ -26,7 +26,7 @@ describe('Product owner', function () {
             cy.get('[type="submit"]').first().click()
             cy.wait(5000);
             cy.sortTableByColumn('Vytvorené');
-            cy.contains('PO CY').click({timeout: 100000})
+            cy.get('tbody').contains('Neprevzaté').parent().parent().contains('PO CY').click({timeout: 10000});
 
             cy.get('[for="Guarantors"]').parentsUntil('.row').find('span').invoke('text').then((value) => {
               DataValues.push({guaratorName: value}) 
@@ -140,6 +140,7 @@ describe('Product owner', function () {
               for (let x = 0; x < inpValue.length; x++) {
                 cy.wrap(inpValue[x]).invoke('val').then((value) => {
                   DataValues.push({availableTasks: value})
+                  console.log(value)
                 })
               }
             })
@@ -149,6 +150,7 @@ describe('Product owner', function () {
               for (let x = 0; x < inpValue.length; x++) {
                 cy.wrap(inpValue[x]).invoke('val').then((value) => {
                   DataValues.push({timeValuesTasksOnTime: value})
+                  console.log(value)
                 })
               }
             })
@@ -158,6 +160,7 @@ describe('Product owner', function () {
               for (let x = 0; x < inpValue.length; x++) {
                 cy.wrap(inpValue[x]).invoke('val').then((value) => {
                   DataValues.push({timeValuesPastTime: value})
+                  console.log(value)
                 })
               }
             })
