@@ -33,3 +33,5 @@ Cypress.Commands.add('pageReload', () => {
   cy.wait(3000);
   cy.get('.fa-edit').first().click();
 })
+
+import 'cypress-file-upload';
