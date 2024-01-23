@@ -39,7 +39,6 @@ describe('Product owner', function () {
   
         const ActivityInputData = [];
         for (let x = 0; x < valuesArray.length; x++) {
-          // Directly push the "ActivityInput" value to the array
           ActivityInputData.push(valuesArray[x].ActivityInput);
         }
         const ActivityInputDataFiltered = ActivityInputData.filter(item => item !== undefined);
@@ -239,7 +238,7 @@ describe('Product owner', function () {
               cy.wrap(inpValue).eq(x).invoke('val').then((vals) => {
                 cy.wrap(vals).should('eq', timeValuesPastTimeFiltered[x])
               })
-            }
+            }*/
 
         //Rozklikne Termíny lekcií pre nemoderované školenia
         cy.contains('Časové hodnoty pre sprístupnenie/konanie/odovzdanie úloh').find('i').click({timeout: 100000})
@@ -260,7 +259,7 @@ describe('Product owner', function () {
               }
               }
             })
-          })*/
+          })
           
         //Závislosť sprístupnenia úloh
         //cy.contains('Termíny lekcií pre nemoderované školenia').find('i').click({timeout: 100000})
