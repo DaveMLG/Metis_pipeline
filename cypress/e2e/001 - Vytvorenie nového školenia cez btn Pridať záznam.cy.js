@@ -35,7 +35,7 @@ describe('Product owner', function() {
 
         //Vyplní všetky potrebné inputy a skontroluje, či vyhodí OK.
         cy.get('input#LogoUrl').attachFile('/obrazky/logo1.png')
-        cy.get('[name="selectedGuarantor"]').select('go, cy').next().click()
+        cy.get('[name="selectedGuarantor"]').select('go, skorg1').next().click()
         cy.get('[type="submit"]').click()
     })  
 })
