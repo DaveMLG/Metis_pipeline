@@ -1,0 +1,577 @@
+{
+  "Values": [
+    {
+      "summaryValues": " 20 "
+    },
+    {
+      "summaryValues": " 1 "
+    },
+    {
+      "summaryValues": " 1 "
+    },
+    {
+      "summaryValues": " 106500 "
+    },
+    {
+      "summaryValues": " 10:00 "
+    },
+    {
+      "summaryValues": " 1:30 "
+    },
+    {
+      "summaryValues": " 0:00 "
+    },
+    {
+      "summaryValues": " 2:00  2:00  2:00  2:00  2:00 "
+    },
+    {
+      "summaryValues": " 0:00  0:00  0:00  1:30  0:00 "
+    },
+    {
+      "summaryValues": " 0:00  0:00  0:00  0:00  0:00 "
+    },
+    {
+      "genericVals": "Sam"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3000"
+    },
+    {
+      "genericVals": "Aut"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3000"
+    },
+    {
+      "genericVals": "Vid"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3000"
+    },
+    {
+      "genericVals": "Web"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "2"
+    },
+    {
+      "genericVals": "4500"
+    },
+    {
+      "genericVals": "Dop"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "Pár"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "Pre"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "Pre"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "Ank"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "Spä"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "Oso"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "IQ "
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "Che"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "Dis"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "Spo"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "Otv"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "Zad"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "Pro"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "6000"
+    },
+    {
+      "genericVals": "Cvi"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "4"
+    },
+    {
+      "genericVals": "4500"
+    },
+    {
+      "genericVals": "Pot"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "4"
+    },
+    {
+      "genericVals": "4500"
+    },
+    {
+      "orderCount": "1"
+    },
+    {
+      "orderCount": "2"
+    },
+    {
+      "orderCount": "3"
+    },
+    {
+      "orderCount": "1"
+    },
+    {
+      "orderCount": "1"
+    },
+    {
+      "orderCount": "2"
+    },
+    {
+      "orderCount": "3"
+    },
+    {
+      "orderCount": "4"
+    },
+    {
+      "orderCount": "5"
+    },
+    {
+      "orderCount": "6"
+    },
+    {
+      "orderCount": "7"
+    },
+    {
+      "orderCount": "8"
+    },
+    {
+      "orderCount": "9"
+    },
+    {
+      "orderCount": "10"
+    },
+    {
+      "orderCount": "11"
+    },
+    {
+      "orderCount": "12"
+    },
+    {
+      "orderCount": "13"
+    },
+    {
+      "orderCount": "14"
+    },
+    {
+      "orderCount": "1"
+    },
+    {
+      "orderCount": "2"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "5"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "6"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "7"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "8"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "36"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "5"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "6"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "7"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "8"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "36"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "5"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "6"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "7"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "8"
+    },
+    {
+      "selectVals": "300"
+    },
+    {
+      "selectVals": "36"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "5"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "6"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "7"
+    },
+    {
+      "selectVals": "1.1"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "8"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "36"
+    }
+  ]
+}

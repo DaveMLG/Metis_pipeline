@@ -196,10 +196,10 @@ it('Nastavenie koeficientov hodnotenia v školení', function() {
         cy.get('@repeat').should('have.value', '6')
         cy.get('@repeatAuto').should('have.value', '2')
 
-        //Thresholdy inaktivity
+        ////Thresholdy inaktivity
         cy.contains('Thresholdy inaktivity').find('.fa').click()
         
-        ////Zmena tresholdov
+        //Zmena tresholdov
         cy.get('#InactiveLessonsThreshold').as('inactiveLessons') 
         cy.get('@inactiveLessons').clear().type(4) //Default value = 3
         cy.get('#InactivityNotificationInterval').as('inactivityNot') 
@@ -215,6 +215,26 @@ it('Nastavenie koeficientov hodnotenia v školení', function() {
         cy.get('@inactivityNot').should('have.value', '8')
         cy.get('@inactivityStudentTresh').should('have.value', '8')
         cy.get('@inactivityStudentInter').should('have.value', '4')
+
+        ////Thresholdy pre trvanie lekcie
+        cy.contains('Thresholdy pre trvanie lekcie').find('.fa').click()
+        //Nastavenia tresholdov
+        cy.get('#EstimatedTimeForLessonEvaluation').as('vyhodnotenie')
+        cy.get('@vyhodnotenie').clear().type(11) //Default value = 10
+        cy.get('#EstimatedLessonDurationForLecturerInTime').as('trvanie')  
+        cy.get('@trvanie').clear().type('3:40') //Default value = 3:30
+        cy.get('#EstimatedTimeForLessonDevelopment').as('vypracovanie') 
+        cy.get('@vypracovanie').clear().type(9) //Default value = 8
+        cy.get('[type="submit"]').click()
+
+        //Kontrola dát
+        cy.contains('Thresholdy pre trvanie lekcie').find('.fa').click()
+        cy.get('@vyhodnotenie').should('have.value', '11')
+        cy.get('@trvanie').should('have.value', '3:40')
+        cy.get('@vypracovanie').should('have.value', '9')
+
+        ////Ostatné
+        
     });
   });
 });

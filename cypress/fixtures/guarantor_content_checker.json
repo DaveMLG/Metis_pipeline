@@ -1,0 +1,61 @@
+{
+  "Samostudium": [
+    {
+      "taskOrder": "1.1.1"
+    },
+    {
+      "ActivityInput": "undefined"
+    },
+    {
+      "language": "cs"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "3000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": ""
+    },
+    {
+      "Trainings": "PO CY_edit"
+    },
+    {
+      "guarantorInternalMaterial": "Interný materiál pre garanta"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre moderátora"
+    },
+    {
+      "lecturerInternalMaterial": ""
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta"
+    },
+    {
+      "Description": "Popis úlohy"
+    },
+    {
+      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
+    }
+  ]
+}
