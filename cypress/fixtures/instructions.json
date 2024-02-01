@@ -1,0 +1,544 @@
+{
+  "Values": [
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Príprava"
+    },
+    {
+      "genericVals": "Samoštúdium"
+    },
+    {
+      "genericVals": "Samoštúdium"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Príprava"
+    },
+    {
+      "genericVals": "Automatický test"
+    },
+    {
+      "genericVals": "Automatický test"
+    },
+    {
+      "genericVals": "2"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora2"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta2"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Príprava"
+    },
+    {
+      "genericVals": "Videosamoštúdium"
+    },
+    {
+      "genericVals": "Videosamoštúdium"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora3"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta3"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "2. Seminár"
+    },
+    {
+      "genericVals": "Webinár"
+    },
+    {
+      "genericVals": "Webinár"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora4"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta4"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "Doplňovačka"
+    },
+    {
+      "genericVals": "Doplňovačka"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora5"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta5"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "Párovačka"
+    },
+    {
+      "genericVals": "Párovačka"
+    },
+    {
+      "genericVals": "2"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora6"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta6"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "Preferenčný test"
+    },
+    {
+      "genericVals": "Preferenčný test"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora7"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta7"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "Preklad"
+    },
+    {
+      "genericVals": "Preklad"
+    },
+    {
+      "genericVals": "4"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora8"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta8"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "Anketa"
+    },
+    {
+      "genericVals": "Anketa"
+    },
+    {
+      "genericVals": "5"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora9"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta9"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "Spätná väzba"
+    },
+    {
+      "genericVals": "Spätná väzba"
+    },
+    {
+      "genericVals": "6"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora10"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta10"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "Osobnostný test"
+    },
+    {
+      "genericVals": "Osobnostný test"
+    },
+    {
+      "genericVals": "7"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora11"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta11"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "IQ test"
+    },
+    {
+      "genericVals": "IQ test"
+    },
+    {
+      "genericVals": "8"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora12"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta12"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "Checklist"
+    },
+    {
+      "genericVals": "Checklist"
+    },
+    {
+      "genericVals": "9"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora13"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta13"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "Diskusia"
+    },
+    {
+      "genericVals": "Diskusia"
+    },
+    {
+      "genericVals": "10"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora14"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta14"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "Spoločná práca s mentorom"
+    },
+    {
+      "genericVals": "Spoločná práca s mentorom"
+    },
+    {
+      "genericVals": "11"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora15"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta15"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "Otvorený test"
+    },
+    {
+      "genericVals": "Otvorený test"
+    },
+    {
+      "genericVals": "12"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora16"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta16"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "Zadanie"
+    },
+    {
+      "genericVals": "Zadanie"
+    },
+    {
+      "genericVals": "13"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora17"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta17"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "3. Zadania"
+    },
+    {
+      "genericVals": "Projekt"
+    },
+    {
+      "genericVals": "Projekt"
+    },
+    {
+      "genericVals": "14"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora18"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta18"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Cvičenie"
+    },
+    {
+      "genericVals": "Cvičenie"
+    },
+    {
+      "genericVals": "Cvičenie"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora19"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta19"
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "1. Lekcia"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Cvičenie"
+    },
+    {
+      "genericVals": "Potvrdenie absolvovania"
+    },
+    {
+      "genericVals": "Potvrdenie absolvovania"
+    },
+    {
+      "genericVals": "2"
+    },
+    {
+      "genericVals": "Inštrukcie pre moderátora20"
+    },
+    {
+      "genericVals": "Inštrukcie pre študenta20"
+    }
+  ]
+}

@@ -57,5 +57,232 @@
     {
       "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
     }
+  ],
+  "AutoTest": [
+    {
+      "taskOrder": "1.1.2"
+    },
+    {
+      "ActivityInput": "undefined"
+    },
+    {
+      "language": "cs"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "3000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "yes"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": ""
+    },
+    {
+      "Trainings": "PO CY_edit"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre moderátora2"
+    },
+    {
+      "lecturerInternalMaterial": ""
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta2"
+    },
+    {
+      "Description": ""
+    },
+    {
+      "Content": ""
+    }
+  ],
+  "Videosamostudium": [
+    {
+      "taskOrder": "1.1.3"
+    },
+    {
+      "ActivityInput": "undefined"
+    },
+    {
+      "language": "cs"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "3000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": ""
+    },
+    {
+      "Trainings": "PO CY_edit"
+    },
+    {
+      "guarantorInternalMaterial": ""
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre moderátora3"
+    },
+    {
+      "lecturerInternalMaterial": ""
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta3"
+    },
+    {
+      "Description": ""
+    },
+    {
+      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
+    }
+  ],
+  "Webinar": [
+    {
+      "taskOrder": "1.2.1"
+    },
+    {
+      "ActivityInput": "undefined"
+    },
+    {
+      "language": "cs"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:30"
+    },
+    {
+      "ExperiencePoints": "4500"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": ""
+    },
+    {
+      "Trainings": "PO CY_edit"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre moderátora4"
+    },
+    {
+      "lecturerInternalMaterial": ""
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta4"
+    },
+    {
+      "Description": ""
+    },
+    {
+      "Content": "   NormalCitáciaKódNadpis 1Nadpis 2Nadpis 3Nadpis 4Nadpis 5Nadpis 6 btn btn-defaultbtn btn-successbtn btn-infobtn btn-warningbtn btn-dangertext-mutedtext-successtext-primarytext-infotext-warningtext-dangerimg-responsivetable-responsive Template Hlavny obrazokBox: PrikladBox: TIPBox: OtazkaBox: InfoBox: DoleziteBox: CitaciaBox: KodDva stlpceTri stlpceResponzivne vlozenie 16:9Responzivne vlozenie 4:3Open Sans  Arial Arial Black Comic Sans MS Courier New Helvetica Impact Tahoma Times New Roman Verdana13  8 9 10 11 12 14 18 24 36   Farba pozadia      Priehľadnosť          Farba písma      Obnoviť prednastavené           1.0 1.2 1.4 1.5 1.6 1.8 2.0 3.0       1 x 1Ahojte, pre pripojenie na webinár/cvičenie prosím použite webovú verziu aplikácie MS Teams alebo jej standalone verziu.Po kliknutí na tento odkaz budete presmerovaní do Teamsovej skupiny, v ktorej sa bude konať webinár/cvičenie                            ×      Vytvoriť odkaz        Zobrazovaný textNa akú URL adresu má tento odkaz viesť?  Otvoriť v novom okne    Vytvoriť odkaz              ×      Vložiť obrázok        Vybrať súborURL obrázku    Vložiť obrázok              ×      Vložiť video        URL videa? (YouTube, Vimeo, Vine, Instagram, DailyMotion alebo Youku)    Vložiť video              ×      Pomoc        ENTERInsert ParagraphCTRL+ZUndoes the last commandCTRL+YRedoes the last commandTABTabSHIFT+TABUntabCTRL+BSet a bold styleCTRL+ISet a italic styleCTRL+USet a underline styleCTRL+SHIFT+SSet a strikethrough styleCTRL+BACKSLASHClean a styleCTRL+SHIFT+LSet left alignCTRL+SHIFT+ESet center alignCTRL+SHIFT+RSet right alignCTRL+SHIFT+JSet full alignCTRL+SHIFT+NUM7Toggle unordered listCTRL+SHIFT+NUM8Toggle ordered listCTRL+LEFTBRACKETOutdent on current paragraphCTRL+RIGHTBRACKETIndent on current paragraphCTRL+NUM0Change current block's format as a paragraph(P tag)CTRL+NUM1Change current block's format as H1CTRL+NUM2Change current block's format as H2CTRL+NUM3Change current block's format as H3CTRL+NUM4Change current block's format as H4CTRL+NUM5Change current block's format as H5CTRL+NUM6Change current block's format as H6CTRL+ENTERInsert horizontal ruleCTRL+KShow Link Dialog    Summernote 0.8.8 · Project · Issues              ×      Atribúty        Atribúty ObrázkuTitleAltClassSelect ClassZaoblenýKruhRámčekStyleAtribúty LinkyURLTargetSelfBlankTopParentLink ClassLink RelDo not use Rel AttributeAlternate: Links to an alternate version of the documentAuthor: Links to the Author of the DocumentBookmark: Permanent URL used for BookmarkingHelp: Links to a Help DocumentLicense: Links to copyright information for the documentNext: The next document in a selectionNoFollow: Links to an unendorsed document, like a paid link, also stops Search Engines following this linkNoReferrer: Specifies that the browser should not send a HTTP HeaderPreFetch: Specifies that the target document should be cachedPrev: The previous document in a selectionSearch: Links to a search tool for the documentTag: A tag (Keyword) for the current document    OK  "
+    }
+  ],
+  "Doplnovacka": [
+    {
+      "taskOrder": "1.3.1"
+    },
+    {
+      "ActivityInput": "undefined"
+    },
+    {
+      "language": "cs"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "yes"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": ""
+    },
+    {
+      "Trainings": "PO CY_edit"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre moderátora5"
+    },
+    {
+      "lecturerInternalMaterial": ""
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta5"
+    },
+    {
+      "Description": ""
+    },
+    {
+      "Content": "1. Ak sú odpovede súčasťou textu, pri zadávaní znenia úlohy postupujte nasledovne:  a) ak chcete, aby musel  študent odpoveď napísať, uveďte do zvolených znakov len jednu možnosť @@@možnosť 1@@@.  b) v prípade, že chcete dať študentovi na výber z viacerých možností, zadajte odpovede vo forme @@@možnosť1/možnosť2/možnosť3@@@, pričom prvá možnosť reprezentuje správnu odpoveď.  2. Ak odpovede nie sú súčasťou textu a budete ich importovať, je potrebné do textu vyznačiť miesta pre správne odpovede prostredníctvom zvolených znakov.  Príklad: Prvá odpoveď z importovaného súboru patrí sem @@@@@@.   Druhá odpoveď patrí sem @@@@@@. "
+    }
   ]
 }
