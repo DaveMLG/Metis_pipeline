@@ -53,17 +53,17 @@ describe('Product owner', function () {
             DataValues.push({languages: value}) 
           })
 
-          cy.get('[for="HoverDescription"]').parentsUntil('.row').find('.note-editable').type('Mouser hover edit')
+          cy.get('[for="HoverDescription"]').parentsUntil('.row').find('.note-editable').clear().type('Mouser hover edit')
           cy.get('[for="HoverDescription"]').parentsUntil('.row').find('.note-editing-area').children().invoke('text').then((value) => {
             DataValues.push({HoverDescription: value}) 
           })
 
-          cy.get('[for="LecturerInstruction"]').parentsUntil('.row').find('.note-editable').type('Lecturer edit')
+          cy.get('[for="LecturerInstruction"]').parentsUntil('.row').find('.note-editable').clear().type('Lecturer edit')
           cy.get('[for="LecturerInstruction"]').parentsUntil('.row').find('.note-editing-area').children().invoke('text').then((value) => {
             DataValues.push({LecturerInstruction: value}) 
           })
 
-          cy.get('[for="StudentInstruction"]').parentsUntil('.row').find('.note-editable').type('Student edit')
+          cy.get('[for="StudentInstruction"]').parentsUntil('.row').find('.note-editable').clear().type('Student edit')
           cy.get('[for="StudentInstruction"]').parentsUntil('.row').find('.note-editing-area').children().invoke('text').then((value) => {
             DataValues.push({StudentInstruction: value}) 
           })

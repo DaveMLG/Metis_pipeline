@@ -1,117 +1,748 @@
 {
   "Values": [
     {
-      "taskOrder": "1.1.1"
+      "type": "Vzdelávacie"
     },
     {
-      "ActivityInput": "undefined"
+      "Title": "PO CY_edit"
     },
     {
-      "language": "cs"
+      "PortalTitle": "Portal title edit"
     },
     {
-      "LengthInTime": "0:30"
+      "languages": "cs"
     },
     {
-      "EstimateTimeForEvaluationInTime": "0:00"
+      "HoverDescription": "Mouser hover edit"
     },
     {
-      "ExperiencePoints": "3000"
+      "LecturerInstruction": "Lecturer edit"
     },
     {
-      "difficulty": "100"
+      "StudentInstruction": "Student edit"
     },
     {
-      "IsTimeLimitedTask": "no"
+      "productOwner": "vo, skorg1vo, skorg1"
     },
     {
-      "NotMandatory": "no"
+      "TestAutomatedLevelOfDegressiveAssesment": "5"
     },
     {
-      "GuarantorId": "skorg1 go"
+      "TestOpenLevelOfDegressiveAssesment": "8"
     },
     {
-      "Guarantors": "skorg1 go"
+      "ImportanceCoefficientLevelLow": "3"
     },
     {
-      "ContentAssistants": ""
+      "ImportanceCoefficientLevelMedium": "4"
     },
     {
-      "Trainings": "PO CY_edit"
+      "ImportanceCoefficientLevelHigh": "5"
     },
     {
-      "guarantorInternalMaterial": "Interný materiál pre garanta"
+      "ManualTaskMultiplicator": "6"
     },
     {
-      "lecturerInstruction": "Inštrukcie pre moderátora"
+      "ActivityLanguageId": "cs"
     },
     {
-      "lecturerInternalMaterial": ""
+      "ActivityInput": "1"
     },
     {
-      "studentInstruction": "Inštrukcie pre študenta"
+      "ActivityInput": "Zadanie_edit_0"
     },
     {
-      "Description": "Popis úlohy"
+      "ActivityInput": "2"
     },
     {
-      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
-    }
-  ],
-  "AutoTest": [
-    {
-      "taskOrder": "1.1.2"
+      "ActivityInput": "3"
     },
     {
-      "ActivityInput": "undefined"
+      "ActivityInput": "40"
     },
     {
-      "language": "cs"
+      "ActivityInput": "2"
     },
     {
-      "LengthInTime": "0:30"
+      "ActivityInput": "Zadanie_edit_1"
     },
     {
-      "EstimateTimeForEvaluationInTime": "0:00"
+      "ActivityInput": "3"
     },
     {
-      "ExperiencePoints": "3000"
+      "ActivityInput": "4"
     },
     {
-      "difficulty": "100"
+      "ActivityInput": "20"
     },
     {
-      "IsTimeLimitedTask": "yes"
+      "ActivityInput": "3"
     },
     {
-      "NotMandatory": "no"
+      "ActivityInput": "Zadanie_edit_2"
     },
     {
-      "GuarantorId": "skorg1 go"
+      "ActivityInput": "4"
     },
     {
-      "Guarantors": "skorg1 go"
+      "ActivityInput": "5"
     },
     {
-      "ContentAssistants": ""
+      "ActivityInput": "40"
     },
     {
-      "Trainings": "PO CY_edit"
+      "ActivityInput": "4"
     },
     {
-      "lecturerInstruction": ""
+      "ActivityInput": "Zadanie_edit_3"
     },
     {
-      "lecturerInternalMaterial": ""
+      "ActivityInput": "5"
     },
     {
-      "studentInstruction": ""
+      "ActivityInput": "6"
     },
     {
-      "Description": ""
+      "ActivityInput": "25"
     },
     {
-      "Content": ""
+      "ActivityInput": "5"
+    },
+    {
+      "ActivityInput": "Zadanie_edit_4"
+    },
+    {
+      "ActivityInput": "6"
+    },
+    {
+      "ActivityInput": "7"
+    },
+    {
+      "ActivityInput": "0"
+    },
+    {
+      "ActivityInput": "6"
+    },
+    {
+      "ActivityInput": "Zadanie_edit_5"
+    },
+    {
+      "ActivityInput": "7"
+    },
+    {
+      "ActivityInput": "8"
+    },
+    {
+      "ActivityInput": "0"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "yes"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "yes"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "MetricCategoryLanguageId": "cs"
+    },
+    {
+      "MetricCategories": ""
+    },
+    {
+      "MetricCategories": ""
+    },
+    {
+      "MetricCategories": ""
+    },
+    {
+      "MetricCategories": ""
+    },
+    {
+      "MetricCategories": "Others task"
+    },
+    {
+      "availableTasks": "Zadanie_edit_0"
+    },
+    {
+      "availableTasks": "-1"
+    },
+    {
+      "availableTasks": "1: 30175"
+    },
+    {
+      "availableTasks": "1: termEnd"
+    },
+    {
+      "availableTasks": "3"
+    },
+    {
+      "availableTasks": "4"
+    },
+    {
+      "availableTasks": "5"
+    },
+    {
+      "availableTasks": "Zadanie_edit_1"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "1: 30175"
+    },
+    {
+      "availableTasks": "1: termEnd"
+    },
+    {
+      "availableTasks": "3"
+    },
+    {
+      "availableTasks": "4"
+    },
+    {
+      "availableTasks": "5"
+    },
+    {
+      "availableTasks": "Zadanie_edit_2"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "1: 30175"
+    },
+    {
+      "availableTasks": "1: termEnd"
+    },
+    {
+      "availableTasks": "3"
+    },
+    {
+      "availableTasks": "4"
+    },
+    {
+      "availableTasks": "5"
+    },
+    {
+      "availableTasks": "Zadanie_edit_3"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "2: 30177"
+    },
+    {
+      "availableTasks": "0: termBeginning"
+    },
+    {
+      "availableTasks": "3"
+    },
+    {
+      "availableTasks": "4"
+    },
+    {
+      "availableTasks": "5"
+    },
+    {
+      "availableTasks": "Zadanie_edit_4"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "2: 30177"
+    },
+    {
+      "availableTasks": "1: termEnd"
+    },
+    {
+      "availableTasks": "3"
+    },
+    {
+      "availableTasks": "4"
+    },
+    {
+      "availableTasks": "5"
+    },
+    {
+      "availableTasks": "Zadanie_edit_5"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "2: 30177"
+    },
+    {
+      "availableTasks": "1: termEnd"
+    },
+    {
+      "availableTasks": "3"
+    },
+    {
+      "availableTasks": "4"
+    },
+    {
+      "availableTasks": "5"
+    },
+    {
+      "timeValuesTasksOnTime": "Zadanie_edit_0"
+    },
+    {
+      "timeValuesTasksOnTime": "1"
+    },
+    {
+      "timeValuesTasksOnTime": "1: 30175"
+    },
+    {
+      "timeValuesTasksOnTime": "1: termBeginning"
+    },
+    {
+      "timeValuesTasksOnTime": "3"
+    },
+    {
+      "timeValuesTasksOnTime": "4"
+    },
+    {
+      "timeValuesTasksOnTime": "5"
+    },
+    {
+      "timeValuesTasksOnTime": "Zadanie_edit_1"
+    },
+    {
+      "timeValuesTasksOnTime": "2"
+    },
+    {
+      "timeValuesTasksOnTime": "1: 30175"
+    },
+    {
+      "timeValuesTasksOnTime": "1: termBeginning"
+    },
+    {
+      "timeValuesTasksOnTime": "3"
+    },
+    {
+      "timeValuesTasksOnTime": "4"
+    },
+    {
+      "timeValuesTasksOnTime": "5"
+    },
+    {
+      "timeValuesTasksOnTime": "Zadanie_edit_2"
+    },
+    {
+      "timeValuesTasksOnTime": "2"
+    },
+    {
+      "timeValuesTasksOnTime": "1: 30175"
+    },
+    {
+      "timeValuesTasksOnTime": "1: termBeginning"
+    },
+    {
+      "timeValuesTasksOnTime": "3"
+    },
+    {
+      "timeValuesTasksOnTime": "4"
+    },
+    {
+      "timeValuesTasksOnTime": "5"
+    },
+    {
+      "timeValuesTasksOnTime": "Zadanie_edit_3"
+    },
+    {
+      "timeValuesTasksOnTime": "2"
+    },
+    {
+      "timeValuesTasksOnTime": "1: 30175"
+    },
+    {
+      "timeValuesTasksOnTime": "1: termBeginning"
+    },
+    {
+      "timeValuesTasksOnTime": "3"
+    },
+    {
+      "timeValuesTasksOnTime": "4"
+    },
+    {
+      "timeValuesTasksOnTime": "5"
+    },
+    {
+      "timeValuesTasksOnTime": "Zadanie_edit_4"
+    },
+    {
+      "timeValuesTasksOnTime": "2"
+    },
+    {
+      "timeValuesTasksOnTime": "1: 30175"
+    },
+    {
+      "timeValuesTasksOnTime": "1: termBeginning"
+    },
+    {
+      "timeValuesTasksOnTime": "3"
+    },
+    {
+      "timeValuesTasksOnTime": "4"
+    },
+    {
+      "timeValuesTasksOnTime": "5"
+    },
+    {
+      "timeValuesTasksOnTime": "Zadanie_edit_5"
+    },
+    {
+      "timeValuesTasksOnTime": "2"
+    },
+    {
+      "timeValuesTasksOnTime": "1: 30175"
+    },
+    {
+      "timeValuesTasksOnTime": "1: termBeginning"
+    },
+    {
+      "timeValuesTasksOnTime": "3"
+    },
+    {
+      "timeValuesTasksOnTime": "4"
+    },
+    {
+      "timeValuesTasksOnTime": "5"
+    },
+    {
+      "timeValuesPastTime": "Zadanie_edit_0"
+    },
+    {
+      "timeValuesPastTime": "3"
+    },
+    {
+      "timeValuesPastTime": "1: 30175"
+    },
+    {
+      "timeValuesPastTime": "0: termBeginning"
+    },
+    {
+      "timeValuesPastTime": "3"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "5"
+    },
+    {
+      "timeValuesPastTime": "Zadanie_edit_1"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "1: 30175"
+    },
+    {
+      "timeValuesPastTime": "0: termBeginning"
+    },
+    {
+      "timeValuesPastTime": "3"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "5"
+    },
+    {
+      "timeValuesPastTime": "Zadanie_edit_2"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "1: 30175"
+    },
+    {
+      "timeValuesPastTime": "0: termBeginning"
+    },
+    {
+      "timeValuesPastTime": "3"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "5"
+    },
+    {
+      "timeValuesPastTime": "Zadanie_edit_3"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "1: 30175"
+    },
+    {
+      "timeValuesPastTime": "0: termBeginning"
+    },
+    {
+      "timeValuesPastTime": "3"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "5"
+    },
+    {
+      "timeValuesPastTime": "Zadanie_edit_4"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "1: 30175"
+    },
+    {
+      "timeValuesPastTime": "0: termBeginning"
+    },
+    {
+      "timeValuesPastTime": "3"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "5"
+    },
+    {
+      "timeValuesPastTime": "Zadanie_edit_5"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "1: 30175"
+    },
+    {
+      "timeValuesPastTime": "0: termBeginning"
+    },
+    {
+      "timeValuesPastTime": "3"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "5"
+    },
+    {
+      "UnmoderatedWithEvaluation": "yes"
+    },
+    {
+      "UnmoderatedWithEvaluation": "yes"
+    },
+    {
+      "UnmoderatedWithEvaluation": "yes"
+    },
+    {
+      "UnmoderatedWithEvaluation": "yes"
+    },
+    {
+      "UnmoderatedWithEvaluation": "yes"
+    },
+    {
+      "UnmoderatedWithEvaluation": "yes"
+    },
+    {
+      "UnmoretatedInputs": "Dostupná od"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "3"
+    },
+    {
+      "UnmoretatedInputs": "4"
+    },
+    {
+      "UnmoretatedInputs": "5"
+    },
+    {
+      "UnmoretatedInputs": "Načas"
+    },
+    {
+      "UnmoretatedInputs": "2"
+    },
+    {
+      "UnmoretatedInputs": "3"
+    },
+    {
+      "UnmoretatedInputs": "4"
+    },
+    {
+      "UnmoretatedInputs": "5"
+    },
+    {
+      "UnmoretatedInputs": "Termín"
+    },
+    {
+      "UnmoretatedInputs": "4"
+    },
+    {
+      "UnmoretatedInputs": "3"
+    },
+    {
+      "UnmoretatedInputs": "4"
+    },
+    {
+      "UnmoretatedInputs": "5"
+    },
+    {
+      "UnmoretatedInputs": "Dostupná od"
+    },
+    {
+      "UnmoretatedInputs": "0"
+    },
+    {
+      "UnmoretatedInputs": "3"
+    },
+    {
+      "UnmoretatedInputs": "4"
+    },
+    {
+      "UnmoretatedInputs": "5"
+    },
+    {
+      "UnmoretatedInputs": "Načas"
+    },
+    {
+      "UnmoretatedInputs": "2"
+    },
+    {
+      "UnmoretatedInputs": "3"
+    },
+    {
+      "UnmoretatedInputs": "4"
+    },
+    {
+      "UnmoretatedInputs": "5"
+    },
+    {
+      "UnmoretatedInputs": "Termín"
+    },
+    {
+      "UnmoretatedInputs": "4"
+    },
+    {
+      "UnmoretatedInputs": "3"
+    },
+    {
+      "UnmoretatedInputs": "4"
+    },
+    {
+      "UnmoretatedInputs": "5"
+    },
+    {
+      "TimeLimitedTrainings": "2"
+    },
+    {
+      "TimeLimitedCoefficient": "3"
+    },
+    {
+      "EvaluationSoftDeadlineAt": "7"
+    },
+    {
+      "EvaluationDeadlineAt": "10"
+    },
+    {
+      "TestAutomatedRepeatLimit": "6"
+    },
+    {
+      "TestOpenRepeatLimit": "4"
+    },
+    {
+      "InactiveLessonsThreshold": "4"
+    },
+    {
+      "InactivityNotificationInterval": "8"
+    },
+    {
+      "InactivityStudentNotificationThreshold": "8"
+    },
+    {
+      "InactivityStudentNotificationInterval": "4"
+    },
+    {
+      "ConsideredExercisesList": "Otvorený test"
+    },
+    {
+      "ConsideredExercisesList": "Zadanie"
+    },
+    {
+      "ConsideredExercisesList": "Projekt"
+    },
+    {
+      "ConsideredExercisesList": "Doplňovačka"
+    },
+    {
+      "EstimatedTimeForLessonEvaluation": "15"
+    },
+    {
+      "EstimatedLessonDurationForLecturerInTime": "4:40"
+    },
+    {
+      "EstimatedTimeForLessonDevelopment": "10"
+    },
+    {
+      "ExerciseOrderType": "2"
+    },
+    {
+      "IsTestAllowed": "yes"
+    },
+    {
+      "TakingTestAfterDeadlinePassedIsBlocked": "yes"
+    },
+    {
+      "TimeLimitedAllAutomatedTasks": "yes"
+    },
+    {
+      "TimeToCreateCalendarEventsInHours": "0"
+    },
+    {
+      "TimeToCreateCalendarEventsInMinutes": "30"
     }
   ]
 }

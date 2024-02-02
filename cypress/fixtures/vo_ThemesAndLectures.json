@@ -1,7 +1,7 @@
 {
   "Values": [
     {
-      "TaL": "10"
+      "TaL": "2"
     },
     {
       "TaL": "Téma"
@@ -10,28 +10,28 @@
       "TaL": "Lekcia"
     },
     {
-      "TaL": "Lekcia_2"
+      "TaL": "Lekcia2"
     },
     {
-      "TaL": "Lekcia_3"
+      "TaL": "Lekcia3"
     },
     {
-      "TaL": "Lekcia_4"
+      "TaL": "Lekcia4"
     },
     {
-      "TaL": "Lekcia_5"
+      "TaL": "Téma2"
     },
     {
-      "TaL": "Téma_2"
+      "TaL": "Lekcia5"
     },
     {
-      "TaL": "Lekcia_2.1"
+      "TaL": "Lekcia6"
     },
     {
-      "TaL": "Lekcia_2.2"
+      "TaL": "Lekcia7"
     },
     {
-      "TaL": "Lekcia_2.3"
+      "TaL": "Lekcia8"
     },
     {
       "tableVals": " 1 "
@@ -73,7 +73,10 @@
       "tableVals": "0"
     },
     {
-      "tableVals": " 5 "
+      "tableVals": " 2 "
+    },
+    {
+      "tableVals": " 1 "
     },
     {
       "tableVals": " 5 "
@@ -83,9 +86,6 @@
     },
     {
       "tableVals": " 2 "
-    },
-    {
-      "tableVals": " 1 "
     },
     {
       "tableVals": " 6 "
@@ -94,7 +94,7 @@
       "tableVals": "0"
     },
     {
-      "tableVals": " 2 "
+      "tableVals": " 3 "
     },
     {
       "tableVals": " 7 "
@@ -103,7 +103,7 @@
       "tableVals": "0"
     },
     {
-      "tableVals": " 3 "
+      "tableVals": " 4 "
     },
     {
       "tableVals": " 8 "

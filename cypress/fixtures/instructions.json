@@ -10,13 +10,13 @@
       "genericVals": ""
     },
     {
-      "genericVals": "1. Príprava"
+      "genericVals": "1. Zadanie_edit_0"
     },
     {
-      "genericVals": "Samoštúdium"
+      "genericVals": "Automatický test"
     },
     {
-      "genericVals": "Samoštúdium"
+      "genericVals": "Automatický test"
     },
     {
       "genericVals": "1"
@@ -37,13 +37,13 @@
       "genericVals": ""
     },
     {
-      "genericVals": "1. Príprava"
+      "genericVals": "1. Zadanie_edit_0"
     },
     {
-      "genericVals": "Automatický test"
+      "genericVals": "Videosamoštúdium"
     },
     {
-      "genericVals": "Automatický test"
+      "genericVals": "Videosamoštúdium"
     },
     {
       "genericVals": "2"
@@ -64,16 +64,16 @@
       "genericVals": ""
     },
     {
-      "genericVals": "1. Príprava"
+      "genericVals": "2. Zadanie_edit_1"
     },
     {
-      "genericVals": "Videosamoštúdium"
+      "genericVals": "Samoštúdium"
     },
     {
-      "genericVals": "Videosamoštúdium"
+      "genericVals": "Samoštúdium"
     },
     {
-      "genericVals": "3"
+      "genericVals": "1"
     },
     {
       "genericVals": "Inštrukcie pre moderátora3"
@@ -91,7 +91,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "2. Seminár"
+      "genericVals": "2. Zadanie_edit_1"
     },
     {
       "genericVals": "Webinár"
@@ -100,7 +100,7 @@
       "genericVals": "Webinár"
     },
     {
-      "genericVals": "1"
+      "genericVals": "2"
     },
     {
       "genericVals": "Inštrukcie pre moderátora4"
@@ -118,7 +118,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "Doplňovačka"
@@ -145,7 +145,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "Párovačka"
@@ -172,7 +172,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "Preferenčný test"
@@ -199,7 +199,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "Preklad"
@@ -226,7 +226,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "Anketa"
@@ -253,7 +253,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "Spätná väzba"
@@ -280,7 +280,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "Osobnostný test"
@@ -307,7 +307,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "IQ test"
@@ -334,7 +334,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "Checklist"
@@ -361,7 +361,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "Diskusia"
@@ -388,7 +388,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "Spoločná práca s mentorom"
@@ -415,7 +415,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "Otvorený test"
@@ -442,7 +442,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "Zadanie"
@@ -469,7 +469,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadania"
+      "genericVals": "3. Zadanie_edit_2"
     },
     {
       "genericVals": "Projekt"
@@ -496,7 +496,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "4. Cvičenie"
+      "genericVals": "4. Zadanie_edit_3"
     },
     {
       "genericVals": "Cvičenie"
@@ -523,7 +523,7 @@
       "genericVals": ""
     },
     {
-      "genericVals": "4. Cvičenie"
+      "genericVals": "4. Zadanie_edit_3"
     },
     {
       "genericVals": "Potvrdenie absolvovania"

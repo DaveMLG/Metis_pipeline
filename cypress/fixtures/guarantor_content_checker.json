@@ -1,7 +1,7 @@
 {
   "Samostudium": [
     {
-      "taskOrder": "1.1.1"
+      "taskOrder": "1.2.1"
     },
     {
       "ActivityInput": "undefined"
@@ -16,122 +16,7 @@
       "EstimateTimeForEvaluationInTime": "0:00"
     },
     {
-      "ExperiencePoints": "3000"
-    },
-    {
-      "difficulty": "100"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": ""
-    },
-    {
-      "Trainings": "PO CY_edit"
-    },
-    {
-      "guarantorInternalMaterial": "Interný materiál pre garanta"
-    },
-    {
-      "lecturerInstruction": "Inštrukcie pre moderátora"
-    },
-    {
-      "lecturerInternalMaterial": ""
-    },
-    {
-      "studentInstruction": "Inštrukcie pre študenta"
-    },
-    {
-      "Description": "Popis úlohy"
-    },
-    {
-      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
-    }
-  ],
-  "AutoTest": [
-    {
-      "taskOrder": "1.1.2"
-    },
-    {
-      "ActivityInput": "undefined"
-    },
-    {
-      "language": "cs"
-    },
-    {
-      "LengthInTime": "0:30"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:00"
-    },
-    {
-      "ExperiencePoints": "3000"
-    },
-    {
-      "difficulty": "100"
-    },
-    {
-      "IsTimeLimitedTask": "yes"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": ""
-    },
-    {
-      "Trainings": "PO CY_edit"
-    },
-    {
-      "lecturerInstruction": "Inštrukcie pre moderátora2"
-    },
-    {
-      "lecturerInternalMaterial": ""
-    },
-    {
-      "studentInstruction": "Inštrukcie pre študenta2"
-    },
-    {
-      "Description": ""
-    },
-    {
-      "Content": ""
-    }
-  ],
-  "Videosamostudium": [
-    {
-      "taskOrder": "1.1.3"
-    },
-    {
-      "ActivityInput": "undefined"
-    },
-    {
-      "language": "cs"
-    },
-    {
-      "LengthInTime": "0:30"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:00"
-    },
-    {
-      "ExperiencePoints": "3000"
+      "ExperiencePoints": "9000"
     },
     {
       "difficulty": "100"
@@ -173,9 +58,9 @@
       "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
     }
   ],
-  "Webinar": [
+  "AutoTest": [
     {
-      "taskOrder": "1.2.1"
+      "taskOrder": "1.1.1"
     },
     {
       "ActivityInput": "undefined"
@@ -187,7 +72,122 @@
       "LengthInTime": "0:30"
     },
     {
-      "EstimateTimeForEvaluationInTime": "0:30"
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "yes"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": ""
+    },
+    {
+      "Trainings": "PO CY_edit"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre moderátora"
+    },
+    {
+      "lecturerInternalMaterial": ""
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta"
+    },
+    {
+      "Description": ""
+    },
+    {
+      "Content": ""
+    }
+  ],
+  "Videosamostudium": [
+    {
+      "taskOrder": "1.1.2"
+    },
+    {
+      "ActivityInput": "undefined"
+    },
+    {
+      "language": "cs"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": ""
+    },
+    {
+      "Trainings": "PO CY_edit"
+    },
+    {
+      "guarantorInternalMaterial": ""
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre moderátora2"
+    },
+    {
+      "lecturerInternalMaterial": ""
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta2"
+    },
+    {
+      "Description": ""
+    },
+    {
+      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
+    }
+  ],
+  "Webinar": [
+    {
+      "taskOrder": "1.2.2"
+    },
+    {
+      "ActivityInput": "undefined"
+    },
+    {
+      "language": "cs"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "1:00"
     },
     {
       "ExperiencePoints": "4500"

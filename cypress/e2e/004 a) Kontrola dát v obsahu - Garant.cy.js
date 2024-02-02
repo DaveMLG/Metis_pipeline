@@ -52,11 +52,30 @@ describe('Product owner', function () {
 
     cy.get('[class="table table-hover table-bordered table-striped"]').find('select').then((value) => {
       for (let x = 0; x < value.length; x++) {
-        cy.wrap(value[x]).invoke('val').then((values) => {
-          DataValues.push({ selectVals: values });
+        cy.wrap(value[x]).invoke('val').then((originalValue) => {
+          let renamedValue;
+          switch (originalValue) {
+            case '100':
+              renamedValue = 'Nízka';
+              break;
+            case '300':
+              renamedValue = 'Stredná';
+              break;
+            case '500':
+              renamedValue = 'Ťažká';
+              break;
+            default:
+              renamedValue = originalValue;
+          }
+    
+          if (renamedValue !== "0: null" && renamedValue !== null) {
+            DataValues.push({ selectVals: renamedValue });
+          }
         });
       }
     });
+    
+    
 
     cy.wait(1000).then(() => {
       jsonData['Values'] = DataValues;
