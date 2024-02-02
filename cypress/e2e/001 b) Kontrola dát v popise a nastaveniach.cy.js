@@ -122,7 +122,8 @@ describe('Product owner', function () {
         cy.get('[type="submit"]').first().click()
         cy.wait(5000);
         cy.sortTableByColumn('Vytvorené');
-        cy.contains('PO CY').click({timeout: 100000})
+        cy.contains('PO CY').click()
+        cy.wait(5000)
 
 /*cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.TrainingEditViewModel.ListOfGuarantorsLabel"]').prev().invoke('text').then((value) => {
           cy.wrap(value).should('eq', guarantorName)*/
