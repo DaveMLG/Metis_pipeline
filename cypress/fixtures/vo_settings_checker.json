@@ -1,6 +1,9 @@
 {
   "Values": [
     {
+      "guaratorName": "go, skorg1go, skorg1"
+    },
+    {
       "type": "Vzdelávacie"
     },
     {
@@ -43,7 +46,7 @@
       "ManualTaskMultiplicator": "6"
     },
     {
-      "ActivityLanguageId": "cs"
+      "ActivityLanguageId": "sk"
     },
     {
       "ActivityInput": "1"
@@ -55,7 +58,7 @@
       "ActivityInput": "2"
     },
     {
-      "ActivityInput": "3"
+      "ActivityInput": "3:00"
     },
     {
       "ActivityInput": "40"
@@ -70,7 +73,7 @@
       "ActivityInput": "3"
     },
     {
-      "ActivityInput": "4"
+      "ActivityInput": "4:00"
     },
     {
       "ActivityInput": "20"
@@ -85,7 +88,7 @@
       "ActivityInput": "4"
     },
     {
-      "ActivityInput": "5"
+      "ActivityInput": "5:00"
     },
     {
       "ActivityInput": "40"
@@ -100,7 +103,7 @@
       "ActivityInput": "5"
     },
     {
-      "ActivityInput": "6"
+      "ActivityInput": "6:00"
     },
     {
       "ActivityInput": "25"
@@ -115,7 +118,7 @@
       "ActivityInput": "6"
     },
     {
-      "ActivityInput": "7"
+      "ActivityInput": "7:00"
     },
     {
       "ActivityInput": "0"
@@ -130,7 +133,7 @@
       "ActivityInput": "7"
     },
     {
-      "ActivityInput": "8"
+      "ActivityInput": "8:00"
     },
     {
       "ActivityInput": "0"
@@ -172,19 +175,19 @@
       "ActivityCheckbox": "no"
     },
     {
-      "MetricCategoryLanguageId": "cs"
+      "MetricCategoryLanguageId": "sk"
     },
     {
-      "MetricCategories": ""
+      "MetricCategories": "Certification task"
     },
     {
-      "MetricCategories": ""
+      "MetricCategories": "Repetitiv task"
     },
     {
-      "MetricCategories": ""
+      "MetricCategories": "Final exam task"
     },
     {
-      "MetricCategories": ""
+      "MetricCategories": "Project task"
     },
     {
       "MetricCategories": "Others task"

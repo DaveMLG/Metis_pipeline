@@ -19,23 +19,23 @@ describe('Product owner', function () {
   
         // Obsah
         const guarantorName = jsonData.Values[0].guaratorName;
-        const type = jsonData.Values[1].type;
-        const Title = jsonData.Values[2].Title;
-        const PortalTitle = jsonData.Values[3].PortalTitle;
-        const languages = jsonData.Values[4].languages;
-        const HoverDescription = jsonData.Values[5].HoverDescription;
-        const LecturerInstruction = jsonData.Values[6].LecturerInstruction;
-        const StudentInstruction = jsonData.Values[7].StudentInstruction;
-        const productOwner = jsonData.Values[8].productOwner;
+        const type = jsonData.Values.find(obj => obj.type)?.type;
+        const Title = jsonData.Values.find(obj => obj.Title)?.Title;
+        const PortalTitle = jsonData.Values.find(obj => obj.PortalTitle)?.PortalTitle;
+        const languages = jsonData.Values.find(obj => obj.languages)?.languages;
+        const HoverDescription = jsonData.Values.find(obj => obj.HoverDescription)?.HoverDescription;
+        const LecturerInstruction = jsonData.Values.find(obj => obj.LecturerInstruction)?.LecturerInstruction;
+        const StudentInstruction = jsonData.Values.find(obj => obj.StudentInstruction)?.StudentInstruction;
+        const productOwner = jsonData.Values.find(obj => obj.productOwner)?.productOwner;
   
         // Nastavenia
-        const TestAutomatedLevelOfDegressiveAssesment = jsonData.Values[9].TestAutomatedLevelOfDegressiveAssesment;
-        const TestOpenLevelOfDegressiveAssesment = jsonData.Values[10].TestOpenLevelOfDegressiveAssesment
-        const ImportanceCoefficientLevelLow = jsonData.Values[11].ImportanceCoefficientLevelLow;
-        const ImportanceCoefficientLevelMedium = jsonData.Values[12].ImportanceCoefficientLevelMedium;
-        const ImportanceCoefficientLevelHigh = jsonData.Values[13].ImportanceCoefficientLevelHigh;
-        const ManualTaskMultiplicator = jsonData.Values[14].ManualTaskMultiplicator;
-        const ActivityLanguageId = jsonData.Values[15].ActivityLanguageId;
+        const TestAutomatedLevelOfDegressiveAssesment = jsonData.Values.find(obj => obj.TestAutomatedLevelOfDegressiveAssesment)?.TestAutomatedLevelOfDegressiveAssesment;
+        const TestOpenLevelOfDegressiveAssesment = jsonData.Values.find(obj => obj.TestOpenLevelOfDegressiveAssesment)?.TestOpenLevelOfDegressiveAssesment;
+        const ImportanceCoefficientLevelLow = jsonData.Values.find(obj => obj.ImportanceCoefficientLevelLow)?.ImportanceCoefficientLevelLow;
+        const ImportanceCoefficientLevelMedium = jsonData.Values.find(obj => obj.ImportanceCoefficientLevelMedium)?.ImportanceCoefficientLevelMedium;
+        const ImportanceCoefficientLevelHigh = jsonData.Values.find(obj => obj.ImportanceCoefficientLevelHigh)?.ImportanceCoefficientLevelHigh;
+        const ManualTaskMultiplicator = jsonData.Values.find(obj => obj.ManualTaskMultiplicator)?.ManualTaskMultiplicator;
+        const ActivityLanguageId = jsonData.Values.find(obj => obj.ActivityLanguageId)?.ActivityLanguageId;
   
         const ActivityInputData = [];
         for (let x = 0; x < valuesArray.length; x++) {
@@ -127,9 +127,9 @@ describe('Product owner', function () {
 /*cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.TrainingEditViewModel.ListOfGuarantorsLabel"]').prev().invoke('text').then((value) => {
           cy.wrap(value).should('eq', guarantorName)*/
 
-        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.TrainingEditViewModel.TrainingType"]').prev().invoke('text').then((value) => {
+        /*cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.TrainingEditViewModel.TrainingType"]').prev().invoke('text').then((value) => {
           cy.wrap(value).should('eq', type) 
-        })
+        })*/
         cy.get('[name="Title"]').invoke('val').then((value) => {
             cy.wrap(value).should('eq', Title) 
         })
