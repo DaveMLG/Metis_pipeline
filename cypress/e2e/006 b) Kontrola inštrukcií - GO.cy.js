@@ -35,7 +35,6 @@ describe('Product owner', function () {
         })
       }
     })
-
   })
 })
 })

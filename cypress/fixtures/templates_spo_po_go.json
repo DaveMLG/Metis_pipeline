@@ -1,0 +1,448 @@
+{
+  "Values": [
+    {
+      "educationType": "427"
+    },
+    {
+      "possibleTasks": "5"
+    },
+    {
+      "possibleTasks": "3"
+    },
+    {
+      "possibleTasks": "21"
+    },
+    {
+      "possibleTasks": "20"
+    },
+    {
+      "possibleTasks": "19"
+    },
+    {
+      "possibleTasks": "14"
+    },
+    {
+      "possibleTasks": "7"
+    },
+    {
+      "possibleTasks": "16"
+    },
+    {
+      "possibleTasks": "8"
+    },
+    {
+      "possibleTasks": "9"
+    },
+    {
+      "possibleTasks": "4"
+    },
+    {
+      "possibleTasks": "15"
+    },
+    {
+      "possibleTasks": "10"
+    },
+    {
+      "possibleTasks": "6"
+    },
+    {
+      "possibleTasks": "13"
+    },
+    {
+      "possibleTasks": "1"
+    },
+    {
+      "possibleTasks": "17"
+    },
+    {
+      "possibleTasks": "12"
+    },
+    {
+      "possibleTasks": "18"
+    },
+    {
+      "possibleTasks": "2"
+    },
+    {
+      "trainingType": "1"
+    },
+    {
+      "titleName": "Šablóna na pretestovanie úloh"
+    },
+    {
+      "summary": " 20 "
+    },
+    {
+      "summary": " 54500 "
+    },
+    {
+      "summary": " 5:20 "
+    },
+    {
+      "summary": " 3:10 "
+    },
+    {
+      "summary": " 0:00 "
+    },
+    {
+      "templates": "1"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "0:40"
+    },
+    {
+      "templates": "2"
+    },
+    {
+      "templates": "0:30"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "1"
+    },
+    {
+      "templates": "0:30"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "2"
+    },
+    {
+      "templates": "0:30"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "3"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "4"
+    },
+    {
+      "templates": "0:30"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "5"
+    },
+    {
+      "templates": "0:30"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "1"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "2"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "3"
+    },
+    {
+      "templates": "0:30"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "4"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "5"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "6"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "7"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "8"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "9"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "10"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "11"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "2:30"
+    },
+    {
+      "templates": "12"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "templates": "13"
+    },
+    {
+      "templates": "0:10"
+    },
+    {
+      "templates": "0:00"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "300"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "500"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "300"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "300"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "500"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "500"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "500"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "300"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "100"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "selectVals": "500"
+    },
+    {
+      "selectVals": "0: null"
+    },
+    {
+      "templateGeneric": "1500"
+    },
+    {
+      "templateGeneric": "4500"
+    },
+    {
+      "templateGeneric": "6000"
+    },
+    {
+      "templateGeneric": "6000"
+    },
+    {
+      "templateGeneric": "2000"
+    },
+    {
+      "templateGeneric": "6000"
+    },
+    {
+      "templateGeneric": "6000"
+    },
+    {
+      "templateGeneric": "1500"
+    },
+    {
+      "templateGeneric": "1500"
+    },
+    {
+      "templateGeneric": "4500"
+    },
+    {
+      "templateGeneric": "1500"
+    },
+    {
+      "templateGeneric": "1500"
+    },
+    {
+      "templateGeneric": "1500"
+    },
+    {
+      "templateGeneric": "1500"
+    },
+    {
+      "templateGeneric": "1500"
+    },
+    {
+      "templateGeneric": "1500"
+    },
+    {
+      "templateGeneric": "1500"
+    },
+    {
+      "templateGeneric": "1500"
+    },
+    {
+      "templateGeneric": "1500"
+    },
+    {
+      "templateGeneric": "1500"
+    }
+  ]
+}
