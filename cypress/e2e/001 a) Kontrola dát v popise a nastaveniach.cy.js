@@ -22,7 +22,8 @@ describe('Product owner', function () {
             cy.viewport(1920, 937);
             cy.get('.icon-menu-elearning').click();
             cy.get('[href="/admin/elearning/training"]').click();
-            cy.get('[placeholder="Kľúčové slovo"]').type('PO CY')
+            cy.wait(3000)
+            cy.get('[type = "text"]').first().clear().type('PO CY')
             cy.get('[type="submit"]').first().click()
             cy.wait(5000);
             cy.sortTableByColumn('Vytvorené');

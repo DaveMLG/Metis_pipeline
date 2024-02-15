@@ -22,7 +22,8 @@ describe('Product owner', function () {
     cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
-    cy.get('[placeholder="Kľúčové slovo"]').type("PO CY_edit");
+    cy.wait(3000)
+    cy.get('[type = "text"]').first().clear().type("PO CY_edit");
     cy.get('[type="submit"]').click();
     cy.contains('PO CY_edit').click();
     cy.wait(3000);

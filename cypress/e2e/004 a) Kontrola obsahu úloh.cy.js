@@ -19,12 +19,13 @@ cy.viewport(1920, 937);
 cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
 cy.get('@nastavenia').click();
 cy.get('[href="/admin/elearning/training"]').click();
-cy.get('[placeholder="Kľúčové slovo"]').type("PO CY_edit");
+cy.wait(3000)
+cy.get('[type = "text"]').first().clear().type("PO CY_edit");
 cy.get('[type="submit"]').click();
 cy.contains('PO CY_edit').click();
-cy.wait(3000);
+cy.wait(1000);
 cy.get(':nth-child(5) > .nav-link').click();
-cy.wait(3000);
+cy.wait(1000);
 
 ////Samoštúdium
 cy.get('tbody').find('tr').contains('Sam').then(edit => {
