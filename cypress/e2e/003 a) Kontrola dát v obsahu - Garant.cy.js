@@ -63,7 +63,7 @@ describe('Product owner', function () {
               renamedValue = 'Stredná';
               break;
             case '500':
-              renamedValue = 'Ťažká';
+              renamedValue = 'Vysoká';
               break;
             default:
               renamedValue = originalValue;

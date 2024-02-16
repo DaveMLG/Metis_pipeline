@@ -64,10 +64,11 @@ describe('Product owner', function() {
     cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
     cy.get('@nastavenia').click(); 
     cy.get('[href="/admin/elearning/training"]').click();
-    cy.get('[placeholder="Kľúčové slovo"]').type("CY pridanie inštrukcií");
+    cy.wait(3000)
+    cy.get('[type = "text"]').first().clear().type('PO CY')
     cy.get('[type="submit"]').click();
-    cy.contains('CY pridanie inštrukcií').click();
-    cy.get('.nav-link').contains('Inštrukcie').click();
+    cy.contains('PO CY').click();
+    cy.get(':nth-child(6) > .nav-link').click();
   
     let rowIndex = 1;
 

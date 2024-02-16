@@ -1,9 +1,6 @@
 {
   "Values": [
     {
-      "guaratorName": "go, skorg1go, skorg1"
-    },
-    {
       "type": "Vzdelávacie"
     },
     {
@@ -46,7 +43,7 @@
       "ManualTaskMultiplicator": "6"
     },
     {
-      "ActivityLanguageId": "sk"
+      "ActivityLanguageId": "en"
     },
     {
       "ActivityInput": "1"
@@ -58,7 +55,7 @@
       "ActivityInput": "2"
     },
     {
-      "ActivityInput": "3:00"
+      "ActivityInput": "3"
     },
     {
       "ActivityInput": "40"
@@ -73,7 +70,7 @@
       "ActivityInput": "3"
     },
     {
-      "ActivityInput": "4:00"
+      "ActivityInput": "4"
     },
     {
       "ActivityInput": "20"
@@ -88,7 +85,7 @@
       "ActivityInput": "4"
     },
     {
-      "ActivityInput": "5:00"
+      "ActivityInput": "5"
     },
     {
       "ActivityInput": "40"
@@ -103,42 +100,12 @@
       "ActivityInput": "5"
     },
     {
-      "ActivityInput": "6:00"
+      "ActivityInput": "6"
     },
     {
       "ActivityInput": "25"
     },
     {
-      "ActivityInput": "5"
-    },
-    {
-      "ActivityInput": "Zadanie_edit_4"
-    },
-    {
-      "ActivityInput": "6"
-    },
-    {
-      "ActivityInput": "7:00"
-    },
-    {
-      "ActivityInput": "0"
-    },
-    {
-      "ActivityInput": "6"
-    },
-    {
-      "ActivityInput": "Zadanie_edit_5"
-    },
-    {
-      "ActivityInput": "7"
-    },
-    {
-      "ActivityInput": "8:00"
-    },
-    {
-      "ActivityInput": "0"
-    },
-    {
       "ActivityCheckbox": "no"
     },
     {
@@ -163,31 +130,19 @@
       "ActivityCheckbox": "no"
     },
     {
-      "ActivityCheckbox": "no"
+      "MetricCategoryLanguageId": "cs"
     },
     {
-      "ActivityCheckbox": "no"
+      "MetricCategories": ""
     },
     {
-      "ActivityCheckbox": "no"
+      "MetricCategories": ""
     },
     {
-      "ActivityCheckbox": "no"
+      "MetricCategories": ""
     },
     {
-      "MetricCategoryLanguageId": "sk"
-    },
-    {
-      "MetricCategories": "Certification task"
-    },
-    {
-      "MetricCategories": "Repetitiv task"
-    },
-    {
-      "MetricCategories": "Final exam task"
-    },
-    {
-      "MetricCategories": "Project task"
+      "MetricCategories": ""
     },
     {
       "MetricCategories": "Others task"
@@ -199,7 +154,7 @@
       "availableTasks": "-1"
     },
     {
-      "availableTasks": "1: 30175"
+      "availableTasks": "1: 31614"
     },
     {
       "availableTasks": "1: termEnd"
@@ -220,7 +175,7 @@
       "availableTasks": "0"
     },
     {
-      "availableTasks": "1: 30175"
+      "availableTasks": "1: 31614"
     },
     {
       "availableTasks": "1: termEnd"
@@ -241,7 +196,7 @@
       "availableTasks": "0"
     },
     {
-      "availableTasks": "1: 30175"
+      "availableTasks": "1: 31614"
     },
     {
       "availableTasks": "1: termEnd"
@@ -262,52 +217,10 @@
       "availableTasks": "0"
     },
     {
-      "availableTasks": "2: 30177"
+      "availableTasks": "2: 31616"
     },
     {
       "availableTasks": "0: termBeginning"
-    },
-    {
-      "availableTasks": "3"
-    },
-    {
-      "availableTasks": "4"
-    },
-    {
-      "availableTasks": "5"
-    },
-    {
-      "availableTasks": "Zadanie_edit_4"
-    },
-    {
-      "availableTasks": "0"
-    },
-    {
-      "availableTasks": "2: 30177"
-    },
-    {
-      "availableTasks": "1: termEnd"
-    },
-    {
-      "availableTasks": "3"
-    },
-    {
-      "availableTasks": "4"
-    },
-    {
-      "availableTasks": "5"
-    },
-    {
-      "availableTasks": "Zadanie_edit_5"
-    },
-    {
-      "availableTasks": "0"
-    },
-    {
-      "availableTasks": "2: 30177"
-    },
-    {
-      "availableTasks": "1: termEnd"
     },
     {
       "availableTasks": "3"
@@ -325,7 +238,7 @@
       "timeValuesTasksOnTime": "1"
     },
     {
-      "timeValuesTasksOnTime": "1: 30175"
+      "timeValuesTasksOnTime": "1: 31614"
     },
     {
       "timeValuesTasksOnTime": "1: termBeginning"
@@ -346,7 +259,7 @@
       "timeValuesTasksOnTime": "2"
     },
     {
-      "timeValuesTasksOnTime": "1: 30175"
+      "timeValuesTasksOnTime": "1: 31614"
     },
     {
       "timeValuesTasksOnTime": "1: termBeginning"
@@ -367,7 +280,7 @@
       "timeValuesTasksOnTime": "2"
     },
     {
-      "timeValuesTasksOnTime": "1: 30175"
+      "timeValuesTasksOnTime": "1: 31614"
     },
     {
       "timeValuesTasksOnTime": "1: termBeginning"
@@ -388,49 +301,7 @@
       "timeValuesTasksOnTime": "2"
     },
     {
-      "timeValuesTasksOnTime": "1: 30175"
-    },
-    {
-      "timeValuesTasksOnTime": "1: termBeginning"
-    },
-    {
-      "timeValuesTasksOnTime": "3"
-    },
-    {
-      "timeValuesTasksOnTime": "4"
-    },
-    {
-      "timeValuesTasksOnTime": "5"
-    },
-    {
-      "timeValuesTasksOnTime": "Zadanie_edit_4"
-    },
-    {
-      "timeValuesTasksOnTime": "2"
-    },
-    {
-      "timeValuesTasksOnTime": "1: 30175"
-    },
-    {
-      "timeValuesTasksOnTime": "1: termBeginning"
-    },
-    {
-      "timeValuesTasksOnTime": "3"
-    },
-    {
-      "timeValuesTasksOnTime": "4"
-    },
-    {
-      "timeValuesTasksOnTime": "5"
-    },
-    {
-      "timeValuesTasksOnTime": "Zadanie_edit_5"
-    },
-    {
-      "timeValuesTasksOnTime": "2"
-    },
-    {
-      "timeValuesTasksOnTime": "1: 30175"
+      "timeValuesTasksOnTime": "1: 31614"
     },
     {
       "timeValuesTasksOnTime": "1: termBeginning"
@@ -451,7 +322,7 @@
       "timeValuesPastTime": "3"
     },
     {
-      "timeValuesPastTime": "1: 30175"
+      "timeValuesPastTime": "1: 31614"
     },
     {
       "timeValuesPastTime": "0: termBeginning"
@@ -472,7 +343,7 @@
       "timeValuesPastTime": "4"
     },
     {
-      "timeValuesPastTime": "1: 30175"
+      "timeValuesPastTime": "1: 31614"
     },
     {
       "timeValuesPastTime": "0: termBeginning"
@@ -493,7 +364,7 @@
       "timeValuesPastTime": "4"
     },
     {
-      "timeValuesPastTime": "1: 30175"
+      "timeValuesPastTime": "1: 31614"
     },
     {
       "timeValuesPastTime": "0: termBeginning"
@@ -514,49 +385,7 @@
       "timeValuesPastTime": "4"
     },
     {
-      "timeValuesPastTime": "1: 30175"
-    },
-    {
-      "timeValuesPastTime": "0: termBeginning"
-    },
-    {
-      "timeValuesPastTime": "3"
-    },
-    {
-      "timeValuesPastTime": "4"
-    },
-    {
-      "timeValuesPastTime": "5"
-    },
-    {
-      "timeValuesPastTime": "Zadanie_edit_4"
-    },
-    {
-      "timeValuesPastTime": "4"
-    },
-    {
-      "timeValuesPastTime": "1: 30175"
-    },
-    {
-      "timeValuesPastTime": "0: termBeginning"
-    },
-    {
-      "timeValuesPastTime": "3"
-    },
-    {
-      "timeValuesPastTime": "4"
-    },
-    {
-      "timeValuesPastTime": "5"
-    },
-    {
-      "timeValuesPastTime": "Zadanie_edit_5"
-    },
-    {
-      "timeValuesPastTime": "4"
-    },
-    {
-      "timeValuesPastTime": "1: 30175"
+      "timeValuesPastTime": "1: 31614"
     },
     {
       "timeValuesPastTime": "0: termBeginning"

@@ -110,7 +110,7 @@ describe('Product owner', function () {
             DataValues.push({ManualTaskMultiplicator: value})
           })
           
-          cy.get('[id="ActivityLanguageId"]').select('Čeština')
+          cy.get('[id="ActivityLanguageId"]').select('English')
           cy.get('[id="ActivityLanguageId"]').invoke('val').then((value) => {
             DataValues.push({ActivityLanguageId: value})
           })
