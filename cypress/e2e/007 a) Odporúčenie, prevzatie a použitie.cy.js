@@ -10,7 +10,7 @@ describe('Product owner', function () {
     cy.get('[type="submit"]').click();
   });
 
-   //Polia pre dáta
+   // Polia pre dáta
    let 
    DataValues = [],
     jsonData = {}
