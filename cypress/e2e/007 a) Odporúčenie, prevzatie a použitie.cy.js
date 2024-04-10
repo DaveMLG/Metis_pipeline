@@ -82,7 +82,7 @@ describe('Product owner', function () {
     cy.get('[onclick="history.back()"]').first().click()
     cy.wait(1000)
     cy.contains('Šablóna na pretestovanie úloh').parentsUntil('tr').parent().find('td:last-child').find('[type="checkbox"]').as('chckbx')
-    //cy.get('@chckbx').check({force: true})
+    cy.get('@chckbx').check({force: true})
     cy.get('@chckbx').should('be.checked')
 
   })
@@ -102,9 +102,9 @@ describe('Product owner', function () {
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
     cy.wait(5000)
-    cy.get('[type = "text"]').first().type("PO CY_edit");
+    cy.get('[type = "text"]').first().type("CY testing");
     cy.get('[type="submit"]').click();
-    cy.contains('PO CY_edit').click();
+    cy.contains('CY testing').click();
     cy.wait(3000);
     cy.get(':nth-child(4) > .nav-link').click();
     cy.wait(3000);
@@ -112,7 +112,7 @@ describe('Product owner', function () {
     cy.get('[type = "text"]').first().clear().type('Šablóna na pretestovanie úloh')
     cy.get('[type="submit"]').click()
 
-    //cy.get('[type="checkbox"]').first().check({force: true})
+    cy.get('[type="checkbox"]').first().check({force: true})
     cy.get('[type="checkbox"]').should('be.checked')
   })
 
@@ -132,9 +132,9 @@ describe('Product owner', function () {
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
     cy.wait(5000)
-    cy.get('[type = "text"]').first().type("PO CY_edit");
+    cy.get('[type = "text"]').first().type("CY testing");
     cy.get('[type="submit"]').click();
-    cy.contains('PO CY_edit').click();
+    cy.contains('CY testing').click();
     cy.wait(3000);
     cy.get(':nth-child(4) > .nav-link').click();
     cy.wait(3000);

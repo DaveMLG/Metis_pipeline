@@ -23,11 +23,11 @@ describe('Product owner', function () {
           cy.get('.icon-menu-elearning').click();
           cy.get('[href="/admin/elearning/training"]').click();
           cy.wait(3000)
-          cy.get('[type = "text"]').first().clear().type('PO CY')
+          cy.get('[type = "text"]').first().clear().type('CY testing')
           cy.get('[type="submit"]').first().click()
           cy.wait(5000)
           cy.sortTableByColumn('Vytvorené');
-          cy.get('tbody').contains('Prevzaté').parent().parent().contains('PO CY').click({timeout: 10000});
+          cy.get('tbody').contains('Prevzaté').parent().parent().contains('CY testing').click({timeout: 10000});
 
           /*cy.get('[for="Guarantors"]').parentsUntil('.row').find('span').invoke('text').then((value) => {
             DataValues.push({guaratorName: value}) 
@@ -39,7 +39,7 @@ describe('Product owner', function () {
             DataValues.push({type: value}) 
           })
 
-          cy.get('[name="Title"]').clear().type('PO CY_edit')
+          cy.get('[name="Title"]').clear().type('CY testing')
           cy.get('[name="Title"]').invoke('val').then((value) => {
               DataValues.push({Title: value}) 
           })
@@ -485,7 +485,7 @@ describe('Product owner', function () {
         
         cy.get('[type="submit"]').click()
 
-        cy.wait(3000)
+        cy.wait(10000)
         cy.get('af-tabs').find('li').first().click()
         cy.get('[type="button"]').first().click()
       })

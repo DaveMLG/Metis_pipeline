@@ -10,96 +10,6 @@
       "genericVals": ""
     },
     {
-      "genericVals": "1. Zadanie_edit_0"
-    },
-    {
-      "genericVals": "Videosamoštúdium"
-    },
-    {
-      "genericVals": "Videosamoštúdium"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "2. Lekcia2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Zadanie_edit_0"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "2. Lekcia2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Zadanie_edit_0"
-    },
-    {
-      "genericVals": "Samoštúdium"
-    },
-    {
-      "genericVals": "Samoštúdium"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "2. Lekcia2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
       "genericVals": "2. Zadanie_edit_1"
     },
     {
@@ -136,10 +46,70 @@
       "genericVals": "Webinár"
     },
     {
-      "genericVals": "Webinár"
+      "genericVals": "Webinar"
     },
     {
       "genericVals": "2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "2. Zadanie_edit_1"
+    },
+    {
+      "genericVals": "Webinár"
+    },
+    {
+      "genericVals": "Webinár"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "2. Zadanie_edit_1"
+    },
+    {
+      "genericVals": "Videosamoštúdium"
+    },
+    {
+      "genericVals": "Video self-study"
+    },
+    {
+      "genericVals": "4"
     },
     {
       "genericVals": ""
@@ -169,7 +139,37 @@
       "genericVals": "Videosamoštúdium"
     },
     {
-      "genericVals": "3"
+      "genericVals": "5"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "2. Zadanie_edit_1"
+    },
+    {
+      "genericVals": "Videosamoštúdium"
+    },
+    {
+      "genericVals": "Videosamoštúdium"
+    },
+    {
+      "genericVals": "6"
     },
     {
       "genericVals": ""
@@ -193,10 +193,10 @@
       "genericVals": "3. Zadanie_edit_2"
     },
     {
-      "genericVals": "Doplňovačka"
+      "genericVals": "Samoštúdium"
     },
     {
-      "genericVals": "Doplňovačka"
+      "genericVals": "Samoštúdium"
     },
     {
       "genericVals": "1"
@@ -223,10 +223,10 @@
       "genericVals": "3. Zadanie_edit_2"
     },
     {
-      "genericVals": "Párovačka"
+      "genericVals": "Otvorený test"
     },
     {
-      "genericVals": "Párovačka"
+      "genericVals": "Otvorený test"
     },
     {
       "genericVals": "2"
@@ -253,10 +253,10 @@
       "genericVals": "3. Zadanie_edit_2"
     },
     {
-      "genericVals": "Preferenčný test"
+      "genericVals": "Zadanie"
     },
     {
-      "genericVals": "Preferenčný test"
+      "genericVals": "Zadanie"
     },
     {
       "genericVals": "3"
@@ -286,7 +286,7 @@
       "genericVals": "Samoštúdium"
     },
     {
-      "genericVals": "Samoštúdium"
+      "genericVals": "Self-study"
     },
     {
       "genericVals": "4"
@@ -313,10 +313,10 @@
       "genericVals": "3. Zadanie_edit_2"
     },
     {
-      "genericVals": "Preklad"
+      "genericVals": "Samoštúdium"
     },
     {
-      "genericVals": "Preklad"
+      "genericVals": "Samoštúdium"
     },
     {
       "genericVals": "5"
@@ -346,7 +346,7 @@
       "genericVals": "Otvorený test"
     },
     {
-      "genericVals": "Otvorený test"
+      "genericVals": "Open test"
     },
     {
       "genericVals": "6"
@@ -373,10 +373,10 @@
       "genericVals": "3. Zadanie_edit_2"
     },
     {
-      "genericVals": "Anketa"
+      "genericVals": "Projekt"
     },
     {
-      "genericVals": "Anketa"
+      "genericVals": "Projekt"
     },
     {
       "genericVals": "7"
@@ -406,7 +406,7 @@
       "genericVals": "Zadanie"
     },
     {
-      "genericVals": "Zadanie"
+      "genericVals": "Assignment"
     },
     {
       "genericVals": "8"
@@ -433,10 +433,10 @@
       "genericVals": "3. Zadanie_edit_2"
     },
     {
-      "genericVals": "Spätná väzba"
+      "genericVals": "Otvorený test"
     },
     {
-      "genericVals": "Spätná väzba"
+      "genericVals": "Otvorený test"
     },
     {
       "genericVals": "9"
@@ -466,7 +466,7 @@
       "genericVals": "Projekt"
     },
     {
-      "genericVals": "Projekt"
+      "genericVals": "Project"
     },
     {
       "genericVals": "10"
@@ -493,10 +493,10 @@
       "genericVals": "3. Zadanie_edit_2"
     },
     {
-      "genericVals": "Osobnostný test"
+      "genericVals": "Automatický test"
     },
     {
-      "genericVals": "Osobnostný test"
+      "genericVals": "Automatický test"
     },
     {
       "genericVals": "11"
@@ -526,7 +526,7 @@
       "genericVals": "Automatický test"
     },
     {
-      "genericVals": "Automatický test"
+      "genericVals": "Automated test"
     },
     {
       "genericVals": "12"
@@ -553,10 +553,10 @@
       "genericVals": "3. Zadanie_edit_2"
     },
     {
-      "genericVals": "IQ test"
+      "genericVals": "Zadanie"
     },
     {
-      "genericVals": "IQ test"
+      "genericVals": "Zadanie"
     },
     {
       "genericVals": "13"
@@ -583,10 +583,10 @@
       "genericVals": "3. Zadanie_edit_2"
     },
     {
-      "genericVals": "Checklist"
+      "genericVals": "Projekt"
     },
     {
-      "genericVals": "Checklist"
+      "genericVals": "Projekt"
     },
     {
       "genericVals": "14"
@@ -613,10 +613,10 @@
       "genericVals": "3. Zadanie_edit_2"
     },
     {
-      "genericVals": "Diskusia"
+      "genericVals": "Automatický test"
     },
     {
-      "genericVals": "Diskusia"
+      "genericVals": "Automatický test"
     },
     {
       "genericVals": "15"
@@ -640,13 +640,463 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadanie_edit_2"
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Doplňovačka"
+    },
+    {
+      "genericVals": "Doplňovačka"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Párovačka"
+    },
+    {
+      "genericVals": "Párovačka"
+    },
+    {
+      "genericVals": "2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
     },
     {
       "genericVals": "Spoločná práca s mentorom"
     },
     {
       "genericVals": "Spoločná práca s mentorom"
+    },
+    {
+      "genericVals": "3"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Preferenčný test"
+    },
+    {
+      "genericVals": "Preferenčný test"
+    },
+    {
+      "genericVals": "4"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Preklad"
+    },
+    {
+      "genericVals": "Preklad"
+    },
+    {
+      "genericVals": "5"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Anketa"
+    },
+    {
+      "genericVals": "Anketa"
+    },
+    {
+      "genericVals": "6"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Spätná väzba"
+    },
+    {
+      "genericVals": "Spätná väzba"
+    },
+    {
+      "genericVals": "7"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Osobnostný test"
+    },
+    {
+      "genericVals": "Osobnostný test"
+    },
+    {
+      "genericVals": "8"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Doplňovačka"
+    },
+    {
+      "genericVals": "Fill in"
+    },
+    {
+      "genericVals": "9"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Doplňovačka"
+    },
+    {
+      "genericVals": "Doplňovačka"
+    },
+    {
+      "genericVals": "10"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Párovačka"
+    },
+    {
+      "genericVals": "Matching"
+    },
+    {
+      "genericVals": "11"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Potvrdenie absolvovania"
+    },
+    {
+      "genericVals": "Potvrdenie absolvovania"
+    },
+    {
+      "genericVals": "12"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Spoločná práca s mentorom"
+    },
+    {
+      "genericVals": "Shared assignment with mentor"
+    },
+    {
+      "genericVals": "13"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Párovačka"
+    },
+    {
+      "genericVals": "Párovačka"
+    },
+    {
+      "genericVals": "14"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Preferenčný test"
+    },
+    {
+      "genericVals": "Preference test"
+    },
+    {
+      "genericVals": "15"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Diskusia"
+    },
+    {
+      "genericVals": "Diskusia"
     },
     {
       "genericVals": "16"
@@ -670,13 +1120,13 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadanie_edit_2"
+      "genericVals": "4. Zadanie_edit_3"
     },
     {
-      "genericVals": "Otvorený test"
+      "genericVals": "Preklad"
     },
     {
-      "genericVals": "Otvorený test"
+      "genericVals": "Translation"
     },
     {
       "genericVals": "17"
@@ -700,13 +1150,13 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadanie_edit_2"
+      "genericVals": "4. Zadanie_edit_3"
     },
     {
-      "genericVals": "Zadanie"
+      "genericVals": "Spoločná práca s mentorom"
     },
     {
-      "genericVals": "Zadanie"
+      "genericVals": "Spoločná práca s mentorom"
     },
     {
       "genericVals": "18"
@@ -730,13 +1180,13 @@
       "genericVals": ""
     },
     {
-      "genericVals": "3. Zadanie_edit_2"
+      "genericVals": "4. Zadanie_edit_3"
     },
     {
-      "genericVals": "Projekt"
+      "genericVals": "Anketa"
     },
     {
-      "genericVals": "Projekt"
+      "genericVals": "Questionnaire"
     },
     {
       "genericVals": "19"
@@ -769,7 +1219,7 @@
       "genericVals": "Cvičenie"
     },
     {
-      "genericVals": "1"
+      "genericVals": "20"
     },
     {
       "genericVals": ""
@@ -793,133 +1243,13 @@
       "genericVals": "4. Zadanie_edit_3"
     },
     {
-      "genericVals": "Potvrdenie absolvovania"
+      "genericVals": "Spätná väzba"
     },
     {
-      "genericVals": "Potvrdenie absolvovania"
+      "genericVals": "Feedback"
     },
     {
-      "genericVals": "2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "2. Lekcia2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Zadanie_edit_3"
-    },
-    {
-      "genericVals": "Párovačka"
-    },
-    {
-      "genericVals": "Párovačka"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "2. Lekcia2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Zadanie_edit_3"
-    },
-    {
-      "genericVals": "Doplňovačka"
-    },
-    {
-      "genericVals": "Doplňovačka"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "2. Lekcia2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Zadanie_edit_3"
-    },
-    {
-      "genericVals": "Párovačka"
-    },
-    {
-      "genericVals": "Párovačka"
-    },
-    {
-      "genericVals": "5"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "2. Lekcia2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Zadanie_edit_3"
-    },
-    {
-      "genericVals": "Spoločná práca s mentorom"
-    },
-    {
-      "genericVals": "Spoločná práca s mentorom"
-    },
-    {
-      "genericVals": "6"
+      "genericVals": "21"
     },
     {
       "genericVals": ""
@@ -949,97 +1279,7 @@
       "genericVals": "Preferenčný test"
     },
     {
-      "genericVals": "7"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "2. Lekcia2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Zadanie_edit_3"
-    },
-    {
-      "genericVals": "Preklad"
-    },
-    {
-      "genericVals": "Preklad"
-    },
-    {
-      "genericVals": "8"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "2. Lekcia2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Zadanie_edit_3"
-    },
-    {
-      "genericVals": "Anketa"
-    },
-    {
-      "genericVals": "Anketa"
-    },
-    {
-      "genericVals": "9"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "2. Lekcia2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Zadanie_edit_3"
-    },
-    {
-      "genericVals": "Spätná väzba"
-    },
-    {
-      "genericVals": "Spätná väzba"
-    },
-    {
-      "genericVals": "10"
+      "genericVals": "22"
     },
     {
       "genericVals": ""
@@ -1066,100 +1306,10 @@
       "genericVals": "Osobnostný test"
     },
     {
-      "genericVals": "Osobnostný test"
+      "genericVals": "Personality test"
     },
     {
-      "genericVals": "11"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "2. Lekcia2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Zadanie_edit_3"
-    },
-    {
-      "genericVals": "Potvrdenie absolvovania"
-    },
-    {
-      "genericVals": "Potvrdenie absolvovania"
-    },
-    {
-      "genericVals": "12"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "2. Lekcia2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Zadanie_edit_3"
-    },
-    {
-      "genericVals": "Diskusia"
-    },
-    {
-      "genericVals": "Diskusia"
-    },
-    {
-      "genericVals": "13"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "2. Lekcia2"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Zadanie_edit_3"
-    },
-    {
-      "genericVals": "Cvičenie"
-    },
-    {
-      "genericVals": "Cvičenie"
-    },
-    {
-      "genericVals": "14"
+      "genericVals": "23"
     },
     {
       "genericVals": ""
@@ -1189,7 +1339,97 @@
       "genericVals": "Checklist"
     },
     {
-      "genericVals": "15"
+      "genericVals": "24"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Potvrdenie absolvovania"
+    },
+    {
+      "genericVals": "Confirmation"
+    },
+    {
+      "genericVals": "25"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Preklad"
+    },
+    {
+      "genericVals": "Preklad"
+    },
+    {
+      "genericVals": "26"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Diskusia"
+    },
+    {
+      "genericVals": "Discussion"
+    },
+    {
+      "genericVals": "27"
     },
     {
       "genericVals": ""
@@ -1219,7 +1459,337 @@
       "genericVals": "IQ test"
     },
     {
-      "genericVals": "16"
+      "genericVals": "28"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Cvičenie"
+    },
+    {
+      "genericVals": "Labs"
+    },
+    {
+      "genericVals": "29"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Anketa"
+    },
+    {
+      "genericVals": "Anketa"
+    },
+    {
+      "genericVals": "30"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Checklist"
+    },
+    {
+      "genericVals": "Checklist"
+    },
+    {
+      "genericVals": "31"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Spätná väzba"
+    },
+    {
+      "genericVals": "Spätná väzba"
+    },
+    {
+      "genericVals": "32"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "IQ test"
+    },
+    {
+      "genericVals": "IQ test"
+    },
+    {
+      "genericVals": "33"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Osobnostný test"
+    },
+    {
+      "genericVals": "Osobnostný test"
+    },
+    {
+      "genericVals": "34"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Potvrdenie absolvovania"
+    },
+    {
+      "genericVals": "Potvrdenie absolvovania"
+    },
+    {
+      "genericVals": "35"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Diskusia"
+    },
+    {
+      "genericVals": "Diskusia"
+    },
+    {
+      "genericVals": "36"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Cvičenie"
+    },
+    {
+      "genericVals": "Cvičenie"
+    },
+    {
+      "genericVals": "37"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "Checklist"
+    },
+    {
+      "genericVals": "Checklist"
+    },
+    {
+      "genericVals": "38"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Téma"
+    },
+    {
+      "genericVals": "2. Lekcia2"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "4. Zadanie_edit_3"
+    },
+    {
+      "genericVals": "IQ test"
+    },
+    {
+      "genericVals": "IQ test"
+    },
+    {
+      "genericVals": "39"
     },
     {
       "genericVals": ""

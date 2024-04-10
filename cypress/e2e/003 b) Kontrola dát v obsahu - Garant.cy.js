@@ -41,11 +41,11 @@ describe('Product owner', function () {
       cy.get('.icon-menu-elearning').click();
       cy.get('[href="/admin/elearning/training"]').click();
       cy.wait(3000)
-      cy.get('[type = "text"]').first().clear().type('PO CY_edit')
+      cy.get('[type = "text"]').first().clear().type('CY testing')
       cy.get('[type="submit"]').first().click();
       cy.wait(5000);
       //cy.sortTableByColumn('Vytvorené');
-      cy.contains('PO CY_edit').click({ timeout: 100000 });
+      cy.contains('CY testing').click({ timeout: 100000 });
       cy.get(':nth-child(5) > .nav-link').click();
 
       /*cy.get('el-lessons-summary').find('tr').find('td').then((value) => {

@@ -20,9 +20,9 @@ cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-chil
 cy.get('@nastavenia').click();
 cy.get('[href="/admin/elearning/training"]').click();
 cy.wait(3000)
-cy.get('[type = "text"]').first().clear().type("PO CY_edit");
+cy.get('[type = "text"]').first().clear().type("CY testing");
 cy.get('[type="submit"]').click();
-cy.contains('PO CY_edit').click();
+cy.contains('CY testing').click();
 cy.wait(1000);
 cy.get(':nth-child(5) > .nav-link').click();
 cy.wait(1000);
@@ -36,9 +36,14 @@ DataValues.push({taskOrder: value})
 });
 
 cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-cy.wrap(value).invoke('val').then((pushVals) => {
-DataValues.push({ActivityInput: pushVals})
-});
+  const isChecked = value.prop('checked');
+  if (isChecked) {
+      DataValues.push({useLessonName: 'yes'});
+  } else {
+      DataValues.push({useLessonName: 'no'});
+  }
+  });
+
 })
 cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
 DataValues.push({language: value})
@@ -138,10 +143,14 @@ DataValues.push({taskOrder: value})
 });
 
 cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-cy.wrap(value).invoke('val').then((pushVals) => {
-DataValues.push({ActivityInput: pushVals})
-});
-})
+  const isChecked = value.prop('checked');
+  if (isChecked) {
+      DataValues.push({useLessonName: 'yes'});
+  } else {
+      DataValues.push({useLessonName: 'no'});
+  }
+  });
+
 cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
 DataValues.push({language: value})
 });
@@ -215,7 +224,7 @@ cy.get('[name="Description"]').find('[class="note-editing-area"]').invoke('text'
   DataValues.push({Description: value})
 });
 
-cy.get('[id="TestQuestionsText"]').invoke('text').then((value) => {
+cy.get('[id="TestQuestionsText"]').invoke('val').then((value) => {
   DataValues.push({Content: value})
 });
 
@@ -235,10 +244,14 @@ DataValues.push({taskOrder: value})
 });
 
 cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-cy.wrap(value).invoke('val').then((pushVals) => {
-DataValues.push({ActivityInput: pushVals})
-});
-})
+  const isChecked = value.prop('checked');
+  if (isChecked) {
+      DataValues.push({useLessonName: 'yes'});
+  } else {
+      DataValues.push({useLessonName: 'no'});
+  }
+  });
+  
 cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
 DataValues.push({language: value})
 });
@@ -328,7 +341,7 @@ DataValues = [];
 cy.get('[onclick="history.back()"]').first().click().wait(1000)
 })
 })
-})
+
 
 
 ////Webinar
@@ -340,10 +353,14 @@ cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.Ex
 });
 
 cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-  cy.wrap(value).invoke('val').then((pushVals) => {
-    DataValues.push({ActivityInput: pushVals})
-});
-})
+  const isChecked = value.prop('checked');
+  if (isChecked) {
+      DataValues.push({useLessonName: 'yes'});
+  } else {
+      DataValues.push({useLessonName: 'no'});
+  }
+  });
+
 cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
   DataValues.push({language: value})
 });
@@ -417,7 +434,7 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
       DataValues.push({Description: value})
   });
 
-  cy.get('[name="Content"]').invoke('text').then((value) => {
+  cy.get('[name="Content"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
       DataValues.push({Content: value})
   });
 
@@ -439,10 +456,13 @@ cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.Ex
 });
 
 cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-  cy.wrap(value).invoke('val').then((pushVals) => {
-    DataValues.push({ActivityInput: pushVals})
-});
-})
+  const isChecked = value.prop('checked');
+  if (isChecked) {
+      DataValues.push({useLessonName: 'yes'});
+  } else {
+      DataValues.push({useLessonName: 'no'});
+  }
+  });
 cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
   DataValues.push({language: value})
 });
@@ -536,10 +556,13 @@ cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.Ex
 });
 
 cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-  cy.wrap(value).invoke('val').then((pushVals) => {
-    DataValues.push({ActivityInput: pushVals})
-});
-})
+  const isChecked = value.prop('checked');
+  if (isChecked) {
+      DataValues.push({useLessonName: 'yes'});
+  } else {
+      DataValues.push({useLessonName: 'no'});
+  }
+  });
 cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
   DataValues.push({language: value})
 });
@@ -622,7 +645,7 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
   cy.get('[name="pairingOrTranslateForm"]').find('[type="text"]').then((value) => {
     for (let x = 0; x < value.length; x++) {
       cy.wrap(value[x]).invoke('val').then((dataVal) => {
-        DataValues.push({questVals: value})
+        DataValues.push({questVals: dataVal})
       })
     }
   })
@@ -646,10 +669,13 @@ cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.Ex
 });
 
 cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-  cy.wrap(value).invoke('val').then((pushVals) => {
-    DataValues.push({ActivityInput: pushVals})
-});
-})
+  const isChecked = value.prop('checked');
+  if (isChecked) {
+      DataValues.push({useLessonName: 'yes'});
+  } else {
+      DataValues.push({useLessonName: 'no'});
+  }
+  });
 cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
   DataValues.push({language: value})
 });
@@ -705,6 +731,10 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
   cy.get('[name="lecturerInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
       DataValues.push({lecturerInstruction: value})
   });
+
+  cy.get('[name="assignmentDevelopmentProcedure"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+    DataValues.push({assignmentDevelopmentProcedure: value})
+});
 
   cy.get('[name="correctorInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
     DataValues.push({correctorInstruction: value})
@@ -780,10 +810,13 @@ cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
   });
 
   cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-    cy.wrap(value).invoke('val').then((pushVals) => {
-      DataValues.push({ActivityInput: pushVals})
-  });
-})
+    const isChecked = value.prop('checked');
+    if (isChecked) {
+        DataValues.push({useLessonName: 'yes'});
+    } else {
+        DataValues.push({useLessonName: 'no'});
+    }
+    });
   cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
     DataValues.push({language: value})
   });
@@ -857,7 +890,7 @@ cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
         DataValues.push({Description: value})
     });
 
-    cy.get('[id="TestQuestionsText"]').invoke('text').then((value) => {
+    cy.get('[id="TestQuestionsText"]').invoke('val').then((value) => {
         DataValues.push({Content: value})
     });
 
@@ -888,10 +921,13 @@ cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.Ex
 });
 
 cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-  cy.wrap(value).invoke('val').then((pushVals) => {
-    DataValues.push({ActivityInput: pushVals})
-});
-})
+  const isChecked = value.prop('checked');
+  if (isChecked) {
+      DataValues.push({useLessonName: 'yes'});
+  } else {
+      DataValues.push({useLessonName: 'no'});
+  }
+  });
 cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
   DataValues.push({language: value})
 });
@@ -975,7 +1011,7 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
   cy.get('[name="pairingOrTranslateForm"]').find('[type="text"]').then((value) => {
     for (let x = 0; x < value.length; x++) {
       cy.wrap(value[x]).invoke('val').then((dataVal) => {
-        DataValues.push({questVals: value})
+        DataValues.push({questVals: dataVal})
       })
     }
   })
@@ -987,7 +1023,7 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
 
   cy.get('[onclick="history.back()"]').first().click().wait(1000)
 
-  ////Spätná väzba
+  ////Anketa
   cy.get('tbody').find('tr').contains('Ank').then(edit => {
     cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
 
@@ -996,10 +1032,13 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
       });
 
       cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-        cy.wrap(value).invoke('val').then((pushVals) => {
-          DataValues.push({ActivityInput: pushVals})
-      });
-    })
+        const isChecked = value.prop('checked');
+        if (isChecked) {
+            DataValues.push({useLessonName: 'yes'});
+        } else {
+            DataValues.push({useLessonName: 'no'});
+        }
+        });
       cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
         DataValues.push({language: value})
       });
@@ -1073,7 +1112,7 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
             DataValues.push({Description: value})
         });
 
-        cy.get('[id="TestQuestionsText"]').invoke('text').then((value) => {
+        cy.get('[id="TestQuestionsText"]').invoke('val').then((value) => {
             DataValues.push({Content: value})
         });
 
@@ -1085,6 +1124,8 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
 
         cy.get('[onclick="history.back()"]').first().click().wait(1000)
 
+
+        ////Spätná väzba
   cy.get('tbody').find('tr').contains('Spä').then(edit => {
     cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
 
@@ -1093,10 +1134,13 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
     });
 
     cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-      cy.wrap(value).invoke('val').then((pushVals) => {
-        DataValues.push({ActivityInput: pushVals})
-    });
-  })
+      const isChecked = value.prop('checked');
+      if (isChecked) {
+          DataValues.push({useLessonName: 'yes'});
+      } else {
+          DataValues.push({useLessonName: 'no'});
+      }
+      });
     cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
       DataValues.push({language: value})
     });
@@ -1200,10 +1244,13 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
         });
   
         cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-          cy.wrap(value).invoke('val').then((pushVals) => {
-            DataValues.push({ActivityInput: pushVals})
-        });
-      })
+          const isChecked = value.prop('checked');
+          if (isChecked) {
+              DataValues.push({useLessonName: 'yes'});
+          } else {
+              DataValues.push({useLessonName: 'no'});
+          }
+          });
         cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
           DataValues.push({language: value})
         });
@@ -1288,7 +1335,7 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
           cy.get('[name="personalityTestForm"]').find('tr').find('input').then((value) => {
             for (let x = 0; x < value.length; x++) {
               cy.wrap(value[x]).invoke('val').then((dataVAL) => {
-                DataValues.push({characteristicForm: dataVAL})
+                DataValues.push({characteristicFormQnA: dataVAL})
               })
             }
           });
@@ -1309,9 +1356,383 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
 
       cy.get('[onclick="history.back()"]').first().click().wait(1000)
 
-      ////Potvrdenie absolvovania
+      ////Otvorený test
+      cy.get('tbody').find('tr').contains('Otv').then(edit => {
+        cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
+        
+        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.ExerciseOrder"]').next('span').invoke('text').then((value) => {
+        DataValues.push({taskOrder: value})
+        });
+        
+        cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
+          const isChecked = value.prop('checked');
+          if (isChecked) {
+              DataValues.push({useLessonName: 'yes'});
+          } else {
+              DataValues.push({useLessonName: 'no'});
+          }
+          });
+        
+        cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
+        DataValues.push({language: value})
+        });
+        
+        cy.get('[id="LengthInTime"]').invoke('val').then((value) => {
+        DataValues.push({LengthInTime: value})
+        });
+        
+        cy.get('[id="EstimateTimeForEvaluationInTime"]').invoke('val').then((value) => {
+        DataValues.push({EstimateTimeForEvaluationInTime: value})
+        });
+        
+        cy.get('[for="ExperiencePoints"]').nextUntil('span').invoke('text').then((value) => {
+        DataValues.push({ExperiencePoints: value})
+        });
+        
+        cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
+        DataValues.push({difficulty: value})
+        })
+        
+        cy.get('[name="IsTimeLimitedTask"]').find('[type="checkbox"]').then((value) => {
+        const isChecked = value.prop('checked');
+        if (isChecked) {
+            DataValues.push({IsTimeLimitedTask: 'yes'});
+        } else {
+            DataValues.push({IsTimeLimitedTask: 'no'});
+        }
+        });
+        
+        cy.get('[name="NotMandatory"]').find('[type="checkbox"]').then((value) => {
+        const isChecked = value.prop('checked');
+        if (isChecked) {
+            DataValues.push({NotMandatory: 'yes'});
+        } else {
+            DataValues.push({NotMandatory: 'no'});
+        }
+        });
+        cy.get('[for="GuarantorId"]').nextUntil('span').invoke('text').then((value) => {
+        DataValues.push({GuarantorId: value})
+        });
+        
+        cy.get('[for="Guarantors"]').nextUntil('span').invoke('text').then((value) => {
+        DataValues.push({Guarantors: value})
+        });
+        
+        cy.get('[for="ContentAssistants"]').nextUntil('span').invoke('text').then((value) => {
+        DataValues.push({ContentAssistants: value})
+        });
+        
+        cy.get('[for="Trainings"]').nextUntil('span').invoke('text').then((value) => {
+          DataValues.push({Trainings: value})
+        });
+        
+        
+        cy.get('[name="lecturerInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+          DataValues.push({lecturerInstruction: value})
+        });
+        
+        
+        cy.get('[name="lecturerInternalMaterial"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+          DataValues.push({lecturerInternalMaterial: value})
+        });
+        
+        
+        cy.get('[name="studentInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+          DataValues.push({studentInstruction: value})
+        });
+        
+        
+        cy.get('[name="Description"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+          DataValues.push({Description: value})
+        });
+        
+        cy.get('[id="TestQuestionsText"]').invoke('val').then((value) => {
+          DataValues.push({Content: value})
+        });
+        
+        cy.wait(1000).then(() => {
+        jsonData['OtvTest'] = DataValues;
+        cy.writeFile('cypress/fixtures/guarantor_content_checker.json', JSON.stringify(jsonData, null, 2))
+        DataValues = [];
+        })
+        cy.get('[onclick="history.back()"]').first().click().wait(1000)
+      })
 
+      ////Zadanie
+      cy.get('tbody').find('tr').contains('Zad').then(edit => {
+        cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
+        
+        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.ExerciseOrder"]').next('span').invoke('text').then((value) => {
+          DataValues.push({taskOrder: value})
+        });
+        
+        cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
+          const isChecked = value.prop('checked');
+          if (isChecked) {
+              DataValues.push({useLessonName: 'yes'});
+          } else {
+              DataValues.push({useLessonName: 'no'});
+          }
+          });
+        cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
+          DataValues.push({language: value})
+        });
+        
+        cy.get('[id="LengthInTime"]').invoke('val').then((value) => {
+          DataValues.push({LengthInTime: value})
+        });
+        
+        cy.get('[id="EstimateTimeForEvaluationInTime"]').invoke('val').then((value) => {
+          DataValues.push({EstimateTimeForEvaluationInTime: value})
+        });
+        
+        cy.get('[for="ExperiencePoints"]').nextUntil('span').invoke('text').then((value) => {
+          DataValues.push({ExperiencePoints: value})
+        });
+        
+        cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
+          DataValues.push({difficulty: value})
+        
+          cy.get('[name="IsTimeLimitedTask"]').find('[type="checkbox"]').then((value) => {
+            const isChecked = value.prop('checked');
+            if (isChecked) {
+                DataValues.push({IsTimeLimitedTask: 'yes'});
+            } else {
+                DataValues.push({IsTimeLimitedTask: 'no'});
+            }
+          });
+        
+          cy.get('[name="NotMandatory"]').find('[type="checkbox"]').then((value) => {
+            const isChecked = value.prop('checked');
+            if (isChecked) {
+                DataValues.push({NotMandatory: 'yes'});
+            } else {
+                DataValues.push({NotMandatory: 'no'});
+            }
+          });
+          cy.get('[for="GuarantorId"]').nextUntil('span').invoke('text').then((value) => {
+            DataValues.push({GuarantorId: value})
+          });
+        
+          cy.get('[for="Guarantors"]').nextUntil('span').invoke('text').then((value) => {
+            DataValues.push({Guarantors: value})
+          });
+        
+          cy.get('[for="ContentAssistants"]').nextUntil('span').invoke('text').then((value) => {
+            DataValues.push({ContentAssistants: value})
+          });
+        
+          cy.get('[for="Trainings"]').nextUntil('span').invoke('text').then((value) => {
+              DataValues.push({Trainings: value})
+          });
+        
+          cy.get('[name="lecturerInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+              DataValues.push({lecturerInstruction: value})
+          });
+        
+          cy.get('[name="correctorInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+            DataValues.push({correctorInstruction: value})
+          });
+        
+          
+          cy.get('[name="lecturerInternalMaterial"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+              DataValues.push({lecturerInternalMaterial: value})
+          });
+        
+          
+          cy.get('[name="studentInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+              DataValues.push({studentInstruction: value})
+          });
+        
+          
+          cy.get('[name="Description"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+              DataValues.push({Description: value})
+          });
+        
+          cy.get('[name="Assignment"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+            DataValues.push({Assignment: value})
+          });
+        
+          cy.get('[name="SampleSolution"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+          DataValues.push({SampleSolution: value})
+        });
+        
+        cy.get('[name="FileUploadIsMandatory"]').find('[type="checkbox"]').then((value) => {
+        const isChecked = value.prop('checked');
+        if (isChecked) {
+            DataValues.push({FileUploadIsMandatory: 'yes'});
+        } else {
+            DataValues.push({FileUploadIsMandatory: 'no'});
+        }
+        });
+        
+        cy.get('[name="AnswerIsMandatory"]').find('[type="checkbox"]').then((value) => {
+        const isChecked = value.prop('checked');
+        if (isChecked) {
+            DataValues.push({AnswerIsMandatory: 'yes'});
+        } else {
+            DataValues.push({AnswerIsMandatory: 'no'});
+        }
+        });
+        
+        cy.get('[name="IsExerciseTestAllowed"]').find('[type="checkbox"]').then((value) => {
+        const isChecked = value.prop('checked');
+        if (isChecked) {
+            DataValues.push({IsExerciseTestAllowed: 'yes'});
+        } else {
+            DataValues.push({IsExerciseTestAllowed: 'no'});
+        }
+        });
+        
+        cy.wait(1000).then(() => {
+        jsonData['Zadanie'] = DataValues;
+        cy.writeFile('cypress/fixtures/guarantor_content_checker.json', JSON.stringify(jsonData, null, 2))
+        DataValues = [];
+        })
+        
+        cy.get('[onclick="history.back()"]').first().click().wait(1000)
+      })
+    })
+
+     ////Projekt
+     /*cy.get('tbody').find('tr').contains('Pro').then(edit => {
+            cy.wrap(edit).parent().parent().parent().contains('Editovať').click()
+        
       
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.ExerciseOrder"]').next('span').invoke('text').then((value) => {
+        DataValues.push({taskOrder: value})
+      });
+      
+      cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
+        const isChecked = value.prop('checked');
+        if (isChecked) {
+            DataValues.push({useLessonName: 'yes'});
+        } else {
+            DataValues.push({useLessonName: 'no'});
+        }
+        });
+      cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
+        DataValues.push({language: value})
+      });
+      
+      cy.get('[id="LengthInTime"]').invoke('val').then((value) => {
+        DataValues.push({LengthInTime: value})
+      });
+      
+      cy.get('[id="EstimateTimeForEvaluationInTime"]').invoke('val').then((value) => {
+        DataValues.push({EstimateTimeForEvaluationInTime: value})
+      });
+      
+      cy.get('[for="ExperiencePoints"]').nextUntil('span').invoke('text').then((value) => {
+        DataValues.push({ExperiencePoints: value})
+      });
+      
+      cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
+        DataValues.push({difficulty: value})
+      
+        cy.get('[name="IsTimeLimitedTask"]').find('[type="checkbox"]').then((value) => {
+          const isChecked = value.prop('checked');
+          if (isChecked) {
+              DataValues.push({IsTimeLimitedTask: 'yes'});
+          } else {
+              DataValues.push({IsTimeLimitedTask: 'no'});
+          }
+        });
+      
+        cy.get('[name="NotMandatory"]').find('[type="checkbox"]').then((value) => {
+          const isChecked = value.prop('checked');
+          if (isChecked) {
+              DataValues.push({NotMandatory: 'yes'});
+          } else {
+              DataValues.push({NotMandatory: 'no'});
+          }
+        });
+        cy.get('[for="GuarantorId"]').nextUntil('span').invoke('text').then((value) => {
+          DataValues.push({GuarantorId: value})
+        });
+      
+        cy.get('[for="Guarantors"]').nextUntil('span').invoke('text').then((value) => {
+          DataValues.push({Guarantors: value})
+        });
+      
+        cy.get('[for="ContentAssistants"]').nextUntil('span').invoke('text').then((value) => {
+          DataValues.push({ContentAssistants: value})
+        });
+      
+        cy.get('[for="Trainings"]').nextUntil('span').invoke('text').then((value) => {
+            DataValues.push({Trainings: value})
+        });
+      
+        cy.get('[name="lecturerInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+            DataValues.push({lecturerInstruction: value})
+        });
+      
+        cy.get('[name="correctorInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+          DataValues.push({correctorInstruction: value})
+        });
+      
+        
+        cy.get('[name="lecturerInternalMaterial"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+            DataValues.push({lecturerInternalMaterial: value})
+        });
+      
+        
+        cy.get('[name="studentInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+            DataValues.push({studentInstruction: value})
+        });
+      
+        
+        cy.get('[name="Description"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+            DataValues.push({Description: value})
+        });
+      
+        cy.get('[name="Assignment"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+          DataValues.push({Assignment: value})
+        });
+      
+        cy.get('[name="SampleSolution"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
+        DataValues.push({SampleSolution: value})
+      });
+      
+      cy.get('[name="FileUploadIsMandatory"]').find('[type="checkbox"]').then((value) => {
+      const isChecked = value.prop('checked');
+      if (isChecked) {
+          DataValues.push({FileUploadIsMandatory: 'yes'});
+      } else {
+          DataValues.push({FileUploadIsMandatory: 'no'});
+      }
+      });
+      
+      cy.get('[name="AnswerIsMandatory"]').find('[type="checkbox"]').then((value) => {
+      const isChecked = value.prop('checked');
+      if (isChecked) {
+          DataValues.push({AnswerIsMandatory: 'yes'});
+      } else {
+          DataValues.push({AnswerIsMandatory: 'no'});
+      }
+      });
+      
+      cy.get('[name="IsExerciseTestAllowed"]').find('[type="checkbox"]').then((value) => {
+      const isChecked = value.prop('checked');
+      if (isChecked) {
+          DataValues.push({IsExerciseTestAllowed: 'yes'});
+      } else {
+          DataValues.push({IsExerciseTestAllowed: 'no'});
+      }
+      });
+      
+      cy.wait(1000).then(() => {
+      jsonData['Zadanie'] = DataValues;
+      cy.writeFile('cypress/fixtures/guarantor_content_checker.json', JSON.stringify(jsonData, null, 2))
+      DataValues = [];
+      })
+      
+      cy.get('[onclick="history.back()"]').first().click().wait(1000)
+    })
+  })*/
+
+
+      ////Potvrdenie absolvovania
       cy.get('tbody').find('tr').contains('Pot').then(edit => {
         cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
 
@@ -1320,10 +1741,13 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
         });
   
         cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-          cy.wrap(value).invoke('val').then((pushVals) => {
-            DataValues.push({ActivityInput: pushVals})
-        });
-      })
+          const isChecked = value.prop('checked');
+          if (isChecked) {
+              DataValues.push({useLessonName: 'yes'});
+          } else {
+              DataValues.push({useLessonName: 'no'});
+          }
+          });
         cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
           DataValues.push({language: value})
         });
@@ -1417,10 +1841,13 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
         });
   
         cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-          cy.wrap(value).invoke('val').then((pushVals) => {
-            DataValues.push({ActivityInput: pushVals})
-        });
-      })
+          const isChecked = value.prop('checked');
+          if (isChecked) {
+              DataValues.push({useLessonName: 'yes'});
+          } else {
+              DataValues.push({useLessonName: 'no'});
+          }
+          });
         cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
           DataValues.push({language: value})
         });
@@ -1505,6 +1932,7 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
             cy.get('[onclick="history.back()"]').first().click().wait(1000)
           })
 
+      ////Cvičenie
     cy.get('tbody').find('tr').contains('Cvi').then(edit => {
       cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
 
@@ -1513,10 +1941,13 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
       });
 
       cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-        cy.wrap(value).invoke('val').then((pushVals) => {
-          DataValues.push({ActivityInput: pushVals})
-      });
-    })
+        const isChecked = value.prop('checked');
+        if (isChecked) {
+            DataValues.push({useLessonName: 'yes'});
+        } else {
+            DataValues.push({useLessonName: 'no'});
+        }
+        });
       cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
         DataValues.push({language: value})
       });
@@ -1601,6 +2032,7 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
           cy.get('[onclick="history.back()"]').first().click().wait(1000)
         })
 
+        //Checklist
         cy.get('tbody').find('tr').contains('Che').then(edit => {
           cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
 
@@ -1609,10 +2041,13 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
           });
     
           cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-            cy.wrap(value).invoke('val').then((pushVals) => {
-              DataValues.push({ActivityInput: pushVals})
-          });
-        })
+            const isChecked = value.prop('checked');
+            if (isChecked) {
+                DataValues.push({useLessonName: 'yes'});
+            } else {
+                DataValues.push({useLessonName: 'no'});
+            }
+            });
           cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
             DataValues.push({language: value})
           });
@@ -1686,17 +2121,18 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
                 DataValues.push({Description: value})
             });
     
-            cy.get('[id="TestQuestionsText"]').invoke('text').then((value) => {
+            cy.get('[id="TestQuestionsText"]').invoke('val').then((value) => {
                 DataValues.push({Content: value})
 
                 cy.wait(1000).then(() => {
-          jsonData['Cvicenie'] = DataValues;
+          jsonData['Checklist'] = DataValues;
           cy.writeFile('cypress/fixtures/guarantor_content_checker.json', JSON.stringify(jsonData, null, 2))
           DataValues = [];
 
           cy.get('[onclick="history.back()"]').first().click().wait(1000)
             })
 
+        ////IQ test
             cy.get('tbody').find('tr').contains('IQ').then(edit => {
               cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
 
@@ -1705,10 +2141,13 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
               });
         
               cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-                cy.wrap(value).invoke('val').then((pushVals) => {
-                  DataValues.push({ActivityInput: pushVals})
-              });
-            })
+                const isChecked = value.prop('checked');
+                if (isChecked) {
+                    DataValues.push({useLessonName: 'yes'});
+                } else {
+                    DataValues.push({useLessonName: 'no'});
+                }
+                });
               cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
                 DataValues.push({language: value})
               });
@@ -1798,20 +2237,26 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
                   }
                 });
 
-                cy.get('[name="exerciseTypeIQTestForm"]').find('tr').find('select').then((value) => {
+                cy.get('[class="af-table table table-striped table-bordered table-hover"]').find('tr').find('input').then((value) => {
                   for (let x = 0; x < value.length; x++) {
                     cy.wrap(value[x]).invoke('val').then((dataVAL) => {
+                      DataValues.push({characteristicFormA: dataVAL})
+                    })
+                  }
+                });
+
+                
+                cy.get('[name="exerciseTypeIQTestForm"]').find('tr').find('select').then((value) => {
+                  for (let x = 0; x < value.length; x++) {
+                    cy.wrap(value).eq(x).invoke('val').then((dataVAL) => {
                       DataValues.push({personalityTestFormSel: dataVAL})
                     })
                   }
                 })
 
                 cy.wait(1000).then(() => {
-                  jsonData['Cvicenie'] = DataValues;
+                  jsonData['IQtest'] = DataValues;
                   cy.writeFile('cypress/fixtures/guarantor_content_checker.json', JSON.stringify(jsonData, null, 2))
-                  DataValues = [];
-
-                  cy.get('[onclick="history.back()"]').first().click().wait(1000)
             })
         })
       })
@@ -1824,5 +2269,5 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
   })
 })
 })
-})})
-
+})
+})

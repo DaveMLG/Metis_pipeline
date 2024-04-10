@@ -119,11 +119,11 @@ describe('Product owner', function () {
         cy.get('.icon-menu-elearning').click();
         cy.get('[href="/admin/elearning/training"]').click();
         cy.wait(3000)
-        cy.get('[type = "text"]').first().clear().type('PO CY')
+        cy.get('[type = "text"]').first().clear().type('CY testing')
         cy.get('[type="submit"]').first().click()
         cy.wait(5000);
         cy.sortTableByColumn('Vytvorené');
-        cy.contains('PO CY').click()
+        cy.contains('CY testing').click()
         cy.wait(5000)
 
 /*cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.TrainingEditViewModel.ListOfGuarantorsLabel"]').prev().invoke('text').then((value) => {

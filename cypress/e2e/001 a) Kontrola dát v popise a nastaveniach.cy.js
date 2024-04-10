@@ -23,11 +23,11 @@ describe('Product owner', function () {
             cy.get('.icon-menu-elearning').click();
             cy.get('[href="/admin/elearning/training"]').click();
             cy.wait(3000)
-            cy.get('[type = "text"]').first().clear().type('PO CY')
+            cy.get('[type = "text"]').first().clear().type('CY testing')
             cy.get('[type="submit"]').first().click()
             cy.wait(5000);
             cy.sortTableByColumn('Vytvorené');
-            cy.get('tbody').contains('Neprevzaté').parent().parent().contains('PO CY').click()
+            cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testing').click()
             cy.wait(5000)
 
             cy.get('[for="Guarantors"]').parentsUntil('.row').find('span').invoke('text').then((value) => {

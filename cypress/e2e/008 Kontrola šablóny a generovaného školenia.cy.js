@@ -11,6 +11,10 @@ describe('Product owner', function () {
   });
 
   it('SPO odporúčanie šablóny', function () {
+     //Uloží data
+     let 
+     DataValues = [],
+      jsonData = {}
 
     cy.readFile('cypress/fixtures/templates_spo_po_go.json', 'utf-8').then((jsonData) => {
       const valuesArray = jsonData.Values;
@@ -46,7 +50,7 @@ describe('Product owner', function () {
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click()
     cy.wait(5000)
-    cy.get('[type = "text"]').first().clear().type('PO CY_edit')
+    cy.get('[type = "text"]').first().clear().type('CY testing')
     cy.get('[type="submit"]').click()
     cy.wait(3000)
     cy.get('tbody').find('tr').first().find('a').click()

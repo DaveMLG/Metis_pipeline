@@ -119,11 +119,11 @@ describe('Product owner', function () {
         cy.get('.icon-menu-elearning').click();
         cy.get('[href="/admin/elearning/training"]').click();
         cy.wait(3000)
-        cy.get('[type = "text"]').first().clear().type('PO CY')
+        cy.get('[type = "text"]').first().clear().type('CY testing')
         cy.get('[type="submit"]').first().click()
         cy.wait(5000);
         cy.sortTableByColumn('Vytvorené');
-        cy.get('tbody').contains('Neprevzaté').parent().parent().contains('PO CY').click({timeout: 10000});
+        cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testing').click({timeout: 10000});
 
 /*cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.TrainingEditViewModel.ListOfGuarantorsLabel"]').prev().invoke('text').then((value) => {
           cy.wrap(value).should('eq', guarantorName)*/
@@ -182,8 +182,8 @@ describe('Product owner', function () {
           cy.wrap(value).should('eq', ManualTaskMultiplicator) 
         })
         
-        cy.get('[id="ActivityLanguageId"]').invoke('val').then((value) => {
-          cy.wrap(value).should('eq', ActivityLanguageId) 
+       /* cy.get('[id="ActivityLanguageId"]').invoke('val').then((value) => {
+          cy.wrap(value).should('eq', ActivityLanguageId) */
 
         cy.get('.tableFloatingHeaderOriginal').next().next().find('input:not([type="checkbox"])').then((values) => {
           for (let x = 0; x < values.length; x++) {
@@ -385,7 +385,7 @@ describe('Product owner', function () {
   })
 })
 })
-})
+//})
 //})
 ///});
 

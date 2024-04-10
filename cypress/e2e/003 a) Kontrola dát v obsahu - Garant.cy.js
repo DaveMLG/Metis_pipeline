@@ -20,9 +20,9 @@ describe('Product owner', function () {
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
     cy.wait(3000)
-    cy.get('[type = "text"]').first().clear().type("PO CY_edit");
+    cy.get('[type = "text"]').first().clear().type("CY testing");
     cy.get('[type="submit"]').click();
-    cy.contains('PO CY_edit').click();
+    cy.contains('CY testing').click();
     cy.wait(3000);
     cy.get(':nth-child(5) > .nav-link').click();
     cy.wait(3000);
