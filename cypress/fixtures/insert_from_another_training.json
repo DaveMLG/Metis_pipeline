@@ -1,0 +1,179 @@
+{
+  "PotvrdenieAbsolvovania": [
+    {
+      "taskOrder": "1.1.1"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "3000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": "skorg1 nah"
+    },
+    {
+      "Trainings": "PO CYPO CY Hromadné manažovanie úloh"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre lektora - HM"
+    },
+    {
+      "correctorInstruction": "Inštrukcie pre opravovača - HM"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre lektora - HM"
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta - HM"
+    },
+    {
+      "Description": "Popis úlohy - HM"
+    },
+    {
+      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
+    }
+  ],
+  "Webinar": [
+    {
+      "taskOrder": "1.2.1"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:30"
+    },
+    {
+      "ExperiencePoints": "4500"
+    },
+    {
+      "difficulty": "300"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": "skorg1 nah"
+    },
+    {
+      "Trainings": "PO CYPO CY Hromadné manažovanie úloh"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre lektora - HM"
+    },
+    {
+      "correctorInstruction": "Inštrukcie pre opravovača - HM"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre lektora  - HM"
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta - HM"
+    },
+    {
+      "Description": "Popis úlohy - HM"
+    },
+    {
+      "Content": "Ahojte, pre pripojenie na webinár/cvičenie prosím použite webovú verziu aplikácie MS Teams alebo jej standalone verziu.Po kliknutí na tento odkaz budete presmerovaní do Teamsovej skupiny, v ktorej sa bude konať webinár/cvičenie"
+    }
+  ],
+  "Cvicenie": [
+    {
+      "taskOrder": "1.4.1"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:30"
+    },
+    {
+      "ExperiencePoints": "4500"
+    },
+    {
+      "difficulty": "500"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": "skorg1 nah"
+    },
+    {
+      "Trainings": "PO CYPO CY Hromadné manažovanie úloh"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre lektora - HM"
+    },
+    {
+      "correctorInstruction": "Inštrukcie pre opravovača - HM"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre lektora - HM"
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta - HM"
+    },
+    {
+      "Description": "Popis úlohy - HM"
+    },
+    {
+      "Content": "Ahojte, pre pripojenie na webinár/cvičenie prosím použite webovú verziu aplikácie MS Teams alebo jej standalone verziu.Po kliknutí na tento odkaz budete presmerovaní do Teamsovej skupiny, v ktorej sa bude konať webinár/cvičenie"
+    }
+  ]
+}
