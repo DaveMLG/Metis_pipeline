@@ -26,7 +26,7 @@ describe('Product owner', function () {
     cy.sortTableByColumn('Vytvorené');
     cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testing').click()
     cy.wait(5000)
-    cy.get(':nth-child(5) > .nav-link').click();
+    cy.get(':nth-child(5) > .nav-link').click().wait(2000)
     cy.get('[type="radio"]').eq(1).check({force: true})
     cy.get('[name="selectTheme"]').select(1)
     cy.get('[name="selectLesson"]').select(1)
@@ -40,7 +40,7 @@ describe('Product owner', function () {
 
     cy.get('@rows').then((trs) => {
       for (let x = 1; x < trs.length; x++) {
-        cy.wrap(trs[x]).find('select').first().select(x)
+        cy.wrap(trs[x]).find('select').first().select(x-1)
       }
     })
 

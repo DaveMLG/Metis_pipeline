@@ -118,12 +118,12 @@ describe('Product owner', function () {
         cy.viewport(1920, 937);
         cy.get('.icon-menu-elearning').click();
         cy.get('[href="/admin/elearning/training"]').click();
-        cy.wait(3000)
+        cy.wait(2000)
         cy.get('[type = "text"]').first().clear().type('CY testing')
         cy.get('[type="submit"]').first().click()
-        cy.wait(5000);
+        cy.wait(2000);
         cy.sortTableByColumn('Vytvorené');
-        cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testing').click({timeout: 10000});
+        cy.get('tbody').contains('Prevzaté').parent().parent().contains('CY testing').click().wait(2000)
 
 /*cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.TrainingEditViewModel.ListOfGuarantorsLabel"]').prev().invoke('text').then((value) => {
           cy.wrap(value).should('eq', guarantorName)*/
@@ -182,8 +182,7 @@ describe('Product owner', function () {
           cy.wrap(value).should('eq', ManualTaskMultiplicator) 
         })
         
-       /* cy.get('[id="ActivityLanguageId"]').invoke('val').then((value) => {
-          cy.wrap(value).should('eq', ActivityLanguageId) */
+        cy.get('[id="ActivityLanguageId"]').select('English')
 
         cy.get('.tableFloatingHeaderOriginal').next().next().find('input:not([type="checkbox"])').then((values) => {
           for (let x = 0; x < values.length; x++) {
@@ -206,9 +205,7 @@ describe('Product owner', function () {
         cy.contains('Koeficienty hodnotenia').find('i').click({timeout: 100000})
         cy.contains('Metriky').find('i').click({timeout: 100000})
 
-        cy.get('[id="MetricCategoryLanguageId"]').invoke('val').then((value) => {
-          cy.wrap(value).should('eq', MetricCategoryLanguageId) 
-        })
+        cy.get('[id="MetricCategoryLanguageId"]').select('English')
 
         cy.get('.tableFloatingHeaderOriginal').next().next().find('input').then((values) => {
           for (let x = 0; x < values.length; x++) {

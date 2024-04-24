@@ -22,12 +22,12 @@ describe('Product owner', function () {
           cy.viewport(1920, 937);
           cy.get('.icon-menu-elearning').click();
           cy.get('[href="/admin/elearning/training"]').click();
-          cy.wait(3000)
+          cy.wait(2000)
           cy.get('[type = "text"]').first().clear().type('CY testing')
           cy.get('[type="submit"]').first().click()
-          cy.wait(5000)
+          cy.wait(2000)
           cy.sortTableByColumn('Vytvorené');
-          cy.get('tbody').contains('Prevzaté').parent().parent().contains('CY testing').click({timeout: 10000});
+          cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testing').click().wait(2000)
 
           /*cy.get('[for="Guarantors"]').parentsUntil('.row').find('span').invoke('text').then((value) => {
             DataValues.push({guaratorName: value}) 
@@ -124,7 +124,6 @@ describe('Product owner', function () {
             for (let x = 0; x < edit.length / 3; x++) {
               cy.wrap(edit).eq(a).clear().type('Zadanie_edit_' + x)
               cy.wrap(edit).eq(b).clear().type(2 + x)
-              cy.wrap(edit).eq(c).clear().type(3 + x)
               a += 3
               b += 3
               c += 3
@@ -159,7 +158,7 @@ describe('Product owner', function () {
           cy.contains('Koeficienty hodnotenia').find('i').click({timeout: 100000})
           cy.contains('Metriky').find('i').click({timeout: 100000})
 
-          cy.get('[id="MetricCategoryLanguageId"]').select(0)
+          cy.get('[id="MetricCategoryLanguageId"]').select('English')
           cy.get('[id="MetricCategoryLanguageId"]').invoke('val').then((value) => {
             DataValues.push({MetricCategoryLanguageId: value})
           })

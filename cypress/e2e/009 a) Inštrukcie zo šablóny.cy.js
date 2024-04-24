@@ -83,7 +83,7 @@ describe('Product owner', function () {
                 cy.get('@nastavenia').click();
                 cy.get('[href="/admin/elearning/training"]').click();
                 cy.wait(5000)
-                cy.get('[placeholder="Kľúčové slovo"]').type('PO CY')
+                cy.get('[placeholder="Kľúčové slovo"]').type('CY testing')
                 cy.get('[type="submit"]').first().click()
                 cy.get('tbody').find('a').first().click();
                 cy.get(':nth-child(6) > .nav-link').click().wait(1000);

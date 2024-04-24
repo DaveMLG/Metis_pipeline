@@ -40,16 +40,16 @@
       "Trainings": "PO CYPO CY Hromadné manažovanie úloh"
     },
     {
-      "lecturerInstruction": "Inštrukcie pre lektora - HM"
+      "lecturerInstruction": "moderator1"
     },
     {
-      "correctorInstruction": "Inštrukcie pre opravovača - HM"
+      "correctorInstruction": "student1"
     },
     {
-      "lecturerInternalMaterial": "Interný materiál pre lektora - HM"
+      "lecturerInternalMaterial": ""
     },
     {
-      "studentInstruction": "Inštrukcie pre študenta - HM"
+      "studentInstruction": "instructor1"
     },
     {
       "Description": "Popis úlohy - HM"
@@ -99,16 +99,16 @@
       "Trainings": "PO CYPO CY Hromadné manažovanie úloh"
     },
     {
-      "lecturerInstruction": "Inštrukcie pre lektora - HM"
+      "lecturerInstruction": "moderator3"
     },
     {
-      "correctorInstruction": "Inštrukcie pre opravovača - HM"
+      "correctorInstruction": "student3"
     },
     {
-      "lecturerInternalMaterial": "Interný materiál pre lektora  - HM"
+      "lecturerInternalMaterial": ""
     },
     {
-      "studentInstruction": "Inštrukcie pre študenta - HM"
+      "studentInstruction": "instructor3"
     },
     {
       "Description": "Popis úlohy - HM"
@@ -158,16 +158,16 @@
       "Trainings": "PO CYPO CY Hromadné manažovanie úloh"
     },
     {
-      "lecturerInstruction": "Inštrukcie pre lektora - HM"
+      "lecturerInstruction": "moderator3"
     },
     {
-      "correctorInstruction": "Inštrukcie pre opravovača - HM"
+      "correctorInstruction": "student3"
     },
     {
-      "lecturerInternalMaterial": "Interný materiál pre lektora - HM"
+      "lecturerInternalMaterial": ""
     },
     {
-      "studentInstruction": "Inštrukcie pre študenta - HM"
+      "studentInstruction": "instructor3"
     },
     {
       "Description": "Popis úlohy - HM"

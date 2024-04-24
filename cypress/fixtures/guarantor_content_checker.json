@@ -1,1291 +1,514 @@
 {
-  "Samostudium": [
+  "Values": [
     {
-      "taskOrder": "1.1.1"
+      "summaryValues": " 20 "
     },
     {
-      "useLessonName": "no"
+      "summaryValues": " 1 "
     },
     {
-      "language": "sk"
+      "summaryValues": " 1 "
     },
     {
-      "LengthInTime": "0:30"
+      "summaryValues": " 44500 "
     },
     {
-      "EstimateTimeForEvaluationInTime": "0:00"
+      "summaryValues": " 5:40 "
     },
     {
-      "ExperiencePoints": "3000"
+      "summaryValues": " 3:30 "
     },
     {
-      "difficulty": "100"
+      "summaryValues": " 0:00 "
     },
     {
-      "IsTimeLimitedTask": "no"
+      "summaryValues": " 0:00  0:00  0:00  0:00  0:00 "
     },
     {
-      "NotMandatory": "no"
+      "summaryValues": " 0:00  0:00  0:00  0:00  0:00 "
     },
     {
-      "GuarantorId": "skorg1 go"
+      "summaryValues": " 0:00  0:00  0:00  0:00  0:00 "
     },
     {
-      "Guarantors": "skorg1 go"
+      "genericVals": "Sam"
     },
     {
-      "ContentAssistants": "skorg1 nah"
+      "genericVals": "1"
     },
     {
-      "Trainings": "CY testing"
+      "genericVals": "1"
     },
     {
-      "guarantorInternalMaterial": "asasa"
+      "genericVals": "1"
     },
     {
-      "lecturerInstruction": "asasas"
+      "genericVals": "1"
     },
     {
-      "lecturerInternalMaterial": "asasasas"
+      "genericVals": "3000"
     },
     {
-      "studentInstruction": "asasasas"
+      "genericVals": "Aut"
     },
     {
-      "Description": "asasasas"
+      "genericVals": "1"
     },
     {
-      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
-    }
-  ],
-  "AutoTest": [
-    {
-      "taskOrder": "1.1.5"
-    },
-    {
-      "useLessonName": "no"
-    },
-    {
-      "language": "sk"
-    },
-    {
-      "LengthInTime": "0:30"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:00"
-    },
-    {
-      "ExperiencePoints": "3000"
-    },
-    {
-      "difficulty": "300"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": "skorg1 nah"
-    },
-    {
-      "Trainings": "CY testing"
-    },
-    {
-      "lecturerInstruction": "asasasasas"
-    },
-    {
-      "lecturerInternalMaterial": "assasasa"
-    },
-    {
-      "studentInstruction": "assasasa"
-    },
-    {
-      "Description": "sasasasa"
-    },
-    {
-      "Content": "*otázka1\n-nesprávna odpoved\n+správna odpoved\n\n*otázka2\n+správna odpoved\n-nesprávna odpoved\n\n"
-    }
-  ],
-  "Videosamostudium": [
-    {
-      "taskOrder": "1.2.2"
-    },
-    {
-      "useLessonName": "no"
-    },
-    {
-      "language": "sk"
-    },
-    {
-      "LengthInTime": "0:30"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:00"
-    },
-    {
-      "ExperiencePoints": "4500"
-    },
-    {
-      "difficulty": "300"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": "skorg1 nah"
-    },
-    {
-      "Trainings": "CY testing"
-    },
-    {
-      "guarantorInternalMaterial": "assa"
-    },
-    {
-      "lecturerInstruction": "sasa"
-    },
-    {
-      "lecturerInternalMaterial": "saas"
-    },
-    {
-      "studentInstruction": "saas"
-    },
-    {
-      "Description": ""
-    },
-    {
-      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
-    }
-  ],
-  "Webinar": [
-    {
-      "taskOrder": "1.2.1"
-    },
-    {
-      "useLessonName": "no"
-    },
-    {
-      "language": "sk"
-    },
-    {
-      "LengthInTime": "0:10"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:40"
-    },
-    {
-      "ExperiencePoints": "1500"
-    },
-    {
-      "difficulty": "100"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": "skorg1 nah"
-    },
-    {
-      "Trainings": "CY testing"
-    },
-    {
-      "lecturerInstruction": "assasasa"
-    },
-    {
-      "lecturerInternalMaterial": "sasasaas"
-    },
-    {
-      "studentInstruction": "asasasas"
-    },
-    {
-      "Description": "saassaas"
-    },
-    {
-      "Content": "Ahojte, pre pripojenie na webinár/cvičenie prosím použite webovú verziu aplikácie MS Teams alebo jej standalone verziu.Po kliknutí na tento odkaz budete presmerovaní do Teamsovej skupiny, v ktorej sa bude konať webinár/cvičenie"
-    }
-  ],
-  "Doplnovacka": [
-    {
-      "taskOrder": "1.4.1"
-    },
-    {
-      "useLessonName": "no"
-    },
-    {
-      "language": "sk"
-    },
-    {
-      "LengthInTime": "0:10"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:00"
-    },
-    {
-      "ExperiencePoints": "1500"
-    },
-    {
-      "difficulty": "100"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": "skorg1 nah"
-    },
-    {
-      "Trainings": "CY testing"
-    },
-    {
-      "lecturerInstruction": "asas"
-    },
-    {
-      "lecturerInternalMaterial": "sasa"
-    },
-    {
-      "studentInstruction": "sasa"
-    },
-    {
-      "Description": "sasasasa"
-    },
-    {
-      "Content": "1. Ak sú odpovede súčasťou textu, pri zadávaní znenia úlohy postupujte nasledovne:    a) ak chcete, aby musel  študent odpoveď napísať, uveďte do zvolených znakov len jednu možnosť @@@1@@@.    b) v prípade, že chcete dať študentovi na výber z viacerých možností, zadajte odpovede vo forme @@@2@@@, pričom prvá možnosť reprezentuje správnu odpoveď.   2. Ak odpovede nie sú súčasťou textu a budete ich importovať, je potrebné do textu vyznačiť miesta pre správne odpovede prostredníctvom zvolených znakov.    Príklad: Prvá odpoveď z importovaného súboru patrí sem @@@3@@@.   Druhá odpoveď patrí sem @@@4@@@."
-    }
-  ],
-  "Parovacka": [
-    {
-      "taskOrder": "1.4.3"
-    },
-    {
-      "useLessonName": "no"
-    },
-    {
-      "language": "sk"
-    },
-    {
-      "LengthInTime": "0:10"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:00"
-    },
-    {
-      "ExperiencePoints": "1500"
-    },
-    {
-      "difficulty": "300"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": "skorg1 nah"
-    },
-    {
-      "Trainings": "CY testing"
-    },
-    {
-      "lecturerInstruction": "sasasa"
-    },
-    {
-      "lecturerInternalMaterial": "sasasa"
-    },
-    {
-      "studentInstruction": "sasasa"
-    },
-    {
-      "Description": "sasaas"
-    },
-    {
-      "questCount": "3"
-    },
-    {
-      "questSum": " 3 "
-    },
-    {
-      "questVals": "Príklad otázky1"
-    },
-    {
-      "questVals": "Príklad odpovede1"
-    },
-    {
-      "questVals": "Príklad otázky2"
-    },
-    {
-      "questVals": "Príklad odpovede2"
-    },
-    {
-      "questVals": "Príklad otázky3"
-    },
-    {
-      "questVals": "Príklad odpovede3"
-    }
-  ],
-  "SpolPracaLektor": [
-    {
-      "taskOrder": "1.4.4"
-    },
-    {
-      "useLessonName": "no"
-    },
-    {
-      "language": "sk"
-    },
-    {
-      "LengthInTime": "0:30"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:00"
-    },
-    {
-      "ExperiencePoints": "4500"
-    },
-    {
-      "difficulty": "300"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": "skorg1 nah"
-    },
-    {
-      "Trainings": "CY testing"
-    },
-    {
-      "lecturerInstruction": "assa"
-    },
-    {
-      "assignmentDevelopmentProcedure": "assa"
-    },
-    {
-      "correctorInstruction": "sasa"
-    },
-    {
-      "lecturerInternalMaterial": "asas"
-    },
-    {
-      "studentInstruction": "sasa"
-    },
-    {
-      "Description": "saas"
-    },
-    {
-      "Assignment": "saas"
-    },
-    {
-      "SampleSolution": ""
-    },
-    {
-      "FileUploadIsMandatory": "no"
-    },
-    {
-      "AnswerIsMandatory": "no"
-    },
-    {
-      "IsExerciseTestAllowed": "no"
-    }
-  ],
-  "PrefTest": [
-    {
-      "taskOrder": "1.4.5"
-    },
-    {
-      "useLessonName": "no"
-    },
-    {
-      "language": "sk"
-    },
-    {
-      "LengthInTime": "0:10"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:00"
-    },
-    {
-      "ExperiencePoints": "1500"
-    },
-    {
-      "difficulty": "500"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": "skorg1 nah"
-    },
-    {
-      "Trainings": "CY testing"
-    },
-    {
-      "lecturerInstruction": "sasa"
-    },
-    {
-      "lecturerInternalMaterial": "saas"
-    },
-    {
-      "studentInstruction": "assa"
-    },
-    {
-      "Description": "sasa"
-    },
-    {
-      "Content": "*Toto je príklad otázky. Každá začína hviezdičkou. Všetky odpovede sú správne, lebo je to názor človeka.\n+správna odpoveď\n+správna odpoveď\n+správna odpoveď\n+správna odpoveď\n\n"
-    },
-    {
-      "AnswerIsPre": "no"
-    }
-  ],
-  "Preklad": [
-    {
-      "taskOrder": "1.4.6"
-    },
-    {
-      "useLessonName": "no"
-    },
-    {
-      "language": "sk"
-    },
-    {
-      "LengthInTime": "0:10"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:00"
-    },
-    {
-      "ExperiencePoints": "1500"
-    },
-    {
-      "difficulty": "100"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": "skorg1 nah"
-    },
-    {
-      "Trainings": "CY testing"
-    },
-    {
-      "lecturerInstruction": "asas"
-    },
-    {
-      "lecturerInternalMaterial": "sasa"
-    },
-    {
-      "studentInstruction": "saas"
-    },
-    {
-      "Description": "asas"
-    },
-    {
-      "questCount": "3"
-    },
-    {
-      "questSum": " 3 "
-    },
-    {
-      "questVals": "Príklad otázky1"
-    },
-    {
-      "questVals": "Príklad odpovede1"
-    },
-    {
-      "questVals": "Príklad otázky2"
-    },
-    {
-      "questVals": "Príklad odpovede2"
-    },
-    {
-      "questVals": "Príklad otázky3"
-    },
-    {
-      "questVals": "Príklad odpovede3"
-    }
-  ],
-  "Anketa": [
-    {
-      "taskOrder": "1.4.7"
-    },
-    {
-      "useLessonName": "no"
-    },
-    {
-      "language": "sk"
-    },
-    {
-      "LengthInTime": "0:10"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:00"
-    },
-    {
-      "ExperiencePoints": "1500"
-    },
-    {
-      "difficulty": "100"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": "skorg1 nah"
-    },
-    {
-      "Trainings": "CY testing"
-    },
-    {
-      "lecturerInstruction": "assa"
-    },
-    {
-      "lecturerInternalMaterial": "asas"
-    },
-    {
-      "studentInstruction": "sasa"
-    },
-    {
-      "Description": "asas"
+      "genericVals": "1"
     },
     {
-      "Content": "*Toto je príklad otázky. Každá začína hviezdičkou. Všetky odpovede sú správne, lebo je to názor človeka.\n+správna odpoveď\n+správna odpoveď\n+správna odpoveď\n+správna odpoveď\n\n"
-    }
-  ],
-  "SpatVazba": [
-    {
-      "taskOrder": "1.4.8"
-    },
-    {
-      "useLessonName": "no"
-    },
-    {
-      "language": "sk"
-    },
-    {
-      "LengthInTime": "0:10"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:00"
-    },
-    {
-      "ExperiencePoints": "1500"
-    },
-    {
-      "difficulty": "500"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": "skorg1 nah"
-    },
-    {
-      "Trainings": "CY testing"
-    },
-    {
-      "lecturerInstruction": "assaas"
-    },
-    {
-      "lecturerInternalMaterial": "sasasa"
-    },
-    {
-      "studentInstruction": "saasassa"
-    },
-    {
-      "Description": "sasaas"
-    },
-    {
-      "Content": ""
-    },
-    {
-      "IsShufflingTaskEnabled": "no"
-    }
-  ],
-  "OsobTest": [
-    {
-      "taskOrder": "1.4.9"
-    },
-    {
-      "useLessonName": "no"
-    },
-    {
-      "language": "sk"
-    },
-    {
-      "LengthInTime": "0:10"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:00"
-    },
-    {
-      "ExperiencePoints": "1500"
-    },
-    {
-      "difficulty": "100"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": "skorg1 nah"
-    },
-    {
-      "Trainings": "CY testing"
-    },
-    {
-      "lecturerInstruction": "asasassa"
-    },
-    {
-      "lecturerInternalMaterial": "sasassaas"
-    },
-    {
-      "studentInstruction": "ssaasas"
-    },
-    {
-      "Description": "aassaassa"
-    },
-    {
-      "characteristicForm": "IT"
-    },
-    {
-      "characteristicForm": "nonIT/IT"
-    },
-    {
-      "characteristicForm": "nonIT"
-    },
-    {
-      "characteristicForm": "IT/FED"
-    },
-    {
-      "characteristicForm": "IT/Java"
-    },
-    {
-      "characteristicForm": "IT/Tester"
-    },
-    {
-      "characteristicFormQnA": "sasasa"
-    },
-    {
-      "characteristicFormQnA": "sasa"
-    },
-    {
-      "characteristicFormQnA": "sasasa"
-    },
-    {
-      "personalityTestFormSel": "2: nonIT/IT"
-    },
-    {
-      "personalityTestFormSel": "1: IT"
-    },
-    {
-      "personalityTestFormSel": "4: IT/FED"
-    }
-  ],
-  "OtvTest": [
-    {
-      "taskOrder": "1.1.2"
-    },
-    {
-      "useLessonName": "no"
-    },
-    {
-      "language": "sk"
-    },
-    {
-      "LengthInTime": "0:30"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:00"
-    },
-    {
-      "ExperiencePoints": "36000"
-    },
-    {
-      "difficulty": "500"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
+      "genericVals": "1"
     },
     {
-      "GuarantorId": "skorg1 go"
+      "genericVals": "1"
     },
     {
-      "Guarantors": "skorg1 go"
+      "genericVals": "3000"
     },
     {
-      "ContentAssistants": "skorg1 nah"
+      "genericVals": "Otv"
     },
     {
-      "Trainings": "CY testing"
+      "genericVals": "1"
     },
     {
-      "lecturerInstruction": "asasas"
+      "genericVals": "1"
     },
     {
-      "lecturerInternalMaterial": "asasas"
+      "genericVals": "1"
     },
     {
-      "studentInstruction": "asasas"
+      "genericVals": "1"
     },
     {
-      "Description": "asasas"
+      "genericVals": "3000"
     },
     {
-      "Content": "*Toto je znenie prvej otázky.\n\n*Toto je znenie druhej otázky.\n\n*Toto je znenie tretej otázky.\n\n"
-    }
-  ],
-  "Zadanie": [
-    {
-      "taskOrder": "1.1.3"
-    },
-    {
-      "useLessonName": "no"
+      "genericVals": "Zad"
     },
     {
-      "language": "sk"
+      "genericVals": "1"
     },
     {
-      "LengthInTime": "0:10"
+      "genericVals": "1"
     },
     {
-      "EstimateTimeForEvaluationInTime": "0:00"
+      "genericVals": "1"
     },
     {
-      "ExperiencePoints": "12000"
+      "genericVals": "1"
     },
     {
-      "difficulty": "100"
+      "genericVals": "1000"
     },
     {
-      "IsTimeLimitedTask": "no"
+      "genericVals": "Pro"
     },
     {
-      "NotMandatory": "no"
+      "genericVals": "1"
     },
     {
-      "GuarantorId": "skorg1 go"
+      "genericVals": "1"
     },
     {
-      "Guarantors": "skorg1 go"
+      "genericVals": "1"
     },
     {
-      "ContentAssistants": "skorg1 nah"
+      "genericVals": "1"
     },
     {
-      "Trainings": "CY testing"
+      "genericVals": "3000"
     },
     {
-      "lecturerInstruction": "asasasa"
+      "genericVals": "Web"
     },
     {
-      "correctorInstruction": "asasasas"
+      "genericVals": "1"
     },
     {
-      "lecturerInternalMaterial": "asasasa"
+      "genericVals": "1"
     },
     {
-      "studentInstruction": "sasasas"
+      "genericVals": "1"
     },
     {
-      "Description": "asasas"
+      "genericVals": "2"
     },
     {
-      "Assignment": "asasasas"
+      "genericVals": "1500"
     },
     {
-      "SampleSolution": ""
+      "genericVals": "Vid"
     },
     {
-      "FileUploadIsMandatory": "no"
+      "genericVals": "1"
     },
     {
-      "AnswerIsMandatory": "no"
+      "genericVals": "1"
     },
-    {
-      "IsExerciseTestAllowed": "no"
-    }
-  ],
-  "PotvrdenieAbsolvovania": [
     {
-      "taskOrder": "1.4.10"
+      "genericVals": "1"
     },
     {
-      "useLessonName": "no"
+      "genericVals": "2"
     },
     {
-      "language": "sk"
+      "genericVals": "4500"
     },
     {
-      "LengthInTime": "0:10"
+      "genericVals": "Dop"
     },
     {
-      "EstimateTimeForEvaluationInTime": "0:00"
+      "genericVals": "1"
     },
     {
-      "ExperiencePoints": "1500"
+      "genericVals": "1"
     },
     {
-      "difficulty": "500"
+      "genericVals": "1"
     },
     {
-      "IsTimeLimitedTask": "no"
+      "genericVals": "4"
     },
     {
-      "NotMandatory": "no"
+      "genericVals": "1500"
     },
     {
-      "GuarantorId": "skorg1 go"
+      "genericVals": "Pár"
     },
     {
-      "Guarantors": "skorg1 go"
+      "genericVals": "1"
     },
     {
-      "ContentAssistants": "skorg1 nah"
+      "genericVals": "1"
     },
     {
-      "Trainings": "CY testing"
+      "genericVals": "1"
     },
     {
-      "lecturerInstruction": "assa"
+      "genericVals": "4"
     },
     {
-      "lecturerInternalMaterial": "sasaas"
+      "genericVals": "1500"
     },
     {
-      "studentInstruction": "sasasasa"
+      "genericVals": "Spo"
     },
     {
-      "Description": "sasaas"
+      "genericVals": "1"
     },
     {
-      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
-    }
-  ],
-  "Diskusia": [
-    {
-      "taskOrder": "1.4.11"
+      "genericVals": "1"
     },
     {
-      "useLessonName": "no"
+      "genericVals": "1"
     },
     {
-      "language": "sk"
+      "genericVals": "4"
     },
     {
-      "LengthInTime": "0:10"
+      "genericVals": "4500"
     },
     {
-      "EstimateTimeForEvaluationInTime": "0:00"
+      "genericVals": "Pre"
     },
     {
-      "ExperiencePoints": "1500"
+      "genericVals": "1"
     },
     {
-      "difficulty": "100"
+      "genericVals": "1"
     },
     {
-      "IsTimeLimitedTask": "no"
+      "genericVals": "1"
     },
     {
-      "NotMandatory": "no"
+      "genericVals": "4"
     },
     {
-      "GuarantorId": "skorg1 go"
+      "genericVals": "1500"
     },
     {
-      "Guarantors": "skorg1 go"
+      "genericVals": "Pre"
     },
     {
-      "ContentAssistants": "skorg1 nah"
+      "genericVals": "1"
     },
     {
-      "Trainings": "CY testing"
+      "genericVals": "1"
     },
     {
-      "lecturerInstruction": "sasasasa"
+      "genericVals": "1"
     },
     {
-      "lecturerInternalMaterial": "assasasa"
+      "genericVals": "4"
     },
     {
-      "studentInstruction": "asasas"
+      "genericVals": "1500"
     },
     {
-      "Description": "assasa"
+      "genericVals": "IQ "
     },
-    {
-      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
-    }
-  ],
-  "Cvicenie": [
     {
-      "taskOrder": "1.4.12"
+      "genericVals": "1"
     },
     {
-      "useLessonName": "no"
+      "genericVals": "1"
     },
     {
-      "language": "sk"
+      "genericVals": "1"
     },
     {
-      "LengthInTime": "0:10"
+      "genericVals": "4"
     },
     {
-      "EstimateTimeForEvaluationInTime": "2:50"
+      "genericVals": "4500"
     },
     {
-      "ExperiencePoints": "1500"
+      "genericVals": "Ank"
     },
     {
-      "difficulty": "300"
+      "genericVals": "1"
     },
     {
-      "IsTimeLimitedTask": "no"
+      "genericVals": "1"
     },
     {
-      "NotMandatory": "no"
+      "genericVals": "1"
     },
     {
-      "GuarantorId": "skorg1 go"
+      "genericVals": "4"
     },
     {
-      "Guarantors": "skorg1 go"
+      "genericVals": "1500"
     },
     {
-      "ContentAssistants": "skorg1 nah"
+      "genericVals": "Spä"
     },
     {
-      "Trainings": "CY testing"
+      "genericVals": "1"
     },
     {
-      "lecturerInstruction": "sasasa"
+      "genericVals": "1"
     },
     {
-      "lecturerInternalMaterial": "assaasas"
+      "genericVals": "1"
     },
     {
-      "studentInstruction": "assasa"
+      "genericVals": "4"
     },
     {
-      "Description": "saasas"
+      "genericVals": "1500"
     },
     {
-      "Content": "Ahojte, pre pripojenie na webinár/cvičenie prosím použite webovú verziu aplikácie MS Teams alebo jej standalone verziu.Po kliknutí na tento odkaz budete presmerovaní do Teamsovej skupiny, v ktorej sa bude konať webinár/cvičenie"
-    }
-  ],
-  "Checklist": [
-    {
-      "taskOrder": "1.4.13"
+      "genericVals": "Oso"
     },
     {
-      "useLessonName": "no"
+      "genericVals": "1"
     },
     {
-      "language": "sk"
+      "genericVals": "1"
     },
     {
-      "LengthInTime": "0:10"
+      "genericVals": "1"
     },
     {
-      "EstimateTimeForEvaluationInTime": "0:00"
+      "genericVals": "4"
     },
     {
-      "ExperiencePoints": "1500"
+      "genericVals": "1500"
     },
     {
-      "difficulty": "100"
+      "genericVals": "Pot"
     },
     {
-      "IsTimeLimitedTask": "no"
+      "genericVals": "1"
     },
     {
-      "NotMandatory": "no"
+      "genericVals": "1"
     },
     {
-      "GuarantorId": "skorg1 go"
+      "genericVals": "1"
     },
     {
-      "Guarantors": "skorg1 go"
+      "genericVals": "4"
     },
     {
-      "ContentAssistants": "skorg1 nah"
+      "genericVals": "1500"
     },
     {
-      "Trainings": "CY testing"
+      "genericVals": "Dis"
     },
     {
-      "lecturerInstruction": "assasa"
+      "genericVals": "1"
     },
     {
-      "lecturerInternalMaterial": "sasaas"
+      "genericVals": "1"
     },
     {
-      "studentInstruction": "sasasa"
+      "genericVals": "1"
     },
     {
-      "Description": "assasaas"
+      "genericVals": "4"
     },
-    {
-      "Content": "*Body agendy:\n+Toto je prvý bod agendy\n+Toto je druhý bod agendy\n+Toto je tretí bod agendy\n\n"
-    }
-  ],
-  "IQtest": [
     {
-      "taskOrder": "1.4.2"
+      "genericVals": "1500"
     },
     {
-      "useLessonName": "no"
+      "genericVals": "Cvi"
     },
     {
-      "language": "sk"
+      "genericVals": "1"
     },
     {
-      "LengthInTime": "0:30"
+      "genericVals": "1"
     },
     {
-      "EstimateTimeForEvaluationInTime": "0:00"
+      "genericVals": "1"
     },
     {
-      "ExperiencePoints": "4500"
+      "genericVals": "4"
     },
     {
-      "difficulty": "100"
+      "genericVals": "1500"
     },
     {
-      "IsTimeLimitedTask": "no"
+      "genericVals": "Che"
     },
     {
-      "NotMandatory": "no"
+      "genericVals": "1"
     },
     {
-      "GuarantorId": "skorg1 go"
+      "genericVals": "1"
     },
     {
-      "Guarantors": "skorg1 go"
+      "genericVals": "1"
     },
     {
-      "ContentAssistants": "skorg1 nah"
+      "genericVals": "4"
     },
     {
-      "Trainings": "CY testing"
+      "genericVals": "1500"
     },
     {
-      "lecturerInstruction": "assda"
+      "orderCount": "1"
     },
     {
-      "lecturerInternalMaterial": "dassadasd"
+      "orderCount": "2"
     },
     {
-      "studentInstruction": "dsadsaads"
+      "orderCount": "3"
     },
     {
-      "Description": "dsadasads"
+      "orderCount": "4"
     },
     {
-      "characteristicForm": "Logické myslenie"
+      "orderCount": "5"
     },
     {
-      "characteristicForm": "Analytické myslenie"
+      "orderCount": "1"
     },
     {
-      "characteristicForm": "Syntetické myslenie"
+      "orderCount": "2"
     },
     {
-      "characteristicForm": "Priestorové myslenie"
+      "orderCount": "1"
     },
     {
-      "characteristicForm": "Rýchlosť"
+      "orderCount": "2"
     },
     {
-      "characteristicForm": "Logické myslenie"
+      "orderCount": "3"
     },
     {
-      "characteristicForm": "20"
+      "orderCount": "4"
     },
     {
-      "characteristicForm": "Analytické myslenie"
+      "orderCount": "5"
     },
     {
-      "characteristicForm": "20"
+      "orderCount": "6"
     },
     {
-      "characteristicForm": "Syntetické myslenie"
+      "orderCount": "7"
     },
     {
-      "characteristicForm": "20"
+      "orderCount": "8"
     },
     {
-      "characteristicForm": "Priestorové myslenie"
+      "orderCount": "9"
     },
     {
-      "characteristicForm": "20"
+      "orderCount": "10"
     },
     {
-      "characteristicForm": "Rýchlosť"
+      "orderCount": "11"
     },
     {
-      "characteristicForm": "20"
+      "orderCount": "12"
     },
     {
-      "characteristicForm": "dsaadsdas"
+      "orderCount": "13"
     },
     {
-      "characteristicForm": "dsasdaasd"
+      "selectVals": "Nízka"
     },
     {
-      "characteristicFormA": "Logické myslenie"
+      "selectVals": "Vysoká"
     },
     {
-      "characteristicFormA": "Analytické myslenie"
+      "selectVals": "Vysoká"
     },
     {
-      "characteristicFormA": "Syntetické myslenie"
+      "selectVals": "Nízka"
     },
     {
-      "characteristicFormA": "Priestorové myslenie"
+      "selectVals": "Nízka"
     },
     {
-      "characteristicFormA": "Rýchlosť"
+      "selectVals": "Nízka"
     },
     {
-      "characteristicFormA": "Logické myslenie"
+      "selectVals": "Stredná"
     },
     {
-      "characteristicFormA": "20"
+      "selectVals": "Nízka"
     },
     {
-      "characteristicFormA": "Analytické myslenie"
+      "selectVals": "Stredná"
     },
     {
-      "characteristicFormA": "20"
+      "selectVals": "Stredná"
     },
     {
-      "characteristicFormA": "Syntetické myslenie"
+      "selectVals": "Vysoká"
     },
     {
-      "characteristicFormA": "20"
+      "selectVals": "Nízka"
     },
     {
-      "characteristicFormA": "Priestorové myslenie"
+      "selectVals": "Stredná"
     },
     {
-      "characteristicFormA": "20"
+      "selectVals": "Nízka"
     },
     {
-      "characteristicFormA": "Rýchlosť"
+      "selectVals": "Vysoká"
     },
     {
-      "characteristicFormA": "20"
+      "selectVals": "Nízka"
     },
     {
-      "characteristicFormA": "dsaadsdas"
+      "selectVals": "Vysoká"
     },
     {
-      "characteristicFormA": "dsasdaasd"
+      "selectVals": "Nízka"
     },
     {
-      "personalityTestFormSel": "false"
+      "selectVals": "Stredná"
     },
     {
-      "personalityTestFormSel": "true"
+      "selectVals": "Nízka"
     }
   ]
 }

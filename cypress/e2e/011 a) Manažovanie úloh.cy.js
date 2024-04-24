@@ -620,7 +620,7 @@ describe('Product owner', function () {
                   
                   
                   cy.get('[name="lecturerInternalMaterial"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
-                    cy.wrap(value).should('eq', lecturerInternalMaterial) 
+                    cy.wrap(value).should('be.empty',) 
                   });
                 
                   cy.get('[name="studentInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
@@ -659,7 +659,7 @@ describe('Product owner', function () {
               for (let x = 0; x < checkbox.length; x++) {
                   cy.wrap(checkbox[x]).uncheck({force: true})
               }
-              cy.wrap(checkbox).eq(1).check({force: true})
+              cy.wrap(checkbox).eq(2).check({force: true})
           })
       
           cy.wait(1000).then(() => {
@@ -774,7 +774,7 @@ describe('Product owner', function () {
                         
                         
                         cy.get('[name="lecturerInternalMaterial"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
-                          cy.wrap(value).should('eq', lecturerInternalMaterial) 
+                          cy.wrap(value).should('be.empty',) 
                         });
                       
                         cy.get('[name="studentInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {

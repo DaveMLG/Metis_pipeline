@@ -149,7 +149,7 @@ describe('Product owner', function () {
 
     cy.get('[name="selectLessonTemplate"]').select('Šablóna na pretestovanie úloh')
     cy.get('[name="selectTheme"]').select(1)
-    cy.get('[name="selectLesson"]').select(2)
+    cy.get('[name="selectLesson"]').select(1)
 
     cy.get('[name="editForm"]').find('[type="button"]').contains('Gener').click()
     cy.wait(5000)
