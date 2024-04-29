@@ -1,4 +1,4 @@
-/*describe('Product owner', function() {
+describe('Product owner', function() {
   beforeEach(() => {
     cy.visit('https://dev.metis.academy/admin');
     cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
@@ -32,9 +32,9 @@
     cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
     cy.get('@nastavenia').click(); 
     cy.get('[href="/admin/elearning/training"]').click();
-    cy.get('[placeholder="Kľúčové slovo"]').type("CY pridanie inštrukcií");
+    cy.get('[placeholder="Kľúčové slovo"]').type("CY testing");
     cy.get('[type="submit"]').click();
-    cy.contains('CY pridanie inštrukcií').click();
+    cy.contains('CY testing').click();
     cy.get('.nav-link').contains('Inštrukcie').click();
 
     clickRadioButtonInsertText();
@@ -61,9 +61,9 @@
     cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
-    cy.get('[placeholder="Kľúčové slovo"]').type("CY pridanie inštrukcií");
+    cy.get('[placeholder="Kľúčové slovo"]').type("CY testing");
     cy.get('[type="submit"]').click();
-    cy.contains('CY pridanie inštrukcií').click();
+    cy.contains('CY testing').click();
     cy.get('.nav-link').contains('Inštrukcie').click();
  
     clickRadioButtonInsertText();
@@ -86,13 +86,12 @@
       cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
       cy.get('@nastavenia').click(); 
       cy.get('[href="/admin/elearning/training"]').click();
-      cy.get('[placeholder="Kľúčové slovo"]').type("CY pridanie inštrukcií");
+      cy.get('[placeholder="Kľúčové slovo"]').type("CY testing");
       cy.get('[type="submit"]').click();
-      cy.contains('CY pridanie inštrukcií').click();
+      cy.contains('CY testing').click();
       cy.get('.nav-link').contains('Inštrukcie').click();
   
       selectOperator();
     });
   })
 });
-*/
