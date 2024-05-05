@@ -19,65 +19,6 @@
       "ExperiencePoints": "3000"
     },
     {
-      "difficulty": "100"
-    },
-    {
-      "IsTimeLimitedTask": "no"
-    },
-    {
-      "NotMandatory": "no"
-    },
-    {
-      "GuarantorId": "skorg1 go"
-    },
-    {
-      "Guarantors": "skorg1 go"
-    },
-    {
-      "ContentAssistants": "skorg1 nah"
-    },
-    {
-      "Trainings": "PO CYPO CY Hromadné manažovanie úloh"
-    },
-    {
-      "lecturerInstruction": "moderator1"
-    },
-    {
-      "correctorInstruction": "student1"
-    },
-    {
-      "lecturerInternalMaterial": ""
-    },
-    {
-      "studentInstruction": "instructor1"
-    },
-    {
-      "Description": "Popis úlohy - HM"
-    },
-    {
-      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
-    }
-  ],
-  "Webinar": [
-    {
-      "taskOrder": "1.2.1"
-    },
-    {
-      "useLessonName": "no"
-    },
-    {
-      "language": "sk"
-    },
-    {
-      "LengthInTime": "0:30"
-    },
-    {
-      "EstimateTimeForEvaluationInTime": "0:30"
-    },
-    {
-      "ExperiencePoints": "4500"
-    },
-    {
       "difficulty": "300"
     },
     {
@@ -96,22 +37,81 @@
       "ContentAssistants": "skorg1 nah"
     },
     {
-      "Trainings": "PO CYPO CY Hromadné manažovanie úloh"
+      "Trainings": "PO CYPO CY Hromadné manažovanie úlohCY testing"
     },
     {
-      "lecturerInstruction": "moderator3"
+      "lecturerInstruction": "moderator1LektoraLektoraLektoraLektora"
     },
     {
-      "correctorInstruction": "student3"
+      "correctorInstruction": "student1OpravovačOpravovačOpravovačOpravovač"
     },
     {
       "lecturerInternalMaterial": ""
     },
     {
-      "studentInstruction": "instructor3"
+      "studentInstruction": "instructor1ŠtudentaŠtudentaŠtudentaŠtudenta"
     },
     {
       "Description": "Popis úlohy - HM"
+    },
+    {
+      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
+    }
+  ],
+  "Webinar": [
+    {
+      "taskOrder": "2.1.1"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:30"
+    },
+    {
+      "ExperiencePoints": "3000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": "skorg1 nah"
+    },
+    {
+      "Trainings": "PO CY Hromadné manažovanie úlohCY testing"
+    },
+    {
+      "lecturerInstruction": "LektoraLektoraLektoraLektora"
+    },
+    {
+      "correctorInstruction": "OpravovačOpravovačOpravovačOpravovač"
+    },
+    {
+      "lecturerInternalMaterial": ""
+    },
+    {
+      "studentInstruction": "ŠtudentaŠtudentaŠtudentaŠtudenta"
+    },
+    {
+      "Description": ""
     },
     {
       "Content": "Ahojte, pre pripojenie na webinár/cvičenie prosím použite webovú verziu aplikácie MS Teams alebo jej standalone verziu.Po kliknutí na tento odkaz budete presmerovaní do Teamsovej skupiny, v ktorej sa bude konať webinár/cvičenie"
@@ -119,7 +119,7 @@
   ],
   "Cvicenie": [
     {
-      "taskOrder": "1.4.1"
+      "taskOrder": "3.4.1"
     },
     {
       "useLessonName": "no"
@@ -155,22 +155,22 @@
       "ContentAssistants": "skorg1 nah"
     },
     {
-      "Trainings": "PO CYPO CY Hromadné manažovanie úloh"
+      "Trainings": "PO CY Hromadné manažovanie úlohCY testing"
     },
     {
-      "lecturerInstruction": "moderator3"
+      "lecturerInstruction": "LektoraLektoraLektoraLektora"
     },
     {
-      "correctorInstruction": "student3"
+      "correctorInstruction": "OpravovačOpravovačOpravovačOpravovač"
     },
     {
       "lecturerInternalMaterial": ""
     },
     {
-      "studentInstruction": "instructor3"
+      "studentInstruction": "ŠtudentaŠtudentaŠtudentaŠtudenta"
     },
     {
-      "Description": "Popis úlohy - HM"
+      "Description": ""
     },
     {
       "Content": "Ahojte, pre pripojenie na webinár/cvičenie prosím použite webovú verziu aplikácie MS Teams alebo jej standalone verziu.Po kliknutí na tento odkaz budete presmerovaní do Teamsovej skupiny, v ktorej sa bude konať webinár/cvičenie"

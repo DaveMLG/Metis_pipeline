@@ -1,10 +1,10 @@
 {
   "Values": [
     {
-      "genericVals": "1. Téma"
+      "genericVals": "1. Téma - HM"
     },
     {
-      "genericVals": "1. Lekcia"
+      "genericVals": "1. Lekcia - HM"
     },
     {
       "genericVals": ""
@@ -13,154 +13,64 @@
       "genericVals": "1. Príprava"
     },
     {
-      "genericVals": "Samoštúdium"
+      "genericVals": "Potvrdenie absolvovania"
     },
     {
-      "genericVals": "Samoštúdium"
+      "genericVals": "Potvrdenie absolvovaniaTaskToDelete"
     },
     {
       "genericVals": "1"
     },
     {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
+      "genericVals": "moderator1LektoraLektoraLektoraLektora"
     },
     {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
+      "genericVals": "student1OpravovačOpravovačOpravovačOpravovač"
     },
     {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
+      "genericVals": "instructor1ŠtudentaŠtudentaŠtudentaŠtudenta"
     },
     {
-      "genericVals": "1. Téma"
+      "genericVals": "1. Téma - HM"
     },
     {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Príprava"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "2"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Príprava"
-    },
-    {
-      "genericVals": "Otvorený test"
-    },
-    {
-      "genericVals": "Otvorený test"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Príprava"
-    },
-    {
-      "genericVals": "Zadanie"
-    },
-    {
-      "genericVals": "Zadanie"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Príprava"
-    },
-    {
-      "genericVals": "Projekt"
-    },
-    {
-      "genericVals": "Projekt"
-    },
-    {
-      "genericVals": "5"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
+      "genericVals": "1. Lekcia - HM"
     },
     {
       "genericVals": ""
     },
     {
       "genericVals": "2. Seminár"
+    },
+    {
+      "genericVals": "Automatický test"
+    },
+    {
+      "genericVals": "Automatický test"
+    },
+    {
+      "genericVals": "1"
+    },
+    {
+      "genericVals": "LektoraLektora"
+    },
+    {
+      "genericVals": "OpravovačOpravovač"
+    },
+    {
+      "genericVals": "ŠtudentaŠtudenta"
+    },
+    {
+      "genericVals": "1. Téma - HM"
+    },
+    {
+      "genericVals": "2. Lekcia_2 - HM"
+    },
+    {
+      "genericVals": ""
+    },
+    {
+      "genericVals": "1. Príprava"
     },
     {
       "genericVals": "Webinár"
@@ -172,433 +82,43 @@
       "genericVals": "1"
     },
     {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
+      "genericVals": "LektoraLektoraLektoraLektora"
     },
     {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
+      "genericVals": "OpravovačOpravovačOpravovačOpravovač"
     },
     {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
+      "genericVals": "ŠtudentaŠtudentaŠtudentaŠtudenta"
     },
     {
-      "genericVals": "1. Téma"
+      "genericVals": "1. Téma - HM"
     },
     {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "2. Seminár"
-    },
-    {
-      "genericVals": "Videosamoštúdium"
-    },
-    {
-      "genericVals": "Videosamoštúdium"
-    },
-    {
-      "genericVals": "2"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
+      "genericVals": "3. Lekcia_3 - HM"
     },
     {
       "genericVals": ""
     },
     {
-      "genericVals": "4. Cvičení"
+      "genericVals": "4. Cvičenie"
     },
     {
-      "genericVals": "Doplňovačka"
+      "genericVals": "Cvičenie"
     },
     {
-      "genericVals": "Doplňovačka"
+      "genericVals": "Cvičenie"
     },
     {
       "genericVals": "1"
     },
     {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
+      "genericVals": "LektoraLektoraLektoraLektora"
     },
     {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
+      "genericVals": "OpravovačOpravovačOpravovačOpravovač"
     },
     {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Cvičení"
-    },
-    {
-      "genericVals": "Párovačka"
-    },
-    {
-      "genericVals": "Párovačka"
-    },
-    {
-      "genericVals": "2"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Cvičení"
-    },
-    {
-      "genericVals": "Spoločná práca s lektorom"
-    },
-    {
-      "genericVals": "Spoločná práca s lektorom"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Cvičení"
-    },
-    {
-      "genericVals": "Preferenčný test"
-    },
-    {
-      "genericVals": "Preferenčný test"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Cvičení"
-    },
-    {
-      "genericVals": "Preklad"
-    },
-    {
-      "genericVals": "Preklad"
-    },
-    {
-      "genericVals": "5"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Cvičení"
-    },
-    {
-      "genericVals": "IQ test"
-    },
-    {
-      "genericVals": "IQ test"
-    },
-    {
-      "genericVals": "6"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Cvičení"
-    },
-    {
-      "genericVals": "Anketa"
-    },
-    {
-      "genericVals": "Anketa"
-    },
-    {
-      "genericVals": "7"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Cvičení"
-    },
-    {
-      "genericVals": "Spätná väzba"
-    },
-    {
-      "genericVals": "Spätná väzba"
-    },
-    {
-      "genericVals": "8"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Cvičení"
-    },
-    {
-      "genericVals": "Osobnostný test"
-    },
-    {
-      "genericVals": "Osobnostný test"
-    },
-    {
-      "genericVals": "9"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Cvičení"
-    },
-    {
-      "genericVals": "Potvrdenie absolvovania"
-    },
-    {
-      "genericVals": "Potvrdenie absolvovania"
-    },
-    {
-      "genericVals": "10"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Cvičení"
-    },
-    {
-      "genericVals": "Diskusia"
-    },
-    {
-      "genericVals": "Diskusia"
-    },
-    {
-      "genericVals": "11"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Cvičení"
-    },
-    {
-      "genericVals": "Cvičenie"
-    },
-    {
-      "genericVals": "Cvičenie"
-    },
-    {
-      "genericVals": "12"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
-    },
-    {
-      "genericVals": "1. Téma"
-    },
-    {
-      "genericVals": "1. Lekcia"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "4. Cvičení"
-    },
-    {
-      "genericVals": "Checklist"
-    },
-    {
-      "genericVals": "Checklist"
-    },
-    {
-      "genericVals": "13"
-    },
-    {
-      "genericVals": "Inštrukcie pre lektora - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre opravovača - zo šablóny"
-    },
-    {
-      "genericVals": "Inštrukcie pre študenta - zo šablóny"
+      "genericVals": "ŠtudentaŠtudentaŠtudentaŠtudenta"
     }
   ]
 }

@@ -1,514 +1,288 @@
 {
-  "Values": [
+  "Samostudium": [
     {
-      "summaryValues": " 20 "
+      "taskOrder": "1.1.1"
     },
     {
-      "summaryValues": " 1 "
+      "useLessonName": "no"
     },
     {
-      "summaryValues": " 1 "
+      "language": "cs"
     },
     {
-      "summaryValues": " 44500 "
+      "LengthInTime": "0:30"
     },
     {
-      "summaryValues": " 5:40 "
+      "EstimateTimeForEvaluationInTime": "0:00"
     },
     {
-      "summaryValues": " 3:30 "
+      "ExperiencePoints": "3000"
     },
     {
-      "summaryValues": " 0:00 "
+      "difficulty": "100"
     },
     {
-      "summaryValues": " 0:00  0:00  0:00  0:00  0:00 "
+      "IsTimeLimitedTask": "no"
     },
     {
-      "summaryValues": " 0:00  0:00  0:00  0:00  0:00 "
+      "NotMandatory": "no"
     },
     {
-      "summaryValues": " 0:00  0:00  0:00  0:00  0:00 "
+      "GuarantorId": "skorg1 go"
     },
     {
-      "genericVals": "Sam"
+      "Guarantors": "skorg1 go"
     },
     {
-      "genericVals": "1"
+      "ContentAssistants": "skorg1 nah"
     },
     {
-      "genericVals": "1"
+      "Trainings": "CY testing"
     },
     {
-      "genericVals": "1"
+      "guarantorInternalMaterial": ""
     },
     {
-      "genericVals": "1"
+      "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
     },
     {
-      "genericVals": "3000"
+      "lecturerInternalMaterial": ""
     },
     {
-      "genericVals": "Aut"
+      "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
     },
     {
-      "genericVals": "1"
+      "Description": ""
     },
     {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3000"
-    },
-    {
-      "genericVals": "Otv"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3000"
-    },
-    {
-      "genericVals": "Zad"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1000"
-    },
-    {
-      "genericVals": "Pro"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3000"
-    },
-    {
-      "genericVals": "Web"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "2"
-    },
-    {
-      "genericVals": "1500"
-    },
-    {
-      "genericVals": "Vid"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "2"
-    },
-    {
-      "genericVals": "4500"
-    },
-    {
-      "genericVals": "Dop"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": "1500"
-    },
-    {
-      "genericVals": "Pár"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": "1500"
-    },
-    {
-      "genericVals": "Spo"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": "4500"
-    },
-    {
-      "genericVals": "Pre"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": "1500"
-    },
-    {
-      "genericVals": "Pre"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": "1500"
-    },
-    {
-      "genericVals": "IQ "
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": "4500"
-    },
-    {
-      "genericVals": "Ank"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": "1500"
-    },
-    {
-      "genericVals": "Spä"
-    },
-    {
-      "genericVals": "1"
-    },
+      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
+    }
+  ],
+  "AutoTest": [
     {
-      "genericVals": "1"
+      "taskOrder": "1.1.2"
     },
     {
-      "genericVals": "1"
+      "useLessonName": "no"
     },
     {
-      "genericVals": "4"
+      "language": "cs"
     },
     {
-      "genericVals": "1500"
+      "LengthInTime": "0:30"
     },
     {
-      "genericVals": "Oso"
+      "EstimateTimeForEvaluationInTime": "0:00"
     },
     {
-      "genericVals": "1"
+      "ExperiencePoints": "3000"
     },
     {
-      "genericVals": "1"
+      "difficulty": "500"
     },
     {
-      "genericVals": "1"
+      "IsTimeLimitedTask": "yes"
     },
     {
-      "genericVals": "4"
+      "NotMandatory": "no"
     },
     {
-      "genericVals": "1500"
+      "GuarantorId": "skorg1 go"
     },
     {
-      "genericVals": "Pot"
+      "Guarantors": "skorg1 go"
     },
     {
-      "genericVals": "1"
+      "ContentAssistants": "skorg1 nah"
     },
     {
-      "genericVals": "1"
+      "Trainings": "CY testing"
     },
     {
-      "genericVals": "1"
+      "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
     },
     {
-      "genericVals": "4"
+      "lecturerInternalMaterial": ""
     },
     {
-      "genericVals": "1500"
+      "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
     },
     {
-      "genericVals": "Dis"
+      "Description": ""
     },
     {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
+      "Content": "*otázka1\n-nesprávna odpoved\n+správna odpoved\n\n*otázka2\n+správna odpoved\n-nesprávna odpoved\n\n"
+    }
+  ],
+  "Videosamostudium": [
     {
-      "genericVals": "1"
+      "taskOrder": "1.2.2"
     },
     {
-      "genericVals": "4"
+      "useLessonName": "no"
     },
     {
-      "genericVals": "1500"
+      "language": "cs"
     },
     {
-      "genericVals": "Cvi"
+      "LengthInTime": "0:30"
     },
     {
-      "genericVals": "1"
+      "EstimateTimeForEvaluationInTime": "0:00"
     },
     {
-      "genericVals": "1"
+      "ExperiencePoints": "4500"
     },
     {
-      "genericVals": "1"
+      "difficulty": "300"
     },
     {
-      "genericVals": "4"
+      "IsTimeLimitedTask": "no"
     },
     {
-      "genericVals": "1500"
+      "NotMandatory": "no"
     },
     {
-      "genericVals": "Che"
+      "GuarantorId": "skorg1 go"
     },
     {
-      "genericVals": "1"
+      "Guarantors": "skorg1 go"
     },
     {
-      "genericVals": "1"
+      "ContentAssistants": "skorg1 nah"
     },
     {
-      "genericVals": "1"
+      "Trainings": "CY testing"
     },
     {
-      "genericVals": "4"
+      "guarantorInternalMaterial": ""
     },
     {
-      "genericVals": "1500"
+      "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
     },
     {
-      "orderCount": "1"
+      "lecturerInternalMaterial": ""
     },
     {
-      "orderCount": "2"
+      "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
     },
     {
-      "orderCount": "3"
+      "Description": ""
     },
     {
-      "orderCount": "4"
-    },
+      "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
+    }
+  ],
+  "Webinar": [
     {
-      "orderCount": "5"
+      "taskOrder": "1.2.1"
     },
     {
-      "orderCount": "1"
+      "useLessonName": "no"
     },
     {
-      "orderCount": "2"
+      "language": "cs"
     },
     {
-      "orderCount": "1"
+      "LengthInTime": "0:10"
     },
     {
-      "orderCount": "2"
+      "EstimateTimeForEvaluationInTime": "0:40"
     },
     {
-      "orderCount": "3"
+      "ExperiencePoints": "1500"
     },
     {
-      "orderCount": "4"
+      "difficulty": "100"
     },
     {
-      "orderCount": "5"
+      "IsTimeLimitedTask": "no"
     },
     {
-      "orderCount": "6"
+      "NotMandatory": "no"
     },
     {
-      "orderCount": "7"
+      "GuarantorId": "skorg1 go"
     },
     {
-      "orderCount": "8"
+      "Guarantors": "skorg1 go"
     },
     {
-      "orderCount": "9"
+      "ContentAssistants": "skorg1 nah"
     },
     {
-      "orderCount": "10"
+      "Trainings": "CY testing"
     },
     {
-      "orderCount": "11"
+      "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
     },
     {
-      "orderCount": "12"
+      "lecturerInternalMaterial": ""
     },
     {
-      "orderCount": "13"
+      "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
     },
     {
-      "selectVals": "Nízka"
+      "Description": ""
     },
     {
-      "selectVals": "Vysoká"
-    },
+      "Content": "Ahojte, pre pripojenie na webinár/cvičenie prosím použite webovú verziu aplikácie MS Teams alebo jej standalone verziu.Po kliknutí na tento odkaz budete presmerovaní do Teamsovej skupiny, v ktorej sa bude konať webinár/cvičenie"
+    }
+  ],
+  "Doplnovacka": [
     {
-      "selectVals": "Vysoká"
+      "taskOrder": "1.4.1"
     },
     {
-      "selectVals": "Nízka"
+      "useLessonName": "no"
     },
     {
-      "selectVals": "Nízka"
+      "language": "cs"
     },
     {
-      "selectVals": "Nízka"
+      "LengthInTime": "0:10"
     },
     {
-      "selectVals": "Stredná"
+      "EstimateTimeForEvaluationInTime": "0:00"
     },
     {
-      "selectVals": "Nízka"
+      "ExperiencePoints": "1500"
     },
     {
-      "selectVals": "Stredná"
+      "difficulty": "100"
     },
     {
-      "selectVals": "Stredná"
+      "IsTimeLimitedTask": "yes"
     },
     {
-      "selectVals": "Vysoká"
+      "NotMandatory": "no"
     },
     {
-      "selectVals": "Nízka"
+      "GuarantorId": "skorg1 go"
     },
     {
-      "selectVals": "Stredná"
+      "Guarantors": "skorg1 go"
     },
     {
-      "selectVals": "Nízka"
+      "ContentAssistants": "skorg1 nah"
     },
     {
-      "selectVals": "Vysoká"
+      "Trainings": "CY testing"
     },
     {
-      "selectVals": "Nízka"
+      "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
     },
     {
-      "selectVals": "Vysoká"
+      "lecturerInternalMaterial": ""
     },
     {
-      "selectVals": "Nízka"
+      "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
     },
     {
-      "selectVals": "Stredná"
+      "Description": ""
     },
     {
-      "selectVals": "Nízka"
+      "Content": "1. Ak sú odpovede súčasťou textu, pri zadávaní znenia úlohy postupujte nasledovne:  a) ak chcete, aby musel  študent odpoveď napísať, uveďte do zvolených znakov len jednu možnosť @@@1@@@.  b) v prípade, že chcete dať študentovi na výber z viacerých možností, zadajte odpovede vo forme @@@2@@@, pričom prvá možnosť reprezentuje správnu odpoveď.  2. Ak odpovede nie sú súčasťou textu a budete ich importovať, je potrebné do textu vyznačiť miesta pre správne odpovede prostredníctvom zvolených znakov.  Príklad: Prvá odpoveď z importovaného súboru patrí sem @@@3@@@.   Druhá odpoveď patrí sem @@@4@@@. "
     }
   ]
 }

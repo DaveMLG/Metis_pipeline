@@ -1,13 +1,19 @@
 {
   "Values": [
     {
-      "TaL": "1"
+      "TaL": "3"
     },
     {
-      "TaL": "Téma"
+      "TaL": "Téma - HM"
     },
     {
-      "TaL": "Lekcia"
+      "TaL": "Lekcia - HM"
+    },
+    {
+      "TaL": "Lekcia_2 - HM"
+    },
+    {
+      "TaL": "Lekcia_3 - HM"
     },
     {
       "tableVals": " 1 "
@@ -19,7 +25,25 @@
       "tableVals": " 1 "
     },
     {
-      "tableVals": "20"
+      "tableVals": "2"
+    },
+    {
+      "tableVals": " 2 "
+    },
+    {
+      "tableVals": " 2 "
+    },
+    {
+      "tableVals": "1"
+    },
+    {
+      "tableVals": " 3 "
+    },
+    {
+      "tableVals": " 3 "
+    },
+    {
+      "tableVals": "1"
     }
   ]
 }

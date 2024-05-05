@@ -55,7 +55,7 @@
       "ActivityInput": "2"
     },
     {
-      "ActivityInput": "3:00"
+      "ActivityInput": "1:00"
     },
     {
       "ActivityInput": "40"
@@ -70,13 +70,13 @@
       "ActivityInput": "3"
     },
     {
-      "ActivityInput": "4:00"
+      "ActivityInput": "2:00"
     },
     {
       "ActivityInput": "20"
     },
     {
-      "ActivityInput": "4"
+      "ActivityInput": "3"
     },
     {
       "ActivityInput": "Zadanie_edit_2"
@@ -85,10 +85,25 @@
       "ActivityInput": "4"
     },
     {
-      "ActivityInput": "5:00"
+      "ActivityInput": "3:30"
     },
     {
-      "ActivityInput": "25"
+      "ActivityInput": "40"
+    },
+    {
+      "ActivityInput": "4"
+    },
+    {
+      "ActivityInput": "Zadanie_edit_3"
+    },
+    {
+      "ActivityInput": "5"
+    },
+    {
+      "ActivityInput": "1:30"
+    },
+    {
+      "ActivityInput": "20"
     },
     {
       "ActivityCheckbox": "no"
@@ -98,6 +113,12 @@
     },
     {
       "ActivityCheckbox": "yes"
+    },
+    {
+      "ActivityCheckbox": "no"
+    },
+    {
+      "ActivityCheckbox": "no"
     },
     {
       "ActivityCheckbox": "no"
@@ -133,7 +154,7 @@
       "availableTasks": "-1"
     },
     {
-      "availableTasks": "1: 33483"
+      "availableTasks": "1: 34790"
     },
     {
       "availableTasks": "1: termEnd"
@@ -154,7 +175,7 @@
       "availableTasks": "0"
     },
     {
-      "availableTasks": "1: 33483"
+      "availableTasks": "1: 34790"
     },
     {
       "availableTasks": "1: termEnd"
@@ -175,7 +196,28 @@
       "availableTasks": "0"
     },
     {
-      "availableTasks": "2: 33484"
+      "availableTasks": "1: 34790"
+    },
+    {
+      "availableTasks": "1: termEnd"
+    },
+    {
+      "availableTasks": "3"
+    },
+    {
+      "availableTasks": "4"
+    },
+    {
+      "availableTasks": "5"
+    },
+    {
+      "availableTasks": "Zadanie_edit_3"
+    },
+    {
+      "availableTasks": "0"
+    },
+    {
+      "availableTasks": "2: 34793"
     },
     {
       "availableTasks": "0: termBeginning"
@@ -196,7 +238,7 @@
       "timeValuesTasksOnTime": "1"
     },
     {
-      "timeValuesTasksOnTime": "1: 33483"
+      "timeValuesTasksOnTime": "1: 34790"
     },
     {
       "timeValuesTasksOnTime": "1: termBeginning"
@@ -217,7 +259,7 @@
       "timeValuesTasksOnTime": "2"
     },
     {
-      "timeValuesTasksOnTime": "1: 33483"
+      "timeValuesTasksOnTime": "1: 34790"
     },
     {
       "timeValuesTasksOnTime": "1: termBeginning"
@@ -238,7 +280,28 @@
       "timeValuesTasksOnTime": "2"
     },
     {
-      "timeValuesTasksOnTime": "1: 33483"
+      "timeValuesTasksOnTime": "1: 34790"
+    },
+    {
+      "timeValuesTasksOnTime": "1: termBeginning"
+    },
+    {
+      "timeValuesTasksOnTime": "3"
+    },
+    {
+      "timeValuesTasksOnTime": "4"
+    },
+    {
+      "timeValuesTasksOnTime": "5"
+    },
+    {
+      "timeValuesTasksOnTime": "Zadanie_edit_3"
+    },
+    {
+      "timeValuesTasksOnTime": "2"
+    },
+    {
+      "timeValuesTasksOnTime": "1: 34790"
     },
     {
       "timeValuesTasksOnTime": "1: termBeginning"
@@ -259,7 +322,7 @@
       "timeValuesPastTime": "3"
     },
     {
-      "timeValuesPastTime": "1: 33483"
+      "timeValuesPastTime": "1: 34790"
     },
     {
       "timeValuesPastTime": "0: termBeginning"
@@ -280,7 +343,7 @@
       "timeValuesPastTime": "4"
     },
     {
-      "timeValuesPastTime": "1: 33483"
+      "timeValuesPastTime": "1: 34790"
     },
     {
       "timeValuesPastTime": "0: termBeginning"
@@ -301,7 +364,28 @@
       "timeValuesPastTime": "4"
     },
     {
-      "timeValuesPastTime": "1: 33483"
+      "timeValuesPastTime": "1: 34790"
+    },
+    {
+      "timeValuesPastTime": "0: termBeginning"
+    },
+    {
+      "timeValuesPastTime": "3"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "5"
+    },
+    {
+      "timeValuesPastTime": "Zadanie_edit_3"
+    },
+    {
+      "timeValuesPastTime": "4"
+    },
+    {
+      "timeValuesPastTime": "1: 34790"
     },
     {
       "timeValuesPastTime": "0: termBeginning"

@@ -47,7 +47,7 @@ describe('GARANT', function () {
         });
         cy.get(':nth-child(2) > .nav-link').click().wait(2000);
         cy.get('[type="number"]').then((checker) => {
-            cy.wrap(checker).invoke('val').should('eq', String(finalValue))
+            cy.wrap(checker).invoke('val').should('eq', String(finalValue)) 
         })
     });
 });
