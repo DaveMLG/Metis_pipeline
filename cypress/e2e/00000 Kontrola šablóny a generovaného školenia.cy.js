@@ -50,7 +50,7 @@ describe('Product owner', function () {
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click()
     cy.wait(5000)
-    cy.get('[type = "text"]').first().clear().type('CY testing')
+    cy.get('[type = "text"]').first().clear().type('CY test - odporučenie a použitie šablóny')
     cy.get('[type="submit"]').click()
     cy.wait(3000)
     cy.get('tbody').find('tr').first().find('a').click()

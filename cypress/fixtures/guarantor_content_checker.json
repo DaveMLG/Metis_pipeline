@@ -7,7 +7,7 @@
       "useLessonName": "no"
     },
     {
-      "language": "cs"
+      "language": "sk"
     },
     {
       "LengthInTime": "0:30"
@@ -37,22 +37,22 @@
       "ContentAssistants": "skorg1 nah"
     },
     {
-      "Trainings": "CY testing"
+      "Trainings": "CY testovanie všetkých úloh"
     },
     {
-      "guarantorInternalMaterial": ""
+      "guarantorInternalMaterial": "Interný materiál pre garanta"
     },
     {
       "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
     },
     {
-      "lecturerInternalMaterial": ""
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
     },
     {
       "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
     },
     {
-      "Description": ""
+      "Description": "Popis úlohy"
     },
     {
       "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
@@ -66,7 +66,7 @@
       "useLessonName": "no"
     },
     {
-      "language": "cs"
+      "language": "sk"
     },
     {
       "LengthInTime": "0:30"
@@ -81,7 +81,7 @@
       "difficulty": "500"
     },
     {
-      "IsTimeLimitedTask": "yes"
+      "IsTimeLimitedTask": "no"
     },
     {
       "NotMandatory": "no"
@@ -96,19 +96,19 @@
       "ContentAssistants": "skorg1 nah"
     },
     {
-      "Trainings": "CY testing"
+      "Trainings": "CY testovanie všetkých úloh"
     },
     {
       "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
     },
     {
-      "lecturerInternalMaterial": ""
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
     },
     {
       "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
     },
     {
-      "Description": ""
+      "Description": "Popis úlohy"
     },
     {
       "Content": "*otázka1\n-nesprávna odpoved\n+správna odpoved\n\n*otázka2\n+správna odpoved\n-nesprávna odpoved\n\n"
@@ -122,7 +122,7 @@
       "useLessonName": "no"
     },
     {
-      "language": "cs"
+      "language": "sk"
     },
     {
       "LengthInTime": "0:30"
@@ -152,22 +152,22 @@
       "ContentAssistants": "skorg1 nah"
     },
     {
-      "Trainings": "CY testing"
+      "Trainings": "CY testovanie všetkých úloh"
     },
     {
-      "guarantorInternalMaterial": ""
+      "guarantorInternalMaterial": "Interný materiál pre garanta"
     },
     {
       "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
     },
     {
-      "lecturerInternalMaterial": ""
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
     },
     {
       "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
     },
     {
-      "Description": ""
+      "Description": "Popis úlohy"
     },
     {
       "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
@@ -181,7 +181,7 @@
       "useLessonName": "no"
     },
     {
-      "language": "cs"
+      "language": "sk"
     },
     {
       "LengthInTime": "0:10"
@@ -211,19 +211,19 @@
       "ContentAssistants": "skorg1 nah"
     },
     {
-      "Trainings": "CY testing"
+      "Trainings": "CY testovanie všetkých úloh"
     },
     {
       "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
     },
     {
-      "lecturerInternalMaterial": ""
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
     },
     {
       "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
     },
     {
-      "Description": ""
+      "Description": "Popis úlohy"
     },
     {
       "Content": "Ahojte, pre pripojenie na webinár/cvičenie prosím použite webovú verziu aplikácie MS Teams alebo jej standalone verziu.Po kliknutí na tento odkaz budete presmerovaní do Teamsovej skupiny, v ktorej sa bude konať webinár/cvičenie"
@@ -237,7 +237,7 @@
       "useLessonName": "no"
     },
     {
-      "language": "cs"
+      "language": "sk"
     },
     {
       "LengthInTime": "0:10"
@@ -252,7 +252,7 @@
       "difficulty": "100"
     },
     {
-      "IsTimeLimitedTask": "yes"
+      "IsTimeLimitedTask": "no"
     },
     {
       "NotMandatory": "no"
@@ -267,22 +267,400 @@
       "ContentAssistants": "skorg1 nah"
     },
     {
-      "Trainings": "CY testing"
+      "Trainings": "CY testovanie všetkých úloh"
     },
     {
       "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
     },
     {
-      "lecturerInternalMaterial": ""
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
     },
     {
       "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
     },
     {
-      "Description": ""
+      "Description": "Popis úlohy"
     },
     {
-      "Content": "1. Ak sú odpovede súčasťou textu, pri zadávaní znenia úlohy postupujte nasledovne:  a) ak chcete, aby musel  študent odpoveď napísať, uveďte do zvolených znakov len jednu možnosť @@@1@@@.  b) v prípade, že chcete dať študentovi na výber z viacerých možností, zadajte odpovede vo forme @@@2@@@, pričom prvá možnosť reprezentuje správnu odpoveď.  2. Ak odpovede nie sú súčasťou textu a budete ich importovať, je potrebné do textu vyznačiť miesta pre správne odpovede prostredníctvom zvolených znakov.  Príklad: Prvá odpoveď z importovaného súboru patrí sem @@@3@@@.   Druhá odpoveď patrí sem @@@4@@@. "
+      "Content": "1. Ak sú odpovede súčasťou textu, pri zadávaní znenia úlohy postupujte nasledovne:    a) ak chcete, aby musel  študent odpoveď napísať, uveďte do zvolených znakov len jednu možnosť @@@1@@@.    b) v prípade, že chcete dať študentovi na výber z viacerých možností, zadajte odpovede vo forme @@@2@@@, pričom prvá možnosť reprezentuje správnu odpoveď.   2. Ak odpovede nie sú súčasťou textu a budete ich importovať, je potrebné do textu vyznačiť miesta pre správne odpovede prostredníctvom zvolených znakov.    Príklad: Prvá odpoveď z importovaného súboru patrí sem @@@3@@@.   Druhá odpoveď patrí sem @@@4@@@."
+    }
+  ],
+  "Parovacka": [
+    {
+      "taskOrder": "1.4.2"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:10"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "1500"
+    },
+    {
+      "difficulty": "300"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": "skorg1 nah"
+    },
+    {
+      "Trainings": "CY testovanie všetkých úloh"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
+    },
+    {
+      "Description": "Popis úlohy"
+    },
+    {
+      "questCount": "1"
+    },
+    {
+      "questSum": " 1 "
+    },
+    {
+      "questVals": "Príklad otázky"
+    },
+    {
+      "questVals": "Príklad odpovede"
+    }
+  ],
+  "SpolPracaLektor": [
+    {
+      "taskOrder": "1.4.3"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "4500"
+    },
+    {
+      "difficulty": "300"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": "skorg1 nah"
+    },
+    {
+      "Trainings": "CY testovanie všetkých úloh"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
+    },
+    {
+      "assignmentDevelopmentProcedure": "Postup vypracovania zadania"
+    },
+    {
+      "correctorInstruction": "Inštrukcie pre opravovača - zo šablóny"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
+    },
+    {
+      "Description": "Popis úlohy"
+    },
+    {
+      "Assignment": "Zadanie"
+    },
+    {
+      "SampleSolution": ""
+    },
+    {
+      "FileUploadIsMandatory": "no"
+    },
+    {
+      "AnswerIsMandatory": "yes"
+    },
+    {
+      "IsExerciseTestAllowed": "no"
+    }
+  ],
+  "PrefTest": [
+    {
+      "taskOrder": "1.4.4"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:10"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "1500"
+    },
+    {
+      "difficulty": "500"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": "skorg1 nah"
+    },
+    {
+      "Trainings": "CY testovanie všetkých úloh"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
+    },
+    {
+      "Description": "Popis úlohy"
+    },
+    {
+      "Content": "*Toto je príklad otázky. Každá začína hviezdičkou. Všetky odpovede sú správne, lebo je to názor človeka.\n+odpoveď 1\n+odpoveď 2\n+odpoveď 3\n+odpoveď 4\n\n"
+    },
+    {
+      "AnswerIsPre": "no"
+    }
+  ],
+  "Preklad": [
+    {
+      "taskOrder": "1.4.5"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:10"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "1500"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": "skorg1 nah"
+    },
+    {
+      "Trainings": "CY testovanie všetkých úloh"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
+    },
+    {
+      "Description": "Popis úlohy"
+    },
+    {
+      "questCount": "1"
+    },
+    {
+      "questSum": " 1 "
+    },
+    {
+      "questVals": "Príklad otázky"
+    },
+    {
+      "questVals": "Príklad odpovede"
+    }
+  ],
+  "Anketa": [
+    {
+      "taskOrder": "1.4.7"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:10"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "1500"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": "skorg1 nah"
+    },
+    {
+      "Trainings": "CY testovanie všetkých úloh"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
+    },
+    {
+      "Description": "Popis úlohy"
+    },
+    {
+      "Content": "*Toto je príklad otázky. Každá začína hviezdičkou. Všetky odpovede sú správne, lebo je to názor človeka.\n+odpoveď 1\n+odpoveď 2\n+odpoveď 3\n+odpoveď 4\n\n"
+    }
+  ],
+  "SpatVazba": [
+    {
+      "taskOrder": "1.4.8"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:10"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "1500"
+    },
+    {
+      "difficulty": "500"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": "skorg1 nah"
+    },
+    {
+      "Trainings": "CY testovanie všetkých úloh"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre lektora - zo šablóny"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta - zo šablóny"
+    },
+    {
+      "Description": "Popis úlohy"
+    },
+    {
+      "Content": ""
+    },
+    {
+      "IsShufflingTaskEnabled": "no"
     }
   ]
 }

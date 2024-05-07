@@ -19,9 +19,9 @@ describe('GARANT', function () {
         cy.get('li.open > af-sub-menu > .sub-menu > :nth-child(5) > a').click();
         cy.get('.af-table-pager-counts > :nth-child(3)').click();
         cy.wait(3000);
-        cy.get('[type = "text"]').first().clear().type('CY testing');
+        cy.get('[type = "text"]').first().clear().type('PO CY Hromadné manažovanie úloh - kontrola tém a lekcií');
         cy.get('[type="submit"]').first().click();
-        cy.contains('CY testing').click();
+        cy.contains('PO CY Hromadné manažovanie úloh - kontrola tém a lekcií').click();
         cy.wait(3000);
         cy.get(':nth-child(5) > .nav-link').click().wait(2000);
 

@@ -1,6 +1,7 @@
 describe('Product owner', function() {
   beforeEach(() => {
     cy.visit('https://dev.metis.academy/admin');
+    cy.viewport(1920, 937);
     cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
     cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
     cy.get('[type="submit"]').should('be.visible');
@@ -9,10 +10,7 @@ describe('Product owner', function() {
     cy.get('[type="submit"]').click();
   });
 
- 
-  
   it('Hromadne pridá inštrukcie', function() {
-    cy.viewport(1920, 937);
     function clickRadioButtonInsertText() {
       const radioOptions = ['Lektora', 'Opravovač', 'Študenta']; 
       radioOptions.forEach((option) => {
@@ -41,7 +39,6 @@ describe('Product owner', function() {
   });
 
   it('Hromadne edituje inštrukcie', function() {
-    cy.viewport(1920, 937);
     function clickRadioButtonInsertText() {
       const radioOptions = ['Lektora', 'Opravovač', 'Študenta']; 
       radioOptions.forEach((option) => {
@@ -67,7 +64,7 @@ describe('Product owner', function() {
     cy.get('.nav-link').contains('Inštrukcie').click();
  
     clickRadioButtonInsertText();
-  })
+  });
 
   it('Hromadne zmaže inštrukcie', function() {
     function selectOperator() {
@@ -80,18 +77,16 @@ describe('Product owner', function() {
         cy.get('.popover-content > div > .btn-danger').click(); 
       });
     }
-  
-    it('should click "Pridať" and delete items', function() {
-      cy.viewport(1920, 937);
-      cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
-      cy.get('@nastavenia').click(); 
-      cy.get('[href="/admin/elearning/training"]').click();
-      cy.get('[placeholder="Kľúčové slovo"]').type("CY testing");
-      cy.get('[type="submit"]').click();
-      cy.contains('CY testing').click();
-      cy.get('.nav-link').contains('Inštrukcie').click();
-  
-      selectOperator();
-    });
-  })
+
+    cy.viewport(1920, 937);
+    cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
+    cy.get('@nastavenia').click(); 
+    cy.get('[href="/admin/elearning/training"]').click();
+    cy.get('[placeholder="Kľúčové slovo"]').type("CY testing");
+    cy.get('[type="submit"]').click();
+    cy.contains('CY testing').click();
+    cy.get('.nav-link').contains('Inštrukcie').click();
+
+    selectOperator();
+  });
 });

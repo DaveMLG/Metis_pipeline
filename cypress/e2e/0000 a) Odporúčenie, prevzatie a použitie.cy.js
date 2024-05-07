@@ -102,15 +102,15 @@ describe('Product owner', function () {
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
     cy.wait(5000)
-    cy.get('[type = "text"]').first().type("CY testing");
+    cy.get('[type = "text"]').first().type("CY test - odporučenie a použitie šablóny");
     cy.get('[type="submit"]').click();
-    cy.contains('CY testing').click();
+    cy.contains('CY test - odporučenie a použitie šablóny').click();
     cy.wait(3000);
     cy.get(':nth-child(4) > .nav-link').click();
     cy.wait(3000);
 
     cy.get('[type = "text"]').first().clear().type('Šablóna na pretestovanie úloh')
-    cy.get('[type="submit"]').click()
+    cy.get('[type="submit"]').click().wait(5000)
 
     cy.get('[type="checkbox"]').first().check({force: true})
     cy.get('[type="checkbox"]').should('be.checked')
@@ -132,15 +132,15 @@ describe('Product owner', function () {
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
     cy.wait(5000)
-    cy.get('[type = "text"]').first().type("CY testing");
+    cy.get('[type = "text"]').first().type("CY test - odporučenie a použitie šablóny");
     cy.get('[type="submit"]').click();
-    cy.contains('CY testing').click();
+    cy.contains('CY test - odporučenie a použitie šablóny').click();
     cy.wait(3000);
     cy.get(':nth-child(4) > .nav-link').click();
     cy.wait(3000);
     
     cy.get('[type = "text"]').first().clear().type('Šablóna na pretestovanie úloh')
-    cy.get('[type="submit"]').click()
+    cy.get('[type="submit"]').click().wait(5000)
 
     cy.get('[type="checkbox"]').first().check({force: true})
     cy.get('[type="checkbox"]').should('be.checked')
@@ -148,8 +148,8 @@ describe('Product owner', function () {
     cy.get(':nth-child(5) > .nav-link').click();
 
     cy.get('[name="selectLessonTemplate"]').select('Šablóna na pretestovanie úloh')
-    cy.get('[name="selectTheme"]').select(1)
-    cy.get('[name="selectLesson"]').select(1)
+    cy.get('[name="selectTheme"]').select(0)
+    cy.get('[name="selectLesson"]').select(0)
 
     cy.get('[name="editForm"]').find('[type="button"]').contains('Gener').click()
     cy.wait(5000)

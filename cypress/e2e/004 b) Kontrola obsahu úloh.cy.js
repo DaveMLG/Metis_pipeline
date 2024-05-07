@@ -14,8 +14,7 @@ cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-chil
 cy.get('@nastavenia').click();
 cy.get('[href="/admin/elearning/training"]').click();
 cy.wait(3000)
-cy.get('[type="text"]').first().clear().type("CY testing");
-cy.get('[type="submit"]').click();
+cy.get('[type="text"]').first().clear().type("CY testovanie všetkých úloh")
 cy.contains('CY testing').click();
 cy.wait(1000);
 cy.get(':nth-child(5) > .nav-link').click();

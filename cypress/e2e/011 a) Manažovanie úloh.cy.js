@@ -366,6 +366,8 @@ describe('Product owner', function () {
             for (let x = 0; x < xbtn.length; x++) {
                 cy.wrap(xbtn[0]).click()
             }
+            cy.get('[type="submit"]').last().click().wait(5000)
+            cy.contains('Áno').click()
         })
       })
 
@@ -514,6 +516,8 @@ describe('Product owner', function () {
             for (let x = 0; x < xbtn.length; x++) {
                 cy.wrap(xbtn[0]).click()
             }
+            cy.get('[type="submit"]').last().click().wait(5000)
+            cy.contains('Áno').click()
 
             cy.get('[name="addExercisesSelectedTraining"]').select('PO CY Hromadné manažovanie úloh')
             cy.get('[name="addExercisesSelectedTheme"]').select(0)
@@ -615,7 +619,7 @@ describe('Product owner', function () {
                   });
 
                   cy.get('[name="correctorInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
-                    cy.wrap(value).should('eq', correctorInstruction) 
+                    cy.wrap(value).should('be.empty') 
                   });
                   
                   
@@ -624,12 +628,12 @@ describe('Product owner', function () {
                   });
                 
                   cy.get('[name="studentInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
-                    cy.wrap(value).should('eq', studentInstruction) 
+                    cy.wrap(value).should('be.empty') 
                   });
                   
                   
-                  cy.get('[name="Description"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
-                    cy.wrap(value).should('eq', Description) 
+                  cy.get('[name="Description"]').nextUntil('span').invoke('text').then((value) => {
+                    cy.wrap(value).should('be.empty') 
                   });
                   
                   cy.get('[name="Content"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
@@ -643,7 +647,7 @@ describe('Product owner', function () {
             })
         })
 
-        it('Hromadné presunutie úloh s kopirovanim obsahu + overenie', function() {
+        it('Hromadné presunutie úloh s inštrukciami pre opravovača + overenie', function() {
           cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
           cy.get('@nastavenia').click();
           cy.get('[href="/admin/elearning/training"]').click();
@@ -667,6 +671,8 @@ describe('Product owner', function () {
                   for (let x = 0; x < xbtn.length; x++) {
                       cy.wrap(xbtn[0]).click()
                   }
+                  cy.get('[type="submit"]').last().click().wait(5000)
+                  cy.contains('Áno').click()
       
                   cy.get('[name="addExercisesSelectedTraining"]').select('PO CY Hromadné manažovanie úloh')
                   cy.get('[name="addExercisesSelectedTheme"]').select(0)
@@ -765,7 +771,7 @@ describe('Product owner', function () {
                         });
                         
                         cy.get('[name="lecturerInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
-                          cy.wrap(value).should('eq', lecturerInstruction) 
+                          cy.wrap(value).should('be.empty') 
                         });
       
                         cy.get('[name="correctorInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
@@ -778,12 +784,12 @@ describe('Product owner', function () {
                         });
                       
                         cy.get('[name="studentInstruction"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
-                          cy.wrap(value).should('eq', studentInstruction) 
+                          cy.wrap(value).should('be.empty') 
                         });
                         
                         
                         cy.get('[name="Description"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
-                          cy.wrap(value).should('eq', Description) 
+                          cy.wrap(value).should('be.empty') 
                         });
                         
                         cy.get('[name="Content"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
