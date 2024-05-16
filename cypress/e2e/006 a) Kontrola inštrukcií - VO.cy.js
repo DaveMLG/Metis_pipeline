@@ -23,7 +23,7 @@ describe('Product owner', function () {
     cy.wait(3000)
     cy.get('[type = "text"]').first().clear().type("CY testing");
     cy.get('[type="submit"]').click();
-    cy.contains('CY testing').click();
+    cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testing').click().wait(2000)
     cy.wait(3000);
     cy.get(':nth-child(6) > .nav-link').click();
     cy.wait(3000);

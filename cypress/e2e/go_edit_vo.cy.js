@@ -20,7 +20,7 @@ describe('Product owner', function () {
       cy.wait(3000)
       cy.get('[type = "text"]').first().clear().type("CY testing");
       cy.get('[type="submit"]').click();
-      cy.contains('CY testing').click();
+      cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testing').click().wait(2000)
       cy.wait(3000);
       cy.get(':nth-child(5) > .nav-link').click();
       cy.wait(3000);
@@ -36,7 +36,8 @@ describe('Product owner', function () {
     })
 
     it('VO overenie neželaného pridania', function () {
-        
+
+      cy.viewport(1920, 937);
       cy.visit('https://dev.metis.academy/admin');
       cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
       cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
@@ -46,14 +47,14 @@ describe('Product owner', function () {
       cy.get('[name="password"]').type('ML_heslo1');
       cy.get('[type="submit"]').click();
 
-      cy.viewport(1920, 937);
+      
       cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
       cy.get('@nastavenia').click();
       cy.get('[href="/admin/elearning/training"]').click();
       cy.wait(3000)
       cy.get('[type = "text"]').first().clear().type("CY testing");
       cy.get('[type="submit"]').click();
-      cy.get('tbody').contains('Prevzaté').parent().parent().contains('CY testing').click()
+      cy.get('tbody').contains('Prevzaté').parent().parent().contains('CY testing').click().wait(2000)
       cy.wait(3000);
       cy.get(':nth-child(5) > .nav-link').click();
       cy.wait(3000);

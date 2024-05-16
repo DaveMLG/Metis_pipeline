@@ -1,0 +1,61 @@
+{
+  "Webinar": [
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:10"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:10"
+    },
+    {
+      "ExperiencePoints": "1000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "skorg1 go"
+    },
+    {
+      "Guarantors": "skorg1 go"
+    },
+    {
+      "ContentAssistants": "skorg1 nah"
+    },
+    {
+      "Trainings": "CY Kopírovanie úloh z tohoto školenia"
+    },
+    {
+      "lecturerInstruction": "Inštrukcie pre lektora"
+    },
+    {
+      "correctorInstruction": "Inštrukcie pre opravovača"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
+    },
+    {
+      "studentInstruction": "Inštrukcie pre študenta"
+    },
+    {
+      "correctorInstruction": "Inštrukcie pre lektora"
+    },
+    {
+      "Description": "Popis úlohy"
+    },
+    {
+      "Content": "Ahojte, pre pripojenie na webinár/cvičenie prosím použite webovú verziu aplikácie MS Teams alebo jej standalone verziu.Po kliknutí na tento odkaz budete presmerovaní do Teamsovej skupiny, v ktorej sa bude konať webinár/cvičenie"
+    }
+  ]
+}

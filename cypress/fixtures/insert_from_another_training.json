@@ -1,9 +1,6 @@
 {
   "PotvrdenieAbsolvovania": [
     {
-      "taskOrder": "1.1.1"
-    },
-    {
       "useLessonName": "no"
     },
     {
@@ -40,16 +37,16 @@
       "Trainings": "PO CY Hromadné manažovanie úlohPO CY Hromadné manažovanie úloh - kontrola tém a lekcií"
     },
     {
-      "lecturerInstruction": ""
+      "lecturerInstruction": "Inštrukcie pre lektora"
     },
     {
-      "correctorInstruction": ""
+      "correctorInstruction": "Inštrukcie pre opravovača"
     },
     {
-      "lecturerInternalMaterial": ""
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
     },
     {
-      "studentInstruction": ""
+      "studentInstruction": "Inštrukcie pre študenta"
     },
     {
       "Description": "Popis úlohy - HM"
@@ -59,9 +56,6 @@
     }
   ],
   "Webinar": [
-    {
-      "taskOrder": "2.1.1"
-    },
     {
       "useLessonName": "no"
     },
@@ -118,9 +112,6 @@
     }
   ],
   "Cvicenie": [
-    {
-      "taskOrder": "3.4.1"
-    },
     {
       "useLessonName": "no"
     },

@@ -45,7 +45,7 @@ describe('Product owner', function () {
       cy.get('[type="submit"]').first().click();
       cy.wait(5000);
       //cy.sortTableByColumn('Vytvorené');
-      cy.contains('CY testing').click({ timeout: 100000 });
+      cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testing').click().wait(2000)
       cy.get(':nth-child(5) > .nav-link').click();
 
       /*cy.get('el-lessons-summary').find('tr').find('td').then((value) => {

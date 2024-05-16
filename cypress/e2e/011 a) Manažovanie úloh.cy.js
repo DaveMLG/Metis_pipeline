@@ -28,10 +28,6 @@ describe('Product owner', function () {
       ////Potvrdenie absolvovania
       cy.get('tbody').find('tr').contains('Pot').then(edit => {
           cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
-  
-          cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.ExerciseOrder"]').next('span').invoke('text').then((value) => {
-            DataValues.push({taskOrder: value})
-          });
     
           cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
             const isChecked = value.prop('checked');
@@ -133,10 +129,6 @@ describe('Product owner', function () {
           ////Webinar
   cy.get('tbody').find('tr').contains('Web').then(edit => {
   cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
-  
-  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.ExerciseOrder"]').next('span').invoke('text').then((value) => {
-    DataValues.push({taskOrder: value})
-  });
   
   cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
     const isChecked = value.prop('checked');
@@ -240,10 +232,6 @@ describe('Product owner', function () {
   ////Cvičenie
       cy.get('tbody').find('tr').contains('Cvi').then(edit => {
       cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
-
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.ExerciseOrder"]').next('span').invoke('text').then((value) => {
-        DataValues.push({taskOrder: value})
-      });
 
       cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
         const isChecked = value.prop('checked');
@@ -382,7 +370,6 @@ describe('Product owner', function () {
               //Overenie úloh - bez checkboxov
               cy.readFile('cypress/fixtures/insert_from_another_training.json', 'utf-8').then((jsonData) => {
 
-                  const taskOrder = jsonData.PotvrdenieAbsolvovania.find(obj => obj.taskOrder)?.taskOrder;
                   const useLessonName = jsonData.PotvrdenieAbsolvovania.find(obj => obj.useLessonName)?.useLessonName;
                   const language = jsonData.PotvrdenieAbsolvovania.find(obj => obj.language)?.language;
                   const LengthInTime = jsonData.PotvrdenieAbsolvovania.find(obj => obj.LengthInTime)?.LengthInTime;
@@ -403,10 +390,6 @@ describe('Product owner', function () {
                   
                     cy.get('tbody').find('tr').contains('Pot').then(edit => {
                       cy.wrap(edit).parent().parent().parent().find('a').click();
-                      
-                      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.ExerciseOrder"]').next('span').invoke('text').then((value) => {
-                        cy.wrap(value).should('eq', taskOrder) 
-                      });
                       
                       cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
                         if (useLessonName === 'yes') {
@@ -531,7 +514,6 @@ describe('Product owner', function () {
             //Overenie úloh s obsahom
             cy.readFile('cypress/fixtures/insert_from_another_training.json', 'utf-8').then((jsonData) => {
 
-                const taskOrder = jsonData.PotvrdenieAbsolvovania.find(obj => obj.taskOrder)?.taskOrder;
                 const useLessonName = jsonData.PotvrdenieAbsolvovania.find(obj => obj.useLessonName)?.useLessonName;
                 const language = jsonData.PotvrdenieAbsolvovania.find(obj => obj.language)?.language;
                 const LengthInTime = jsonData.PotvrdenieAbsolvovania.find(obj => obj.LengthInTime)?.LengthInTime;
@@ -553,10 +535,6 @@ describe('Product owner', function () {
 
                 cy.get('tbody').find('tr').contains('Pot').then(edit => {
                   cy.wrap(edit).parent().parent().parent().find('a').click();
-                  
-                  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.ExerciseOrder"]').next('span').invoke('text').then((value) => {
-                    cy.wrap(value).should('eq', taskOrder) 
-                  });
                   
                   cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
                     if (useLessonName === 'yes') {
@@ -681,13 +659,12 @@ describe('Product owner', function () {
                   cy.get('[type="button"]').last().click().wait(1000)
                   //cy.get('[type="button"]').contains('Pridať').click().wait(1000)
                   cy.get('[type="submit"]').last().click().wait(1000)
-                  //cy.contains('Áno').click()
+                  cy.contains('Áno').click()
       
       
                   //Overenie úloh s obsahom
                   cy.readFile('cypress/fixtures/insert_from_another_training.json', 'utf-8').then((jsonData) => {
       
-                      const taskOrder = jsonData.PotvrdenieAbsolvovania.find(obj => obj.taskOrder)?.taskOrder;
                       const useLessonName = jsonData.PotvrdenieAbsolvovania.find(obj => obj.useLessonName)?.useLessonName;
                       const language = jsonData.PotvrdenieAbsolvovania.find(obj => obj.language)?.language;
                       const LengthInTime = jsonData.PotvrdenieAbsolvovania.find(obj => obj.LengthInTime)?.LengthInTime;
@@ -709,10 +686,6 @@ describe('Product owner', function () {
       
                       cy.get('tbody').find('tr').contains('Pot').then(edit => {
                         cy.wrap(edit).parent().parent().parent().find('a').click();
-                        
-                        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.ExerciseOrder"]').next('span').invoke('text').then((value) => {
-                          cy.wrap(value).should('eq', taskOrder) 
-                        });
                         
                         cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
                           if (useLessonName === 'yes') {

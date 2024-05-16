@@ -15,7 +15,8 @@ cy.get('@nastavenia').click();
 cy.get('[href="/admin/elearning/training"]').click();
 cy.wait(3000)
 cy.get('[type="text"]').first().clear().type("CY testovanie všetkých úloh")
-cy.contains('CY testing').click();
+cy.get('[type="submit"]').click();
+cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testovanie všetkých úloh').click().wait(2000)
 cy.wait(1000);
 cy.get(':nth-child(5) > .nav-link').click();
 cy.wait(1000);
