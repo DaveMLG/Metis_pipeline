@@ -659,7 +659,7 @@ describe('Product owner', function () {
                   cy.get('[type="button"]').last().click().wait(1000)
                   //cy.get('[type="button"]').contains('Pridať').click().wait(1000)
                   cy.get('[type="submit"]').last().click().wait(1000)
-                  cy.contains('Áno').click()
+                 // cy.contains('Áno').click()
       
       
                   //Overenie úloh s obsahom

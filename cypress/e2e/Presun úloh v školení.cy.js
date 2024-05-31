@@ -11,7 +11,7 @@ describe('Product owner', function () {
         cy.viewport(1920, 937);
     });
   
-    it('Skopírovanie dát zo školenia, ktoré budeme hromadne manažovať', function () {
+    it('Presun úloh + overenie', function () {
         // Uloží data z popisu
        let topic = [],
            lesson = []
