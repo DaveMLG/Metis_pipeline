@@ -142,7 +142,6 @@ describe('Product owner', function () {
               for (let x = 0; x < inpValue.length; x++) {
                 cy.wrap(inpValue[x]).invoke('val').then((value) => {
                   DataValues.push({availableTasks: value})
-                  console.log(value)
                 })
               }
             })
@@ -152,7 +151,6 @@ describe('Product owner', function () {
               for (let x = 0; x < inpValue.length; x++) {
                 cy.wrap(inpValue[x]).invoke('val').then((value) => {
                   DataValues.push({timeValuesTasksOnTime: value})
-                  console.log(value)
                 })
               }
             })
@@ -162,7 +160,6 @@ describe('Product owner', function () {
               for (let x = 0; x < inpValue.length; x++) {
                 cy.wrap(inpValue[x]).invoke('val').then((value) => {
                   DataValues.push({timeValuesPastTime: value})
-                  console.log(value)
                 })
               }
             })
