@@ -27,7 +27,7 @@ describe('Product owner', function () {
             cy.get('[type="submit"]').first().click()
             cy.wait(5000);
             cy.sortTableByColumn('Vytvorené');
-            cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testing').click()
+            cy.get('tbody').contains('Prevzaté').parent().parent().contains('CY testing').click()
             cy.wait(5000)
 
             cy.get('[for="Guarantors"]').parentsUntil('.row').find('span').invoke('text').then((value) => {

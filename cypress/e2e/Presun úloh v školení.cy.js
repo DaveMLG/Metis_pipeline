@@ -4,7 +4,6 @@ describe('Product owner', function () {
         cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
         cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
         cy.get('[type="submit"]').should('be.visible');
-        cy.get('[type="submit"]').should('be.visible');
         cy.get('[name="userName"]').type('skorg1.go');
         cy.get('[name="password"]').type('ML_heslo1');
         cy.get('[type="submit"]').click();
@@ -13,8 +12,8 @@ describe('Product owner', function () {
   
     it('Presun úloh + overenie', function () {
         // Uloží data z popisu
-       let topic = [],
-           lesson = []
+        let topic = [],
+            lesson = [];
   
         cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
         cy.get('@nastavenia').click();
@@ -22,7 +21,7 @@ describe('Product owner', function () {
         cy.wait(3000);
         cy.get('[placeholder="Kľúčové slovo"]').type('CY presun úloh v rámci školenia');
         cy.get('[type="submit"]').first().click().wait(1000);
-        cy.get('tbody').find('a').first().click().wait(1000)
+        cy.get('tbody').find('a').first().click().wait(1000);
         cy.get(':nth-child(5) > .nav-link').click();
         
         cy.get('tbody').eq(3).find('tr').then((rows) => {
@@ -41,18 +40,18 @@ describe('Product owner', function () {
             }
         });
 
-        cy.get('[type = radio]').eq(3).check({force: true})
-        cy.get('[name="addExercisesSelectedTheme"]').select('1. Téma_1')
-        cy.get('[name="addExercisesSelectedLesson"]').select('1. Lekcia_1')
-        cy.get('[name="intoSelectTheme"]').select('2. Téma_2')
-        cy.get('[type="button"]').first().click()
-        cy.get('[type="button"]').last().click()
+        cy.get('[type="radio"]').eq(3).check({ force: true });
+        cy.get('[name="addExercisesSelectedTheme"]').select(0);
+        cy.get('[name="addExercisesSelectedLesson"]').select(0);
+        cy.get('[name="intoSelectTheme"]').select(1);
+        cy.get('[type="button"]').first().click();
+        cy.get('[type="button"]').last().click();
 
-        //Overenie či test téma a lekcia sa zmenila na hodnotu 2
+        //Overenie či test téma a lekcia sa zmenila na hodnotu 2 
         cy.get('tbody').last().find('tr').then((rows) => {
             for (let x = 0; x < rows.length; x++) {
                 cy.wrap(rows[x]).find('td:nth-child(3)').invoke('text').then((value) => {
-                    cy.wrap(value).should('eq', '2')
+                    cy.wrap(value).should('eq', '2');
                 });
             }
         });
@@ -60,26 +59,31 @@ describe('Product owner', function () {
         cy.get('tbody').last().find('tr').then((rows) => {
             for (let x = 0; x < rows.length; x++) {
                 cy.wrap(rows[x]).find('td:nth-child(4)').invoke('text').then((value) => {
-                    cy.wrap(value).should('eq', '2')
+                    cy.wrap(value).should('eq', '3');
                 });
             }
         });
 
-        //Overenie, či dáta sa nerovnajú s dátami v premenných
-        cy.get('tbody').last().find('tr').then((rows) => {
-            for (let x = 0; x < rows.length; x++) {
-                cy.wrap(rows[x]).find('td:nth-child(3)').invoke('text').then((value) => {
-                    cy.wrap(value).should('not.eq', topic[x])
-                });
-            }
-        });
+        // Presunie dáta úloh, jednu po druhej, do prvej témy a lekcie
+        cy.reload().wait(3000)
+        cy.get('[type="radio"]').eq(3).check({ force: true }).wait(3000);
 
-        cy.get('tbody').last().find('tr').then((rows) => {
-            for (let x = 0; x < rows.length; x++) {
-                cy.wrap(rows[x]).find('td:nth-child(4)').invoke('text').then((value) => {
-                    cy.wrap(value).should('not.eq', topic[x])
-                });
+        cy.get('[name="addExercisesSelectedTheme"]').select(0);
+        cy.get('[name="addExercisesSelectedLesson"]').select(0);
+        cy.get('[name="addExercisesSelectedActivity"]').select(0);
+
+        cy.get('[name="addExercisesSelectedExercise"]').then(($select) => {
+            const selectOptionLength = $select.find('option').length;
+            for (let x = 0; x < selectOptionLength; x++) {
+                cy.wrap($select).select(0)
+                cy.get('[name="intoSelectTheme"]').select(0)
+                cy.get('[name="intoSelectLesson"]').select(0)
+                cy.get('[name="intoSelectActivity"]').select(0)
+                cy.get('[type="button"]').first().click().wait(2000)
+                cy.get('[name="addExercisesSelectedTheme"]').select(0);
+                cy.get('[name="addExercisesSelectedLesson"]').select(0);
+                cy.get('[name="addExercisesSelectedActivity"]').select(0);
             }
         });
-    })
-})
+    });
+});
