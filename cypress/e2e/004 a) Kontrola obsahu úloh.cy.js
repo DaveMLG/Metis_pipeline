@@ -10,6 +10,7 @@ cy.get('[name="password"]').type('ML_heslo1');
 cy.get('[type="submit"]').click();
 });
 
+//Poznamka
 it('Odporúčenie šablón lekcie pre garanta', function () {
 // Uloží data z popisu
 let DataValues = [];
