@@ -47,7 +47,7 @@ describe('Product owner', function () {
         cy.get('[type="button"]').first().click();
         cy.get('[type="button"]').last().click();
 
-        //Overenie či test téma a lekcia sa zmenila na hodnotu 2 
+        //Overenie či test téma a lekcia sa zmenila na hodnotu 2
         cy.get('tbody').last().find('tr').then((rows) => {
             for (let x = 0; x < rows.length; x++) {
                 cy.wrap(rows[x]).find('td:nth-child(3)').invoke('text').then((value) => {
@@ -66,6 +66,8 @@ describe('Product owner', function () {
 
         // Presunie dáta úloh, jednu po druhej, do prvej témy a lekcie
         cy.reload().wait(3000)
+        cy.get('[type="radio"]').eq(3).check({ force: true }).wait(3000);
+        cy.get('[type="radio"]').eq(2).check({ force: true }).wait(3000);
         cy.get('[type="radio"]').eq(3).check({ force: true }).wait(3000);
 
         cy.get('[name="addExercisesSelectedTheme"]').select(0);

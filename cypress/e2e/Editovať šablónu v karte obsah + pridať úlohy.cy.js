@@ -248,7 +248,7 @@ describe('GARANT', function () {
             cy.get(':nth-child(5) > .nav-link').click().wait(2000);
 
             //Overenie aktivít
-            /* cy.get('tbody').eq(3).find('td:nth-child(6)').then((value) => {
+            cy.get('tbody').eq(3).find('td:nth-child(6)').then((value) => {
                 for (let x = 0; x < value.length; x++) {
                     cy.wrap(value[x]).find('[class="text-after-input"]').invoke('text').then((dataVals) => {
                         if ((dataVals) === '1') {
@@ -262,7 +262,7 @@ describe('GARANT', function () {
                         }
                     })
                 }
-            })*/
+            })
 
             cy.get('tbody').eq(3).find('td:first-child').then(value => {
                 for (let x = 0; x < value.length; x++) {
