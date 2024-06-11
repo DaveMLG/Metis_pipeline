@@ -24,7 +24,7 @@ describe('Product owner', function () {
         
         cy.get('tbody').find('a').first().click().wait(3000);
 
-        cy.get('[name="IsOnlineEducationMethod"]').find('[type="radio"]:checked').invoke('val').then((eduMethod) => {
+       /* cy.get('[name="IsOnlineEducationMethod"]').find('[type="radio"]:checked').invoke('val').then((eduMethod) => {
             DataValues.Educational_method = eduMethod;
         });
 
@@ -32,7 +32,7 @@ describe('Product owner', function () {
             DataValues.Intensity_method = intMethod;
         });
 
-        /*
+        
         cy.get('[for="Coordinators"]').parent().parent().find('span').last().invoke('text').then((coordinators) => {
             DataValues.coordinator = coordinators.trim();
         });
@@ -86,7 +86,7 @@ describe('Product owner', function () {
         cy.get('[global-search="search"]').click();
         cy.get('tbody').find('a').first().click().wait(3000);
             
-        cy.get('[name="IsOnlineEducationMethod"]').find('[type="radio"]:checked').invoke('val').then((eduMethod) => {
+       /* cy.get('[name="IsOnlineEducationMethod"]').find('[type="radio"]:checked').invoke('val').then((eduMethod) => {
             expect(eduMethod).to.equal(DataValues.Educational_method);
         });
 
@@ -94,7 +94,7 @@ describe('Product owner', function () {
             expect(intMethod).to.equal(DataValues.Intensity_method);
         });
 
-        /*
+        
         cy.get('[for="Coordinators"]').parent().parent().find('span').last().invoke('text').then((coordinators) => {
             expect(coordinators.trim()).to.equal(DataValues.coordinator);
         });

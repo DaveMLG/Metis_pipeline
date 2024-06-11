@@ -769,7 +769,7 @@ describe('Product owner', function () {
                           cy.wrap(value).should('eq', Content) 
                         });
                         
-                        cy.get('[onclick="history.back()"]').first().click().wait(1000)
+                        cy.get('[onclick="history.back()"]').first().click().wait(1000) 
                       })
                  })
               })
