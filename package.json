@@ -18,9 +18,12 @@
     "@babel/core": "^7.13.14",
     "@babel/preset-env": "^7.13.12",
     "@rollup/plugin-babel": "5.3.0",
-    "cypress": "^13.3.0",
+    "cypress": "^13.11.0",
     "cypress-file-upload": "^5.0.8",
     "http-server": "^0.12.3",
     "rollup": "2.44.0"
-  }
+  },
+  "description": "`yarn install` to install all the dependencies, `yarn build` to create `dist/bundle.js`, and `open index.html` to see it running in a browser.",
+  "version": "1.0.0",
+  "main": "cypress.config.js"
 }

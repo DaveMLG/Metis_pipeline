@@ -177,7 +177,7 @@ describe('GARANT', function () {
         });
     });
 
-    it('Overenie dát', function () {
+    it.only('Overenie dát', function () {
 
         cy.readFile('cypress/fixtures/content_template_edited.json', 'utf-8').then((jsonData) => {
             const valuesArray = jsonData.Values;
@@ -248,9 +248,9 @@ describe('GARANT', function () {
             cy.get(':nth-child(5) > .nav-link').click().wait(2000);
 
             //Overenie aktivít
-            cy.get('tbody').eq(3).find('td:nth-child(6)').then((value) => {
+            cy.get('tbody').eq(3).find('td [exercise-activity-order]').then((value) => {
                 for (let x = 0; x < value.length; x++) {
-                    cy.wrap(value[x]).find('[class="text-after-input"]').invoke('text').then((dataVals) => {
+                    cy.wrap(value[x]).invoke('text').then((dataVals) => {
                         if ((dataVals) === '1') {
                             expect(activityFiltered[x]).to.equal('1');
                         } else if ((dataVals) === '2') {
@@ -263,33 +263,32 @@ describe('GARANT', function () {
                     })
                 }
             })
+       
 
-            cy.get('tbody').eq(3).find('td:first-child').then(value => {
+            cy.get('tbody').eq(3).find('td [exercise-title]').then(value => {
                 for (let x = 0; x < value.length; x++) {
-                  cy.wrap(value[x]).find('input').invoke('val').then(dataVals => {
+                    cy.wrap(value[x]).invoke('val').then(dataVals => {
                     cy.wrap(dataVals).should('eq', taskFiltered[x]);
                   });
                 }
               });
 
-              cy.get('tbody').eq(3).find('td:nth-child(6)').then(value => {
+              cy.get('tbody').eq(3).find('td [exercise-activity-order]').then(value => {
                 for (let x = 0; x < value.length; x++) {
-                    cy.wrap(value[x]).invoke('text').then((dataVals) => {
+                     cy.wrap(value[x]).invoke('text').then((dataVals) => {
                         cy.wrap(dataVals).should('eq', activityFiltered[x])
                     })
                 }
               })
 
-              /*cy.get('tbody').eq(3).find('td:nth-child(7)').then(value => {
+              cy.get('tbody').eq(3).find('td [exercise-order]').then(value => {
                 for (let x = 0; x < value.length; x++) {
-                    cy.wrap(value[x]).find('input').invoke('val').then((dataVals) => {
-                        const cleanedValues = taskOrderFiltered[x].replace(/[, ]/g, ''); 
-                        console.log(cleanedValues);
-                        cy.wrap(dataVals).should('eq', cleanedValues);
+                    cy.wrap(value[x]).invoke('val').then((dataVals) => {
+                     cy.wrap(dataVals).should('eq', orderFiltered[x]);
                     });
                 }
             })
-            cy.get('tbody').eq(3).find('td:nth-child(8)').then(value => {
+            cy.get('tbody').eq(3).find('td [exercise-experience-points]').then(value => {
                 for (let x = 0; x < value.length; x++) {
                     cy.wrap(value[x]).invoke('text').then((dataVals) => {
                         cy.wrap(dataVals).should('eq', xpPointsFiltered[x])
@@ -297,9 +296,9 @@ describe('GARANT', function () {
                 }
               })
 
-              cy.get('tbody').eq(3).find('td:nth-child(9)').then(value => {
+              cy.get('tbody').eq(3).find('td [exercise-difficulty-level]').then(value => {
                 for (let x = 0; x < value.length; x++) {
-                    cy.wrap(value[x]).find('select').invoke('val').then((dataVals) => {
+                    cy.wrap(value[x]).invoke('val').then((dataVals) => {
                         if (dataVals === '100') {
                             expect(difficultyFiltered[x]).to.equal('Nízka');
                         } else if (dataVals === '300') {
@@ -309,19 +308,19 @@ describe('GARANT', function () {
                         }
                     });
                 }
-            });  */
+            });  
 
-            cy.get('tbody').eq(3).find('td:nth-child(10)').then(value => {
+            cy.get('tbody').eq(3).find('td [exercise-length-in-time]').then(value => {
                 for (let x = 0; x < value.length; x++) {
-                    cy.wrap(value[x]).find('input').invoke('val').then((dataVals) => {
+                    cy.wrap(value[x]).invoke('val').then((dataVals) => {
                         cy.wrap(dataVals).should('eq', estimatedTimeToCompleteFiltered[x])
                     })
                 }
               })
 
-              cy.get('tbody').eq(3).find('td:nth-child(11)').then(value => {
+              cy.get('tbody').eq(3).find('td [exercise-estimate-time-for-evaluation]').first().then(value => {
                 for (let x = 0; x < value.length; x++) {
-                    cy.wrap(value[x]).find('input').invoke('val').then((dataVals) => {
+                    cy.wrap(value[x]).invoke('val').then((dataVals) => {
                         cy.wrap(dataVals).should('eq', estimatedTimeToEvaluateFiltered[x])
                     })
                 }
