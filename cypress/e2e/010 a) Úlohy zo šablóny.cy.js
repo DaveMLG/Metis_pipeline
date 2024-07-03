@@ -25,7 +25,7 @@ describe('Product owner', function () {
         cy.get('tbody').find('a').first().click();
 
         //Aktivita
-        cy.get('el-lesson-template-table').find('td:first-child').then((content) => {
+        cy.get('el-lesson-template-table').find('td:nth-child(2)').then((content) => {
             for (let x = 0; x < content.length; x++) {
                 cy.wrap(content[x]).find('select').invoke('val').then((dataVals) => {
                     if ((dataVals) === '31301') {
@@ -42,7 +42,7 @@ describe('Product owner', function () {
         });
 
         //Poradie
-        cy.get('el-lesson-template-table').find('td:nth-child(2)').find('input').then((content) => {
+        cy.get('el-lesson-template-table').find('td:nth-child(3)').find('input').then((content) => {
             for (let x = 0; x < content.length; x++) {
                 cy.wrap(content[x]).invoke('val').then((dataVals) => {
                     DataValues.push({ order: dataVals });
@@ -51,7 +51,7 @@ describe('Product owner', function () {
         });
 
         //Poradie úloh v lekcií
-        cy.get('el-lesson-template-table').find('td:nth-child(3)').find('span').then((content) => {
+        cy.get('el-lesson-template-table').find('td:nth-child(4)').find('span').then((content) => {
             for (let x = 0; x < content.length; x++) {
                 cy.wrap(content[x]).invoke('text').then((dataVals) => {
                     DataValues.push({ taskOrder: dataVals });
@@ -60,7 +60,7 @@ describe('Product owner', function () {
         });
 
         //Typ úlohy
-        cy.get('el-lesson-template-table').find('td:nth-child(4)').find('select').then((content) => {
+        cy.get('el-lesson-template-table').find('td:nth-child(5)').find('select').then((content) => {
             for (let x = 0; x < content.length; x++) {
                 cy.wrap(content[x]).invoke('val').then((dataVals) => {
                     if ((dataVals) === '13') {
@@ -109,7 +109,7 @@ describe('Product owner', function () {
         });
 
         // Náročnosť
-        cy.get('el-lesson-template-table').find('td:nth-child(5)').find('select').then((content) => {
+        cy.get('el-lesson-template-table').find('td:nth-child(6)').find('select').then((content) => {
             for (let x = 0; x < content.length; x++) {
                 cy.wrap(content[x]).invoke('val').then((dataVals) => {
                     if (dataVals === '100') {
@@ -124,7 +124,7 @@ describe('Product owner', function () {
         });
 
         // XP Body
-        cy.get('el-lesson-template-table').find('td:nth-child(6)').find('span').then((content) => {
+        cy.get('el-lesson-template-table').find('td:nth-child(7)').find('span').then((content) => {
             for (let x = 0; x < content.length; x++) {
                 cy.wrap(content[x]).invoke('text').then((dataVals) => {
                     DataValues.push({ taskOrder: dataVals });
@@ -132,7 +132,7 @@ describe('Product owner', function () {
             }
         });
         //Odhadovaný čas na vypracovanie
-        cy.get('el-lesson-template-table').find('td:nth-child(8)').find('input').then((content) => {
+        cy.get('el-lesson-template-table').find('td:nth-child(9)').find('input').then((content) => {
             for (let x = 0; x < content.length; x++) {
                 cy.wrap(content[x]).invoke('val').then((dataVals) => {
                     DataValues.push({ estimatedTimeToComplete: dataVals });
@@ -140,7 +140,7 @@ describe('Product owner', function () {
             }
         });
         //Odhadovaný čas na vyhodnotenie
-        cy.get('el-lesson-template-table').find('td:nth-child(9)').find('input').then((content) => {
+        cy.get('el-lesson-template-table').find('td:nth-child(10)').find('input').then((content) => {
             for (let x = 0; x < content.length; x++) {
                 cy.wrap(content[x]).invoke('val').then((dataVals) => {
                     DataValues.push({ estimatedTimeToEvaluate: dataVals });
@@ -236,7 +236,7 @@ describe('Product owner', function () {
                 cy.get('[name="selectLesson"]').select(1)
 
                 //Overenie aktivít
-                cy.get('tbody').eq(1).find('td:first-child').then((value) => {
+                cy.get('tbody').eq(1).find('td:nth-child(2)').then((value) => {
                     for (let x = 0; x < value.length; x++) {
                         cy.wrap(value[x]).find('select').invoke('val').then((dataVals) => {
                             if ((dataVals) === '1') {
@@ -252,7 +252,7 @@ describe('Product owner', function () {
                     }
                 })
 
-                cy.get('tbody').eq(1).find('td:nth-child(2)').then((value) => {
+                cy.get('tbody').eq(1).find('td:nth-child(3)').then((value) => {
                     for (let x = 0; x < value.length; x++) {
                         cy.wrap(value[x]).find('select').invoke('val').then((dataVals) => {
                             if (dataVals === '13') {
@@ -300,7 +300,7 @@ describe('Product owner', function () {
                     }
                 });
 
-                cy.get('tbody').eq(1).find('td:nth-child(3)').then((value) => {
+                cy.get('tbody').eq(1).find('td:nth-child(4)').then((value) => {
                     for (let x = 0; x < value.length; x++) {
                         cy.wrap(value[x]).find('input').then((dataVals) => {
                             cy.wrap(dataVals).invoke('val').should('eq', orderFiltered[x])
@@ -308,7 +308,7 @@ describe('Product owner', function () {
                     }
                 })
 
-                cy.get('tbody').eq(1).find('td:nth-child(4)').then((value) => {
+                cy.get('tbody').eq(1).find('td:nth-child(5)').then((value) => {
                     for (let x = 0; x < value.length; x++) {
                         cy.wrap(value[x]).then((dataVals) => {
                             cy.wrap(dataVals).invoke('text').then((text) => {
@@ -320,7 +320,7 @@ describe('Product owner', function () {
                 })
                 
 
-                cy.get('tbody').eq(1).find('td:nth-child(5)').then((value) => {
+                cy.get('tbody').eq(1).find('td:nth-child(6)').then((value) => {
                     for (let x = 0; x < value.length; x++) {
                     cy.wrap(value[x]).find('select').invoke('val').then((dataVals) => {
                         if (dataVals === '100') {
@@ -334,7 +334,7 @@ describe('Product owner', function () {
                 });
                 
                 
-                cy.get('tbody').eq(1).find('td:nth-child(6)').then((value) => {
+                cy.get('tbody').eq(1).find('td:nth-child(7)').then((value) => {
                     for (let x = 0; x < value.length; x++) {
                         cy.wrap(value[x]).find('input').then((dataVals) => {
                             cy.wrap(dataVals).invoke('val').should('eq', estimatedTimeToCompleteFiltered[x])
@@ -343,7 +343,7 @@ describe('Product owner', function () {
                 })
 
                 
-                cy.get('tbody').eq(1).find('td:nth-child(7)').then((value) => {
+                cy.get('tbody').eq(1).find('td:nth-child(8)').then((value) => {
                     for (let x = 0; x < value.length; x++) {
                         cy.wrap(value[x]).find('input').then((dataVals) => {
                             cy.wrap(dataVals).invoke('val').should('eq', estimatedTimeToEvaluateFiltered[x])

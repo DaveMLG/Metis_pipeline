@@ -20,7 +20,7 @@
     "@rollup/plugin-babel": "5.3.0",
     "cypress": "^13.11.0",
     "cypress-file-upload": "^5.0.8",
-    "http-server": "^0.12.3",
+    "http-server": "^14.1.1",
     "rollup": "2.44.0"
   },
   "description": "`yarn install` to install all the dependencies, `yarn build` to create `dist/bundle.js`, and `open index.html` to see it running in a browser.",

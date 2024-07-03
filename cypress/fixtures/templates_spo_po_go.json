@@ -265,184 +265,124 @@
       "templates": "0:00"
     },
     {
-      "selectVals": "100"
+      "selectVals": "1"
     },
     {
-      "selectVals": "0: null"
+      "selectVals": "3"
     },
     {
-      "selectVals": "500"
+      "selectVals": "4"
     },
     {
-      "selectVals": "0: null"
+      "selectVals": "5"
     },
     {
-      "selectVals": "500"
+      "selectVals": "6"
     },
     {
-      "selectVals": "0: null"
+      "selectVals": "2"
     },
     {
-      "selectVals": "100"
+      "selectVals": "18"
     },
     {
-      "selectVals": "0: null"
+      "selectVals": "7"
     },
     {
-      "selectVals": "100"
+      "selectVals": "9"
     },
     {
-      "selectVals": "0: null"
+      "selectVals": "17"
     },
     {
-      "selectVals": "100"
+      "selectVals": "10"
     },
     {
-      "selectVals": "0: null"
+      "selectVals": "12"
     },
     {
-      "selectVals": "300"
+      "selectVals": "16"
     },
     {
-      "selectVals": "0: null"
+      "selectVals": "13"
     },
     {
-      "selectVals": "100"
+      "selectVals": "14"
     },
     {
-      "selectVals": "0: null"
+      "selectVals": "15"
     },
     {
-      "selectVals": "300"
+      "selectVals": "20"
     },
     {
-      "selectVals": "0: null"
+      "selectVals": "19"
     },
     {
-      "selectVals": "100"
+      "selectVals": "8"
     },
     {
-      "selectVals": "0: null"
+      "selectVals": "21"
     },
     {
-      "selectVals": "500"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "0: null"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "100"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "0: null"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "300"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "0: null"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "100"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "0: null"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "500"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "0: null"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "100"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "0: null"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "500"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "0: null"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "100"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "0: null"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "300"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "0: null"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "100"
+      "templateGeneric": "NízkaStrednáVysoká"
     },
     {
-      "selectVals": "0: null"
-    },
-    {
-      "templateGeneric": "3000"
-    },
-    {
-      "templateGeneric": "3000"
-    },
-    {
-      "templateGeneric": "3000"
-    },
-    {
-      "templateGeneric": "1000"
-    },
-    {
-      "templateGeneric": "3000"
-    },
-    {
-      "templateGeneric": "1500"
-    },
-    {
-      "templateGeneric": "4500"
-    },
-    {
-      "templateGeneric": "1500"
-    },
-    {
-      "templateGeneric": "1500"
-    },
-    {
-      "templateGeneric": "4500"
-    },
-    {
-      "templateGeneric": "1500"
-    },
-    {
-      "templateGeneric": "1500"
-    },
-    {
-      "templateGeneric": "4500"
-    },
-    {
-      "templateGeneric": "1500"
-    },
-    {
-      "templateGeneric": "1500"
-    },
-    {
-      "templateGeneric": "1500"
-    },
-    {
-      "templateGeneric": "1500"
-    },
-    {
-      "templateGeneric": "1500"
-    },
-    {
-      "templateGeneric": "1500"
-    },
-    {
-      "templateGeneric": "1500"
+      "templateGeneric": "NízkaStrednáVysoká"
     }
   ]
 }

@@ -116,7 +116,7 @@ cy.get('tbody').find('tr').contains('Sam').then(edit => {
     cy.wrap(value).should('eq', guarantorInternalMaterialSam) 
   })
   
-  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
     cy.wrap(value).should('eq', lecturerInstructionSam) 
   });
   
@@ -130,7 +130,7 @@ cy.get('tbody').find('tr').contains('Sam').then(edit => {
     cy.wrap(value).should('eq', lecturerInternalMaterialSam) 
   });
 
-  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
     cy.wrap(value).should('eq', studentInstructionSam) 
   });
   
@@ -241,7 +241,7 @@ const ContentAT = jsonData.AutoTest.find(obj => obj.Content)?.Content;
       cy.wrap(value).should('eq', TrainingsAT) 
     });
     
-    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
       cy.wrap(value).should('eq', lecturerInstructionAT) 
     });
     
@@ -255,7 +255,7 @@ const ContentAT = jsonData.AutoTest.find(obj => obj.Content)?.Content;
       cy.wrap(value).should('eq', lecturerInternalMaterialAT) 
     });
   
-    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
       cy.wrap(value).should('eq', studentInstructionAT) 
     });
     
@@ -369,7 +369,7 @@ const ContentVS = jsonData.Videosamostudium.find(obj => obj.Content)?.Content;
         cy.wrap(value).should('eq', guarantorInternalMaterialVS) 
       })
       
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', lecturerInstructionVS) 
       });
       
@@ -383,7 +383,7 @@ const ContentVS = jsonData.Videosamostudium.find(obj => obj.Content)?.Content;
         cy.wrap(value).should('eq', lecturerInternalMaterialVS) 
       });
     
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', studentInstructionVS) 
       });
       
@@ -491,7 +491,7 @@ const ContentW = jsonData.Webinar.find(obj => obj.Content)?.Content;
         cy.wrap(value).should('eq', TrainingsW) 
       });
       
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', lecturerInstructionW) 
       });
       
@@ -505,7 +505,7 @@ const ContentW = jsonData.Webinar.find(obj => obj.Content)?.Content;
         cy.wrap(value).should('eq', lecturerInternalMaterialW) 
       });
     
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', studentInstructionW) 
       });
       
@@ -611,7 +611,7 @@ const ContentD = jsonData.Doplnovacka.find(obj => obj.Content)?.Content;
         cy.wrap(value).should('eq', TrainingsD) 
       });
       
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', lecturerInstructionD) 
       });
       
@@ -625,7 +625,7 @@ const ContentD = jsonData.Doplnovacka.find(obj => obj.Content)?.Content;
         cy.wrap(value).should('eq', lecturerInternalMaterialD) 
       });
     
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', studentInstructionD) 
       });
       
@@ -738,7 +738,7 @@ const questVals = [];
         cy.wrap(value).should('eq', TrainingsP) 
       });
       
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', lecturerInstructionP) 
       });
       
@@ -752,7 +752,7 @@ const questVals = [];
         cy.wrap(value).should('eq', lecturerInternalMaterialP) 
       });
     
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('label').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', studentInstructionP) 
       });
       
@@ -871,7 +871,7 @@ const IsExerciseTestAllowedSPL = jsonData.SpolPracaLektor.find(obj => obj.IsExer
       cy.wrap(value).should('eq', TrainingsSPL) 
     });
     
-    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
       cy.wrap(value).should('eq', lecturerInstructionSPL) 
     });
 
@@ -889,7 +889,7 @@ const IsExerciseTestAllowedSPL = jsonData.SpolPracaLektor.find(obj => obj.IsExer
       cy.wrap(value).should('eq', lecturerInternalMaterialSPL) 
     });
   
-    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
       cy.wrap(value).should('eq', studentInstructionSPL) 
     });
     
@@ -1025,7 +1025,7 @@ const AnswerIsPrePT = jsonData.PrefTest.find(obj => obj.AnswerIsPre)?.AnswerIsPr
     cy.wrap(value).should('eq', TrainingsPT) 
   });
   
-  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
     cy.wrap(value).should('eq', lecturerInstructionPT) 
   });
   
@@ -1038,7 +1038,7 @@ const AnswerIsPrePT = jsonData.PrefTest.find(obj => obj.AnswerIsPre)?.AnswerIsPr
     cy.wrap(value).should('eq', lecturerInternalMaterialPT) 
   });
 
-  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
     cy.wrap(value).should('eq', studentInstructionPT) 
   });
   
@@ -1160,7 +1160,7 @@ const questValsPr = [];
         cy.wrap(value).should('eq', TrainingsPr) 
       });
       
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', lecturerInstructionPr) 
       });
       
@@ -1290,7 +1290,7 @@ it('Anketa', function () {
         cy.wrap(value).should('eq', Trainings) 
       });
       
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', lecturerInstruction) 
       });
       
@@ -1304,7 +1304,7 @@ it('Anketa', function () {
         cy.wrap(value).should('eq', lecturerInternalMaterial) 
       });
     
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', studentInstruction) 
       });
       
@@ -1413,7 +1413,7 @@ it('Anketa', function () {
           cy.wrap(value).should('eq', Trainings) 
         });
         
-        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
           cy.wrap(value).should('eq', lecturerInstruction) 
         });
         
@@ -1427,7 +1427,7 @@ it('Anketa', function () {
           cy.wrap(value).should('eq', lecturerInternalMaterial) 
         });
       
-        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
           cy.wrap(value).should('eq', studentInstruction) 
         });
         
@@ -1442,7 +1442,7 @@ it('Anketa', function () {
     })
   })
 
-  it('Osobnostný test', function () {
+  it.only('Osobnostný test', function () {
     
     cy.readFile('cypress/fixtures/guarantor_content_checker.json', 'utf-8').then((jsonData) => {
 
@@ -1556,7 +1556,7 @@ it('Anketa', function () {
           cy.wrap(value).should('eq', Trainings) 
         });
         
-        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
           cy.wrap(value).should('eq', lecturerInstruction) 
         });
         
@@ -1570,7 +1570,7 @@ it('Anketa', function () {
           cy.wrap(value).should('eq', lecturerInternalMaterial) 
         });
       
-        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
           cy.wrap(value).should('eq', studentInstruction) 
         });
         
@@ -1579,13 +1579,13 @@ it('Anketa', function () {
           cy.wrap(value).should('eq', Description) 
         });
 
-        cy.get('[name="characteristicForm"]').find('td').then((value) => {
+        cy.get('[name="characteristicForm"]').find('td:eq(1)').then((value) => {
           for (let x = 0; x < value.length; x++) {
             cy.wrap(value[x]).invoke('text').should('eq', persValsFiltered[x])
           }
         })        
 
-        cy.get('[name="personalityTestForm"]').find('td:first-child').then((value) => {
+        cy.get('[name="personalityTestForm"]').find('td:eq(1)').then((value) => {
           for (let x = 0; x < value.length; x++) {
             cy.wrap(value[x]).invoke('text').should('eq', persValsQnAFiltered[x])
           }
@@ -1689,7 +1689,7 @@ it('Anketa', function () {
               cy.wrap(value).should('eq', Trainings) 
             });
             
-            cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+            cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
               cy.wrap(value).should('eq', lecturerInstruction) 
             });
             
@@ -1703,7 +1703,7 @@ it('Anketa', function () {
               cy.wrap(value).should('eq', lecturerInternalMaterial) 
             });
           
-            cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+            cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
               cy.wrap(value).should('eq', studentInstruction) 
             });
             
@@ -1818,7 +1818,7 @@ it('Anketa', function () {
           cy.wrap(value).should('eq', TrainingsSPL) 
         });
         
-        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
           cy.wrap(value).should('eq', lecturerInstructionSPL) 
         });
   
@@ -1832,7 +1832,7 @@ it('Anketa', function () {
           cy.wrap(value).should('eq', lecturerInternalMaterialSPL) 
         });
       
-        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
           cy.wrap(value).should('eq', studentInstructionSPL) 
         });
         
@@ -1966,7 +1966,7 @@ it('Potvrdenie Absolvovania', function () {
         cy.wrap(value).should('eq', Trainings) 
       });
       
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', lecturerInstruction) 
       });
       
@@ -1980,7 +1980,7 @@ it('Potvrdenie Absolvovania', function () {
         cy.wrap(value).should('eq', lecturerInternalMaterial) 
       });
     
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', studentInstruction) 
       });
       
@@ -2103,7 +2103,7 @@ it('Potvrdenie Absolvovania', function () {
           cy.wrap(value).should('eq', lecturerInternalMaterial) 
         });
       
-        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+        cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
           cy.wrap(value).should('eq', studentInstruction) 
         });
         
@@ -2228,7 +2228,7 @@ it('Cvičenie', function () {
         cy.wrap(value).should('eq', lecturerInternalMaterial) 
       });
     
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', studentInstruction) 
       });
       
@@ -2351,7 +2351,7 @@ it('Checklist', function () {
         cy.wrap(value).should('eq', lecturerInternalMaterial) 
       });
     
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', studentInstruction) 
       });
       
@@ -2483,7 +2483,7 @@ it('IQ test', function () {
         cy.wrap(value).should('eq', Trainings) 
       });
       
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', lecturerInstruction) 
       });
       
@@ -2497,7 +2497,7 @@ it('IQ test', function () {
         cy.wrap(value).should('eq', lecturerInternalMaterial) 
       });
     
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('span').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', studentInstruction) 
       });
       
@@ -2512,7 +2512,7 @@ it('IQ test', function () {
         }
       })        
 
-      cy.get('[class="af-table table table-striped table-bordered table-hover"]').last().find('td:first-child').then((value) => {
+      cy.get('[class="af-table table table-striped table-bordered table-hover"]').first().find('td:first-child').then((value) => {
         for (let x = 0; x < value.length; x++) {
           cy.wrap(value[x]).invoke('text').should('eq', persValsQnAFiltered[x])
         }
