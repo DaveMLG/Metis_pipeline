@@ -71,7 +71,7 @@ describe('Product owner', function () {
         })
       }
     })
-    cy.get('[class="tableFloatingHeaderOriginal"]').next().next().last().find('td:nth-child(6)').find('span').then((value) => {
+    cy.get('[class="tableFloatingHeaderOriginal"]').next().next().last().find('td:nth-child(6)').then((value) => {
       for (let x = 0; x < value.length; x++) {
         cy.wrap(value[x]).invoke('text').then((valData) => {
           DataValues.push({templateGeneric: valData })

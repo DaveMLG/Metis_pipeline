@@ -1,6 +1,9 @@
 {
   "Values": [
     {
+      "genericVals": "1"
+    },
+    {
       "genericVals": "1. Téma - HM"
     },
     {
@@ -16,7 +19,7 @@
       "genericVals": "Automatický test"
     },
     {
-      "genericVals": "TaskToDeleteaskToDelete"
+      "genericVals": "TaskToDeleteDeleteTaskToDelete"
     },
     {
       "genericVals": "1"
@@ -29,6 +32,9 @@
     },
     {
       "genericVals": ""
+    },
+    {
+      "genericVals": "2"
     },
     {
       "genericVals": "1. Téma - HM"
@@ -61,6 +67,9 @@
       "genericVals": ""
     },
     {
+      "genericVals": "3"
+    },
+    {
       "genericVals": "1. Téma - HM"
     },
     {
@@ -80,276 +89,6 @@
     },
     {
       "genericVals": "3"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma - HM"
-    },
-    {
-      "genericVals": "1. Lekcia - HM"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "2. Seminár"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma - HM"
-    },
-    {
-      "genericVals": "1. Lekcia - HM"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "2. Seminár"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "5"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma - HM"
-    },
-    {
-      "genericVals": "1. Lekcia - HM"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "2. Seminár"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "6"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma - HM"
-    },
-    {
-      "genericVals": "1. Lekcia - HM"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "2. Seminár"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "7"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma - HM"
-    },
-    {
-      "genericVals": "1. Lekcia - HM"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "2. Seminár"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "8"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma - HM"
-    },
-    {
-      "genericVals": "1. Lekcia - HM"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "2. Seminár"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "9"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma - HM"
-    },
-    {
-      "genericVals": "1. Lekcia - HM"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "2. Seminár"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "10"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma - HM"
-    },
-    {
-      "genericVals": "1. Lekcia - HM"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "2. Seminár"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "11"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "1. Téma - HM"
-    },
-    {
-      "genericVals": "1. Lekcia - HM"
-    },
-    {
-      "genericVals": ""
-    },
-    {
-      "genericVals": "2. Seminár"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "Automatický test"
-    },
-    {
-      "genericVals": "12"
     },
     {
       "genericVals": ""

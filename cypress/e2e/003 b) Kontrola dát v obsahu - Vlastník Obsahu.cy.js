@@ -57,21 +57,21 @@ describe('Product owner', function () {
         }
       })
 
-      cy.get('el-lessons-table').find('.vert-align:not(:nth-child(7)):not(:nth-child(9)):not(:nth-child(10)):not(:nth-child(11)):not(:nth-child(13)):not(:nth-child(14)):not(:nth-child(15))').find('span:not(:has(a))').then((value) => {
+      cy.get('el-lessons-table').find('.vert-align:not(:nth-child(8)):not(:nth-child(10)):not(:nth-child(11)):not(:nth-child(12)):not(:nth-child(14)):not(:nth-child(15)):not(:nth-child(16))').find('span:not(:has(a))').then((value) => {
         for (let x = 0; x < value.length; x++) {
           cy.wrap(value[x]).invoke('text').then((values) => {
             cy.wrap(values).should('eq', genericValsDataFiltered[x]);
           });
         }
       });
-      cy.get('el-lessons-table').find('.vert-align:nth-child(7)').find('span:not(:has(a))').then((value) => {
+      cy.get('el-lessons-table').find('.vert-align:nth-child(8)').find('span:not(:has(a))').then((value) => {
         for (let x = 0; x < value.length; x++) {
           cy.wrap(value[x]).invoke('text').then((values) => {
             cy.wrap(values).should('eq', orderCountFiltered[x]);
           });
         }
       });
-      cy.get('el-lessons-table').find('.vert-align:nth-child(9)').find('span:not(:has(a))').then((value) => {
+      cy.get('el-lessons-table').find('.vert-align:nth-child(10)').find('span:not(:has(a))').then((value) => {
         for (let x = 0; x < value.length; x++) {
           cy.wrap(value[x]).invoke('text').then((values) => {
             cy.wrap(values).should('eq', selectValsDataFiltered[x]);

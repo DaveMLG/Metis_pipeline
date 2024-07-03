@@ -21,7 +21,7 @@ describe('Product owner', function () {
         cy.get('[href="/admin/elearning/lesson-template"]').click();
         cy.wait(3000);
         cy.get('[placeholder="Kľúčové slovo"]').type('Šablóna na pretestovanie úloh');
-        cy.get('[type="submit"]').first().click();
+        cy.get('[type="submit"]').first().click().wait(3000);
         cy.get('tbody').find('a').first().click();
         cy.get(':nth-child(3) > .nav-link').click().wait(1000);
         cy.get('.table.table-hover.table-bordered.table-striped.af-table').find('tr').find('td:nth-child(4)').then((tbodyRow) => {
@@ -88,7 +88,7 @@ describe('Product owner', function () {
                 cy.get('tbody').find('a').first().click();
                 cy.get(':nth-child(6) > .nav-link').click().wait(1000);
 
-                cy.get('[class="table table-hover table-bordered table-striped"]').find('tr').find('td:nth-child(8)').then((tbodyRow) => {
+                cy.get('[class="table table-hover table-bordered table-striped"]').find('tr').find('td:nth-child(7)').then((tbodyRow) => {
                     for (let x = 0; x < tbodyRow.length; x++) {
                         cy.wrap(tbodyRow).eq(x).invoke('text').then((dataVals) => {
                             cy.wrap(dataVals).should('eq', instLecturerFiltered[x]) 

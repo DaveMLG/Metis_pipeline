@@ -752,7 +752,7 @@ const questVals = [];
         cy.wrap(value).should('eq', lecturerInternalMaterialP) 
       });
     
-      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().find('label').invoke('text').then((value) => {
+      cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
         cy.wrap(value).should('eq', studentInstructionP) 
       });
       
@@ -1442,7 +1442,7 @@ it('Anketa', function () {
     })
   })
 
-  it('Osobnostný test', function () {
+  it.only('Osobnostný test', function () {
     
     cy.readFile('cypress/fixtures/guarantor_content_checker.json', 'utf-8').then((jsonData) => {
 
@@ -1579,13 +1579,13 @@ it('Anketa', function () {
           cy.wrap(value).should('eq', Description) 
         });
 
-        cy.get('[name="characteristicForm"]').find('td').then((value) => {
+        cy.get('[name="characteristicForm"]').find('td:eq(1)').then((value) => {
           for (let x = 0; x < value.length; x++) {
             cy.wrap(value[x]).invoke('text').should('eq', persValsFiltered[x])
           }
         })        
 
-        cy.get('[name="personalityTestForm"]').find('td:first-child').then((value) => {
+        cy.get('[name="personalityTestForm"]').find('td:eq(1)').then((value) => {
           for (let x = 0; x < value.length; x++) {
             cy.wrap(value[x]).invoke('text').should('eq', persValsQnAFiltered[x])
           }
@@ -2369,7 +2369,7 @@ it('Checklist', function () {
     })
   })
 })
-it.only('IQ test', function () {
+it('IQ test', function () {
     
   cy.readFile('cypress/fixtures/guarantor_content_checker.json', 'utf-8').then((jsonData) => {
 
@@ -2512,7 +2512,7 @@ it.only('IQ test', function () {
         }
       })        
 
-      cy.get('[class="af-table table table-striped table-bordered table-hover"]').first.find('td:first-child').then((value) => {
+      cy.get('[class="af-table table table-striped table-bordered table-hover"]').first().find('td:first-child').then((value) => {
         for (let x = 0; x < value.length; x++) {
           cy.wrap(value[x]).invoke('text').should('eq', persValsQnAFiltered[x])
         }
