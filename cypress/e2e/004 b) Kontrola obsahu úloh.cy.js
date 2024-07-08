@@ -775,10 +775,10 @@ const questVals = [];
     })
   })
 })
-    it('Spoločná práca s lektorom', function () {
-      cy.readFile('cypress/fixtures/guarantor_content_checker.json', 'utf-8').then((jsonData) => {
+it('Spoločná práca s lektorom', function () {
+  cy.readFile('cypress/fixtures/guarantor_content_checker.json', 'utf-8').then((jsonData) => {
 
-       
+   
 const taskOrderSPL = jsonData.SpolPracaLektor.find(obj => obj.taskOrder)?.taskOrder;
 const useLessonNameSPL = jsonData.SpolPracaLektor.find(obj => obj.useLessonName)?.useLessonName;
 const languageSPL = jsonData.SpolPracaLektor.find(obj => obj.language)?.language;
@@ -803,136 +803,138 @@ const FileUploadIsMandatorySPL = jsonData.SpolPracaLektor.find(obj => obj.FileUp
 const AnswerIsMandatorySPL = jsonData.SpolPracaLektor.find(obj => obj.AnswerIsMandatory)?.AnswerIsMandatory;
 const IsExerciseTestAllowedSPL = jsonData.SpolPracaLektor.find(obj => obj.IsExerciseTestAllowed)?.IsExerciseTestAllowed;
 
-    cy.get('tbody').find('tr').contains('Spo').then(edit => {
-      cy.wrap(edit).parent().parent().parent().find('a').click();
-    })
-
-    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.ExerciseOrder"]').next('span').invoke('text').then((value) => {
-      cy.wrap(value).should('eq', taskOrderSPL) 
-    });
-    
-    cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
-      if (useLessonNameSPL === 'yes') {
-        cy.wrap(value).should('be.checked')
-    } else {
-        cy.wrap(value).should('not.be.checked')
-    }
-    }); 
-  
-    cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
-      cy.wrap(value).should('eq', languageSPL) 
-    });
-    
-    cy.get('[id="LengthInTime"]').invoke('val').then((value) => {
-      cy.wrap(value).should('eq', LengthInTimeSPL) 
-    });
-    
-    cy.get('[id="EstimateTimeForEvaluationInTime"]').invoke('val').then((value) => {
-      cy.wrap(value).should('eq', EstimateTimeForEvaluationInTimeSPL) 
-    });
-    
-    cy.get('[for="ExperiencePoints"]').nextUntil('span').invoke('text').then((value) => {
-      cy.wrap(value).should('eq', ExperiencePointsSPL) 
-    });
-    
-    cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
-      cy.wrap(value).should('eq', difficultySPL) 
-    })
-    
-    cy.get('[name="IsTimeLimitedTask"]').find('[type="checkbox"]').then((value) => {
-      if (IsTimeLimitedTaskSPL === 'yes') {
-        cy.wrap(value).should('be.checked')
-    } else {
-        cy.wrap(value).should('not.be.checked')
-    }
-    });
-    
-    cy.get('[name="NotMandatory"]').find('[type="checkbox"]').then((value) => {
-      if (NotMandatorySPL === 'yes') {
-        cy.wrap(value).should('be.checked')
-    } else {
-        cy.wrap(value).should('not.be.checked')
-    }
-    });
-  
-    cy.get('[for="GuarantorId"]').nextUntil('span').invoke('text').then((value) => {
-      cy.wrap(value).should('eq', GuarantorIdSPL) 
-    });
-    
-    cy.get('[for="Guarantors"]').nextUntil('span').invoke('text').then((value) => {
-      cy.wrap(value).should('eq', GuarantorsSPL) 
-    });
-    
-   /* cy.get('[for="ContentAssistants"]').nextUntil('span').invoke('text').then((value) => {
-      cy.wrap(value).should('eq', ContentAssistantsD) 
-    });
-    */
-    cy.get('[for="Trainings"]').nextUntil('span').invoke('text').then((value) => {
-      cy.wrap(value).should('eq', TrainingsSPL) 
-    });
-    
-    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
-      cy.wrap(value).should('eq', lecturerInstructionSPL) 
-    });
-
-    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.AssignmentDevelopmentProcedure"]').next().next().find('span').invoke('text').then((value) => {
-      cy.wrap(value).should('eq', assignmentDevelopmentProcedureSPL) 
-    });
-    
-    
-   /* cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.CorrectorInstruction"]').next().find('span').invoke('text').then((value) => {
-      cy.wrap(value).should('eq', lecturerInternalMaterialP) 
-    });*/
-    
-    
-    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInternalMaterial"]').next().next().find('span').invoke('text').then((value) => {
-      cy.wrap(value).should('eq', lecturerInternalMaterialSPL) 
-    });
-  
-    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
-      cy.wrap(value).should('eq', studentInstructionSPL) 
-    });
-    
-    
-    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.Description"]').prev('div').invoke('text').then((value) => {
-      cy.wrap(value).should('eq', DescriptionSPL) 
-    });
-
-    cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.Content"]').prev('div').invoke('text').then((value) => {
-      cy.wrap(value).should('eq', AssignmentSPL) 
-    });
-
-    /*cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.SampleSolution"]').prev('div').invoke('text').then((value) => {
-      cy.wrap(value).should('eq', SampleSolutionSPL) 
-    });*/
-
-    cy.get('[name="FileUploadIsMandatory"]').find('[type="checkbox"]').then((value) => {
-      if (FileUploadIsMandatorySPL === 'yes') {
-        cy.wrap(value).should('be.checked')
-    } else {
-        cy.wrap(value).should('not.be.checked')
-    }
-    });
-
-    cy.get('[name="FileUploadIsMandatory"]').find('[type="checkbox"]').then((value) => {
-      if (AnswerIsMandatorySPL === 'yes') {
-        cy.wrap(value).should('be.checked')
-    } else {
-        cy.wrap(value).should('not.be.checked')
-    }
-    });
-
-    cy.get('[name="FileUploadIsMandatory"]').find('[type="checkbox"]').then((value) => {
-      if (IsExerciseTestAllowedSPL === 'yes') {
-        cy.wrap(value).should('be.checked')
-    } else {
-        cy.wrap(value).should('not.be.checked')
-    }
-    });
-
-    cy.get('[onclick="history.back()"]').first().click().wait(1000)
-  })
+cy.get('tbody').find('tr').contains('Spo').then(edit => {
+  cy.wrap(edit).parent().parent().parent().find('a').click();
 })
+
+cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.ExerciseOrder"]').next('span').invoke('text').then((value) => {
+  cy.wrap(value).should('eq', taskOrderSPL)
+});
+
+cy.get('[name="useLessonName"]').find('[type="checkbox"]').then((value) => {
+  if (useLessonNameSPL === 'yes') {
+    cy.wrap(value).should('be.checked')
+} else {
+    cy.wrap(value).should('not.be.checked')
+}
+});
+
+cy.contains('Slovenčina').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
+  cy.wrap(value).should('eq', languageSPL)
+});
+
+cy.get('[id="LengthInTime"]').invoke('val').then((value) => {
+  cy.wrap(value).should('eq', LengthInTimeSPL)
+});
+
+cy.get('[id="EstimateTimeForEvaluationInTime"]').invoke('val').then((value) => {
+  cy.wrap(value).should('eq', EstimateTimeForEvaluationInTimeSPL)
+});
+
+cy.get('[for="ExperiencePoints"]').nextUntil('span').invoke('text').then((value) => {
+  cy.wrap(value).should('eq', ExperiencePointsSPL)
+});
+
+cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input radio-button-active"]').invoke('val').then((value) => {
+  cy.wrap(value).should('eq', difficultySPL)
+})
+
+cy.get('[name="IsTimeLimitedTask"]').find('[type="checkbox"]').then((value) => {
+  if (IsTimeLimitedTaskSPL === 'yes') {
+    cy.wrap(value).should('be.checked')
+} else {
+    cy.wrap(value).should('not.be.checked')
+}
+});
+
+cy.get('[name="NotMandatory"]').find('[type="checkbox"]').then((value) => {
+  if (NotMandatorySPL === 'yes') {
+    cy.wrap(value).should('be.checked')
+} else {
+    cy.wrap(value).should('not.be.checked')
+}
+});
+
+cy.get('[for="GuarantorId"]').nextUntil('span').invoke('text').then((value) => {
+  cy.wrap(value).should('eq', GuarantorIdSPL)
+});
+
+cy.get('[for="Guarantors"]').nextUntil('span').invoke('text').then((value) => {
+  cy.wrap(value).should('eq', GuarantorsSPL)
+});
+
+/* cy.get('[for="ContentAssistants"]').nextUntil('span').invoke('text').then((value) => {
+  cy.wrap(value).should('eq', ContentAssistantsD)
+});
+*/
+cy.get('[for="Trainings"]').nextUntil('span').invoke('text').then((value) => {
+  cy.wrap(value).should('eq', TrainingsSPL)
+});
+
+cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInstruction"]').next().invoke('text').then((value) => {
+  cy.wrap(value).should('eq', lecturerInstructionSPL)
+});
+
+cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.AssignmentDevelopmentProcedure"]').next().next().find('span').invoke('text').then((value) => {
+  cy.wrap(value).should('eq', assignmentDevelopmentProcedureSPL)
+});
+
+
+/* cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.CorrectorInstruction"]').next().find('span').invoke('text').then((value) => {
+  cy.wrap(value).should('eq', lecturerInternalMaterialP)
+});*/
+
+
+cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.LecturerInternalMaterial"]').next().next().find('span').invoke('text').then((value) => {
+  cy.wrap(value).should('eq', lecturerInternalMaterialSPL)
+});
+
+cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.StudentInstruction"]').next().next().invoke('text').then((value) => {
+  cy.wrap(value).should('eq', studentInstructionSPL)
+});
+
+
+cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.Description"]').prev('div').invoke('text').then((value) => {
+  cy.wrap(value).should('eq', DescriptionSPL)
+});
+
+cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.Content"]').prev('div').invoke('text').then((value) => {
+  cy.wrap(value).should('eq', AssignmentSPL)
+});
+
+/*cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.SampleSolution"]').prev('div').invoke('text').then((value) => {
+  cy.wrap(value).should('eq', SampleSolutionSPL)
+});*/
+
+cy.get('[name="FileUploadIsMandatory"]').find('[type="checkbox"]').then((value) => {
+  if (FileUploadIsMandatorySPL === 'yes') {
+    cy.wrap(value).should('be.checked')
+} else {
+    cy.wrap(value).should('not.be.checked')
+}
+});
+
+cy.get('[name="AnswerIsMandatory"]').find('[type="checkbox"]').then((value) => {
+  if (AnswerIsMandatorySPL === 'yes') {
+    cy.wrap(value).should('be.checked')
+} else {
+    cy.wrap(value).should('not.be.checked')
+}
+});
+
+cy.get('[name="IsExerciseTestAllowed"]').find('[type="checkbox"]').then((value) => {
+  if (IsExerciseTestAllowedSPL === 'yes') {
+    cy.wrap(value).should('be.checked')
+} else {
+    cy.wrap(value).should('not.be.checked')
+}
+});
+
+cy.get('[onclick="history.back()"]').first().click().wait(1000)
+})
+})
+
+
 
     it('Preferenčný test', function () {
       cy.readFile('cypress/fixtures/guarantor_content_checker.json', 'utf-8').then((jsonData) => {
@@ -1442,7 +1444,7 @@ it('Anketa', function () {
     })
   })
 
-  it.only('Osobnostný test', function () {
+  it('Osobnostný test', function () {
     
     cy.readFile('cypress/fixtures/guarantor_content_checker.json', 'utf-8').then((jsonData) => {
 
@@ -1590,7 +1592,7 @@ it('Anketa', function () {
             cy.wrap(value[x]).invoke('text').should('eq', persValsQnAFiltered[x])
           }
         })        
-        cy.get('[name="personalityTestForm"]').find('td:eq(1)').then((value) => {
+        cy.get('[name="personalityTestForm"]').find('td:eq(2)').then((value) => {
           for (let x = 0; x < value.length; x++) {
             cy.wrap(value[x]).invoke('text').should('eq', characteristicFiltered[x])
           }
@@ -2506,18 +2508,18 @@ it('IQ test', function () {
         cy.wrap(value).should('eq', Description) 
       });
 
-      cy.get('[name="characteristicForm"]').find('td').then((value) => {
+      cy.get('[name="characteristicForm"]').find('td:nth-child(2)').then((value) => {
         for (let x = 0; x < value.length; x++) {
           cy.wrap(value[x]).invoke('text').should('eq', persValsFiltered[x])
         }
       })        
 
-      cy.get('[class="af-table table table-striped table-bordered table-hover"]').first().find('td:first-child').then((value) => {
+      cy.get('[class="af-table table table-striped table-bordered table-hover"]').first().find('td:nth-child(2)').then((value) => {
         for (let x = 0; x < value.length; x++) {
           cy.wrap(value[x]).invoke('text').should('eq', persValsQnAFiltered[x])
         }
       })        
-      cy.get('[class="af-table table table-striped table-bordered table-hover"]').last().find('td:eq(1)').then((value) => {
+      cy.get('[class="af-table table table-striped table-bordered table-hover"]').last().find('td:eq(2)').then((value) => {
         for (let x = 0; x < value.length; x++) {
           cy.wrap(value[x]).invoke('text').should('eq', characteristicFiltered[x])
         }

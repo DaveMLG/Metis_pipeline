@@ -63,12 +63,12 @@ describe('Product owner', function () {
         })
       }
 
-      cy.get('[class="tableFloatingHeaderOriginal"]').next().next().last().find('td:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)):not(:nth-child(4)):not(:nth-child(5)):not(:nth-child(6)):not(:nth-child(8)):not(:nth-child(9)):not(:nth-child(12)):not(:nth-child(13)):not(:nth-child(14)):not(:nth-child(15)):not(:nth-child(16))').find('input').then((value) => {
+      cy.get('[class="tableFloatingHeaderOriginal"]').next().next().last().find('td:not(:nth-child(2)):not(:nth-child(3)):not(:nth-child(4)):not(:nth-child(5)):not(:nth-child(6)):not(:nth-child(7)):not(:nth-child(9)):not(:nth-child(10)):not(:nth-child(13)):not(:nth-child(14)):not(:nth-child(15)):not(:nth-child(16)):not(:nth-child(17))').find('input').then((value) => {
         for (let x = 0; x < value.length; x++) {
           cy.wrap(value[x]).invoke('val').then((valData) => {
             cy.wrap(valData).should('eq', templatesFiltered[x]) 
           })
-        }
+        } 
       })
 
       /*cy.get('[class="tableFloatingHeaderOriginal"]').next().next().last().find('td:not(:nth-child(14))').find('select').then((value) => {
@@ -78,7 +78,7 @@ describe('Product owner', function () {
           })
         }
       })*/
-      cy.get('[class="tableFloatingHeaderOriginal"]').next().next().last().find('td:nth-child(8)').find('span').then((value) => {
+      cy.get('[class="tableFloatingHeaderOriginal"]').next().next().last().find('td:nth-child(10)').then((value) => {
         for (let x = 0; x < value.length; x++) {
           cy.wrap(value[x]).invoke('text').then((valData) => {
             cy.wrap(valData).should('eq', templateGenericFiltered[x]) 

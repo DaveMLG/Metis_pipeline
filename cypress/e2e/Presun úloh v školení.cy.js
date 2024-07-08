@@ -50,7 +50,7 @@ describe('Product owner', function () {
         //Overenie či test téma a lekcia sa zmenila na hodnotu 2
         cy.get('tbody').last().find('tr').then((rows) => {
             for (let x = 0; x < rows.length; x++) {
-                cy.wrap(rows[x]).find('td:nth-child(3)').invoke('text').then((value) => {
+                cy.wrap(rows[x]).find('td:nth-child(4)').invoke('text').then((value) => {
                     cy.wrap(value).should('eq', '2');
                 });
             }
@@ -58,7 +58,7 @@ describe('Product owner', function () {
 
         cy.get('tbody').last().find('tr').then((rows) => {
             for (let x = 0; x < rows.length; x++) {
-                cy.wrap(rows[x]).find('td:nth-child(4)').invoke('text').then((value) => {
+                cy.wrap(rows[x]).find('td:nth-child(5)').invoke('text').then((value) => {
                     cy.wrap(value).should('eq', '3');
                 });
             }
@@ -80,7 +80,7 @@ describe('Product owner', function () {
                 cy.wrap($select).select(0)
                 cy.get('[name="intoSelectTheme"]').select(0)
                 cy.get('[name="intoSelectLesson"]').select(0)
-                cy.get('[name="intoSelectActivity"]').select(0)
+                cy.get('[name="intoSelectActivity"]').select(0, { force: true })
                 cy.get('[type="button"]').first().click().wait(2000)
                 cy.get('[name="addExercisesSelectedTheme"]').select(0);
                 cy.get('[name="addExercisesSelectedLesson"]').select(0);
