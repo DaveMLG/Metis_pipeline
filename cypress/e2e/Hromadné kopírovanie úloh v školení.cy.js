@@ -699,6 +699,9 @@ it('Kopírovať inštrukcie pre študenta + overenie', function(){
     cy.get('[type="submit"]').last().click();
     cy.wait(10000);
 
+    cy.get('div.modal-footer').find('[type="button"]').click();
+    cy.wait(3000);
+
     cy.readFile('cypress/fixtures/content_copy_within_task.json', 'utf-8').then((jsonData) => {
         cy.get('tbody').last().find('tr').last().contains('2').then(edit => {
             cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
@@ -802,7 +805,8 @@ it('Kopírovať inštrukcie pre študenta + overenie', function(){
         cy.get('[name="Content"]').find('[class="note-editing-area"]').invoke('text').then((value) => {
             cy.wrap(value).should('eq', ContentW);
         });
-      
+
+     
         cy.get('[onclick="history.back()"]').first().click().wait(1000);
     });
 });

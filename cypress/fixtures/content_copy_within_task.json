@@ -7,13 +7,13 @@
       "language": "sk"
     },
     {
-      "LengthInTime": "0:10"
+      "LengthInTime": "0:30"
     },
     {
-      "EstimateTimeForEvaluationInTime": "0:10"
+      "EstimateTimeForEvaluationInTime": "0:30"
     },
     {
-      "ExperiencePoints": "1000"
+      "ExperiencePoints": "4500"
     },
     {
       "difficulty": "100"
@@ -37,22 +37,22 @@
       "Trainings": "CY Kopírovanie úloh z tohoto školenia"
     },
     {
-      "lecturerInstruction": "Inštrukcie pre lektora"
+      "lecturerInstruction": "asa"
     },
     {
-      "correctorInstruction": "Inštrukcie pre opravovača"
+      "correctorInstruction": "sas"
     },
     {
-      "lecturerInternalMaterial": "Interný materiál pre lektora"
+      "lecturerInternalMaterial": "assasa"
     },
     {
-      "studentInstruction": "Inštrukcie pre študenta"
+      "studentInstruction": "assaas"
     },
     {
-      "correctorInstruction": "Inštrukcie pre lektora"
+      "correctorInstruction": "asa"
     },
     {
-      "Description": "Popis úlohy"
+      "Description": "saasas"
     },
     {
       "Content": "Ahojte, pre pripojenie na webinár/cvičenie prosím použite webovú verziu aplikácie MS Teams alebo jej standalone verziu.Po kliknutí na tento odkaz budete presmerovaní do Teamsovej skupiny, v ktorej sa bude konať webinár/cvičenie"

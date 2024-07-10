@@ -59,6 +59,8 @@ describe('Product owner', function () {
             tasks_Name.push({taskName: 'Aut'})
           } else if (value === 8) {
             tasks_Name.push({taskName: 'Cvi'})
+          } else if (value === 22) {
+            tasks_Name.push({taskName: 'Ank'})
           } else if (value === 19) {
             tasks_Name.push({taskName: 'Dis'})
           }

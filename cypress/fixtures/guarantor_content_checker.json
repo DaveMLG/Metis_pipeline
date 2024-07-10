@@ -1282,13 +1282,13 @@
       "characteristicFormA": "Odpoveď 3"
     },
     {
-      "personalityTestFormSel": "Nesprávne"
+      "personalityTestFormSel": "false"
     },
     {
-      "personalityTestFormSel": "Správne"
+      "personalityTestFormSel": "true"
     },
     {
-      "personalityTestFormSel": "Nesprávne"
+      "personalityTestFormSel": "false"
     }
   ]
 }

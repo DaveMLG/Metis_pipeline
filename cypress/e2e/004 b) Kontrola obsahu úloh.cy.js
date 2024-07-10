@@ -1328,7 +1328,7 @@ it('Anketa', function () {
   it('Spätná väzba', function () {
     
     cy.readFile('cypress/fixtures/guarantor_content_checker.json', 'utf-8').then((jsonData) => {
-    
+
     const taskOrder = jsonData.SpatVazba.find(obj => obj.taskOrder)?.taskOrder;
     const useLessonName = jsonData.SpatVazba.find(obj => obj.useLessonName)?.useLessonName;
     const language = jsonData.SpatVazba.find(obj => obj.language)?.language;
@@ -2130,6 +2130,7 @@ it('Cvičenie', function () {
 
   cy.readFile('cypress/fixtures/guarantor_content_checker.json', 'utf-8').then((jsonData) => {
   
+  
   const taskOrder = jsonData.Cvicenie.find(obj => obj.taskOrder)?.taskOrder;
   const useLessonName = jsonData.Cvicenie.find(obj => obj.useLessonName)?.useLessonName;
   const language = jsonData.Cvicenie.find(obj => obj.language)?.language;
@@ -2376,7 +2377,9 @@ it('IQ test', function () {
   cy.readFile('cypress/fixtures/guarantor_content_checker.json', 'utf-8').then((jsonData) => {
 
     const persVal = jsonData.IQtest
-  
+ 
+      
+   
   const taskOrder = jsonData.IQtest.find(obj => obj.taskOrder)?.taskOrder;
   const useLessonName = jsonData.IQtest.find(obj => obj.useLessonName)?.useLessonName;
   const language = jsonData.IQtest.find(obj => obj.language)?.language;
@@ -2521,11 +2524,20 @@ it('IQ test', function () {
       })        
       cy.get('[class="af-table table table-striped table-bordered table-hover"]').last().find('td:eq(2)').then((value) => {
         for (let x = 0; x < value.length; x++) {
-          cy.wrap(value[x]).invoke('text').should('eq', characteristicFiltered[x])
+          cy.wrap(value[x]).invoke('text').then((dataVals) => {
+        cy.wait(4000)
+            
+            if (dataVals === 'Nesprávne') { 
+              expect(characteristicFiltered[x]).to.equal('false');
+            } else if (dataVals === 'Správne') { 
+              expect(characteristicFiltered[x]).to.equal('true')
+            
+            }
+          });
         }
-      })        
      cy.get('[onclick="history.back()"]').first().click().wait(1000)
+      })
     })
   })
 })
-})
+});

@@ -32,7 +32,7 @@ describe('GARANT', function () {
         cy.get('[name="selectLesson"]').select(1);
         cy.contains('Vložiť záznam').click();
 
-        cy.get('tbody').eq(1).find('tr').last().find('td').find('select').eq(1).select(1);
+        cy.get('tbody').eq(1).find('tr').last().find('td').find('select').eq(1).select(2);
         cy.get('tbody').eq(1).find('tr').last().find('td').find('select').eq(0).select(1);
         cy.contains('Generovať úlohy').click().wait(2000);
         cy.get('[type="submit"]').last().click()
@@ -177,7 +177,7 @@ describe('GARANT', function () {
         });
     });
 
-    it.only('Overenie dát', function () {
+    it('Overenie dát', function () {
 
         cy.readFile('cypress/fixtures/content_template_edited.json', 'utf-8').then((jsonData) => {
             const valuesArray = jsonData.Values;
