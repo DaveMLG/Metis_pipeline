@@ -5,7 +5,7 @@ describe('Product owner', function () {
         cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
         cy.get('[type="submit"]').should('be.visible');
         cy.get('[type="submit"]').should('be.visible');
-        cy.get('[name="userName"]').type('skorg1.svo');
+        cy.get('[name="userName"]').type('cy.svo');
         cy.get('[name="password"]').type('ML_heslo1');
         cy.get('[type="submit"]').click();
     });
@@ -217,7 +217,7 @@ describe('Product owner', function () {
                 cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
                 cy.get('[type="submit"]').should('be.visible');
                 cy.get('[type="submit"]').should('be.visible');
-                cy.get('[name="userName"]').type('skorg1.go');
+                cy.get('[name="userName"]').type('cy.go');
                 cy.get('[name="password"]').type('ML_heslo1');
                 cy.get('[type="submit"]').click();
 

@@ -5,7 +5,7 @@ describe('Product owner', function () {
       cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
       cy.get('[type="submit"]').should('be.visible');
       cy.get('[type="submit"]').should('be.visible');
-      cy.get('[name="userName"]').type('skorg1.go');
+      cy.get('[name="userName"]').type('cy.go');
       cy.get('[name="password"]').type('ML_heslo1');
       cy.get('[type="submit"]').click();
       cy.viewport(1920, 937);
@@ -20,10 +20,11 @@ describe('Product owner', function () {
       cy.get('@nastavenia').click();
       cy.get('[href="/admin/elearning/training"]').click();
       cy.wait(3000);
-      cy.get('[placeholder="Kľúčové slovo"]').type('PO CY Hromadné manažovanie úloh');
+      cy.get('[placeholder="Kľúčové slovo"]').type('G Manažovanie úloh AAA_2');
       cy.get('[type="submit"]').first().click().wait(1000);
       cy.get('tbody').find('a').first().click().wait(1000)
       cy.get(':nth-child(5) > .nav-link').click();
+      cy.get('[type=radio]').eq(2).click({force: true})
 
       ////Potvrdenie absolvovania
       cy.get('tbody').find('tr').contains('Pot').then(edit => {
@@ -336,20 +337,21 @@ describe('Product owner', function () {
       cy.get('@nastavenia').click();
       cy.get('[href="/admin/elearning/training"]').click();
       cy.wait(3000);
-      cy.get('[placeholder="Kľúčové slovo"]').type('PO CY');
+      cy.get('[placeholder="Kľúčové slovo"]').type('G Manažovanie úloh AAA');
       cy.get('[type="submit"]').first().click().wait(1000);
       cy.get('tbody').find('a').first().click().wait(1000)
       cy.get(':nth-child(5) > .nav-link').click().wait(1000);
 
       cy.get('[type = "radio"]').eq(2).check({force: true})
-      cy.wait(1000)
+      cy.wait(5000)
       cy.get('[type = "checkbox"]').then((checkbox) => {
           for (let x = 0; x < checkbox.length; x++) {
               cy.wrap(checkbox[x]).uncheck({force: true})
           }
       })
 
-      cy.wait(1000).then(() => {
+
+      /*cy.wait(1000).then(() => {
         cy.get('tbody').last().find('i').then((xbtn) => {
             for (let x = 0; x < xbtn.length; x++) {
                 cy.wrap(xbtn[0]).click()
@@ -357,9 +359,9 @@ describe('Product owner', function () {
             cy.get('[type="submit"]').last().click().wait(5000)
             cy.contains('Áno').click()
         })
-      })
+      })*/
 
-              cy.get('[name="addExercisesSelectedTraining"]').select('PO CY Hromadné manažovanie úloh')
+              cy.get('[name="addExercisesSelectedTraining"]').select('G Manažovanie úloh AAA_2')
               cy.get('[name="addExercisesSelectedTheme"]').select(0)
               cy.get('[name="addExercisesSelectedLesson"]').select(0)
               cy.get('[type="button"]').first().click().wait(1000)
@@ -469,18 +471,17 @@ describe('Product owner', function () {
                         cy.wrap(value).should('eq', Content) 
                       });
                       
-                      cy.get('[onclick="history.back()"]').first().click().wait(1000)
+                      cy.get('[onclick="history.back()"]').first().click().wait(1000000)
                     })
                })
             })
-          
    //Overenie úloh s obsahom
    it('Hromadné presunutie úloh s inštrukciami pre lektora + overenie', function() {
     cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
     cy.wait(3000);
-    cy.get('[placeholder="Kľúčové slovo"]').type('PO CY');
+    cy.get('[placeholder="Kľúčové slovo"]').type('G Manažovanie úloh AAA');
     cy.get('[type="submit"]').first().click().wait(1000);
     cy.get('tbody').find('a').first().click().wait(1000)
     cy.get(':nth-child(5) > .nav-link').click().wait(1000);
@@ -502,7 +503,7 @@ describe('Product owner', function () {
             cy.get('[type="submit"]').last().click().wait(5000)
             cy.contains('Áno').click()
 
-            cy.get('[name="addExercisesSelectedTraining"]').select('PO CY Hromadné manažovanie úloh')
+            cy.get('[name="addExercisesSelectedTraining"]').select('G Manažovanie úloh AAA')
             cy.get('[name="addExercisesSelectedTheme"]').select(0)
             cy.get('[name="addExercisesSelectedLesson"]').select(0)
             cy.get('[type="button"]').first().click().wait(1000)
@@ -630,7 +631,7 @@ describe('Product owner', function () {
           cy.get('@nastavenia').click();
           cy.get('[href="/admin/elearning/training"]').click();
           cy.wait(3000);
-          cy.get('[placeholder="Kľúčové slovo"]').type('PO CY');
+          cy.get('[placeholder="Kľúčové slovo"]').type('G Manažovanie úloh AAA');
           cy.get('[type="submit"]').first().click().wait(1000);
           cy.get('tbody').find('a').first().click().wait(1000)
           cy.get(':nth-child(5) > .nav-link').click().wait(1000);
@@ -652,7 +653,7 @@ describe('Product owner', function () {
                   cy.get('[type="submit"]').last().click().wait(5000)
                   cy.contains('Áno').click()
       
-                  cy.get('[name="addExercisesSelectedTraining"]').select('PO CY Hromadné manažovanie úloh')
+                  cy.get('[name="addExercisesSelectedTraining"]').select('G Manažovanie úloh AAA')
                   cy.get('[name="addExercisesSelectedTheme"]').select(0)
                   cy.get('[name="addExercisesSelectedLesson"]').select(0)
                   cy.get('[type="button"]').first().click().wait(1000)

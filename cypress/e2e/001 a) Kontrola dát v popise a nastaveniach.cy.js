@@ -6,7 +6,7 @@ describe('Product owner', function () {
         cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
         cy.get('[type="submit"]').should('be.visible');
         cy.get('[type="submit"]').should('be.visible');
-        cy.get('[name="userName"]').type('skorg1.vo');
+        cy.get('[name="userName"]').type('cy.vo');
         cy.get('[name="password"]').type('ML_heslo1');
         cy.get('[type="submit"]').click();
     });
@@ -23,11 +23,11 @@ describe('Product owner', function () {
             cy.get('.icon-menu-elearning').click();
             cy.get('[href="/admin/elearning/training"]').click();
             cy.wait(3000)
-            cy.get('[type = "text"]').first().clear().type('CY testing')
+            cy.get('[type = "text"]').first().clear().type('G školenie AAA')
             cy.get('[type="submit"]').first().click()
             cy.wait(5000);
             cy.sortTableByColumn('Vytvorené');
-            cy.get('tbody').contains('Prevzaté').parent().parent().contains('CY testing').click()
+            cy.get('tbody').contains('Prevzaté').parent().parent().contains('G školenie AAA').click()
             cy.wait(5000)
 
             cy.get('[for="Guarantors"]').parentsUntil('.row').find('span').invoke('text').then((value) => {

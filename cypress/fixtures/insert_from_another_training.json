@@ -16,7 +16,7 @@
       "ExperiencePoints": "3000"
     },
     {
-      "difficulty": "300"
+      "difficulty": "100"
     },
     {
       "IsTimeLimitedTask": "no"
@@ -25,16 +25,16 @@
       "NotMandatory": "no"
     },
     {
-      "GuarantorId": "skorg1 go"
+      "GuarantorId": "cy go"
     },
     {
-      "Guarantors": "skorg1 go"
+      "Guarantors": "cy go"
     },
     {
-      "ContentAssistants": "skorg1 nah"
+      "ContentAssistants": "cy nah"
     },
     {
-      "Trainings": "PO CY Hromadné manažovanie úlohPO CY Hromadné manažovanie úloh - kontrola tém a lekcií"
+      "Trainings": "G Manažovanie úloh AAA_2"
     },
     {
       "lecturerInstruction": "Inštrukcie pre lektora"
@@ -49,7 +49,7 @@
       "studentInstruction": "Inštrukcie pre študenta"
     },
     {
-      "Description": "Popis úlohy - HM"
+      "Description": "Popis úlohy"
     },
     {
       "Content": "Potvrdzujem absolvovanie lekcie s tým, že som:1. absolvoval webinár tejto lekcie2. odovzdal som všetky úlohy tejto lekcie3. prípadné nezrovnalosti tejto lekcie som všetkyodkonzultoval na konzultácii."
@@ -69,7 +69,7 @@
       "EstimateTimeForEvaluationInTime": "0:30"
     },
     {
-      "ExperiencePoints": "3000"
+      "ExperiencePoints": "4500"
     },
     {
       "difficulty": "100"
@@ -81,31 +81,31 @@
       "NotMandatory": "no"
     },
     {
-      "GuarantorId": "skorg1 go"
+      "GuarantorId": "cy go"
     },
     {
-      "Guarantors": "skorg1 go"
+      "Guarantors": "cy go"
     },
     {
-      "ContentAssistants": "skorg1 nah"
+      "ContentAssistants": "cy nah"
     },
     {
-      "Trainings": "PO CY Hromadné manažovanie úlohPO CY Hromadné manažovanie úloh - kontrola tém a lekcií"
+      "Trainings": "G Manažovanie úloh AAA_2"
     },
     {
-      "lecturerInstruction": ""
+      "lecturerInstruction": "Inštrukcie pre lektora"
     },
     {
-      "correctorInstruction": ""
+      "correctorInstruction": "Inštrukcie pre opravovača"
     },
     {
-      "lecturerInternalMaterial": ""
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
     },
     {
-      "studentInstruction": ""
+      "studentInstruction": "Inštrukcie pre študenta"
     },
     {
-      "Description": ""
+      "Description": "Popis úlohy"
     },
     {
       "Content": "Ahojte, pre pripojenie na webinár/cvičenie prosím použite webovú verziu aplikácie MS Teams alebo jej standalone verziu.Po kliknutí na tento odkaz budete presmerovaní do Teamsovej skupiny, v ktorej sa bude konať webinár/cvičenie"
@@ -128,7 +128,7 @@
       "ExperiencePoints": "4500"
     },
     {
-      "difficulty": "500"
+      "difficulty": "300"
     },
     {
       "IsTimeLimitedTask": "no"
@@ -137,31 +137,31 @@
       "NotMandatory": "no"
     },
     {
-      "GuarantorId": "skorg1 go"
+      "GuarantorId": "cy go"
     },
     {
-      "Guarantors": "skorg1 go"
+      "Guarantors": "cy go"
     },
     {
-      "ContentAssistants": "skorg1 nah"
+      "ContentAssistants": "cy nah"
     },
     {
-      "Trainings": "PO CY Hromadné manažovanie úlohPO CY Hromadné manažovanie úloh - kontrola tém a lekcií"
+      "Trainings": "G Manažovanie úloh AAA_2"
     },
     {
-      "lecturerInstruction": ""
+      "lecturerInstruction": "Inštrukcie pre lektora"
     },
     {
-      "correctorInstruction": ""
+      "correctorInstruction": "Inštrukcie pre opravovača"
     },
     {
-      "lecturerInternalMaterial": ""
+      "lecturerInternalMaterial": "Interný materiál pre lektora"
     },
     {
-      "studentInstruction": ""
+      "studentInstruction": "Inštrukcie pre študenta"
     },
     {
-      "Description": ""
+      "Description": "Popis úlohy"
     },
     {
       "Content": "Ahojte, pre pripojenie na webinár/cvičenie prosím použite webovú verziu aplikácie MS Teams alebo jej standalone verziu.Po kliknutí na tento odkaz budete presmerovaní do Teamsovej skupiny, v ktorej sa bude konať webinár/cvičenie"

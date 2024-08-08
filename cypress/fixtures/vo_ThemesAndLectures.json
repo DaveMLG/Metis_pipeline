@@ -1,55 +1,13 @@
 {
   "Values": [
     {
-      "TaL": "3"
+      "TaL": "1"
     },
     {
-      "TaL": "Téma - HM"
+      "TaL": "Téma"
     },
     {
-      "TaL": "Lekcia - HM"
-    },
-    {
-      "TaL": "Lekcia_2 - HM"
-    },
-    {
-      "TaL": "Lekcia_3 - HM"
-    },
-    {
-      "TaL": "Téma - HM"
-    },
-    {
-      "TaL": "Lekcia - HM"
-    },
-    {
-      "TaL": "Lekcia_2 - HM"
-    },
-    {
-      "TaL": "Lekcia_3 - HM"
-    },
-    {
-      "TaL": "Téma - HM"
-    },
-    {
-      "TaL": "Lekcia - HM"
-    },
-    {
-      "TaL": "Lekcia_2 - HM"
-    },
-    {
-      "TaL": "Lekcia_3 - HM"
-    },
-    {
-      "TaL": "Téma - HM"
-    },
-    {
-      "TaL": "Lekcia - HM"
-    },
-    {
-      "TaL": "Lekcia_2 - HM"
-    },
-    {
-      "TaL": "Lekcia_3 - HM"
+      "TaL": "Lekcia"
     },
     {
       "tableVals": ""
@@ -64,115 +22,7 @@
       "tableVals": " 1 "
     },
     {
-      "tableVals": "3"
-    },
-    {
-      "tableVals": " 2 "
-    },
-    {
-      "tableVals": " 2 "
-    },
-    {
-      "tableVals": "0"
-    },
-    {
-      "tableVals": " 3 "
-    },
-    {
-      "tableVals": " 3 "
-    },
-    {
-      "tableVals": "0"
-    },
-    {
-      "tableVals": " 2 "
-    },
-    {
-      "tableVals": " 1 "
-    },
-    {
-      "tableVals": " 4 "
-    },
-    {
-      "tableVals": "0"
-    },
-    {
-      "tableVals": " 2 "
-    },
-    {
-      "tableVals": " 5 "
-    },
-    {
-      "tableVals": "0"
-    },
-    {
-      "tableVals": " 3 "
-    },
-    {
-      "tableVals": " 6 "
-    },
-    {
-      "tableVals": "0"
-    },
-    {
-      "tableVals": " 3 "
-    },
-    {
-      "tableVals": " 1 "
-    },
-    {
-      "tableVals": " 7 "
-    },
-    {
-      "tableVals": "0"
-    },
-    {
-      "tableVals": " 2 "
-    },
-    {
-      "tableVals": " 8 "
-    },
-    {
-      "tableVals": "0"
-    },
-    {
-      "tableVals": " 3 "
-    },
-    {
-      "tableVals": " 9 "
-    },
-    {
-      "tableVals": "0"
-    },
-    {
-      "tableVals": " 4 "
-    },
-    {
-      "tableVals": " 1 "
-    },
-    {
-      "tableVals": " 10 "
-    },
-    {
-      "tableVals": "0"
-    },
-    {
-      "tableVals": " 2 "
-    },
-    {
-      "tableVals": " 11 "
-    },
-    {
-      "tableVals": "0"
-    },
-    {
-      "tableVals": " 3 "
-    },
-    {
-      "tableVals": " 12 "
-    },
-    {
-      "tableVals": "0"
+      "tableVals": "20"
     }
   ]
 }

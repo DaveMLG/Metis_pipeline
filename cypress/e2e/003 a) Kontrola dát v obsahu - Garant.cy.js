@@ -5,7 +5,7 @@ describe('Product owner', function () {
     cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
     cy.get('[type="submit"]').should('be.visible');
     cy.get('[type="submit"]').should('be.visible');
-    cy.get('[name="userName"]').type('skorg1.go');
+    cy.get('[name="userName"]').type('cy.go');
     cy.get('[name="password"]').type('ML_heslo1');
     cy.get('[type="submit"]').click();
   });
@@ -20,9 +20,9 @@ describe('Product owner', function () {
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
     cy.wait(3000)
-    cy.get('[type = "text"]').first().clear().type("CY testing");
+    cy.get('[type = "text"]').first().clear().type("G školenie AAA");
     cy.get('[type="submit"]').click().wait(3000)
-    cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testing').click().wait(2000)
+    cy.get('tbody').contains('Neprevzaté').parent().parent().contains('G školenie AAA').click().wait(2000)
     cy.wait(3000);
     cy.get(':nth-child(5) > .nav-link').click();
     cy.wait(3000);

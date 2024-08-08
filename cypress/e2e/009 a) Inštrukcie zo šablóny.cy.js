@@ -5,7 +5,7 @@ describe('Product owner', function () {
         cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
         cy.get('[type="submit"]').should('be.visible');
         cy.get('[type="submit"]').should('be.visible');
-        cy.get('[name="userName"]').type('skorg1.svo');
+        cy.get('[name="userName"]').type('cy.go');
         cy.get('[name="password"]').type('ML_heslo1');
         cy.get('[type="submit"]').click();
     });
@@ -16,11 +16,11 @@ describe('Product owner', function () {
         let jsonData = {};
 
         cy.viewport(1920, 937);
-        cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(5) > a').as('nastavenia');
+        cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(4) > a').as('nastavenia');
         cy.get('@nastavenia').click();
         cy.get('[href="/admin/elearning/lesson-template"]').click();
         cy.wait(3000);
-        cy.get('[placeholder="Kľúčové slovo"]').type('Šablóna na pretestovanie úloh');
+        cy.get('[placeholder="Kľúčové slovo"]').type('vsetky typy uloh');
         cy.get('[type="submit"]').first().click().wait(3000);
         cy.get('tbody').find('a').first().click();
         cy.get(':nth-child(3) > .nav-link').click().wait(1000);
@@ -83,7 +83,7 @@ describe('Product owner', function () {
                 cy.get('@nastavenia').click();
                 cy.get('[href="/admin/elearning/training"]').click();
                 cy.wait(5000)
-                cy.get('[placeholder="Kľúčové slovo"]').type('PO CY inštrukcie zo šablóny')
+                cy.get('[placeholder="Kľúčové slovo"]').type('G školenie AAA')
                 cy.get('[type="submit"]').first().click().wait(3000)
                 cy.get('tbody').find('a').first().click();
                 cy.get(':nth-child(6) > .nav-link').click().wait(1000);

@@ -1,0 +1,20 @@
+[
+  {
+    "student1": [
+      {
+        "NacasNumberOfExercises": 18,
+        "vTermineNumberOfExercises": 1,
+        "poTermineNumberOfExercises": 1
+      }
+    ]
+  },
+  {
+    "student2": [
+      {
+        "NacasNumberOfExercises": 3,
+        "vTermineNumberOfExercises": 0,
+        "poTermineNumberOfExercises": 1
+      }
+    ]
+  }
+]

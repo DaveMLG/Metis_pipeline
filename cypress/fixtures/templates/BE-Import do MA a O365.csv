@@ -1,0 +1,12 @@
+﻿Meno;Priezvisko;Rodné priezvisko;Súkromný email;Mobilný telefón;Funkcia;Skupina;Ulica;Číslo domu;Mesto;Kraj;PSČ;Štát;Miesto narodenia;Krajina narodenia;Dátum narodenia
+"Janko";"Príkladový";"Príkladový";"jankoprikladovy@email.com";0042197000000;"študent";"P_JAVA2_012021";"Mýtna";52;"Bratislava";"Bratislavský";85101;"Slovenská republika";"Bratislava";"Slovenská republika";01.01.1991
+"Peter";"Šikovný";"Šikovný";"petersikovny@email.com";0042197000001;"študent";"P_JAVA2_012021";"Zelená";1;"Prešov";"Prešovský";08001;"Slovenská republika";"Prešov";"Slovenská republika";02.06.1989
+"Elena";"Študentská";"Študentská";"elenastudetnska@email.com";0042197000002;"študent";"P_JAVA2_012021";"Stromová";31;"Zvolen";"Banskobystrický";96001;"Slovenská republika";"Zvolen";"Slovenská republika";15.10.1999
+"Martin";"Rázny";"Rázny";"matoraz@email.com";0042197000003;"študent";"P_OA_012021";"Príkladová";58;"Košice";"Košický";04001;"Slovenská republika";"Prešov";"Slovenská republika";30.01.2000
+"Andrea";"Prvá";"Prvá";"aprva@email.com";0042197000004;"študent";"P_OA_012021";"Lesná";25;"Žilina";"Žilinský";01001;"Slovenská republika";"Žilina";"Slovenská republika";22.08.1995
+"Petra";"Druhá";"Druhá";"petradruha@email.com";0042197000005;"študent";"P_OA_012021";"Hlboká";44;"Košice";"Košický";04001;"Slovenská republika";"Košice";"Slovenská republika";04.01.1990
+"Juraj";"Vysoký";"Vysoký";"jurajvyska@email.com";0042197000006;"študent";"P_OA_012021";"Pekná";67;"Trnava";"Trnavský";91701;"Slovenská republika";"Nitra";"Slovenská republika";11.04.1984
+"Jakub";"Nízky";"Nízky";"kubonizky@email.com";0042197000007;"študent";"P_ST_012021";"Dlhá";12;"Nitra";"Nitriansky";94901;"Slovenská republika";"Nitra";"Slovenská republika";01.07.1988
+"Jana";"Malá";"Malá";"janamala@email.com";0042197000008;"študent";"P_ST_012021";"Krátka";57;"Trnava";"Trnavský";91701;"Slovenská republika";"Trnava";"Slovenská republika";31.08.1982
+"Lenka";"Skúšobná";"Skúšobná";"lskusobna@email.com";0042197000009;"študent";"P_ST_012021";"Rovná";98;"Trenčín";"Trenčiansky";91101;"Slovenská republika";"Trenčín";"Slovenská republika";24.04.1970
+

@@ -16,7 +16,22 @@
  * @type {Cypress.PluginConfig}
  */
 // eslint-disable-next-line no-unused-vars
+
+// Import your custom Cypress commands from another file
+
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
+  const data = {}
+  on ('task', {
+    save(x) {
+      console.log('title', x)
+      data['trainingTermTitleUrl'] = x
+      return null
+    },
+    load() {
+      console.log('returning', data.trainingTermTitleUrl)
+      return data['trainingTermTitleUrl'] || null
+    }
+  })
 }

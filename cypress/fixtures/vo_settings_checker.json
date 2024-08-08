@@ -4,7 +4,7 @@
       "type": "Vzdelávacie"
     },
     {
-      "Title": "CY testing"
+      "Title": "G školenie AAA"
     },
     {
       "PortalTitle": "Portal title edit"
@@ -22,7 +22,7 @@
       "StudentInstruction": "Student edit"
     },
     {
-      "productOwner": "vo, skorg1vo, skorg1"
+      "productOwner": "vo, cyvo, cy"
     },
     {
       "TestAutomatedLevelOfDegressiveAssesment": "5"
@@ -103,7 +103,7 @@
       "ActivityInput": "1:30"
     },
     {
-      "ActivityInput": "20"
+      "ActivityInput": "25"
     },
     {
       "ActivityCheckbox": "no"
@@ -145,10 +145,16 @@
       "MetricCategories": "Project task"
     },
     {
-      "MetricCategories": "Others task"
+      "MetricCategories": "1 skuska-prenos do org"
     },
     {
-      "MetricCategories": "administratively"
+      "MetricCategories": "test metriková kategória"
+    },
+    {
+      "MetricCategories": "new new"
+    },
+    {
+      "MetricCategories": "lalala"
     },
     {
       "availableTasks": "Zadanie_edit_0"
@@ -157,7 +163,7 @@
       "availableTasks": "-1"
     },
     {
-      "availableTasks": "1: 34790"
+      "availableTasks": "1: 37742"
     },
     {
       "availableTasks": "1: termEnd"
@@ -178,7 +184,7 @@
       "availableTasks": "0"
     },
     {
-      "availableTasks": "1: 34790"
+      "availableTasks": "1: 37742"
     },
     {
       "availableTasks": "1: termEnd"
@@ -199,7 +205,7 @@
       "availableTasks": "0"
     },
     {
-      "availableTasks": "1: 34790"
+      "availableTasks": "1: 37742"
     },
     {
       "availableTasks": "1: termEnd"
@@ -220,7 +226,7 @@
       "availableTasks": "0"
     },
     {
-      "availableTasks": "2: 34793"
+      "availableTasks": "2: 37743"
     },
     {
       "availableTasks": "0: termBeginning"
@@ -241,7 +247,7 @@
       "timeValuesTasksOnTime": "1"
     },
     {
-      "timeValuesTasksOnTime": "1: 34790"
+      "timeValuesTasksOnTime": "1: 37742"
     },
     {
       "timeValuesTasksOnTime": "1: termBeginning"
@@ -262,7 +268,7 @@
       "timeValuesTasksOnTime": "2"
     },
     {
-      "timeValuesTasksOnTime": "1: 34790"
+      "timeValuesTasksOnTime": "1: 37742"
     },
     {
       "timeValuesTasksOnTime": "1: termBeginning"
@@ -283,7 +289,7 @@
       "timeValuesTasksOnTime": "2"
     },
     {
-      "timeValuesTasksOnTime": "1: 34790"
+      "timeValuesTasksOnTime": "1: 37742"
     },
     {
       "timeValuesTasksOnTime": "1: termBeginning"
@@ -304,7 +310,7 @@
       "timeValuesTasksOnTime": "2"
     },
     {
-      "timeValuesTasksOnTime": "1: 34790"
+      "timeValuesTasksOnTime": "1: 37742"
     },
     {
       "timeValuesTasksOnTime": "1: termBeginning"
@@ -325,7 +331,7 @@
       "timeValuesPastTime": "3"
     },
     {
-      "timeValuesPastTime": "1: 34790"
+      "timeValuesPastTime": "1: 37742"
     },
     {
       "timeValuesPastTime": "0: termBeginning"
@@ -346,7 +352,7 @@
       "timeValuesPastTime": "4"
     },
     {
-      "timeValuesPastTime": "1: 34790"
+      "timeValuesPastTime": "1: 37742"
     },
     {
       "timeValuesPastTime": "0: termBeginning"
@@ -367,7 +373,7 @@
       "timeValuesPastTime": "4"
     },
     {
-      "timeValuesPastTime": "1: 34790"
+      "timeValuesPastTime": "1: 37742"
     },
     {
       "timeValuesPastTime": "0: termBeginning"
@@ -388,7 +394,7 @@
       "timeValuesPastTime": "4"
     },
     {
-      "timeValuesPastTime": "1: 34790"
+      "timeValuesPastTime": "1: 37742"
     },
     {
       "timeValuesPastTime": "0: termBeginning"
@@ -439,7 +445,7 @@
       "UnmoretatedInputs": "Načas"
     },
     {
-      "UnmoretatedInputs": "2"
+      "UnmoretatedInputs": "4"
     },
     {
       "UnmoretatedInputs": "3"
@@ -454,7 +460,7 @@
       "UnmoretatedInputs": "Termín"
     },
     {
-      "UnmoretatedInputs": "4"
+      "UnmoretatedInputs": "8"
     },
     {
       "UnmoretatedInputs": "3"
@@ -541,6 +547,9 @@
       "InactivityStudentNotificationInterval": "4"
     },
     {
+      "ConsideredExercisesList": "Automatický test"
+    },
+    {
       "ConsideredExercisesList": "Otvorený test"
     },
     {
@@ -577,7 +586,7 @@
       "TimeToCreateCalendarEventsInHours": "0"
     },
     {
-      "TimeToCreateCalendarEventsInMinutes": "30"
+      "TimeToCreateCalendarEventsInMinutes": "15"
     }
   ]
 }

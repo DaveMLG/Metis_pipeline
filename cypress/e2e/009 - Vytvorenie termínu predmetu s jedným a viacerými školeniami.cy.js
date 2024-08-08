@@ -5,7 +5,7 @@ describe('Product owner', function () {
         cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
         cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
         cy.get('[type="submit"]').should('be.visible');
-        cy.get('[name="userName"]').type('skorg1.k');
+        cy.get('[name="userName"]').type('cy.k');
         cy.get('[name="password"]').type('ML_heslo1');
         cy.get('[type="submit"]').click();
     });
@@ -19,7 +19,7 @@ describe('Product owner', function () {
         cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
         cy.get('@nastavenia').click();
         cy.get('[href="/admin/elearning/subject"]').click();
-        cy.get('[placeholder="Kľúčové slovo"]').type('PO CY Predmet s jedným školením');
+        cy.get('[placeholder="Kľúčové slovo"]').type('PO predmet AAA');
         cy.get('[global-search="search"]').click();
         
         cy.get('tbody').find('a').first().click().wait(3000);
@@ -50,10 +50,11 @@ describe('Product owner', function () {
             });
         });
 
+        cy.wait(3000)
         cy.get('[class="nav-item"]').first().click();
 
         cy.get('[class="fa fa-plus margin-icon"]').click().wait(3000);
-        cy.get('[tabindex="0"]').first().click().wait(3000);
+        cy.get('[tabindex="0"]').first().click().wait(5000);
 
         cy.get('[class="chip-container"]').invoke('text').then((timeZoneChipset) => {
             cy.get('[display="displayName"]').next().invoke('text').then((timeZone) => {
@@ -63,7 +64,7 @@ describe('Product owner', function () {
             });
         });
 
-        cy.get('[name="Title"]').clear().type('PO CY Termín predmetu s jedným školením');
+        cy.get('[name="Title"]').clear().type('G ST s jedným školením AAA');
 
         cy.get('[class="input-group-append"]').first().click().wait(1000);
         cy.get('[class="mat-calendar-body-cell-content mat-focus-indicator mat-calendar-body-today"]').click();
@@ -73,17 +74,17 @@ describe('Product owner', function () {
 
         cy.get('[id="Capacity"]').clear().type(10);
 
-        cy.get('[name="selectedLecturer"]').select('l, skorg1').next().click();
-        cy.get('[name="selectedAdmin"]').select('av, skorg1').next().click();
-        cy.get('[name="selectedEditor"]').select('et, skorg1').next().click();
-        cy.get('[name="selectCorrector"]').select('co, skorg1').next().click();
+        cy.get('[name="selectedLecturer"]').select('l, cy').next().click();
+        cy.get('[name="selectedAdmin"]').select('av, cy').next().click();
+        cy.get('[name="selectedEditor"]').select('et, cy').next().click();
+        cy.get('[name="selectCorrector"]').select('co, cy').next().click();
 
-        cy.get('[type="submit"]').first().click().wait(3000);
+        cy.get('[type="submit"]').first().click().wait(5000);
 
         //Kontrola dát
-        cy.get('[href="/admin/training-term/subject-term"]').click();
-        cy.get('[placeholder="Kľúčové slovo"]').type('PO CY Termín predmetu s jedným školením');
-        cy.get('[global-search="search"]').click();
+        cy.get('[href="/admin/training-term/subject-term"]').click().wait(5000)
+        cy.get('[placeholder="Kľúčové slovo"]').type('G ST s jedným školením AAA');
+        cy.get('[global-search="search"]').click().wait(3000)
         cy.get('tbody').find('a').first().click().wait(3000);
             
        /* cy.get('[name="IsOnlineEducationMethod"]').find('[type="radio"]:checked').invoke('val').then((eduMethod) => {
