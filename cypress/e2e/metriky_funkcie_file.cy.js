@@ -37,7 +37,7 @@ export const getHodnotenieZoznam = () => {
 
 //ziskanie dat y tabulky hodnotenie po vypracovani ulohy
 export const getCurrentHodnotenieZoznam = () => {
-      cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
+ //     cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
       cy.get('[title="Počet všetkých odovzdaných úloh ohodnotených uspokojivo"]').find('var').invoke('text').then((text) => {
           let uspokojivoNumberOfExercises = parseFloat(text);
           currentHodnotenieZoznam.push(uspokojivoNumberOfExercises);

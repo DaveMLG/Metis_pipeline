@@ -5,7 +5,7 @@ describe('Product owner', function() {
     cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
     cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
     cy.get('[type="submit"]').should('be.visible');
-    cy.get('[name="userName"]').type('skorg1.go');
+    cy.get('[name="userName"]').type('cy.go');
     cy.get('[name="password"]').type('ML_heslo1');
     cy.get('[type="submit"]').click();
   });
@@ -30,9 +30,9 @@ describe('Product owner', function() {
     cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
     cy.get('@nastavenia').click(); 
     cy.get('[href="/admin/elearning/training"]').click();
-    cy.get('[placeholder="Kľúčové slovo"]').type("CY testing");
+    cy.get('[placeholder="Kľúčové slovo"]').type("CY testing_AAA");
     cy.get('[type="submit"]').click();
-    cy.contains('CY testing').click();
+    cy.contains('CY testing_AAA').click();
     cy.get('.nav-link').contains('Inštrukcie').click();
 
     clickRadioButtonInsertText();
@@ -58,9 +58,9 @@ describe('Product owner', function() {
     cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
-    cy.get('[placeholder="Kľúčové slovo"]').type("CY testing");
+    cy.get('[placeholder="Kľúčové slovo"]').type("CY testing_AAA");
     cy.get('[type="submit"]').click();
-    cy.contains('CY testing').click();
+    cy.contains('CY testing_AAA').click();
     cy.get('.nav-link').contains('Inštrukcie').click();
  
     clickRadioButtonInsertText();
@@ -82,9 +82,9 @@ describe('Product owner', function() {
     cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
     cy.get('@nastavenia').click(); 
     cy.get('[href="/admin/elearning/training"]').click();
-    cy.get('[placeholder="Kľúčové slovo"]').type("CY testing");
+    cy.get('[placeholder="Kľúčové slovo"]').type("CY testing_AAA");
     cy.get('[type="submit"]').click();
-    cy.contains('CY testing').click();
+    cy.contains('CY testing_AAA').click();
     cy.get('.nav-link').contains('Inštrukcie').click();
 
     selectOperator();

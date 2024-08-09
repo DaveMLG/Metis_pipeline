@@ -19,14 +19,14 @@ describe('GARANT', function () {
         cy.get('li.open > af-sub-menu > .sub-menu > :nth-child(5) > a').click();
         cy.get('.af-table-pager-counts > :nth-child(3)').click();
         cy.wait(3000);
-        cy.get('[type = "text"]').first().clear().type('PO CY Hromadné manažovanie úloh - kontrola tém a lekcií');
+        cy.get('[type = "text"]').first().clear().type('G Manažovanie úloh AAA');
         cy.get('[type="submit"]').first().click();
-        cy.contains('PO CY Hromadné manažovanie úloh - kontrola tém a lekcií').click();
+        cy.contains('G Manažovanie úloh AAA').click();
         cy.wait(3000);
         cy.get(':nth-child(5) > .nav-link').click().wait(2000);
 
         cy.get('[type="radio"]').eq(2).check({ force: true });
-        cy.get('[name="addExercisesSelectedTraining"]').select('PO CY Hromadné manažovanie úloh')
+        cy.get('[name="addExercisesSelectedTraining"]').select('G Manažovanie úloh AAA_2')
         cy.get('[type="button"]').first().click()
 
         cy.get('[class="btn btn-update btn-primary"]').last().click().wait(2000)

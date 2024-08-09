@@ -1,21 +1,21 @@
-import { getHodnotenieZoznam } from '/cypress/e2e/MAROS/metriky_funkcie_file.cy.js';
-import { getCurrentHodnotenieZoznam } from '/cypress/e2e/MAROS/metriky_funkcie_file.cy.js';
-import { compareHodnotenieZoznamAndCurrentHodnotenieZoznam } from '/cypress/e2e/MAROS/metriky_funkcie_file.cy.js';
-import { compareDisciplinaZoznamAndCurrentDisciplinaZoznamShouldBeTheSame } from '/cypress/e2e/MAROS/metriky_funkcie_file.cy.js';
+import { getHodnotenieZoznam } from '/cypress/e2e/metriky_funkcie_file.cy.js';
+import { getCurrentHodnotenieZoznam } from '/cypress/e2e/metriky_funkcie_file.cy.js';
+import { compareHodnotenieZoznamAndCurrentHodnotenieZoznam } from '/cypress/e2e/metriky_funkcie_file.cy.js';
+import { compareDisciplinaZoznamAndCurrentDisciplinaZoznamShouldBeTheSame } from '/cypress/e2e/metriky_funkcie_file.cy.js';
 
 
-import { getDisciplinaZoznam } from '/cypress/e2e/MAROS/metriky_funkcie_file.cy.js';
-import { getCurrentDisciplinaZoznam } from '/cypress/e2e/MAROS/metriky_funkcie_file.cy.js';
-import { compareDisciplinaZoznamAndCurrentDisciplinaZoznam } from '/cypress/e2e/MAROS/metriky_funkcie_file.cy.js';
-import{ disciplinaZoznam } from '/cypress/e2e/MAROS/metriky_funkcie_file.cy.js';
-import{ currentDisciplinaZoznam } from '/cypress/e2e/MAROS/metriky_funkcie_file.cy.js';
+import { getDisciplinaZoznam } from '/cypress/e2e/metriky_funkcie_file.cy.js';
+import { getCurrentDisciplinaZoznam } from '/cypress/e2e/metriky_funkcie_file.cy.js';
+import { compareDisciplinaZoznamAndCurrentDisciplinaZoznam } from '/cypress/e2e/metriky_funkcie_file.cy.js';
+import{ disciplinaZoznam } from '/cypress/e2e/metriky_funkcie_file.cy.js';
+import{ currentDisciplinaZoznam } from '/cypress/e2e/metriky_funkcie_file.cy.js';
 
 
 describe('Student', function() {
     beforeEach(() => {
       cy.loginStudent('cy.student1', 'ML_heslo1');
       //cy.viewport(1920, 937)
-      cy.visit('https://dev.metis.academy/portal')
+      cy.visit('https://dev.metis.academy/portal/welcome/subject?type=subject')
       cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
         
       })

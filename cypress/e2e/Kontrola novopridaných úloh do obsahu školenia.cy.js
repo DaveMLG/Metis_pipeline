@@ -20,11 +20,11 @@ describe('Product owner', function () {
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click()
     cy.wait(2000)
-    cy.get('[type = "text"]').first().clear().type('CY testing')
+    cy.get('[type = "text"]').first().clear().type('CY testing_AAA')
     cy.get('[type="submit"]').first().click()
     cy.wait(5000);
     cy.sortTableByColumn('Vytvorené');
-    cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testing').click()
+    cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testing_AAA').click()
     cy.wait(5000)
     cy.get(':nth-child(5) > .nav-link').click().wait(2000)
     cy.get('[type="radio"]').eq(1).check({force: true})

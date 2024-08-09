@@ -4,7 +4,7 @@ let subjectUrlPortal;
     beforeEach(() => {
       cy.loginStudent('cy.student1', 'ML_heslo1');
       cy.viewport(1920, 937)
-      cy.visit('https://dev.metis.academy/portal')
+      cy.visit('https://dev.metis.academy/portal/welcome/subject?type=subject')
       cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
           
       })
@@ -51,7 +51,7 @@ let subjectUrlPortal;
                                           
       
 
-        for (let i = 0; i < 20; i++) {
+        for (let i = 0; i < 19; i++) {
           cy.wait(200);
           performActions();
         }
@@ -59,7 +59,7 @@ let subjectUrlPortal;
     })
 
 
-    it.only('Iteracia ulohami a navrat do predmetu cez btn spat na predmet', function() {
+    it('Iteracia ulohami a navrat do predmetu cez btn spat na predmet', function() {
       cy.wait(500)
       cy.url().then((url) => {
         subjectUrlPortal = url;
