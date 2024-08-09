@@ -20,7 +20,7 @@ describe('Product owner', function () {
       cy.get('@nastavenia').click();
       cy.get('[href="/admin/elearning/training"]').click();
       cy.wait(3000);
-      cy.get('[placeholder="Kľúčové slovo"]').type('CY Kopírovanie úloh z tohoto školenia');
+      cy.get('[placeholder="Kľúčové slovo"]').type('G Kopírovanie úloh_AAA');
       cy.get('[type="submit"]').first().click().wait(1000);
       cy.get('tbody').find('a').first().click().wait(1000);
       cy.get(':nth-child(5) > .nav-link').click();
@@ -259,7 +259,7 @@ describe('Product owner', function () {
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
     cy.wait(3000);
-    cy.get('[placeholder="Kľúčové slovo"]').type('CY Kopírovanie úloh z tohoto školenia');
+    cy.get('[placeholder="Kľúčové slovo"]').type('G Kopírovanie úloh_AAA');
     cy.get('[type="submit"]').first().click().wait(1000);
     cy.get('tbody').find('a').first().click().wait(1000);
     cy.get(':nth-child(5) > .nav-link').click();
@@ -398,12 +398,12 @@ it('Kopírovanie inštrukcií pre lektora + overenie', function(){
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
     cy.wait(3000);
-    cy.get('[placeholder="Kľúčové slovo"]').type('CY Kopírovanie úloh z tohoto školenia');
+    cy.get('[placeholder="Kľúčové slovo"]').type('G Kopírovanie úloh_AAA');
     cy.get('[type="submit"]').first().click().wait(1000);
     cy.get('tbody').find('a').first().click().wait(1000);
     cy.get(':nth-child(5) > .nav-link').click();
 
-    cy.get('[type = radio]').last().check({ force: true });
+    cy.get('[type = radio]').last().check({ force: true }).wait(5000)
     cy.get('[name="fromSelectedTheme"]').select('1. Téma_1').wait(1000);
     cy.get('[name="fromSelectedLesson"]').select('1. Lekcia_1').wait(1000);
 
@@ -536,7 +536,7 @@ it('Kopírovať inštrukcie pre opravovača + overenie', function(){
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
     cy.wait(3000);
-    cy.get('[placeholder="Kľúčové slovo"]').type('CY Kopírovanie úloh z tohoto školenia');
+    cy.get('[placeholder="Kľúčové slovo"]').type('G Kopírovanie úloh_AAA');
     cy.get('[type="submit"]').first().click().wait(1000);
     cy.get('tbody').find('a').first().click().wait(1000);
     cy.get(':nth-child(5) > .nav-link').click();
@@ -674,7 +674,7 @@ it('Kopírovať inštrukcie pre študenta + overenie', function(){
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
     cy.wait(3000);
-    cy.get('[placeholder="Kľúčové slovo"]').type('CY Kopírovanie úloh z tohoto školenia');
+    cy.get('[placeholder="Kľúčové slovo"]').type('G Kopírovanie úloh_AAA');
     cy.get('[type="submit"]').first().click().wait(1000);
     cy.get('tbody').find('a').first().click().wait(1000);
     cy.get(':nth-child(5) > .nav-link').click();

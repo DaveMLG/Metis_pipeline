@@ -19,7 +19,7 @@ describe('Product owner', function () {
         cy.get('@nastavenia').click();
         cy.get('[href="/admin/elearning/training"]').click();
         cy.wait(3000);
-        cy.get('[placeholder="Kľúčové slovo"]').type('CY presun úloh v rámci školenia');
+        cy.get('[placeholder="Kľúčové slovo"]').type('G Presun úloh v školení_AAA');
         cy.get('[type="submit"]').first().click().wait(1000);
         cy.get('tbody').find('a').first().click().wait(1000);
         cy.get(':nth-child(5) > .nav-link').click();
@@ -59,7 +59,7 @@ describe('Product owner', function () {
         cy.get('tbody').last().find('tr').then((rows) => {
             for (let x = 0; x < rows.length; x++) {
                 cy.wrap(rows[x]).find('td:nth-child(5)').invoke('text').then((value) => {
-                    cy.wrap(value).should('eq', '3');
+                    cy.wrap(value).should('eq', '2');
                 });
             }
         });

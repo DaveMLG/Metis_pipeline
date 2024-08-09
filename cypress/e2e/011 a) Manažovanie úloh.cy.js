@@ -471,7 +471,7 @@ describe('Product owner', function () {
                         cy.wrap(value).should('eq', Content) 
                       });
                       
-                      cy.get('[onclick="history.back()"]').first().click().wait(1000000)
+                      cy.get('[onclick="history.back()"]').first().click()
                     })
                })
             })
@@ -503,7 +503,7 @@ describe('Product owner', function () {
             cy.get('[type="submit"]').last().click().wait(5000)
             cy.contains('Áno').click()
 
-            cy.get('[name="addExercisesSelectedTraining"]').select('G Manažovanie úloh AAA')
+            cy.get('[name="addExercisesSelectedTraining"]').select('G Manažovanie úloh AAA_2')
             cy.get('[name="addExercisesSelectedTheme"]').select(0)
             cy.get('[name="addExercisesSelectedLesson"]').select(0)
             cy.get('[type="button"]').first().click().wait(1000)
@@ -653,7 +653,7 @@ describe('Product owner', function () {
                   cy.get('[type="submit"]').last().click().wait(5000)
                   cy.contains('Áno').click()
       
-                  cy.get('[name="addExercisesSelectedTraining"]').select('G Manažovanie úloh AAA')
+                  cy.get('[name="addExercisesSelectedTraining"]').select('G Manažovanie úloh AAA_2')
                   cy.get('[name="addExercisesSelectedTheme"]').select(0)
                   cy.get('[name="addExercisesSelectedLesson"]').select(0)
                   cy.get('[type="button"]').first().click().wait(1000)
