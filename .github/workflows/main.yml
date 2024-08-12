@@ -1,11 +1,8 @@
 name: Cypress Tests
- 
+
 on:
-  push:
-    branches:
-      - main
- 
- 
+  workflow_dispatch:  # Allows manual triggering from the GitHub Actions UI
+
 jobs:
   cypress-run:
     runs-on: windows-latest
