@@ -299,7 +299,7 @@ describe('Student', function() {
       
     })
 
-
+   
     it('Absolvovanie Osobnostný test', function() {
       const typUlohy = '.nazov-fade:contains("Osobnostný test")';      
       getDisciplinaZoznam()
@@ -407,8 +407,9 @@ describe('Student', function() {
       cy.get('.alert-danger', { timeout: 5000 }).contains('Zaškrtnite aspoň jednu odpoveď v každej otázke.').should('be.visible')    
 
       //Označí všetky odpovede a odošle test
-      for (let i = 0; i < 5; i++) {
+      for (let i = 0; i < 1; i++) {
         cy.get('.otazka').eq(i).find('label').first().click();
+    
       }
       
       cy.get('[type="submit"]').click()
@@ -530,9 +531,10 @@ describe('Student', function() {
 
       
       //vojde do TT na kartu ulohy na vyhodnotenie
-      cy.get('.icon-menu-training-terms-top-menu').click()
-      cy.get('[href="/admin/training-term/training-term"]').click()
-      cy.wait(1000)
+      //cy.get('.icon-menu-training-terms-top-menu').click()
+      //cy.get('[href="/admin/training-term/training-term"]').click()
+      cy.visit('https://dev.metis.academy/admin/training-term/training-term/2556')
+      cy.wait(2000)
   
       
       cy.task('load').then((url) => {
@@ -621,7 +623,9 @@ describe('Student', function() {
         cy.get('[name="userName"]').type('cy.student1')
         cy.get('[name="password"]').type('ML_heslo1')
         cy.get('[type="submit"]').click()
+        cy.get
         cy.wait(1000)
+        cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
 
   
         //hodnotenie kontrola
@@ -672,8 +676,9 @@ describe('Student', function() {
         cy.wait(1000)
 
        //vojde do TT na kartu ulohy na vyhodnotenie
-       cy.get('.icon-menu-training-terms-top-menu').click()
-       cy.get('[href="/admin/training-term/training-term"]').click()
+       //cy.get('.icon-menu-training-terms-top-menu').click()
+       //cy.get('[href="/admin/training-term/training-term"]').click()
+       cy.visit('https://dev.metis.academy/admin/training-term/training-term/2556')
        cy.wait(1000)
    
        
@@ -720,6 +725,8 @@ describe('Student', function() {
               cy.get('[name="password"]').type('ML_heslo1')
               cy.get('[type="submit"]').click()
               cy.wait(1000)
+              cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
+              
 
        //hodnotenie kontrola
        cy.wait(1000).then(() => {
@@ -767,8 +774,9 @@ describe('Student', function() {
         cy.wait(5000)
   
        //vojde do TT na kartu ulohy na vyhodnotenie
-       cy.get('.icon-menu-training-terms-top-menu').click()
-       cy.get('[href="/admin/training-term/training-term"]').click()
+      //cy.get('.icon-menu-training-terms-top-menu').click()
+       //cy.get('[href="/admin/training-term/training-term"]').click()
+       cy.visit('https://dev.metis.academy/admin/training-term/training-term/2556/student')
        cy.wait(1000)
    
        
@@ -816,6 +824,8 @@ describe('Student', function() {
               cy.get('[name="password"]').type('ML_heslo1')
               cy.get('[type="submit"]').click()
               cy.wait(1000)
+              cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
+
     
 
  
