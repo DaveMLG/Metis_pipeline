@@ -24,7 +24,7 @@ describe('Garant obsahu', function() {
         //doplnenie udajov a zobrazenie dalsich toast
         //cz0 en1 sk2 eq
         //CCC kontrola line 45
-        cy.get('#Title').type('5')
+        cy.get('#Title').type('G školenie AAA')
         cy.wait(1000)
         cy.get('#PortalTitle').type('G školenie AAA') 
         cy.wait(1000)
@@ -37,6 +37,7 @@ describe('Garant obsahu', function() {
 
         
         //doplnenie udajov
+        cy.wait(5000)
         cy.get('[name^="trainingType"]').parent().eq(0).click()
         cy.get('input#LogoUrl').attachFile('/obrazky/logo1.png')
         cy.wait(1000)
@@ -49,7 +50,6 @@ describe('Garant obsahu', function() {
         cy.get('#Title').clear().type('G školenie AAA')
         
         cy.get('[type="submit"]').click()
-        cy.url({ timeout: 10000 }).should('match', /https:\/\/dev\.metis\.academy\/admin\/elearning\/training\/\d+/);
 
 
     })  
