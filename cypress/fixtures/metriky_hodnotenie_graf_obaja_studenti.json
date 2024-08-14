@@ -11,32 +11,32 @@
   ],
   "student1 - uloha 1": [
     {
-      "percentoVypracovaniaUlohy": 40,
-      "buttonClass": "red-bck",
-      "pocetXpBodov": 6000,
-      "narocnost": 1,
-      "menovatel": 6000,
-      "citatel": 2400
-    }
-  ],
-  "student1 - uloha 2": [
-    {
-      "percentoVypracovaniaUlohy": 55,
+      "percentoVypracovaniaUlohy": 52,
       "buttonClass": "orange-bck",
       "pocetXpBodov": 6000,
       "narocnost": 1,
       "menovatel": 6000,
-      "citatel": 3300
+      "citatel": 3120
+    }
+  ],
+  "student1 - uloha 2": [
+    {
+      "percentoVypracovaniaUlohy": 11,
+      "buttonClass": "red-bck",
+      "pocetXpBodov": 6000,
+      "narocnost": 1,
+      "menovatel": 6000,
+      "citatel": 660
     }
   ],
   "student1 - uloha 3": [
     {
-      "percentoVypracovaniaUlohy": 100,
-      "buttonClass": "green-bck",
+      "percentoVypracovaniaUlohy": 55,
+      "buttonClass": "orange-bck",
       "pocetXpBodov": 6000,
-      "narocnost": 1,
-      "menovatel": 6000,
-      "citatel": 6000
+      "narocnost": 2,
+      "menovatel": 12000,
+      "citatel": 6600
     }
   ],
   "student1 - uloha 4": [
@@ -51,12 +51,22 @@
   ],
   "student1 - uloha 5": [
     {
-      "percentoVypracovaniaUlohy": 25,
+      "percentoVypracovaniaUlohy": 100,
+      "buttonClass": "green-bck",
+      "pocetXpBodov": 6000,
+      "narocnost": 1,
+      "menovatel": 6000,
+      "citatel": 6000
+    }
+  ],
+  "student1 - uloha 6": [
+    {
+      "percentoVypracovaniaUlohy": 12.5,
       "buttonClass": "red-bck",
       "pocetXpBodov": 6000,
       "narocnost": 1,
       "menovatel": 6000,
-      "citatel": 1500
+      "citatel": 750
     }
   ]
 }

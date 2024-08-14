@@ -1,6 +1,6 @@
-import { retrieveHodnotenieDataAndPushToJson } from '/cypress/e2e/MAROS/metriky_funkcie_file.cy.js';
-import { compareCalculatedHodnotenieDataWithDataOnPortalStudent } from '/cypress/e2e/MAROS/metriky_funkcie_file.cy.js';
-import { retrieveDisciplinaDataAndPushToJsonStudentAndCompare } from '/cypress/e2e/MAROS/metriky_funkcie_file.cy.js';
+import { retrieveHodnotenieDataAndPushToJson } from '/cypress/e2e/metriky_funkcie_file.cy.js';
+import { compareCalculatedHodnotenieDataWithDataOnPortalStudent } from '/cypress/e2e/metriky_funkcie_file.cy.js';
+import { retrieveDisciplinaDataAndPushToJsonStudentAndCompare } from '/cypress/e2e/metriky_funkcie_file.cy.js';
 
 describe('Student', function() {
   
