@@ -2,7 +2,7 @@ describe('Student', function() {
 
     beforeEach(() => {
     
-    cy.loginStudent('cy.student2', 'ML_heslo1');
+    cy.loginStudent('cy.student1', 'ML_heslo1');
     cy.viewport(1920, 937)
     cy.visit('https://dev.metis.academy/portal')
     cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
@@ -830,9 +830,9 @@ describe('Student', function() {
 
             let orderVal = 0;
   
-            cy.get('[class="btn-hover btn btn-info"]').then((value) => {
+           /* cy.get('[class="btn-hover btn btn-info"]').then((value) => {
               submitBox = value.length;
-            });
+            });*/
   
             cy.get('[class="btn btn-hover red-bck"]').then((value) => {
               redBox = value.length;
@@ -925,7 +925,7 @@ describe('Student', function() {
           function kontrolaClass() {
           // ABSOLVOVAT
           // Use cy.get() to locate the list items and then find the buttons within them
-          cy.get('.ulohy dashboard-exercise-list-item').find('.btn-info').each(($button) => {
+          cy.get('.ulohy dashboard-exercise-list-item').find('btn btn-hover').each(($button) => {
             // Use cy.contains() to get the text of the button
             cy.wrap($button).invoke('text').then((buttonText) => {
               // Assert that the text matches the specified pattern
@@ -1127,7 +1127,7 @@ describe('Student', function() {
       function kontrolaClass() {
       // ABSOLVOVAT
       // Use cy.get() to locate the list items and then find the buttons within them
-      cy.get('.ulohy dashboard-exercise-list-item').find('.btn-info').each(($button) => {
+      cy.get('.ulohy dashboard-exercise-list-item').find('btn btn-hover').each(($button) => {
         // Use cy.contains() to get the text of the button
         cy.wrap($button).invoke('text').then((buttonText) => {
           // Assert that the text matches the specified pattern

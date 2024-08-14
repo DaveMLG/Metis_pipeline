@@ -27,7 +27,7 @@ describe('GARANT', function () {
         cy.wait(3000);
         cy.get(':nth-child(5) > .nav-link').click().wait(2000);
         cy.get('[type="radio"]').first().check({ force: true });
-        cy.get('[name="selectLessonTemplate"]').select('Šablóna na pretestovanie úloh');
+        cy.get('[name="selectLessonTemplate"]').select('vsetky typy uloh (moja šablóna)');
         cy.get('[name="selectTheme"]').select(1);
         cy.get('[name="selectLesson"]').select(1);
         cy.contains('Vložiť záznam').click();

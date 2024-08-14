@@ -10,49 +10,49 @@
       "activity": "1"
     },
     {
-      "activity": "1"
-    },
-    {
-      "activity": "1"
-    },
-    {
       "activity": "2"
     },
     {
       "activity": "2"
     },
     {
-      "activity": "2"
+      "activity": "3"
     },
     {
-      "activity": "4"
+      "activity": "3"
     },
     {
-      "activity": "4"
+      "activity": "3"
     },
     {
-      "activity": "4"
+      "activity": "3"
     },
     {
-      "activity": "4"
+      "activity": "3"
     },
     {
-      "activity": "4"
+      "activity": "3"
     },
     {
-      "activity": "4"
+      "activity": "3"
     },
     {
-      "activity": "4"
+      "activity": "3"
     },
     {
-      "activity": "4"
+      "activity": "3"
     },
     {
-      "activity": "4"
+      "activity": "3"
     },
     {
-      "activity": "4"
+      "activity": "3"
+    },
+    {
+      "activity": "3"
+    },
+    {
+      "activity": "3"
     },
     {
       "activity": "4"
@@ -73,19 +73,10 @@
       "order": "3"
     },
     {
-      "order": "4"
-    },
-    {
-      "order": "5"
-    },
-    {
       "order": "1"
     },
     {
       "order": "2"
-    },
-    {
-      "order": "3"
     },
     {
       "order": "1"
@@ -125,6 +116,15 @@
     },
     {
       "order": "13"
+    },
+    {
+      "order": "1"
+    },
+    {
+      "order": "2"
+    },
+    {
+      "order": "3"
     },
     {
       "taskOrder": " 1 "
@@ -193,6 +193,15 @@
       "task": "Samoštúdium"
     },
     {
+      "task": "Videosamoštúdium"
+    },
+    {
+      "task": "Automatický test"
+    },
+    {
+      "task": "Webinár"
+    },
+    {
       "task": "Automatický test"
     },
     {
@@ -205,31 +214,16 @@
       "task": "Projekt"
     },
     {
-      "task": "Webinár"
-    },
-    {
-      "task": "Videosamoštúdium"
-    },
-    {
-      "task": "Automatický test"
-    },
-    {
       "task": "Doplňovačka"
     },
     {
       "task": "Párovačka"
     },
     {
-      "task": "Spoločná práca s lektorom"
-    },
-    {
       "task": "Preferenčný test"
     },
     {
       "task": "Preklad"
-    },
-    {
-      "task": "IQ test"
     },
     {
       "task": "Anketa"
@@ -241,37 +235,22 @@
       "task": "Osobnostný test"
     },
     {
-      "task": "Potvrdenie absolvovania"
-    },
-    {
       "task": "Diskusia"
-    },
-    {
-      "task": "Cvičenie"
     },
     {
       "task": "Checklist"
     },
     {
-      "difficulty": "Nízka"
+      "task": "IQ test"
     },
     {
-      "difficulty": "Vysoká"
+      "task": "Spoločná práca s lektorom"
     },
     {
-      "difficulty": "Vysoká"
+      "task": "Potvrdenie absolvovania"
     },
     {
-      "difficulty": "Nízka"
-    },
-    {
-      "difficulty": "Nízka"
-    },
-    {
-      "difficulty": "Nízka"
-    },
-    {
-      "difficulty": "Stredná"
+      "task": "Cvičenie"
     },
     {
       "difficulty": "Nízka"
@@ -280,37 +259,58 @@
       "difficulty": "Nízka"
     },
     {
-      "difficulty": "Stredná"
+      "difficulty": "Nízka"
     },
     {
       "difficulty": "Nízka"
     },
     {
-      "difficulty": "Vysoká"
+      "difficulty": "Nízka"
     },
     {
       "difficulty": "Nízka"
     },
     {
-      "difficulty": "Stredná"
+      "difficulty": "Nízka"
     },
     {
       "difficulty": "Nízka"
     },
     {
-      "difficulty": "Vysoká"
+      "difficulty": "Nízka"
     },
     {
       "difficulty": "Nízka"
     },
     {
-      "difficulty": "Vysoká"
+      "difficulty": "Nízka"
     },
     {
       "difficulty": "Nízka"
     },
     {
-      "difficulty": "Stredná"
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
     },
     {
       "difficulty": "Nízka"
@@ -325,13 +325,49 @@
       "xpPoints": "3000"
     },
     {
-      "xpPoints": "1000"
+      "xpPoints": "4500"
     },
     {
-      "xpPoints": "3000"
+      "xpPoints": "4500"
     },
     {
-      "xpPoints": "1500"
+      "xpPoints": "6000"
+    },
+    {
+      "xpPoints": "6000"
+    },
+    {
+      "xpPoints": "6000"
+    },
+    {
+      "xpPoints": "6000"
+    },
+    {
+      "xpPoints": "6000"
+    },
+    {
+      "xpPoints": "6000"
+    },
+    {
+      "xpPoints": "6000"
+    },
+    {
+      "xpPoints": "6000"
+    },
+    {
+      "xpPoints": "6000"
+    },
+    {
+      "xpPoints": "6000"
+    },
+    {
+      "xpPoints": "6000"
+    },
+    {
+      "xpPoints": "6000"
+    },
+    {
+      "xpPoints": "6000"
     },
     {
       "xpPoints": "4500"
@@ -340,43 +376,16 @@
       "xpPoints": "4500"
     },
     {
-      "xpPoints": "1500"
-    },
-    {
-      "xpPoints": "1500"
-    },
-    {
       "xpPoints": "4500"
     },
     {
-      "xpPoints": "1500"
+      "estimatedTimeToComplete": "0:30"
     },
     {
-      "xpPoints": "1500"
+      "estimatedTimeToComplete": "0:30"
     },
     {
-      "xpPoints": "4500"
-    },
-    {
-      "xpPoints": "1500"
-    },
-    {
-      "xpPoints": "1500"
-    },
-    {
-      "xpPoints": "1500"
-    },
-    {
-      "xpPoints": "1500"
-    },
-    {
-      "xpPoints": "1500"
-    },
-    {
-      "xpPoints": "1500"
-    },
-    {
-      "xpPoints": "1500"
+      "estimatedTimeToComplete": "0:30"
     },
     {
       "estimatedTimeToComplete": "0:30"
@@ -388,13 +397,7 @@
       "estimatedTimeToComplete": "0:30"
     },
     {
-      "estimatedTimeToComplete": "0:10"
-    },
-    {
       "estimatedTimeToComplete": "0:30"
-    },
-    {
-      "estimatedTimeToComplete": "0:10"
     },
     {
       "estimatedTimeToComplete": "0:30"
@@ -403,49 +406,40 @@
       "estimatedTimeToComplete": "0:30"
     },
     {
-      "estimatedTimeToComplete": "0:10"
-    },
-    {
-      "estimatedTimeToComplete": "0:10"
+      "estimatedTimeToComplete": "0:30"
     },
     {
       "estimatedTimeToComplete": "0:30"
     },
     {
-      "estimatedTimeToComplete": "0:10"
-    },
-    {
-      "estimatedTimeToComplete": "0:10"
+      "estimatedTimeToComplete": "0:30"
     },
     {
       "estimatedTimeToComplete": "0:30"
     },
     {
-      "estimatedTimeToComplete": "0:10"
+      "estimatedTimeToComplete": "0:30"
     },
     {
-      "estimatedTimeToComplete": "0:10"
+      "estimatedTimeToComplete": "0:30"
     },
     {
-      "estimatedTimeToComplete": "0:10"
+      "estimatedTimeToComplete": "0:30"
     },
     {
-      "estimatedTimeToComplete": "0:10"
+      "estimatedTimeToComplete": "0:30"
     },
     {
-      "estimatedTimeToComplete": "0:10"
+      "estimatedTimeToComplete": "0:30"
     },
     {
-      "estimatedTimeToComplete": "0:10"
+      "estimatedTimeToComplete": "0:30"
     },
     {
-      "estimatedTimeToComplete": "0:10"
+      "estimatedTimeToComplete": "0:30"
     },
     {
-      "estimatedTimeToEvaluate": "0:00"
-    },
-    {
-      "estimatedTimeToEvaluate": "0:00"
+      "estimatedTimeToComplete": "0:30"
     },
     {
       "estimatedTimeToEvaluate": "0:00"
@@ -457,22 +451,7 @@
       "estimatedTimeToEvaluate": "0:00"
     },
     {
-      "estimatedTimeToEvaluate": "1:10"
-    },
-    {
-      "estimatedTimeToEvaluate": "0:00"
-    },
-    {
-      "estimatedTimeToEvaluate": "0:00"
-    },
-    {
-      "estimatedTimeToEvaluate": "0:00"
-    },
-    {
-      "estimatedTimeToEvaluate": "0:00"
-    },
-    {
-      "estimatedTimeToEvaluate": "0:00"
+      "estimatedTimeToEvaluate": "1:00"
     },
     {
       "estimatedTimeToEvaluate": "0:00"
@@ -499,10 +478,31 @@
       "estimatedTimeToEvaluate": "0:00"
     },
     {
-      "estimatedTimeToEvaluate": "2:50"
+      "estimatedTimeToEvaluate": "0:00"
     },
     {
       "estimatedTimeToEvaluate": "0:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "0:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "0:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "0:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "0:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "0:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "0:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "1:30"
     }
   ]
 }

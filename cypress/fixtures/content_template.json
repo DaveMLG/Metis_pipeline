@@ -1,87 +1,6 @@
 {
   "Values": [
     {
-      "activity": "Príprava"
-    },
-    {
-      "activity": "Príprava"
-    },
-    {
-      "activity": "Príprava"
-    },
-    {
-      "activity": "Príprava"
-    },
-    {
-      "activity": "Príprava"
-    },
-    {
-      "activity": "Seminár"
-    },
-    {
-      "activity": "Seminár"
-    },
-    {
-      "activity": "Cvičenie"
-    },
-    {
-      "activity": "Cvičenie"
-    },
-    {
-      "activity": "Cvičenie"
-    },
-    {
-      "activity": "Cvičenie"
-    },
-    {
-      "activity": "Cvičenie"
-    },
-    {
-      "activity": "Cvičenie"
-    },
-    {
-      "activity": "Cvičenie"
-    },
-    {
-      "activity": "Cvičenie"
-    },
-    {
-      "activity": "Cvičenie"
-    },
-    {
-      "activity": "Cvičenie"
-    },
-    {
-      "activity": "Cvičenie"
-    },
-    {
-      "activity": "Cvičenie"
-    },
-    {
-      "activity": "Cvičenie"
-    },
-    {
-      "order": "1"
-    },
-    {
-      "order": "2"
-    },
-    {
-      "order": "3"
-    },
-    {
-      "order": "4"
-    },
-    {
-      "order": "5"
-    },
-    {
-      "order": "1"
-    },
-    {
-      "order": "2"
-    },
-    {
       "order": "1"
     },
     {
@@ -119,6 +38,69 @@
     },
     {
       "order": "13"
+    },
+    {
+      "order": "1"
+    },
+    {
+      "order": "2"
+    },
+    {
+      "order": "3"
+    },
+    {
+      "order": "4"
+    },
+    {
+      "order": "5"
+    },
+    {
+      "order": "6"
+    },
+    {
+      "order": "7"
+    },
+    {
+      "order": "8"
+    },
+    {
+      "order": "9"
+    },
+    {
+      "order": "1"
+    },
+    {
+      "order": "2"
+    },
+    {
+      "order": "3"
+    },
+    {
+      "order": "4"
+    },
+    {
+      "order": "5"
+    },
+    {
+      "order": "6"
+    },
+    {
+      "order": "7"
+    },
+    {
+      "order": "8"
+    },
+    {
+      "order": "1"
+    },
+    {
+      "order": "2"
+    },
+    {
+      "order": "3"
+    },
+    {
+      "order": "4"
     },
     {
       "taskOrder": "1"
@@ -181,73 +163,178 @@
       "taskOrder": "20"
     },
     {
-      "task": "Samostudium"
+      "taskOrder": "21"
     },
     {
-      "task": "Automaticky test"
+      "taskOrder": "22"
     },
     {
-      "task": "Otvoreny test"
+      "taskOrder": "23"
     },
     {
-      "task": "Zadanie"
+      "taskOrder": "24"
     },
     {
-      "task": "Projekt"
+      "taskOrder": "25"
     },
     {
-      "task": "Webinar"
+      "taskOrder": "26"
+    },
+    {
+      "taskOrder": "27"
+    },
+    {
+      "taskOrder": "28"
+    },
+    {
+      "taskOrder": "29"
+    },
+    {
+      "taskOrder": "30"
+    },
+    {
+      "taskOrder": "31"
+    },
+    {
+      "taskOrder": "32"
+    },
+    {
+      "taskOrder": "33"
+    },
+    {
+      "taskOrder": "34"
     },
     {
       "task": "Videosamostudium"
     },
     {
-      "task": "Doplnovacka"
+      "task": "Automaticky test"
     },
     {
-      "task": "Parovacka"
+      "task": "Videosamostudium"
     },
     {
-      "task": "Spolocna praca s lektorom"
+      "task": "Automaticky test"
     },
     {
-      "task": "Preferencny test"
+      "task": "Videosamostudium"
     },
     {
-      "task": "Preklad"
+      "task": "Automaticky test"
     },
     {
-      "task": "IQ test"
+      "task": "Videosamostudium"
     },
     {
-      "task": "Anketa"
+      "task": "Automaticky test"
     },
     {
-      "task": "Spatna vazba"
+      "task": "Videosamostudium"
     },
     {
-      "task": "Osobnostny test"
+      "task": "Automaticky test"
+    },
+    {
+      "task": "Videosamostudium"
+    },
+    {
+      "task": "Automaticky test"
     },
     {
       "task": "Potvrdenie absolvovania"
     },
     {
+      "task": "Webinar"
+    },
+    {
       "task": "Diskusia"
     },
     {
-      "task": "Cvicenie"
+      "task": "Spolocna praca s lektorom"
     },
     {
-      "task": "Checklist"
+      "task": "Doplnovacka"
+    },
+    {
+      "task": "Spolocna praca s lektorom"
+    },
+    {
+      "task": "Doplnovacka"
+    },
+    {
+      "task": "Spolocna praca s lektorom"
+    },
+    {
+      "task": "Doplnovacka"
+    },
+    {
+      "task": "Potvrdenie absolvovania"
+    },
+    {
+      "task": "Doplnovacka"
+    },
+    {
+      "task": "Doplnovacka"
+    },
+    {
+      "task": "Doplnovacka"
+    },
+    {
+      "task": "Doplnovacka"
+    },
+    {
+      "task": "Doplnovacka"
+    },
+    {
+      "task": "Doplnovacka"
+    },
+    {
+      "task": "Projekt"
+    },
+    {
+      "task": "Potvrdenie absolvovania"
+    },
+    {
+      "task": "Webinar"
+    },
+    {
+      "task": "Diskusia"
+    },
+    {
+      "task": "Potvrdenie absolvovania"
+    },
+    {
+      "task": "Potvrdenie absolvovania"
     },
     {
       "difficulty": "Nízka"
     },
     {
-      "difficulty": "Vysoká"
+      "difficulty": "Nízka"
     },
     {
-      "difficulty": "Vysoká"
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
+    },
+    {
+      "difficulty": "Nízka"
     },
     {
       "difficulty": "Nízka"
@@ -262,142 +349,232 @@
       "difficulty": "Stredná"
     },
     {
-      "difficulty": "Nízka"
+      "difficulty": "Stredná"
     },
     {
       "difficulty": "Stredná"
     },
     {
-      "difficulty": "Nízka"
-    },
-    {
-      "difficulty": "Vysoká"
-    },
-    {
-      "difficulty": "Nízka"
+      "difficulty": "Stredná"
     },
     {
       "difficulty": "Stredná"
     },
     {
-      "difficulty": "Nízka"
-    },
-    {
-      "difficulty": "Vysoká"
-    },
-    {
-      "difficulty": "Nízka"
-    },
-    {
-      "difficulty": "Vysoká"
-    },
-    {
-      "difficulty": "Nízka"
+      "difficulty": "Stredná"
     },
     {
       "difficulty": "Stredná"
     },
     {
-      "difficulty": "Nízka"
+      "difficulty": "Stredná"
     },
     {
-      "taskOrder": "3000"
+      "difficulty": "Stredná"
     },
     {
-      "taskOrder": "3000"
+      "difficulty": "Vysoká"
     },
     {
-      "taskOrder": "3000"
+      "difficulty": "Vysoká"
     },
     {
-      "taskOrder": "1000"
+      "difficulty": "Vysoká"
     },
     {
-      "taskOrder": "3000"
+      "difficulty": "Vysoká"
+    },
+    {
+      "difficulty": "Vysoká"
+    },
+    {
+      "difficulty": "Vysoká"
+    },
+    {
+      "difficulty": "Vysoká"
+    },
+    {
+      "difficulty": "Vysoká"
+    },
+    {
+      "difficulty": "Stredná"
+    },
+    {
+      "difficulty": "Stredná"
+    },
+    {
+      "difficulty": "Stredná"
+    },
+    {
+      "difficulty": "Stredná"
+    },
+    {
+      "taskOrder": "700"
+    },
+    {
+      "taskOrder": "300"
+    },
+    {
+      "taskOrder": "700"
+    },
+    {
+      "taskOrder": "300"
+    },
+    {
+      "taskOrder": "700"
+    },
+    {
+      "taskOrder": "300"
+    },
+    {
+      "taskOrder": "700"
+    },
+    {
+      "taskOrder": "300"
+    },
+    {
+      "taskOrder": "700"
+    },
+    {
+      "taskOrder": "300"
+    },
+    {
+      "taskOrder": "700"
+    },
+    {
+      "taskOrder": "200"
+    },
+    {
+      "taskOrder": "100"
+    },
+    {
+      "taskOrder": "300"
+    },
+    {
+      "taskOrder": "2250"
+    },
+    {
+      "taskOrder": "3750"
     },
     {
       "taskOrder": "1500"
     },
     {
-      "taskOrder": "4500"
+      "taskOrder": "3750"
     },
     {
       "taskOrder": "1500"
     },
     {
-      "taskOrder": "1500"
-    },
-    {
-      "taskOrder": "4500"
+      "taskOrder": "3750"
     },
     {
       "taskOrder": "1500"
     },
     {
-      "taskOrder": "1500"
+      "taskOrder": "150"
     },
     {
-      "taskOrder": "4500"
+      "taskOrder": "2000"
     },
     {
-      "taskOrder": "1500"
+      "taskOrder": "2000"
     },
     {
-      "taskOrder": "1500"
+      "taskOrder": "2000"
     },
     {
-      "taskOrder": "1500"
+      "taskOrder": "2000"
     },
     {
-      "taskOrder": "1500"
+      "taskOrder": "2000"
     },
     {
-      "taskOrder": "1500"
+      "taskOrder": "2000"
     },
     {
-      "taskOrder": "1500"
+      "taskOrder": "29400"
     },
     {
-      "taskOrder": "1500"
+      "taskOrder": "200"
     },
     {
-      "estimatedTimeToComplete": "00:30"
+      "taskOrder": "300"
     },
     {
-      "estimatedTimeToComplete": "00:30"
+      "taskOrder": "12750"
     },
     {
-      "estimatedTimeToComplete": "00:30"
+      "taskOrder": "150"
+    },
+    {
+      "taskOrder": "150"
+    },
+    {
+      "estimatedTimeToComplete": "00:07"
+    },
+    {
+      "estimatedTimeToComplete": "00:03"
+    },
+    {
+      "estimatedTimeToComplete": "00:07"
+    },
+    {
+      "estimatedTimeToComplete": "00:03"
+    },
+    {
+      "estimatedTimeToComplete": "00:07"
+    },
+    {
+      "estimatedTimeToComplete": "00:03"
+    },
+    {
+      "estimatedTimeToComplete": "00:07"
+    },
+    {
+      "estimatedTimeToComplete": "00:03"
+    },
+    {
+      "estimatedTimeToComplete": "00:07"
+    },
+    {
+      "estimatedTimeToComplete": "00:03"
+    },
+    {
+      "estimatedTimeToComplete": "00:07"
+    },
+    {
+      "estimatedTimeToComplete": "00:02"
+    },
+    {
+      "estimatedTimeToComplete": "00:01"
+    },
+    {
+      "estimatedTimeToComplete": "00:02"
+    },
+    {
+      "estimatedTimeToComplete": "00:15"
+    },
+    {
+      "estimatedTimeToComplete": "00:25"
     },
     {
       "estimatedTimeToComplete": "00:10"
     },
     {
-      "estimatedTimeToComplete": "00:30"
+      "estimatedTimeToComplete": "00:25"
     },
     {
       "estimatedTimeToComplete": "00:10"
     },
     {
-      "estimatedTimeToComplete": "00:30"
+      "estimatedTimeToComplete": "00:25"
     },
     {
       "estimatedTimeToComplete": "00:10"
     },
     {
-      "estimatedTimeToComplete": "00:10"
-    },
-    {
-      "estimatedTimeToComplete": "00:30"
-    },
-    {
-      "estimatedTimeToComplete": "00:10"
-    },
-    {
-      "estimatedTimeToComplete": "00:10"
-    },
-    {
-      "estimatedTimeToComplete": "00:30"
+      "estimatedTimeToComplete": "00:01"
     },
     {
       "estimatedTimeToComplete": "00:10"
@@ -418,40 +595,22 @@
       "estimatedTimeToComplete": "00:10"
     },
     {
-      "estimatedTimeToComplete": "00:10"
+      "estimatedTimeToComplete": "02:27"
     },
     {
-      "estimatedTimeToEvaluate": "00:00"
+      "estimatedTimeToComplete": "00:01"
     },
     {
-      "estimatedTimeToEvaluate": "00:00"
+      "estimatedTimeToComplete": "00:02"
     },
     {
-      "estimatedTimeToEvaluate": "00:00"
+      "estimatedTimeToComplete": "01:25"
     },
     {
-      "estimatedTimeToEvaluate": "00:00"
+      "estimatedTimeToComplete": "00:01"
     },
     {
-      "estimatedTimeToEvaluate": "00:00"
-    },
-    {
-      "estimatedTimeToEvaluate": "00:40"
-    },
-    {
-      "estimatedTimeToEvaluate": "00:00"
-    },
-    {
-      "estimatedTimeToEvaluate": "00:00"
-    },
-    {
-      "estimatedTimeToEvaluate": "00:00"
-    },
-    {
-      "estimatedTimeToEvaluate": "00:00"
-    },
-    {
-      "estimatedTimeToEvaluate": "00:00"
+      "estimatedTimeToComplete": "00:01"
     },
     {
       "estimatedTimeToEvaluate": "00:00"
@@ -475,7 +634,82 @@
       "estimatedTimeToEvaluate": "00:00"
     },
     {
-      "estimatedTimeToEvaluate": "02:50"
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "02:03"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "01:59"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
+    },
+    {
+      "estimatedTimeToEvaluate": "00:00"
     },
     {
       "estimatedTimeToEvaluate": "00:00"

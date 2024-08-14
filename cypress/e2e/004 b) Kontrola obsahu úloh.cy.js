@@ -14,9 +14,9 @@ cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-chil
 cy.get('@nastavenia').click();
 cy.get('[href="/admin/elearning/training"]').click();
 cy.wait(3000)
-cy.get('[type="text"]').first().clear().type("CY testovanie všetkých úloh")
+cy.get('[type="text"]').first().clear().type("G školenie AAA")
 cy.get('[type="submit"]').click();
-cy.get('tbody').contains('Neprevzaté').parent().parent().contains('CY testovanie všetkých úloh').click().wait(2000)
+cy.get('tbody').contains('Neprevzaté').parent().parent().contains('G školenie AAA').click().wait(2000)
 cy.wait(1000);
 cy.get(':nth-child(5) > .nav-link').click();
 cy.wait(1000);
@@ -112,7 +112,7 @@ cy.get('tbody').find('tr').contains('Sam').then(edit => {
     cy.wrap(value).should('eq', TrainingsSam) 
   });
   
-  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.GuarantorInternalMaterial"]').next().next().find('span').invoke('text').then((value) => {
+  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.GuarantorInternalMaterial"]').next().next().find('div').invoke('text').then((value) => {
     cy.wrap(value).should('eq', guarantorInternalMaterialSam) 
   })
   
