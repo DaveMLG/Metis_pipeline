@@ -21,9 +21,9 @@ cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-chil
 cy.get('@nastavenia').click();
 cy.get('[href="/admin/elearning/training"]').click();
 cy.wait(3000)
-cy.get('[type = "text"]').first().clear().type("CY testovanie všetkých úloh");
+cy.get('[type = "text"]').first().clear().type("G školenie AAA");
 cy.get('[type="submit"]').click();
-cy.contains('CY testovanie všetkých úloh').click();
+cy.contains('G školenie AAA').click();
 cy.wait(1000);
 cy.get(':nth-child(5) > .nav-link').click();
 cy.wait(1000);
@@ -915,7 +915,7 @@ cy.get('[onclick="history.back()"]').first().click().wait(1000)
 
 ////Preklad
 cy.get('tbody').find('tr').contains('Pre').parents('tr').nextAll().contains('Pre').then(edit => {
-cy.wrap(edit).parent().parent().parent().contains('Editovať').click()
+cy.wrap(edit).parent().parent().parent().contains('Editovať').click({force: true})
 
 cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.ExerciseOrder"]').next('span').invoke('text').then((value) => {
   DataValues.push({taskOrder: value})
@@ -1026,7 +1026,7 @@ cy.contains('Nízka').parentsUntil('.row').find('[class="custom-control-input ra
 
   ////Anketa
   cy.get('tbody').find('tr').contains('Ank').then(edit => {
-    cy.wrap(edit).parent().parent().parent().contains('Editovať').click();
+    cy.wrap(edit).parent().parent().parent().contains('Editovať').click({force: true});
 
       cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.ExerciseOrder"]').next('span').invoke('text').then((value) => {
         DataValues.push({taskOrder: value})

@@ -11,12 +11,12 @@
   ],
   "student1 - uloha 1": [
     {
-      "percentoVypracovaniaUlohy": 45,
+      "percentoVypracovaniaUlohy": 14,
       "buttonClass": "red-bck",
       "pocetXpBodov": 6000,
       "narocnost": 1,
       "menovatel": 6000,
-      "citatel": 2700
+      "citatel": 840
     }
   ],
   "student1 - uloha 2": [
@@ -61,12 +61,12 @@
   ],
   "student1 - uloha 6": [
     {
-      "percentoVypracovaniaUlohy": 12.5,
+      "percentoVypracovaniaUlohy": 0,
       "buttonClass": "red-bck",
       "pocetXpBodov": 6000,
       "narocnost": 1,
       "menovatel": 6000,
-      "citatel": 750
+      "citatel": 0
     }
   ]
 }

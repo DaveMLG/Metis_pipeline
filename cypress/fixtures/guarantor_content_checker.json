@@ -1,574 +1,117 @@
 {
-  "Values": [
+  "Samostudium": [
     {
-      "summaryValues": " 20 "
+      "taskOrder": "1.1.1"
     },
     {
-      "summaryValues": " 1 "
+      "useLessonName": "no"
     },
     {
-      "summaryValues": " 1 "
+      "language": "sk"
     },
     {
-      "summaryValues": " 105000 "
+      "LengthInTime": "0:30"
     },
     {
-      "summaryValues": " 10:00 "
+      "EstimateTimeForEvaluationInTime": "0:00"
     },
     {
-      "summaryValues": " 2:00 "
+      "ExperiencePoints": "3000"
     },
     {
-      "summaryValues": " 0:00 "
+      "difficulty": "100"
     },
     {
-      "summaryValues": " 0:00  0:00  0:00  0:00  0:00  0:00  0:00  0:00 "
+      "IsTimeLimitedTask": "no"
     },
     {
-      "summaryValues": " 0:00  0:00  0:00  0:00  0:00  0:00  0:00  0:00 "
+      "NotMandatory": "no"
     },
     {
-      "summaryValues": " 0:00  0:00  0:00  0:00  0:00  0:00  0:00  0:00 "
+      "GuarantorId": "cy go"
     },
     {
-      "genericVals": "Sam"
+      "Guarantors": "cy go"
     },
     {
-      "genericVals": "1"
+      "ContentAssistants": "cy nah"
     },
     {
-      "genericVals": "1"
+      "Trainings": "G školenie AAA"
     },
     {
-      "genericVals": "1"
+      "guarantorInternalMaterial": "Inštrukcie pre garantaInštrukcie pre garanta"
     },
     {
-      "genericVals": "1"
+      "lecturerInstruction": "Inštrukcie pre moderátora"
     },
     {
-      "genericVals": "3000"
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
     },
     {
-      "genericVals": " 10:00/2:00/0:00 "
+      "studentInstruction": ""
     },
     {
-      "genericVals": "Vid"
+      "Description": "Popis ulohy"
     },
     {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Aut"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Web"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "2"
-    },
-    {
-      "genericVals": "4500"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Otv"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "6000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Zad"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "6000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Pro"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "6000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Dop"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "6000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Pár"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "6000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Pre"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "6000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Pre"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "6000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Ank"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "6000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Spä"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "6000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Oso"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "6000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Dis"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "6000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Che"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "6000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "IQ "
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "3"
-    },
-    {
-      "genericVals": "6000"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Spo"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": "4500"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Pot"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": "4500"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "genericVals": "Cvi"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "1"
-    },
-    {
-      "genericVals": "4"
-    },
-    {
-      "genericVals": "4500"
-    },
-    {
-      "genericVals": " 10:00/2:00/0:00 "
-    },
-    {
-      "orderCount": "1"
-    },
-    {
-      "orderCount": "2"
-    },
-    {
-      "orderCount": "3"
-    },
-    {
-      "orderCount": "1"
-    },
-    {
-      "orderCount": "1"
-    },
-    {
-      "orderCount": "2"
-    },
-    {
-      "orderCount": "3"
-    },
-    {
-      "orderCount": "4"
-    },
-    {
-      "orderCount": "5"
-    },
-    {
-      "orderCount": "6"
-    },
-    {
-      "orderCount": "7"
-    },
-    {
-      "orderCount": "8"
-    },
-    {
-      "orderCount": "9"
-    },
-    {
-      "orderCount": "10"
-    },
-    {
-      "orderCount": "11"
-    },
-    {
-      "orderCount": "12"
-    },
-    {
-      "orderCount": "13"
-    },
-    {
-      "orderCount": "1"
-    },
-    {
-      "orderCount": "2"
-    },
-    {
-      "orderCount": "3"
-    },
-    {
-      "selectVals": "Nízka"
-    },
-    {
-      "selectVals": "Nízka"
-    },
+      "Content": "cypress telo ulohy"
+    }
+  ],
+  "AutoTest": [
     {
-      "selectVals": "Nízka"
+      "taskOrder": "1.1.3"
     },
     {
-      "selectVals": "Nízka"
+      "useLessonName": "no"
     },
     {
-      "selectVals": "Nízka"
+      "language": "sk"
     },
     {
-      "selectVals": "Nízka"
+      "LengthInTime": "0:30"
     },
     {
-      "selectVals": "Nízka"
+      "EstimateTimeForEvaluationInTime": "0:00"
     },
     {
-      "selectVals": "Nízka"
+      "ExperiencePoints": "3000"
     },
     {
-      "selectVals": "Nízka"
+      "difficulty": "100"
     },
     {
-      "selectVals": "Nízka"
+      "IsTimeLimitedTask": "yes"
     },
     {
-      "selectVals": "Nízka"
+      "NotMandatory": "no"
     },
     {
-      "selectVals": "Nízka"
+      "GuarantorId": "cy go"
     },
     {
-      "selectVals": "Nízka"
+      "Guarantors": "cy go"
     },
     {
-      "selectVals": "Nízka"
+      "ContentAssistants": "cy nah"
     },
     {
-      "selectVals": "Nízka"
+      "Trainings": "G školenie AAA"
     },
     {
-      "selectVals": "Nízka"
+      "lecturerInstruction": "Inštrukcie pre moderátora"
     },
     {
-      "selectVals": "Nízka"
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
     },
     {
-      "selectVals": "Nízka"
+      "studentInstruction": ""
     },
     {
-      "selectVals": "Nízka"
+      "Description": "Popis ulohy"
     },
     {
-      "selectVals": "Nízka"
+      "Content": "*Ktoré z nasledujúcich zariadení je prvým počítacím zariadením?\n+Abacus\n-Kalkulačka\n-Turingov stroj\n-Pascalín\n\n*Ktoré z nasledujúcich zariadení je najnovšie?\n-Abacus\n+Kalkulačka\n-Turingov stroj\n-Pascalín\n\n*Ktoré z nižšie uvedených čísel je najmenšie?\n+3,14\n-22/7\n-π -Žiadna z uvedených možností nie je správna\n\n"
     }
   ]
 }

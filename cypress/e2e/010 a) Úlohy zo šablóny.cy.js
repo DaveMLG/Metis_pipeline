@@ -5,7 +5,7 @@ describe('Product owner', function () {
         cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
         cy.get('[type="submit"]').should('be.visible');
         cy.get('[type="submit"]').should('be.visible');
-        cy.get('[name="userName"]').type('cy.svo');
+        cy.get('[name="userName"]').type('cy.vo');
         cy.get('[name="password"]').type('ML_heslo1');
         cy.get('[type="submit"]').click();
     });
@@ -20,7 +20,7 @@ describe('Product owner', function () {
         cy.get('@nastavenia').click();
         cy.get('[href="/admin/elearning/lesson-template"]').click();
         cy.wait(3000);
-        cy.get('[placeholder="Kľúčové slovo"]').type('Šablóna na pretestovanie úloh');
+        cy.get('[placeholder="Kľúčové slovo"]').type('G školenie AAA').wait(1000)
         cy.get('[type="submit"]').first().click();
         cy.get('tbody').find('a').first().click();
 
@@ -226,12 +226,12 @@ describe('Product owner', function () {
                 cy.get('@nastavenia').click();
                 cy.get('[href="/admin/elearning/training"]').click();
                 cy.wait(3000);
-                cy.get('[placeholder="Kľúčové slovo"]').type('PO CY');
-                cy.get('[type="submit"]').first().click().wait(2000);
+                cy.get('[placeholder="Kľúčové slovo"]').type('G školenie AAA');
+                cy.get('[type="submit"]').first().click().wait(5000);
                 cy.get('tbody').find('a').first().click().wait(2000);
                 cy.get(':nth-child(5) > .nav-link').click().wait(2000);
                 cy.get('[type="radio"]').first().check({force: true})
-                cy.get('[name="selectLessonTemplate"]').select('Šablóna na pretestovanie úloh')
+                cy.get('[name="selectLessonTemplate"]').select('vsetky typy uloh (moja šablóna)').wait(3000)
                 cy.get('[name="selectTheme"]').select(1)
                 cy.get('[name="selectLesson"]').select(1)
 
