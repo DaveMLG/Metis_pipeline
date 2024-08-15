@@ -11,12 +11,12 @@
   ],
   "student1 - uloha 1": [
     {
-      "percentoVypracovaniaUlohy": 52,
-      "buttonClass": "orange-bck",
+      "percentoVypracovaniaUlohy": 45,
+      "buttonClass": "red-bck",
       "pocetXpBodov": 6000,
       "narocnost": 1,
       "menovatel": 6000,
-      "citatel": 3120
+      "citatel": 2700
     }
   ],
   "student1 - uloha 2": [

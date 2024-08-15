@@ -774,7 +774,7 @@ describe('Student', function() {
     }) 
   
 
-    it.only('Zoradenie úloh podľa kritéria Hodnotenie', function() {
+    it('Zoradenie úloh podľa kritéria Hodnotenie', function() {
       
         cy.wait(1000)
   
@@ -847,19 +847,20 @@ describe('Student', function() {
             });
   
             function kontrolaAbs() {
-            // Skontroluje tlacidla absolvovat
-            cy.wait(1000).then(() => {
-              cy.get('.btn-hover:not(:contains("Nezúčastniť sa")):not(:contains("Absolvovať znova"))').then((value) => {
-                for (let x = orderVal; x < submitBox; x++) {
-                  cy.wrap(value[x]).should('have.class', 'btn-info').then(()=>{ orderVal += 1;})
-                }
+              cy.wait(1000).then(() => {
+                  cy.get('.btn-hover:not(:contains("Hľadať")):not(:contains("Odoslať")):not(:contains("Zavrieť")):not(:contains("Absolvovať znova")):not(:contains("Výsledky"))').then((value) => {
+                    for (let x = orderVal; x < submitBox; x++) {
+                      cy.wrap(value[x]).should('have.class', 'btn-info').then(() => {
+                          orderVal += 1;
+                      });
+                  }
               });
-            })
-          }
+          });
+      }
             function kontrolaRed() {
             // Skontroluje tlacidla red button
             cy.wait(1000).then(() => {
-              cy.get('.btn-hover:not(:contains("Nezúčastniť sa")):not(:contains("Absolvovať znova"))').then((value) => {
+              cy.get('.btn-hover:not(:contains("Hľadať")):not(:contains("Odoslať")):not(:contains("Zavrieť")):not(:contains("Absolvovať znova"))').then((value) => {
                 for (let x = orderVal; x < submitBox + redBox; x++) {
                   cy.wrap(value[x]).should('have.class', 'red-bck').then(()=>{ orderVal += 1;})
                 }
@@ -869,7 +870,7 @@ describe('Student', function() {
             function kontrolaOrange() {
             // Skontroluje tlacidla yellow button
             cy.wait(1000).then(() => {
-              cy.get('.btn-hover:not(:contains("Nezúčastniť sa")):not(:contains("Absolvovať znova"))').then((value) => {
+              cy.get('.btn-hover:not(:contains("Hľadať")):not(:contains("Odoslať")):not(:contains("Zavrieť")):not(:contains("Absolvovať znova"))').then((value) => {
                 for (let x = orderVal; x < submitBox + redBox + orangeBox; x++) {
                   cy.wrap(value[x]).should('have.class', 'orange-bck').then(()=>{ orderVal += 1;})
                 }
@@ -879,7 +880,7 @@ describe('Student', function() {
             function kontrolaGreen() {
             // Skontroluje tlacidla green button
             cy.wait(1000).then(() => {
-              cy.get('.btn-hover:not(:contains("Nezúčastniť sa")):not(:contains("Absolvovať znova"))').then((value) => {
+              cy.get('.btn-hover:not(:contains("Hľadať")):not(:contains("Odoslať")):not(:contains("Zavrieť")):not(:contains("Absolvovať znova"))').then((value) => {
                 for (let x = orderVal; x < submitBox + redBox + orangeBox + greenBox; x++) {
                   cy.wrap(value[x]).should('have.class', 'green-bck').then(()=>{ orderVal += 1;})
                 }
@@ -1048,7 +1049,7 @@ describe('Student', function() {
         function kontrolaAbs() {
         // Skontroluje tlacidla absolvovat
         cy.wait(1000).then(() => {
-          cy.get('.btn-hover:not(:contains("Nezúčastniť sa")):not(:contains("Absolvovať znova"))').then((value) => {
+          cy.get('.btn-hover:not(:contains("Hľadať")):not(:contains("Odoslať")):not(:contains("Zavrieť")):not(:contains("Absolvovať znova"))').then((value) => {
             for (let x = orderVal; x < greenBox + orangeBox + redBox + submitBox; x++) {
               cy.wrap(value[x]).should('have.class', 'btn-info').then(()=>{ orderVal += 1;})
             }
@@ -1058,7 +1059,7 @@ describe('Student', function() {
         function kontrolaRed() {
         // Skontroluje tlacidla red button
         cy.wait(1000).then(() => {
-          cy.get('.btn-hover:not(:contains("Nezúčastniť sa")):not(:contains("Absolvovať znova"))').then((value) => {
+          cy.get('.btn-hover:not(:contains("Hľadať")):not(:contains("Odoslať")):not(:contains("Zavrieť")):not(:contains("Absolvovať znova"))').then((value) => {
             for (let x = orderVal; x < greenBox + orangeBox + redBox; x++) {
               cy.wrap(value[x]).should('have.class', 'red-bck').then(()=>{ orderVal += 1;})
             }
@@ -1068,7 +1069,7 @@ describe('Student', function() {
         function kontrolaOrange() {
         // Skontroluje tlacidla yellow button
         cy.wait(1000).then(() => {
-          cy.get('.btn-hover:not(:contains("Nezúčastniť sa")):not(:contains("Absolvovať znova"))').then((value) => {
+          cy.get('.btn-hover:not(:contains("Hľadať")):not(:contains("Odoslať")):not(:contains("Zavrieť")):not(:contains("Absolvovať znova"))').then((value) => {
             for (let x = orderVal; x < greenBox + orangeBox; x++) {
               cy.wrap(value[x]).should('have.class', 'orange-bck').then(()=>{ orderVal += 1;})
             }
@@ -1078,7 +1079,7 @@ describe('Student', function() {
         function kontrolaGreen() {
         // Skontroluje tlacidla green button
         cy.wait(1000).then(() => {
-          cy.get('.btn-hover:not(:contains("Nezúčastniť sa")):not(:contains("Absolvovať znova"))').then((value) => {
+          cy.get('.btn-hover:not(:contains("Hľadať")):not(:contains("Odoslať")):not(:contains("Zavrieť")):not(:contains("Absolvovať znova"))').then((value) => {
             for (let x = orderVal; x < greenBox; x++) {
               cy.wrap(value[x]).should('have.class', 'green-bck').then(()=>{ orderVal += 1;})
             }
