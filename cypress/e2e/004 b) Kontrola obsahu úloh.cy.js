@@ -112,7 +112,7 @@ cy.get('tbody').find('tr').contains('Sam').then(edit => {
     cy.wrap(value).should('eq', TrainingsSam) 
   });
   
-  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.GuarantorInternalMaterial"]').next().next().find('div').invoke('text').then((value) => {
+  cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.GuarantorInternalMaterial"]').next().next().find('span').invoke('text').then((value) => {
     cy.wrap(value).should('eq', guarantorInternalMaterialSam) 
   })
   
@@ -262,7 +262,6 @@ const ContentAT = jsonData.AutoTest.find(obj => obj.Content)?.Content;
     
     cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.ExerciseEditViewModel.Description"]').prev('div').invoke('text').then((value) => {
       cy.wrap(value).should('eq', DescriptionAT) 
-      console.log(DescriptionAT)
     });
     
     cy.get('[name="TestQuestionsText"]').invoke('val').then((value) => {

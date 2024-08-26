@@ -43,7 +43,7 @@
       "guarantorInternalMaterial": "Inštrukcie pre garantaInštrukcie pre garanta"
     },
     {
-      "lecturerInstruction": "Inštrukcie pre moderátora"
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
     },
     {
       "lecturerInternalMaterial": "Interný materiál pre moderátora"
@@ -99,7 +99,7 @@
       "Trainings": "G školenie AAA"
     },
     {
-      "lecturerInstruction": "Inštrukcie pre moderátora"
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
     },
     {
       "lecturerInternalMaterial": "Interný materiál pre moderátora"
@@ -112,6 +112,1510 @@
     },
     {
       "Content": "*Ktoré z nasledujúcich zariadení je prvým počítacím zariadením?\n+Abacus\n-Kalkulačka\n-Turingov stroj\n-Pascalín\n\n*Ktoré z nasledujúcich zariadení je najnovšie?\n-Abacus\n+Kalkulačka\n-Turingov stroj\n-Pascalín\n\n*Ktoré z nižšie uvedených čísel je najmenšie?\n+3,14\n-22/7\n-π -Žiadna z uvedených možností nie je správna\n\n"
+    }
+  ],
+  "Videosamostudium": [
+    {
+      "taskOrder": "1.1.2"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "3000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "guarantorInternalMaterial": "Inštrukcie pre garantaInštrukcie pre garanta"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "Content": "cypress telo ulohy"
+    }
+  ],
+  "Webinar": [
+    {
+      "taskOrder": "1.2.1"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:30"
+    },
+    {
+      "ExperiencePoints": "4500"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "Content": "cypress telo ulohy"
+    }
+  ],
+  "Doplnovacka": [
+    {
+      "taskOrder": "1.3.4"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "yes"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "Content": "V škatuľke vám @@@dobra odpoved,zostala/zla odpoved@@@ posledná zápalka a potrebujete čo najrýchlejšie urobiť @@@vatru@@@ . Čo zapálite ako prvé, ak máte k dispozícii: lieh, benzín, noviny, sviečku, koks, čierne uhlie, triesky a kus vaty?                   Ako prvé zapálim @@@zápalku/koks/triesky@@@, ako druhé zapálim @@@sviečku@@@, ako tretie zapálim @@@noviny@@@ a ako štvrté zapálim @@@triesky/kus vaty/benzín@@@"
+    }
+  ],
+  "Parovacka": [
+    {
+      "taskOrder": "1.3.5"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "yes"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "questCount": "3"
+    },
+    {
+      "questSum": " 3 "
+    },
+    {
+      "questVals": "Auto"
+    },
+    {
+      "questVals": "Motor"
+    },
+    {
+      "questVals": "Krajina"
+    },
+    {
+      "questVals": "Mesto"
+    },
+    {
+      "questVals": "ahoj"
+    },
+    {
+      "questVals": "hello"
+    }
+  ],
+  "SpolPracaLektor": [
+    {
+      "taskOrder": "1.4.1"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "4500"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "assignmentDevelopmentProcedure": ""
+    },
+    {
+      "correctorInstruction": ""
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "Assignment": "cypress telo ulohy"
+    },
+    {
+      "SampleSolution": ""
+    },
+    {
+      "FileUploadIsMandatory": "no"
+    },
+    {
+      "AnswerIsMandatory": "no"
+    },
+    {
+      "IsExerciseTestAllowed": "no"
+    }
+  ],
+  "PrefTest": [
+    {
+      "taskOrder": "1.3.6"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "Content": "*Ako tráviš volný čas?\n+sedím pred TV\n+športujem\n+vzdelávam sa\n+hrá hry na PC\n\n"
+    },
+    {
+      "AnswerIsPre": "no"
+    }
+  ],
+  "Preklad": [
+    {
+      "taskOrder": "1.3.7"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "yes"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "questCount": "8"
+    },
+    {
+      "questSum": " 8 "
+    },
+    {
+      "questVals": "ja"
+    },
+    {
+      "questVals": "I"
+    },
+    {
+      "questVals": "ty"
+    },
+    {
+      "questVals": "you"
+    },
+    {
+      "questVals": "on"
+    },
+    {
+      "questVals": "he"
+    },
+    {
+      "questVals": "ona"
+    },
+    {
+      "questVals": "she"
+    },
+    {
+      "questVals": "ono"
+    },
+    {
+      "questVals": "it"
+    },
+    {
+      "questVals": "my"
+    },
+    {
+      "questVals": "we"
+    },
+    {
+      "questVals": "vy"
+    },
+    {
+      "questVals": "you"
+    },
+    {
+      "questVals": "ahoj"
+    },
+    {
+      "questVals": "hello"
+    }
+  ],
+  "Anketa": [
+    {
+      "taskOrder": "1.3.8"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "Content": "*Ako tráviš volný čas?\n+sedím pred TV\n+športujem\n+vzdelávam sa\n+hrá hry na PC\n\n*Keď sa dostanem do nového kolektívu\n+ticho počúvam\n+zapájam sa do rozhovorov\n+tvárim sa, že tam nie som\n+potrebujem na seba upútať pozornosť\n\n"
+    }
+  ],
+  "SpatVazba": [
+    {
+      "taskOrder": "1.3.9"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "Content": ""
+    },
+    {
+      "IsShufflingTaskEnabled": "no"
+    }
+  ],
+  "OsobTest": [
+    {
+      "taskOrder": "1.3.10"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "characteristicForm": "IT"
+    },
+    {
+      "characteristicForm": "nonIT/IT"
+    },
+    {
+      "characteristicForm": "nonIT"
+    },
+    {
+      "characteristicForm": "IT/FED"
+    },
+    {
+      "characteristicForm": "IT/Java"
+    },
+    {
+      "characteristicForm": "IT/Tester"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 1"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 2"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 3"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 4"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 5"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 1"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 2"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 3"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 4"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 5"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 1"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 2"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 3"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 4"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 5"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 1"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 2"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 3"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 4"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 5"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 1"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 2"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 3"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 4"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 5"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 1"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 2"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 3"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 4"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 5"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 1"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 2"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 3"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 4"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 5"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 1"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 2"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 3"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 4"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 5"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 1"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 2"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 3"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 4"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 5"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 1"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 2"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 3"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 4"
+    },
+    {
+      "characteristicFormQnA": "Odpoveď 5"
+    },
+    {
+      "personalityTestFormSel": "1: IT"
+    },
+    {
+      "personalityTestFormSel": "1: IT"
+    },
+    {
+      "personalityTestFormSel": "2: nonIT/IT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "4: IT/FED"
+    },
+    {
+      "personalityTestFormSel": "4: IT/FED"
+    },
+    {
+      "personalityTestFormSel": "1: IT"
+    },
+    {
+      "personalityTestFormSel": "5: IT/Java"
+    },
+    {
+      "personalityTestFormSel": "5: IT/Java"
+    },
+    {
+      "personalityTestFormSel": "5: IT/Java"
+    },
+    {
+      "personalityTestFormSel": "5: IT/Java"
+    },
+    {
+      "personalityTestFormSel": "2: nonIT/IT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "5: IT/Java"
+    },
+    {
+      "personalityTestFormSel": "5: IT/Java"
+    },
+    {
+      "personalityTestFormSel": "2: nonIT/IT"
+    },
+    {
+      "personalityTestFormSel": "6: IT/Tester"
+    },
+    {
+      "personalityTestFormSel": "6: IT/Tester"
+    },
+    {
+      "personalityTestFormSel": "4: IT/FED"
+    },
+    {
+      "personalityTestFormSel": "4: IT/FED"
+    },
+    {
+      "personalityTestFormSel": "2: nonIT/IT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "1: IT"
+    },
+    {
+      "personalityTestFormSel": "1: IT"
+    },
+    {
+      "personalityTestFormSel": "2: nonIT/IT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "1: IT"
+    },
+    {
+      "personalityTestFormSel": "1: IT"
+    },
+    {
+      "personalityTestFormSel": "2: nonIT/IT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "5: IT/Java"
+    },
+    {
+      "personalityTestFormSel": "5: IT/Java"
+    },
+    {
+      "personalityTestFormSel": "2: nonIT/IT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "5: IT/Java"
+    },
+    {
+      "personalityTestFormSel": "5: IT/Java"
+    },
+    {
+      "personalityTestFormSel": "2: nonIT/IT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "3: nonIT"
+    },
+    {
+      "personalityTestFormSel": "4: IT/FED"
+    },
+    {
+      "personalityTestFormSel": "4: IT/FED"
+    },
+    {
+      "personalityTestFormSel": "1: IT"
+    },
+    {
+      "personalityTestFormSel": "5: IT/Java"
+    },
+    {
+      "personalityTestFormSel": "5: IT/Java"
+    }
+  ],
+  "OtvTest": [
+    {
+      "taskOrder": "1.3.1"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "Content": "*Mesto je ku krajine tak, ako je motor k autu. Vysvetlite tento vzťah.\n\n*Tehla váži kilo a pol tehly. Koľko teda váži jedna tehla? Napíšte rovnicu pre výpočet výsledku.\n\n*V škatuľke vám zostáva posledná zápalka a potrebujete čo najrýchlejšie urobiť vatru. Čo zapálite ako prvé, ak máte k dispozícii: lieh, benzín, noviny, sviečku, koks, čierne uhlie, triesky a kus vaty?\n\n*Mesto je ku krajine tak, ako je motor k autu. Vysvetlite tento vzťah.\n\n*Tehla váži kilo a pol tehly. Koľko teda váži jedna tehla? Napíšte rovnicu pre výpočet výsledku.\n\n*V škatuľke vám zostáva posledná zápalka a potrebujete čo najrýchlejšie urobiť vatru. Čo zapálite ako prvé, ak máte k dispozícii: lieh, benzín, noviny, sviečku, koks, čierne uhlie, triesky a kus vaty? \nZdôvodnite svoju odpoveď.\n\n"
+    }
+  ],
+  "Zadanie": [
+    {
+      "taskOrder": "1.3.2"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "correctorInstruction": ""
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "Assignment": "cypress telo ulohy"
+    },
+    {
+      "SampleSolution": ""
+    },
+    {
+      "FileUploadIsMandatory": "no"
+    },
+    {
+      "AnswerIsMandatory": "no"
+    },
+    {
+      "IsExerciseTestAllowed": "no"
+    }
+  ],
+  "PotvrdenieAbsolvovania": [
+    {
+      "taskOrder": "1.4.2"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "4500"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "Content": "cypress telo ulohy"
+    }
+  ],
+  "Diskusia": [
+    {
+      "taskOrder": "1.3.11"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "Content": "cypress telo ulohy"
+    }
+  ],
+  "Cvicenie": [
+    {
+      "taskOrder": "1.4.3"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "1:30"
+    },
+    {
+      "ExperiencePoints": "4500"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "Content": "cypress telo ulohy"
+    }
+  ],
+  "Checklist": [
+    {
+      "taskOrder": "1.3.12"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "Content": "*Toto je otázka na ktorú sú tri odpovede\n+Toto je prvá odpoveď\n+Toto je druhá odpoveď\n+Toto je tretia odpoveď\n\n"
+    }
+  ],
+  "IQtest": [
+    {
+      "taskOrder": "1.3.13"
+    },
+    {
+      "useLessonName": "no"
+    },
+    {
+      "language": "sk"
+    },
+    {
+      "LengthInTime": "0:30"
+    },
+    {
+      "EstimateTimeForEvaluationInTime": "0:00"
+    },
+    {
+      "ExperiencePoints": "6000"
+    },
+    {
+      "difficulty": "100"
+    },
+    {
+      "IsTimeLimitedTask": "no"
+    },
+    {
+      "NotMandatory": "no"
+    },
+    {
+      "GuarantorId": "cy go"
+    },
+    {
+      "Guarantors": "cy go"
+    },
+    {
+      "ContentAssistants": "cy nah"
+    },
+    {
+      "Trainings": "G školenie AAA"
+    },
+    {
+      "lecturerInstruction": "Inštrukcia pre lektora (globálna)"
+    },
+    {
+      "lecturerInternalMaterial": "Interný materiál pre moderátora"
+    },
+    {
+      "studentInstruction": ""
+    },
+    {
+      "Description": "Popis ulohy"
+    },
+    {
+      "characteristicForm": "Logické myslenie"
+    },
+    {
+      "characteristicForm": "Analytické myslenie"
+    },
+    {
+      "characteristicForm": "Syntetické myslenie"
+    },
+    {
+      "characteristicForm": "Priestorové myslenie"
+    },
+    {
+      "characteristicForm": "Rýchlosť"
+    },
+    {
+      "characteristicForm": "Cypress"
+    },
+    {
+      "characteristicForm": "Logické myslenie"
+    },
+    {
+      "characteristicForm": "0"
+    },
+    {
+      "characteristicForm": "Analytické myslenie"
+    },
+    {
+      "characteristicForm": "0"
+    },
+    {
+      "characteristicForm": "Syntetické myslenie"
+    },
+    {
+      "characteristicForm": "0"
+    },
+    {
+      "characteristicForm": "Priestorové myslenie"
+    },
+    {
+      "characteristicForm": "0"
+    },
+    {
+      "characteristicForm": "Rýchlosť"
+    },
+    {
+      "characteristicForm": "0"
+    },
+    {
+      "characteristicForm": "Cypress"
+    },
+    {
+      "characteristicForm": "100"
+    },
+    {
+      "characteristicForm": "Odpoved1"
+    },
+    {
+      "characteristicForm": "Odpoved2"
+    },
+    {
+      "characteristicFormA": "Logické myslenie"
+    },
+    {
+      "characteristicFormA": "Analytické myslenie"
+    },
+    {
+      "characteristicFormA": "Syntetické myslenie"
+    },
+    {
+      "characteristicFormA": "Priestorové myslenie"
+    },
+    {
+      "characteristicFormA": "Rýchlosť"
+    },
+    {
+      "characteristicFormA": "Cypress"
+    },
+    {
+      "characteristicFormA": "Logické myslenie"
+    },
+    {
+      "characteristicFormA": "0"
+    },
+    {
+      "characteristicFormA": "Analytické myslenie"
+    },
+    {
+      "characteristicFormA": "0"
+    },
+    {
+      "characteristicFormA": "Syntetické myslenie"
+    },
+    {
+      "characteristicFormA": "0"
+    },
+    {
+      "characteristicFormA": "Priestorové myslenie"
+    },
+    {
+      "characteristicFormA": "0"
+    },
+    {
+      "characteristicFormA": "Rýchlosť"
+    },
+    {
+      "characteristicFormA": "0"
+    },
+    {
+      "characteristicFormA": "Cypress"
+    },
+    {
+      "characteristicFormA": "100"
+    },
+    {
+      "characteristicFormA": "Odpoved1"
+    },
+    {
+      "characteristicFormA": "Odpoved2"
+    },
+    {
+      "personalityTestFormSel": "true"
+    },
+    {
+      "personalityTestFormSel": "false"
     }
   ]
 }
