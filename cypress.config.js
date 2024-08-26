@@ -1,7 +1,7 @@
 module.exports = {
   e2e: {
     baseUrl: "https://dev.metis.academy/admin",
-    projectId: "r5bg3g",
+    projectId: "vy2679",
     include: ["node_modules/cypress", "./cypress/**/*.js"],
     downloadsFolder: "/MR_CY_test/cypress/downloads",
     //retries: 2,
