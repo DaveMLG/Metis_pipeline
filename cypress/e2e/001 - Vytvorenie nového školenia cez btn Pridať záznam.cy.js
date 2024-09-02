@@ -1,8 +1,29 @@
+const websiteUrl = Cypress.env('websiteUrl')
+      const login = Cypress.env('loginGO')
+      const password = Cypress.env('password')
+
+      const vo = Cypress.env('vocy')
+      const avo = Cypress.env('avocy')
+      const go = Cypress.env('gocy')
+      const nah = Cypress.env('nahcy')
+      const l = Cypress.env('lcy')
+      const avs = Cypress.env('avcy')
+      const et = Cypress.env('etcy')
+      const co = Cypress.env('cocy')
+      const k = Cypress.env('kcy')
+      const aa = Cypress.env('acy')
+
 describe('Garant obsahu', function() {
     beforeEach(() => {
-      cy.loginAdmin('cy.go', 'ML_heslo1');
       cy.viewport(1920, 937)
-      cy.visit('https://dev.metis.academy/admin')
+      cy.visit(websiteUrl);
+      cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
+      cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
+      cy.get('[type="submit"]').should('be.visible');
+      cy.get('[type="submit"]').should('be.visible');
+      cy.get('[name="userName"]').type(login);
+      cy.get('[name="password"]').type(password);
+      cy.get('[type="submit"]').click();
 
       })
 
@@ -43,7 +64,7 @@ describe('Garant obsahu', function() {
         cy.wait(1000)
         cy.get('.checkmark__circle').should('be.visible') 
         cy.get('[type="submit"]').click()
-        cy.get('[name = "selectedProductOwner"]').select('vo, cy').next().click()
+        cy.get('[name = "selectedProductOwner"]').select(vo).next().click()
 
         cy.get('[type="submit"]').click()
         cy.get('.toast').contains('Školenie s týmto názvom už existuje!').should('be.visible')    
