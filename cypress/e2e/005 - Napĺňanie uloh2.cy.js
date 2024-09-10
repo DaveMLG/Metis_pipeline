@@ -1,5 +1,4 @@
 //FUNKCIE A PREMENNE (koniec line 90)
-
 function clickOnTextInTableCell(textToFind) {
     cy.get('td').filter((index, element) => {
       return Cypress.$(element).text().trim() === textToFind;
@@ -107,9 +106,9 @@ function clickOnTextInTableCell(textToFind) {
   
   describe('Garant obsahu', function() {
       beforeEach(() => {
-        cy.loginAdmin('cy.go', 'ML_heslo1');
+        cy.loginAdmin(Cypress.env('loginGO'), Cypress.env('password'));
         cy.viewport(1920, 937)
-        cy.visit('https://dev.metis.academy/admin')
+        cy.visit(Cypress.env('websiteUrl'))
 
           cy.get('.icon-menu-elearning').click()
           cy.get('[href="/admin/elearning/training"]').click()

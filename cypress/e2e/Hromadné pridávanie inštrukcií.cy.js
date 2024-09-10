@@ -1,12 +1,12 @@
 describe('Product owner', function() {
   beforeEach(() => {
-    cy.visit('https://dev.metis.academy/admin');
+    cy.visit(Cypress.env('websiteUrl'))
     cy.viewport(1920, 937);
     cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
     cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
     cy.get('[type="submit"]').should('be.visible');
-    cy.get('[name="userName"]').type('cy.go');
-    cy.get('[name="password"]').type('ML_heslo1');
+    cy.get('[name="userName"]').type(Cypress.env('loginGO'));
+    cy.get('[name="password"]').type(Cypress.env('password'));
     cy.get('[type="submit"]').click();
   });
 

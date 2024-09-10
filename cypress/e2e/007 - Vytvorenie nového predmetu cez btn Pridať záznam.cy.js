@@ -1,8 +1,8 @@
 describe('Product owner', function() {
     before(() => {
-      cy.loginAdmin('cy.vo', 'ML_heslo1');
+      cy.loginAdmin(Cypress.env('loginGO'), Cypress.env('password'));
       cy.viewport(1920, 937)
-      cy.visit('https://dev.metis.academy/admin')
+      cy.visit(Cypress.env('websiteUrl'))
 
     })
       it('Vytvorenie nového predmetu cez btn Pridať záznam', function() {

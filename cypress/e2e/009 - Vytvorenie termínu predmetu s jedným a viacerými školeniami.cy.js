@@ -1,12 +1,12 @@
 describe('Product owner', function () {
 
     beforeEach(() => {
-        cy.visit('https://dev.metis.academy/admin');
+        cy.visit(Cypress.env('websiteUrl'))
         cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
         cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
         cy.get('[type="submit"]').should('be.visible');
-        cy.get('[name="userName"]').type('cy.k');
-        cy.get('[name="password"]').type('ML_heslo1');
+        cy.get('[name="userName"]').typeCypress.env('loginK');
+        cy.get('[name="password"]').type(Cypress.env('password'));
         cy.get('[type="submit"]').click();
     });
 
@@ -74,10 +74,10 @@ describe('Product owner', function () {
 
         cy.get('[id="Capacity"]').clear().type(10);
 
-        cy.get('[name="selectedLecturer"]').select('l, cy').next().click();
-        cy.get('[name="selectedAdmin"]').select('av, cy').next().click();
-        cy.get('[name="selectedEditor"]').select('et, cy').next().click();
-        cy.get('[name="selectCorrector"]').select('co, cy').next().click();
+        cy.get('[name="selectedLecturer"]').select(Cypress.env('lcy')).next().click();
+        cy.get('[name="selectedAdmin"]').select(Cypress.env('avcy')).next().click();
+        cy.get('[name="selectedEditor"]').select(Cypress.env('etcy')).next().click();
+        cy.get('[name="selectCorrector"]').select(Cypress.env('cocy')).next().click();
 
         cy.get('[type="submit"]').first().click().wait(5000);
 

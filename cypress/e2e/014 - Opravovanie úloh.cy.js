@@ -1,10 +1,9 @@
 //const path = require("path");
-
 describe('Corrector', function() {
 
     beforeEach(() => {
     
-        cy.loginAdmin('cy.co', 'ML_heslo1');
+        cy.loginAdmin(Cypress.env('loginCO'), Cypress.env('password'));
         cy.viewport(1920, 937)
         cy.visit('https://dev.metis.academy/admin')
         

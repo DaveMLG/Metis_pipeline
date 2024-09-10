@@ -21,8 +21,8 @@ describe('Garant obsahu', function() {
       cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
       cy.get('[type="submit"]').should('be.visible');
       cy.get('[type="submit"]').should('be.visible');
-      cy.get('[name="userName"]').type(login);
-      cy.get('[name="password"]').type(password);
+      cy.get('[name="userName"]').type(Cypress.env('loginGO'));
+      cy.get('[name="password"]').type(Cypress.env('password'));
       cy.get('[type="submit"]').click();
 
       })
@@ -64,7 +64,7 @@ describe('Garant obsahu', function() {
         cy.wait(1000)
         cy.get('.checkmark__circle').should('be.visible') 
         cy.get('[type="submit"]').click()
-        cy.get('[name = "selectedProductOwner"]').select(vo).next().click()
+        cy.get('[name = "selectedProductOwner"]').select(Cypress.env('vocy')).next().click()
 
         cy.get('[type="submit"]').click()
         cy.get('.toast').contains('Školenie s týmto názvom už existuje!').should('be.visible')    

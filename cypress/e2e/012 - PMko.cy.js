@@ -1,8 +1,23 @@
+const websiteUrl = Cypress.env('websiteUrl')
+const login = Cypress.env('loginGO')
+const password = Cypress.env('password')
+
+const vo = Cypress.env('vocy')
+const avo = Cypress.env('avocy')
+const go = Cypress.env('gocy')
+const nah = Cypress.env('nahcy')
+const l = Cypress.env('lcy')
+const avs = Cypress.env('avcy')
+const et = Cypress.env('etcy')
+const co = Cypress.env('cocy')
+const k = Cypress.env('kcy')
+const aa = Cypress.env('acy')
+
 describe('Student', function() {
 let subjectUrlPortal;
 
     beforeEach(() => {
-      cy.loginStudent('cy.student1', 'ML_heslo1');
+      cy.loginStudent(Cypress.env('loginStudent1'), Cypress.env('password'));
       cy.viewport(1920, 937)
       cy.visit('https://dev.metis.academy/portal/welcome/subject?type=subject')
       cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()

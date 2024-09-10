@@ -2,13 +2,10 @@ describe('Student', function() {
 
     beforeEach(() => {
     
-    cy.loginStudent('cy.student1', 'ML_heslo1');
+    cy.loginStudent(Cypress.env('loginStudent1'), Cypress.env('password'));
     cy.viewport(1920, 937)
     cy.visit('https://dev.metis.academy/portal')
     cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
-
-
-    
     })
     
 
