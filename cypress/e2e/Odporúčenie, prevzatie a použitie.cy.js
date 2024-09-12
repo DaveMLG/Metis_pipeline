@@ -88,7 +88,7 @@ describe('Product owner', function () {
   })
 
   it('PO odporúčenie šablóny GO', function(){
-    cy.visit('https://dev.metis.academy/admin');
+    cy.visit(Cypress.env('websiteUrl'));
     cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
     cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
     cy.get('[type="submit"]').should('be.visible');
@@ -118,7 +118,7 @@ describe('Product owner', function () {
 
   it('GO prijatie šablóny a generovanie úloh', function(){
 
-    cy.visit('https://dev.metis.academy/admin');
+    cy.visit(Cypress.env('websiteUrl'));
     cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
     cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
     cy.get('[type="submit"]').should('be.visible');

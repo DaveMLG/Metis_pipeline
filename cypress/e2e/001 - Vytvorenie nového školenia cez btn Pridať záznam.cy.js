@@ -1,22 +1,23 @@
-const websiteUrl = Cypress.env('websiteUrl')
-      const login = Cypress.env('loginGO')
-      const password = Cypress.env('password')
+// const websiteUrl = Cypress.env('websiteUrl')
+//       const login = Cypress.env('loginGO')
+//       const password = Cypress.env('password')
 
-      const vo = Cypress.env('vocy')
-      const avo = Cypress.env('avocy')
-      const go = Cypress.env('gocy')
-      const nah = Cypress.env('nahcy')
-      const l = Cypress.env('lcy')
-      const avs = Cypress.env('avcy')
-      const et = Cypress.env('etcy')
-      const co = Cypress.env('cocy')
-      const k = Cypress.env('kcy')
-      const aa = Cypress.env('acy')
+//       const vo = Cypress.env('vocy')
+//       const avo = Cypress.env('avocy')
+//       const go = Cypress.env('gocy')
+//       const nah = Cypress.env('nahcy')
+//       const l = Cypress.env('lcy')
+//       const avs = Cypress.env('avcy')
+//       const et = Cypress.env('etcy')
+//       const co = Cypress.env('cocy')
+//       const k = Cypress.env('kcy')
+//       const aa = Cypress.env('acy')
+
 
 describe('Garant obsahu', function() {
     beforeEach(() => {
-      cy.viewport(1920, 937)
-      cy.visit(websiteUrl);
+    //  cy.viewport(1920, 937)
+      cy.visit(Cypress.env('websiteUrl'));
       cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
       cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
       cy.get('[type="submit"]').should('be.visible');

@@ -2,7 +2,7 @@ describe('Student', function() {
 
     before(() => {
     
-    cy.visit('https://dev.metis.academy/admin')
+      cy.visit(Cypress.env('websiteUrl'))
     cy.get('[class="btn btn-navigate btn-block"]').should('be.visible')
     cy.get('[class="btn btn-navigate btn-block"]').eq(1).click()
     cy.get('[type="submit"]').should('be.visible')

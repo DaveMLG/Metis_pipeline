@@ -618,7 +618,7 @@ describe('Student', function() {
         cy.wait(5000)
   
         //prihlasenie sa ako student
-        cy.visit('https://dev.metis.academy/portal')
+        cy.visit(Cypress.env('websiteUrlPortal'))
         cy.get('[name="userName"]').type('cy.student1')
         cy.get('[name="password"]').type('ML_heslo1')
         cy.get('[type="submit"]').click()
@@ -719,7 +719,7 @@ describe('Student', function() {
        cy.get('.dropdown-item:contains(" Odhlásenie ")').click()
  
        //prihlasenie sa ako student
-       cy.visit('https://dev.metis.academy/portal')
+       cy.visit(Cypress.env('websiteUrlPortal'))
               cy.get('[name="userName"]').type('cy.student1')
               cy.get('[name="password"]').type('ML_heslo1')
               cy.get('[type="submit"]').click()
@@ -818,7 +818,7 @@ describe('Student', function() {
        cy.get('.dropdown-item:contains(" Odhlásenie ")').click()
  
        //prihlasenie sa ako student
-       cy.visit('https://dev.metis.academy/portal')
+       cy.visit(Cypress.env('websiteUrlPortal'))
               cy.get('[name="userName"]').type('cy.student1')
               cy.get('[name="password"]').type('ML_heslo1')
               cy.get('[type="submit"]').click()
