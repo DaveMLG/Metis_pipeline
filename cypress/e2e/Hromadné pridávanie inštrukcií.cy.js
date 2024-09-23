@@ -1,7 +1,7 @@
 describe('Product owner', function() {
   beforeEach(() => {
     cy.visit(Cypress.env('websiteUrl'))
-    cy.viewport(1920, 937);
+    
     cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
     cy.get('[class="btn btn-navigate btn-block"]').eq(0).click();
     cy.get('[type="submit"]').should('be.visible');
@@ -78,7 +78,7 @@ describe('Product owner', function() {
       });
     }
 
-    cy.viewport(1920, 937);
+    
     cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
     cy.get('@nastavenia').click(); 
     cy.get('[href="/admin/elearning/training"]').click();

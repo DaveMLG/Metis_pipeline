@@ -8,7 +8,7 @@ describe('Product owner', function () {
       cy.get('[name="userName"]').type(Cypress.env('loginGO'));
       cy.get('[name="password"]').type(Cypress.env('password'));
       cy.get('[type="submit"]').click();
-      cy.viewport(1920, 937);
+      
   });
 
   it('Skopírovanie dát zo školenia, ktoré budeme hromadne manažovať + kontrola bez checkboxov', function () {

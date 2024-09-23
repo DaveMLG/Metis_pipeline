@@ -6,7 +6,7 @@ describe('Student', function() {
   
     beforeEach(() => {
         cy.loginStudent(Cypress.env('loginStudent1'), Cypress.env('password'));
-        cy.viewport(1920, 937)
+        
         cy.visit(Cypress.env('websiteUrl'))
         cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
 

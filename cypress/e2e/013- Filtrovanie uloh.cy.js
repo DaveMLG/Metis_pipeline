@@ -3,7 +3,7 @@ describe('Student', function() {
   beforeEach(() => {
   
   cy.loginStudent(Cypress.env('loginStudent1'), Cypress.env('password'));
-  cy.viewport(1920, 937)
+  
   cy.visit('https://dev.metis.academy/portal/welcome/subject?type=subject')
   cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
 
@@ -401,7 +401,7 @@ it('Filtrovanie úloh podľa filtra Dostupný od', function() {
 
 it('Filtrovanie úloh podľa filtra Načas', function() {
   
-  cy.viewport(1920, 937)
+  
   cy.wait(1000)
   cy.get('.icon').find('[title="Načas"]').click()
   

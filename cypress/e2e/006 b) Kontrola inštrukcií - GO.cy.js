@@ -18,7 +18,7 @@ describe('Product owner', function () {
         instructions.push(valuesArray[x].genericVals);
       }
       console.log(instructions)
-    cy.viewport(1920, 937);
+
     cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();

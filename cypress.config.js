@@ -1,9 +1,9 @@
 module.exports = {
-  viewportWidth: 1440,
-  viewportHeight: 1200,
+  viewportWidth: 1920,
+  viewportHeight: 1080,
   env: {
     websiteUrl:       'https://dev.metis.academy/admin',
-    websiteUrlPortal: Cypress.env('websiteUrlPortal'),
+    websiteUrlPortal: 'https://dev.metis.academy/portal',
     loginSK:       'cy.sk',
     loginAV:       'cy.av',
     loginET:       'cy.et',
@@ -21,7 +21,9 @@ module.exports = {
     loginAVO:      'cy.avo',
     loginNAH:      'cy.nah',
     loginStudent1: 'cy.student1',
+
     password:      'ML_heslo1',
+
     vocy:          'vo, cy',
     avocy:         'avp, cy',
     gocy:          'go, cy',

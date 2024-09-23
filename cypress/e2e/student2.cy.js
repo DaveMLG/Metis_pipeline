@@ -9,7 +9,7 @@ describe('Student', function() {
   
     beforeEach(() => {
         cy.loginStudent('cy.student3', 'ML_heslo1');
-        cy.viewport(1920, 937)
+        
         cy.visit(Cypress.env('websiteUrl'))
 
     })

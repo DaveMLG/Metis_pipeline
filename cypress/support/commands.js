@@ -55,7 +55,7 @@ Cypress.Commands.add('loginStudent', (username, password) => {
   cy.get('[name="userName"]').type(username);
   cy.get('[name="password"]').type(password);
   cy.get('[type="submit"]').click();
-  cy.viewport(1920, 937);
+  
 });
 
 
@@ -68,7 +68,7 @@ Cypress.Commands.add('loginAdmin', (username, password) => {
   cy.get('[name="userName"]').type(username);
   cy.get('[name="password"]').type(password);
   cy.get('[type="submit"]').click();
-  cy.viewport(1920, 937);
+  
 });
 
 

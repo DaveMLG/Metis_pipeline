@@ -29,7 +29,7 @@ const aa = Cypress.env('acy')
 describe('Student', function() {
     beforeEach(() => {
       cy.loginStudent(Cypress.env('loginStudent2'), Cypress.env('password'));
-      //cy.viewport(1920, 937)
+      
       cy.visit('https://dev.metis.academy/portal/welcome/subject?type=subject')
       cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
         
@@ -527,7 +527,7 @@ describe('Student', function() {
       
   
        //prihlasi sa ako corrector
-       cy.visit('https://dev.metis.academy/admin/admin')        
+       cy.visit(Cypress.env('websiteUrl'))        
       
        cy.get('body').eq(0).then(($body) => {
            if ($body.find('.btn.btn-navigate.btn-block').length > 0) {
@@ -634,7 +634,7 @@ describe('Student', function() {
          cy.wait(5000)
  
          //prihlasenie sa ako student
-         cy.visit('https://dev.metis.academy/portal')
+         cy.visit(Cypress.env('websiteUrlPortal'))
          cy.get('[name="userName"]').type('cy.student2')
          cy.get('[name="password"]').type('ML_heslo1')
          cy.get('[type="submit"]').click()
@@ -684,7 +684,7 @@ describe('Student', function() {
        
   
        //prihlasi sa ako corrector
-       cy.visit('https://dev.metis.academy/admin/admin')
+       cy.visit(Cypress.env('websiteUrl'))
         cy.get('[name="userName"]').type('cy.co')
         cy.get('[name="password"]').type('ML_heslo1')
         cy.get('[type="submit"]').click()
@@ -735,7 +735,7 @@ describe('Student', function() {
        cy.get('.dropdown-item:contains(" Odhlásenie ")').click()
  
        //prihlasenie sa ako student
-       cy.visit('https://dev.metis.academy/portal')
+       cy.visit(Cypress.env('websiteUrlPortal'))
               cy.get('[name="userName"]').type('cy.student2')
               cy.get('[name="password"]').type('ML_heslo1')
               cy.get('[type="submit"]').click()
@@ -834,7 +834,7 @@ describe('Student', function() {
        cy.get('.dropdown-item:contains(" Odhlásenie ")').click()
  
        //prihlasenie sa ako student
-        cy.visit('https://dev.metis.academy/portal')
+        cy.visit(Cypress.env('websiteUrlPortal'))
               cy.get('[name="userName"]').type('cy.student2')
               cy.get('[name="password"]').type('ML_heslo1')
              cy.get('[type="submit"]').click()

@@ -114,7 +114,7 @@ describe('Product owner', function () {
         const TimeToCreateCalendarEventsInHours = jsonData.Values.find(obj => obj.TimeToCreateCalendarEventsInHours)?.TimeToCreateCalendarEventsInHours;
         const TimeToCreateCalendarEventsInMinutes = jsonData.Values.find(obj => obj.TimeToCreateCalendarEventsInMinutes)?.TimeToCreateCalendarEventsInMinutes;
 
-        cy.viewport(1920, 937);
+       
         cy.get('.icon-menu-elearning').click();
         cy.get('[href="/admin/elearning/training"]').click();
         cy.wait(2000)

@@ -37,7 +37,7 @@ describe('Product owner', function () {
       }
       const selectValsDataFiltered = selectValsData.filter(item => item !== undefined);
 
-      cy.viewport(1920, 937);
+      
       cy.get('.icon-menu-elearning').click();
       cy.get('[href="/admin/elearning/training"]').click();
       cy.wait(3000)

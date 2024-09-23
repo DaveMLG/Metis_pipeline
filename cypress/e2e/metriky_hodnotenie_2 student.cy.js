@@ -9,7 +9,7 @@ describe('Student2', function() {
   
     beforeEach(() => {
         cy.loginStudent('cy.student2', 'ML_heslo1');
-        cy.viewport(1920, 937)
+        
         cy.visit('https://dev.metis.academy/portal/subject/1934')
         //cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
 

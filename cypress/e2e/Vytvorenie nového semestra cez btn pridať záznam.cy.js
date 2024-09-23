@@ -1,7 +1,7 @@
 describe('Product owner', function() {
     beforeEach(() => {
         cy.loginAdmin(Cypress.env('loginVO'), Cypress.env('password'));
-        cy.viewport(1920, 937)
+        
         cy.visit(Cypress.env('websiteUrl'))
 
     })

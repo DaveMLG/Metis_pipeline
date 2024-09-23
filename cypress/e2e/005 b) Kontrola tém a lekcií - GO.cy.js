@@ -25,7 +25,7 @@ describe('Product owner', function () {
       }
       const tableValsFiltered = tableVals.filter(item => item !== undefined);
 
-    cy.viewport(1920, 937);
+
     cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();

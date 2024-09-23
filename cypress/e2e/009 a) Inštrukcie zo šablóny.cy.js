@@ -15,7 +15,7 @@ describe('Product owner', function () {
         let DataValues = [];
         let jsonData = {};
 
-        cy.viewport(1920, 937);
+        
         cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(4) > a').as('nastavenia');
         cy.get('@nastavenia').click();
         cy.get('[href="/admin/elearning/lesson-template"]').click();
@@ -78,7 +78,7 @@ describe('Product owner', function () {
             }
             const instStudentFiltered = instStudent.filter(item => item !== undefined);
 
-                cy.viewport(1920, 937);
+                
                 cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
                 cy.get('@nastavenia').click();
                 cy.get('[href="/admin/elearning/training"]').click();

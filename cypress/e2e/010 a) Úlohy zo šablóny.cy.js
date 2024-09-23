@@ -15,7 +15,7 @@ describe('Product owner', function () {
         let DataValues = [];
         let jsonData = {};
 
-        cy.viewport(1920, 937);
+       
         cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(5) > a').as('nastavenia');
         cy.get('@nastavenia').click();
         cy.get('[href="/admin/elearning/lesson-template"]').click();
@@ -221,7 +221,7 @@ describe('Product owner', function () {
                 cy.get('[name="password"]').type('ML_heslo1');
                 cy.get('[type="submit"]').click();
 
-                cy.viewport(1920, 937);
+               
                 cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-child(3) > a').as('nastavenia');
                 cy.get('@nastavenia').click();
                 cy.get('[href="/admin/elearning/training"]').click();

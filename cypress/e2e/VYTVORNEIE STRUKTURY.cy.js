@@ -1,7 +1,7 @@
 describe.skip('Garant obsahu', function() {
     beforeEach(() => {
       cy.loginAdmin(Cypress.env('loginK'), Cypress.env('password'));
-      cy.viewport(1920, 937)
+      
       cy.visit(Cypress.env('websiteUrl'))
 
       })

@@ -4,8 +4,8 @@ describe('Corrector', function() {
     beforeEach(() => {
     
         cy.loginAdmin(Cypress.env('loginCO'), Cypress.env('password'));
-        cy.viewport(1920, 937)
-        cy.visit('https://dev.metis.academy/admin')
+        
+        cy.visit(Cypress.env('websiteUrl'))
         
     cy.get('.icon-menu-training-terms-top-menu').click()
     cy.get('[href="/admin/training-term/training-term"]').click()

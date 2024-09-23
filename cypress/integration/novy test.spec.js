@@ -15,7 +15,7 @@ describe('Student', function() {
     
     it('Order uloh PM', function() {
     
-    cy.viewport(1920, 937)
+    
     cy.get('.icom').click()    
     cy.contains('Moje predmety').click()
     cy.wait(5000)

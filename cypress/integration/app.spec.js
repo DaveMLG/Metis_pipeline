@@ -10,7 +10,7 @@ describe('Product owner', function() {
         cy.get('[type="submit"]').click()
       })
     it('Order stlpcov AM', function() {
-        cy.viewport(1920, 937)
+        
         
         cy.get('.title').contains('Produkty').click()
         cy.get('[href="/admin/elearning/study"]').click()

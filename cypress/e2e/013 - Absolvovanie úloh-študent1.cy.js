@@ -13,7 +13,7 @@ import{ currentDisciplinaZoznam } from '/cypress/e2e/metriky_funkcie_file.cy.js'
 describe('Student', function() {
     beforeEach(() => {
       cy.loginStudent(Cypress.env('loginStudent1'), Cypress.env('password'));
-      //cy.viewport(1920, 937)
+      
       cy.visit('https://dev.metis.academy/portal/welcome/subject?type=subject')
       cy.get('[title="PO predmet AAA_PT"]').parent().parent().find('img').click()
         
@@ -766,7 +766,7 @@ describe('Student', function() {
        
   
        //prihlasi sa ako corrector
-       cy.visit('https://dev.metis.academy/admin/admin')
+       cy.visit(Cypress.env('websiteUrl'))
         cy.get('[name="userName"]').type('cy.co')
         cy.get('[name="password"]').type('ML_heslo1')
         cy.get('[type="submit"]').click()
