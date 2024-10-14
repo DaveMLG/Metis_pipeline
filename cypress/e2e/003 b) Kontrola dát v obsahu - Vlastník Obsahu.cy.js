@@ -41,11 +41,11 @@ describe('Product owner', function () {
       cy.get('.icon-menu-elearning').click();
       cy.get('[href="/admin/elearning/training"]').click();
       cy.wait(3000)
-      cy.get('[type = "text"]').first().clear().type('G školenie AAA')
+      cy.get('[type = "text"]').first().clear().type('Testovanie VO a všetkého okolo toho')
       cy.get('[type="submit"]').first().click();
       cy.wait(5000);
       //cy.sortTableByColumn('Vytvorené');
-      cy.get('tbody').contains('Neprevzaté').parent().parent().contains('G školenie AAA').click().wait(2000)
+      cy.get('tbody').contains('Neprevzaté').parent().parent().contains('Testovanie VO a všetkého okolo toho').click().wait(2000)
       cy.get(':nth-child(5) > .nav-link').click();
 
       cy.get('el-lessons-summary').find('tr').find('td').then((value) => {

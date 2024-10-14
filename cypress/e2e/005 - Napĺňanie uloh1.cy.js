@@ -113,8 +113,9 @@ describe('Garant obsahu', function() {
 
         cy.get('.icon-menu-elearning').click()
         cy.get('[href="/admin/elearning/training"]').click()
-        cy.get('.table-cell-data').contains('G školenie AAA').click();
-        cy.wait(1000)
+        cy.sortTableByColumn('Vytvorené')
+        cy.get('.table-cell-data').contains('Testovanie VO a všetkého okolo toho').click();
+        cy.wait(5000)
         cy.get('.nav-link').contains('Obsah').click()
         cy.get('tr[id^="exercise"]').should('be.visible');
         

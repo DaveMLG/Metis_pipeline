@@ -20,9 +20,9 @@ describe('Product owner', function () {
     cy.get('@nastavenia').click();
     cy.get('[href="/admin/elearning/training"]').click();
     cy.wait(3000)
-    cy.get('[type = "text"]').first().clear().type("G školenie AAA");
+    cy.get('[type = "text"]').first().clear().type("Testovanie VO a všetkého okolo toho");
     cy.get('[type="submit"]').click().wait(3000)
-    cy.get('tbody').contains('Neprevzaté').parent().parent().contains('G školenie AAA').click().wait(2000)
+    cy.get('tbody').contains('Neprevzaté').parent().parent().contains('Testovanie VO a všetkého okolo toho').click().wait(2000)
     cy.wait(3000);
     cy.get(':nth-child(5) > .nav-link').click();
     cy.wait(3000);
@@ -51,7 +51,7 @@ describe('Product owner', function () {
       }
     });
 
-    cy.get('[class="table table-hover table-bordered table-striped"]').find('select').then((value) => {
+    cy.get('[class="af-table table table-hover table-bordered table-striped"]').find('select').then((value) => {
       for (let x = 0; x < value.length; x++) {
         cy.wrap(value[x]).invoke('val').then((originalValue) => {
           let renamedValue;

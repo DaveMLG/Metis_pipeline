@@ -112,7 +112,8 @@ function clickOnTextInTableCell(textToFind) {
 
           cy.get('.icon-menu-elearning').click()
           cy.get('[href="/admin/elearning/training"]').click()
-          cy.get('.table-cell-data').contains('G školenie AAA').click();
+          cy.sortTableByColumn('Vytvorené')
+          cy.get('.table-cell-data').contains('Testovanie VO a všetkého okolo toho').click();
           cy.wait(1000)
           cy.get('.nav-link').contains('Obsah').click()
           cy.get('tr[id^="exercise"]').should('be.visible');
@@ -343,8 +344,9 @@ function clickOnTextInTableCell(textToFind) {
   
 
 
-              cy.get('[href="/admin/elearning/training"]').last().click()
-              cy.get('.table-cell-data').contains('G školenie AAA').click();
+              cy.get('[href="/admin/elearning/training"]').last()
+              cy.sortTableByColumn('Vytvorené').click()
+              cy.get('.table-cell-data').contains('Testovanie VO a všetkého okolo toho').click();
               cy.wait(1000)
               cy.get('.nav-link').contains('Obsah').click()
               cy.get('tr[id^="exercise"]').should('be.visible');

@@ -21,9 +21,9 @@ cy.get('.page-sidebar-wrapper > .page-sidebar > .page-sidebar-menu > li:nth-chil
 cy.get('@nastavenia').click();
 cy.get('[href="/admin/elearning/training"]').click();
 cy.wait(3000)
-cy.get('[type = "text"]').first().clear().type("G školenie AAA");
+cy.get('[type = "text"]').first().clear().type("Testovanie VO a všetkého okolo toho");
 cy.get('[type="submit"]').click();
-cy.contains('G školenie AAA').click();
+cy.contains('Testovanie VO a všetkého okolo toho').click();
 cy.wait(1000);
 cy.get(':nth-child(5) > .nav-link').click();
 cy.wait(1000);

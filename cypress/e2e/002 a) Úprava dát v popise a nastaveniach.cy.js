@@ -23,11 +23,11 @@ describe('Product owner', function () {
           cy.get('.icon-menu-elearning').click();
           cy.get('[href="/admin/elearning/training"]').click();
           cy.wait(2000)
-          cy.get('[type = "text"]').first().clear().type('G školenie AAA')
+          cy.get('[type = "text"]').first().clear().type('Testovanie VO a všetkého okolo toho')
           cy.get('[type="submit"]').first().click()
           cy.wait(2000)
           cy.sortTableByColumn('Vytvorené');
-          cy.get('tbody').contains('Neprevzaté').parent().parent().contains('G školenie AAA').click().wait(2000)
+          cy.get('tbody').contains('Neprevzaté').parent().parent().contains('Testovanie VO a všetkého okolo toho').click().wait(2000)
 
           /*cy.get('[for="Guarantors"]').parentsUntil('.row').find('span').invoke('text').then((value) => {
             DataValues.push({guaratorName: value}) 
@@ -39,7 +39,7 @@ describe('Product owner', function () {
             DataValues.push({type: value}) 
           })
 
-          cy.get('[name="Title"]').clear().type('G školenie AAA')
+          cy.get('[name="Title"]').clear().type('Testovanie VO a všetkého okolo toho')
           cy.get('[name="Title"]').invoke('val').then((value) => {
               DataValues.push({Title: value}) 
           })
@@ -115,7 +115,7 @@ describe('Product owner', function () {
             DataValues.push({ActivityLanguageId: value})
           })
 
-          cy.get('.tableFloatingHeaderOriginal').next().next().find('input:not([type="number"]):not([type="checkbox"])').then((edit) => {
+          cy.get('.tableFloatingHeaderOriginal').next().find('input:not([type="number"]):not([type="checkbox"])').then((edit) => {
             let a = 0,
                 b = 1,
                 c = 2;
@@ -129,7 +129,7 @@ describe('Product owner', function () {
               c += 3
             }
             })
-          cy.get('.tableFloatingHeaderOriginal').next().next().find('input').then((tableValues) => {
+          cy.get('.tableFloatingHeaderOriginal').next().find('input').then((tableValues) => {
               for (let x = 0; x < tableValues.length; x++) {
                 if (!Cypress.$(tableValues[x]).is('[type="checkbox"]')) {
                   cy.wrap(tableValues[x]).invoke('val').then((pushVals) => {
@@ -139,7 +139,7 @@ describe('Product owner', function () {
               }
             });
 
-            cy.get('.tableFloatingHeaderOriginal').next().next().find('input[type="checkbox"]').then((tableValues) => {
+            cy.get('.tableFloatingHeaderOriginal').next().find('input[type="checkbox"]').then((tableValues) => {
               for (let x = 0; x < tableValues.length; x++) {
                 cy.wrap(tableValues[x]).then((tableValuesData) => {
                   if (tableValuesData.is(':checked')) {
@@ -163,7 +163,7 @@ describe('Product owner', function () {
             DataValues.push({MetricCategoryLanguageId: value})
           })
 
-          cy.get('.tableFloatingHeaderOriginal').next().next().find('input').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').next().find('input').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).invoke('val').then((value) => {
                 DataValues.push({MetricCategories: value})
@@ -176,59 +176,59 @@ describe('Product owner', function () {
           cy.contains('Časové hodnoty pre sprístupnenie/konanie/odovzdanie úloh').find('i').click({timeout: 100000})
 
           //Zmení niektoré selecty
-          cy.get('.tableFloatingHeaderOriginal').first().next().next().find('select').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').first().next().find('select').then((inpValue) => {
             for (let x = 0; x < 4; x++) {
               cy.wrap(inpValue[x]).select(1, {force: true})
             }
           }) 
 
           //Zmení všetky hodnoty v dňoch, hodinách a minutach
-          cy.get('.tableFloatingHeaderOriginal').first().next().next().find('[max="7"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').first().next().find('[max="7"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(3)
             }
           })
-          cy.get('.tableFloatingHeaderOriginal').first().next().next().find('[max="23"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').first().next().find('[max="23"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(4)
             }
           })
 
-          cy.get('.tableFloatingHeaderOriginal').first().next().next().find('[max="59"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').first().next().find('[max="59"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(5)
             }
           })
 
-          cy.get('.tableFloatingHeaderOriginal').eq(1).next().next().find('[max="7"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').eq(1).next().find('[max="7"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(3)
             }
           })
-          cy.get('.tableFloatingHeaderOriginal').eq(1).next().next().find('[max="23"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').eq(1).next().find('[max="23"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(4)
             }
           })
 
-          cy.get('.tableFloatingHeaderOriginal').eq(1).next().next().find('[max="59"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').eq(1).next().find('[max="59"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(5)
             }
           })
 
-          cy.get('.tableFloatingHeaderOriginal').eq(2).next().next().find('[max="7"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').eq(2).next().find('[max="7"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(3)
             }
           })
-          cy.get('.tableFloatingHeaderOriginal').eq(2).next().next().find('[max="23"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').eq(2).next().find('[max="23"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(4)
             }
           })
 
-          cy.get('.tableFloatingHeaderOriginal').eq(2).next().next().find('[max="59"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').eq(2).next().find('[max="59"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(5)
             }
@@ -237,7 +237,7 @@ describe('Product owner', function () {
            
 
           //1. Uloží dáta - dostupnosť úloh v aktivite
-          cy.get('.tableFloatingHeaderOriginal').first().next().next().find('input, select').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').first().next().find('input, select').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).invoke('val').then((value) => {
                 DataValues.push({availableTasks: value})
@@ -247,7 +247,7 @@ describe('Product owner', function () {
           })
 
           //2. Časové hodnoty pre vypracovanie úloh načas
-          cy.get('.tableFloatingHeaderOriginal').eq(1).next().next().find('input, select').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').eq(1).next().find('input, select').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).invoke('val').then((value) => {
                 DataValues.push({timeValuesTasksOnTime: value})
@@ -257,7 +257,7 @@ describe('Product owner', function () {
           })
 
           //3. Časové hodnoty pre vypracovanie úloh v termíne
-          cy.get('.tableFloatingHeaderOriginal').eq(2).next().next().find('input, select').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').eq(2).next().find('input, select').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).invoke('val').then((value) => {
                 DataValues.push({timeValuesPastTime: value})
@@ -271,42 +271,42 @@ describe('Product owner', function () {
           cy.contains('Termíny lekcií pre nemoderované školenia').find('i').click({timeout: 100000})
 
           //Zmení všetky hodnoty v dňoch, hodinách a minutach
-          cy.get('.tableFloatingHeaderOriginal').first().next().next().find('[max="7"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').first().next().find('[max="7"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(3)
             }
           })
-          cy.get('.tableFloatingHeaderOriginal').first().next().next().find('[max="23"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').first().next().find('[max="23"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(4)
             }
           })
 
-          cy.get('.tableFloatingHeaderOriginal').first().next().next().find('[max="59"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').first().next().find('[max="59"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(5)
             }
           })
 
-          cy.get('.tableFloatingHeaderOriginal').eq(1).next().next().find('[max="7"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').eq(1).next().find('[max="7"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(3)
             }
           })
-          cy.get('.tableFloatingHeaderOriginal').eq(1).next().next().find('[max="23"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').eq(1).next().find('[max="23"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(4)
             }
           })
 
-          cy.get('.tableFloatingHeaderOriginal').eq(1).next().next().find('[max="59"]').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').eq(1).next().find('[max="59"]').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue[x]).clear({force: true}).type(5)
             }
           })
 
 
-          cy.get('.tableFloatingHeaderOriginal').next().next().find('input[type="checkbox"]').then((tableValues) => {
+          cy.get('.tableFloatingHeaderOriginal').next().find('input[type="checkbox"]').then((tableValues) => {
             for (let x = 0; x < tableValues.length; x++) {
                 cy.wrap(tableValues[x]).then((tableValuesData) => {
                     if (tableValuesData.is(':checked')) {
@@ -318,7 +318,7 @@ describe('Product owner', function () {
             }
         });
         
-        cy.get('.tableFloatingHeaderOriginal').next().next().find('input:not([type="checkbox"])').then((tableValues) => {
+        cy.get('.tableFloatingHeaderOriginal').next().find('input:not([type="checkbox"])').then((tableValues) => {
             for (let x = 0; x < tableValues.length; x++) {
                 cy.wrap(tableValues[x]).then((tableValuesData) => {
                     if (!Cypress.$(tableValuesData[x]).is('[type="checkbox"]')) {

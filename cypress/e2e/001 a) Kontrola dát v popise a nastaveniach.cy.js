@@ -22,11 +22,11 @@ describe('Product owner', function () {
             cy.get('.icon-menu-elearning').click();
             cy.get('[href="/admin/elearning/training"]').click();
             cy.wait(3000)
-            cy.get('[type = "text"]').first().clear().type('G školenie AAA')
+            cy.get('[type = "text"]').first().clear().type('Testovanie VO a všetkého okolo toho')
             cy.get('[type="submit"]').first().click()
             cy.wait(5000);
             cy.sortTableByColumn('Vytvorené');
-            cy.get('tbody').contains('Prevzaté').parent().parent().contains('G školenie AAA').click()
+            cy.get('tbody').contains('Prevzaté').parent().parent().contains('Testovanie VO a všetkého okolo toho').click()
             cy.wait(5000)
 
             cy.get('[for="Guarantors"]').parentsUntil('.row').find('span').invoke('text').then((value) => {
@@ -91,7 +91,7 @@ describe('Product owner', function () {
               DataValues.push({ActivityLanguageId: value})
             })
 
-            cy.get('.tableFloatingHeaderOriginal').next().next().find('input').then((tableValues) => {
+            cy.get('.tableFloatingHeaderOriginal').next().find('input').then((tableValues) => {
                 for (let x = 0; x < tableValues.length; x++) {
                   if (!Cypress.$(tableValues[x]).is('[type="checkbox"]')) {
                     cy.wrap(tableValues[x]).invoke('val').then((pushVals) => {
@@ -101,7 +101,7 @@ describe('Product owner', function () {
                 }
               });
 
-              cy.get('.tableFloatingHeaderOriginal').next().next().find('input[type="checkbox"]').then((tableValues) => {
+              cy.get('.tableFloatingHeaderOriginal').next().find('input[type="checkbox"]').then((tableValues) => {
                 for (let x = 0; x < tableValues.length; x++) {
                   cy.wrap(tableValues[x]).then((tableValuesData) => {
                     if (tableValuesData.is(':checked')) {
@@ -124,7 +124,7 @@ describe('Product owner', function () {
               DataValues.push({MetricCategoryLanguageId: value})
             })
 
-            cy.get('.tableFloatingHeaderOriginal').next().next().find('input').then((inpValue) => {
+            cy.get('.tableFloatingHeaderOriginal').next().find('input').then((inpValue) => {
               for (let x = 0; x < inpValue.length; x++) {
                 cy.wrap(inpValue[x]).invoke('val').then((value) => {
                   DataValues.push({MetricCategories: value})
@@ -137,7 +137,7 @@ describe('Product owner', function () {
             cy.contains('Časové hodnoty pre sprístupnenie/konanie/odovzdanie úloh').find('i').click({timeout: 100000})
 
             //1. Dostupnosť úloh v aktivite
-            cy.get('.tableFloatingHeaderOriginal').first().next().next().find('input, select').then((inpValue) => {
+            cy.get('.tableFloatingHeaderOriginal').first().next().find('input, select').then((inpValue) => {
               for (let x = 0; x < inpValue.length; x++) {
                 cy.wrap(inpValue[x]).invoke('val').then((value) => {
                   DataValues.push({availableTasks: value})
@@ -146,7 +146,7 @@ describe('Product owner', function () {
             })
 
             //2. Časové hodnoty pre vypracovanie úloh načas
-            cy.get('.tableFloatingHeaderOriginal').eq(1).next().next().find('input, select').then((inpValue) => {
+            cy.get('.tableFloatingHeaderOriginal').eq(1).next().find('input, select').then((inpValue) => {
               for (let x = 0; x < inpValue.length; x++) {
                 cy.wrap(inpValue[x]).invoke('val').then((value) => {
                   DataValues.push({timeValuesTasksOnTime: value})
@@ -155,7 +155,7 @@ describe('Product owner', function () {
             })
 
             //3. Časové hodnoty pre vypracovanie úloh v termíne
-            cy.get('.tableFloatingHeaderOriginal').eq(2).next().next().find('input, select').then((inpValue) => {
+            cy.get('.tableFloatingHeaderOriginal').eq(2).next().find('input, select').then((inpValue) => {
               for (let x = 0; x < inpValue.length; x++) {
                 cy.wrap(inpValue[x]).invoke('val').then((value) => {
                   DataValues.push({timeValuesPastTime: value})
@@ -167,7 +167,7 @@ describe('Product owner', function () {
             cy.contains('Časové hodnoty pre sprístupnenie/konanie/odovzdanie úloh').find('i').click({timeout: 100000})
             cy.contains('Termíny lekcií pre nemoderované školenia').find('i').click({timeout: 100000})
 
-            cy.get('.tableFloatingHeaderOriginal').next().next().find('input[type="checkbox"]').then((tableValues) => {
+            cy.get('.tableFloatingHeaderOriginal').next().find('input[type="checkbox"]').then((tableValues) => {
               for (let x = 0; x < tableValues.length; x++) {
                   cy.wrap(tableValues[x]).then((tableValuesData) => {
                       if (tableValuesData.is(':checked')) {
@@ -179,7 +179,7 @@ describe('Product owner', function () {
               }
           });
           
-          cy.get('.tableFloatingHeaderOriginal').next().next().find('input:not([type="checkbox"])').then((tableValues) => {
+          cy.get('.tableFloatingHeaderOriginal').next().find('input:not([type="checkbox"])').then((tableValues) => {
               for (let x = 0; x < tableValues.length; x++) {
                   cy.wrap(tableValues[x]).then((tableValuesData) => {
                       if (!Cypress.$(tableValuesData[x]).is('[type="checkbox"]')) {

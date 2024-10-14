@@ -119,11 +119,11 @@ describe('Product owner', function () {
         cy.get('.icon-menu-elearning').click();
         cy.get('[href="/admin/elearning/training"]').click();
         cy.wait(3000)
-        cy.get('[type = "text"]').first().clear().type('G školenie AAA')
+        cy.get('[type = "text"]').first().clear().type('Testovanie VO a všetkého okolo toho')
         cy.get('[type="submit"]').first().click()
         cy.wait(5000);
         cy.sortTableByColumn('Vytvorené');
-        cy.get('tbody').contains('Neprevzaté').parent().parent().contains('G školenie AAA').click().wait(2000)
+        cy.get('tbody').contains('Neprevzaté').parent().parent().contains('Testovanie VO a všetkého okolo toho').click().wait(2000)
         cy.wait(5000)
 
 /*cy.get('[helpid="MetisAcademy.Core.Elearning.ViewModels.TrainingEditViewModel.ListOfGuarantorsLabel"]').prev().invoke('text').then((value) => {
@@ -186,14 +186,14 @@ describe('Product owner', function () {
         cy.get('[id="ActivityLanguageId"]').invoke('val').then((value) => {
           cy.wrap(value).should('eq', ActivityLanguageId) 
 
-        cy.get('.tableFloatingHeaderOriginal').next().next().find('input:not([type="checkbox"])').then((values) => {
+        cy.get('.tableFloatingHeaderOriginal').next().find('input:not([type="checkbox"])').then((values) => {
           for (let x = 0; x < values.length; x++) {
             cy.wrap(values).eq(x).invoke('val').then((vals) => {
               cy.wrap(vals).should('eq', ActivityInputDataFiltered[x]);
               })
           }})
         
-          cy.get('.tableFloatingHeaderOriginal').next().next().find('input[type="checkbox"]').then((values) => {
+          cy.get('.tableFloatingHeaderOriginal').next().find('input[type="checkbox"]').then((values) => {
             for (let x = 0; x < values.length; x++) {
               if (ActivityInputDataChecboxFiltered[x] === 'yes') {
                 cy.wrap(values).eq(x).should('be.checked')
@@ -211,7 +211,7 @@ describe('Product owner', function () {
           cy.wrap(value).should('eq', MetricCategoryLanguageId) 
         })
 
-        cy.get('.tableFloatingHeaderOriginal').next().next().find('input').then((values) => {
+        cy.get('.tableFloatingHeaderOriginal').next().find('input').then((values) => {
           for (let x = 0; x < values.length; x++) {
             cy.wrap(values).eq(x).invoke('val').then((vals) => {
               cy.wrap(vals).should('eq', MetricCategoriesFiltered[x]);
@@ -222,20 +222,20 @@ describe('Product owner', function () {
         cy.contains('Metriky').find('i').click({timeout: 100000})
         /*cy.contains('Časové hodnoty pre sprístupnenie/konanie/odovzdanie úloh').find('i').click({timeout: 100000})
 
-        cy.get('.tableFloatingHeaderOriginal').first().next().next().find('input, select').then((inpValue) => {
+        cy.get('.tableFloatingHeaderOriginal').first().next().find('input, select').then((inpValue) => {
           for (let x = 0; x < inpValue.length; x++) {
             cy.wrap(inpValue).eq(x).invoke('val').then((vals) => {
               cy.wrap(vals).should('eq', availableTasksFiltered[x])
             })
           }
         })
-        cy.get('.tableFloatingHeaderOriginal').eq(1).next().next().find('input, select').then((inpValue) => {
+        cy.get('.tableFloatingHeaderOriginal').eq(1).next().find('input, select').then((inpValue) => {
           for (let x = 0; x < inpValue.length; x++) {
             cy.wrap(inpValue).eq(x).invoke('val').then((vals) => {
               cy.wrap(vals).should('eq', timeValuesTasksOnTimeFiltered[x])
             })
           }
-          cy.get('.tableFloatingHeaderOriginal').eq(2).next().next().find('input, select').then((inpValue) => {
+          cy.get('.tableFloatingHeaderOriginal').eq(2).next().find('input, select').then((inpValue) => {
             for (let x = 0; x < inpValue.length; x++) {
               cy.wrap(inpValue).eq(x).invoke('val').then((vals) => {
                 cy.wrap(vals).should('eq', timeValuesPastTimeFiltered[x])
@@ -245,14 +245,14 @@ describe('Product owner', function () {
         //Rozklikne Termíny lekcií pre nemoderované školenia
         cy.contains('Časové hodnoty pre sprístupnenie/konanie/odovzdanie úloh').find('i').click({timeout: 100000})
         cy.contains('Termíny lekcií pre nemoderované školenia').find('i').click({timeout: 100000})
-        cy.get('.tableFloatingHeaderOriginal').next().next().find('input:not([type="checkbox"])').then((values) => {
+        cy.get('.tableFloatingHeaderOriginal').next().find('input:not([type="checkbox"])').then((values) => {
           for (let x = 0; x < values.length; x++) {
             cy.wrap(values).eq(x).invoke('val').then((vals) => {
               cy.wrap(vals).should('eq', UnmoretatedInputsFiltered[x]);
               })
             }   
             
-            cy.get('.tableFloatingHeaderOriginal').next().next().find('input[type="checkbox"]').then((values) => {
+            cy.get('.tableFloatingHeaderOriginal').next().find('input[type="checkbox"]').then((values) => {
               for (let x = 0; x < values.length; x++) {
                 if (UnmoderatedWithEvaluationFiltered[x] === 'yes') {
                   cy.wrap(values).eq(x).should('be.checked')
