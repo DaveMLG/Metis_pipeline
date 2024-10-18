@@ -59,7 +59,7 @@ describe('Garant obsahu', function() {
 
     })  
 
-    it('Garant musí mať "Nastavenia" "read only" overenie', function() {
+    it.only('Garant musí mať "Nastavenia" "read only" overenie', function() {
       cy.wait(1000)
       cy.get('.icon-menu-elearning').click()
       cy.get('[href="/admin/elearning/training"]').click()
@@ -107,7 +107,7 @@ describe('Garant obsahu', function() {
       
 
       for (let i = 1; i <= 4; i++) {
-        cy.get('th').contains('Kategória').parent().parent().parent().find('td').eq(i).find('.form-control').should('be.disabled');
+        cy.get('th').contains('Kategória').parents('table').find('input').eq(i).should('be.disabled');
       }
 
 

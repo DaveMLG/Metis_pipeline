@@ -1,4 +1,24 @@
-module.exports = {
+const { defineConfig } = require("cypress");
+const createBundler = require("@bahmutov/cypress-esbuild-preprocessor");
+const { addCucumberPreprocessorPlugin } = require("@badeball/cypress-cucumber-preprocessor");
+const { createEsbuildPlugin } = require("@badeball/cypress-cucumber-preprocessor/esbuild");
+
+async function setupNodeEvents(on, config) {
+  // Pridaj Cucumber preprocesor
+  await addCucumberPreprocessorPlugin(on, config);
+
+  // Nastav esbuild preprocesor
+  on(
+    "file:preprocessor",
+    createBundler({
+      plugins: [createEsbuildPlugin(config)],
+    })
+  );
+
+  return config;
+}
+
+module.exports = defineConfig({
   viewportWidth: 1920,
   viewportHeight: 1080,
   env: {
@@ -35,24 +55,13 @@ module.exports = {
     kcy:           'k, cy',
     aacy:          'aa, cy',
   },
+
   e2e: {
     baseUrl: 'https://dev.metis.academy/admin',
     projectId: 'vy2679',
     downloadsFolder: '/MR_CY_test/cypress/downloads',
-    setupNodeEvents(on, config) {
-      const data = {};
-      on('task', {
-        save(x) {
-          console.log('title', x);
-          data['trainingTermTitle'] = x;
-          return null;
-        },
-        load() {
-          console.log('returning', data.trainingTermTitle);
-          return data['trainingTermTitle'] || null;
-        }
-      });
-    },
+    specPattern: "**/*.feature", // Spracovanie .feature súborov
+    setupNodeEvents,
     watchForFileChanges: false,
   },
-};
+});

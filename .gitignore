@@ -4,3 +4,6 @@ dist
 
 cypress/videos
 cypress/screenshots
+cypress/reports
+cypress/reports.zip
+cypress/cypress-json
