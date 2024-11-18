@@ -1,6 +1,5 @@
 const { Given, When } = require("@badeball/cypress-cucumber-preprocessor");
 
-describe('Garant obsahu', function() {
   Given('Visit the landing page & Log in', () => {
     cy.visit(Cypress.env('websiteUrl'));
     cy.get('[class="btn btn-navigate btn-block"]').should('be.visible');
@@ -155,7 +154,7 @@ describe('Garant obsahu', function() {
     cy.get('[name="TimeToCreateCalendarEventsInHours"]').should('be.disabled')
     cy.get('[name="TimeToCreateCalendarEventsInMinutes"]').should('be.disabled')
   })
-})
+
 
     it.skip('Vytvorenie nového školenia cez btn Pridať záznam', function() {
         cy.wait(500)
