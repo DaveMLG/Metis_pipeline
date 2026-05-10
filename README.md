@@ -7,4 +7,4 @@
 
 # Credit
 
-This version of todomvc is adapted from https://github.com/Rich-Harris/rollup-todomvc
+The Cypress scripts here were used for automization testing for education webpage. All login data, if scripts contain any, are outdated. This repositary only serves as a showcase of my ability to code in Cypress.
